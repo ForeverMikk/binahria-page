@@ -1,0 +1,119 @@
+
+#header {
+    background: url(../../../assets/images/home/MainBackground.jpg) no-repeat center;
+    background-size: cover;
+    height: 51.6vw;
+    height: 100vh;
+}
+#header #main-text{
+    margin-left: 10vw;
+    margin-top: 20vw;
+    width: 60%;
+}
+#header #main-text .title{
+    font-family: "Florence-Normal";
+    color: #CDFB4F;
+    font-size: 3.5vw;
+}
+#header #main-text .subtitle{
+    font-family: "Florence";
+    color: #CDFB4F;
+    font-size: 6vw;
+}
+#header #bottom-text{
+    position: absolute;
+    color: white;
+    padding-left: 20px;
+    font-size: 1.3vw;
+    bottom: 5vw;
+    width: 97vw;
+}
+#header .left{
+    display: block;
+    float: left;
+    padding-left: 10vw;
+}
+
+#header .right{
+    float: right;
+    width: 50%;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+#header .right a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+#header .right:hover {
+    transition: all 0.5s ease;
+    transform: translateX(20px);
+}
+
+
+
+/* Tablet Size */
+@media screen and (max-width: 1024px) {
+
+    #header #main-text {
+        margin-top: 30%;
+        margin-left: 5.5vw;
+    }
+    #header #main-text .title{
+        line-height: 6rem;
+        font-size: 5rem;
+    }
+    #header #main-text .subtitle{
+        line-height: 6rem;
+        /* font-size: 3.5rem; */
+    }
+    #header #bottom-text .left {
+        padding-left: 5.5vw;
+    }
+    #header #bottom-text .left, #header #bottom-text .right {
+        font-size: 1.5rem;
+    } 
+}
+
+
+
+/* Mobile Size */
+@media screen and (max-width: 760px) {
+    
+    /****** MAIN HEADER ******/
+    #header {
+        height: 100vh;
+    }
+    #header #main-text{
+        margin-top: 30%;
+        margin-left: 5.5vw;
+    }
+    #header #main-text .title{
+        line-height: 3rem;
+        font-size: 2.5rem;
+    }
+    #header #main-text .subtitle{
+        line-height: 3rem;
+        /* font-size: 1.5rem; */
+    }
+    #header #bottom-text {
+        display: flex;
+        flex-direction: column;
+    }
+    #header #bottom-text .left, #header #bottom-text .right {
+        padding: 1rem 0;
+        font-size: 1.1rem;
+        text-align: left;
+    } 
+    #header #bottom-text .left {
+        padding-left: 2vw;
+    }
+}
+
+/* Mobile Size */
+@media screen and (max-width: 630px) {
+    #header #main-text{
+        margin-top: 50%;
+        margin-left: 5.5vw;
+    }
+}

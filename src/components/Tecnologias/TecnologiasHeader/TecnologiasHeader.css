@@ -1,0 +1,117 @@
+/* Estilos del Tecnologias Header */
+
+#tecnologias-header{
+    background-color: #211942;
+    height: 100vh;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+#tecnologias-header .top{
+    padding-top: 10vw;
+    padding-left: 10vw;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+}
+
+#tecnologias-header #main-text p {
+    font-family: 'Florence';
+}
+
+#tecnologias-header #main-text{
+    font-family: 'Florence';
+    text-transform: uppercase;
+    color: #CDFB4F;
+    font-size: 4vw;
+    font-weight: 300;
+    width: 60vw;
+    padding-top: 3vw;
+    padding-left: 10vw;
+}
+#tecnologias-header #bottom-text .left{
+    font-size: 1.1vw;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    text-transform: uppercase;
+    width: 30rem;
+    transition: all 0.5s ease;
+}
+#tecnologias-header #bottom-text .left:hover {
+    transition: all 0.5s ease;
+    transform: translateX(20px);
+}
+#tecnologias-header #bottom-text .left a{
+    color: white;
+}
+
+
+/* Conocenos Img */
+
+#conImg{
+    height: 45vw;
+}
+#conImg .main-img{
+    height: 45vw;
+    background: url("../../../assets/images/software-developer.jpg") fixed center no-repeat;
+    background-size: cover;
+    width: 75vw;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #tecnologias-header {
+        height: auto;
+    }
+    #tecnologias-header .top {
+        margin-top: 40%;
+        font-size: 1.5rem;
+    }
+    #tecnologias-header #main-text {
+        font-size: 4.3rem;
+        font-weight: 600;
+        width: 80vw;
+    }
+    #tecnologias-header #bottom-text .left{
+        padding-top: 10rem;
+        font-size: 1.5rem;
+        width: auto;
+    }
+
+    #conImg {
+        height: 55vh;
+    }
+    
+    #conImg .main-img {
+        height: 50vh;
+        background-attachment: unset;
+        background-position: auto;
+        background-size: contain;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 760px) {
+    
+    #tecnologias-header {
+        margin-bottom: 0;
+    }
+
+    #tecnologias-header .top {
+        margin-top: 40%;
+        font-size: 1.1rem;
+    }
+    #tecnologias-header #main-text {
+        font-size: 2rem;
+        font-weight: 600;
+        width: auto;
+    }
+    #tecnologias-header #bottom-text .left{
+        padding-top: 10rem;
+        font-size: 1.1rem;
+        width: auto;
+    }
+}

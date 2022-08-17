@@ -1,0 +1,219 @@
+{
+    "navbar": {
+        "conocenos": "About Us",
+        "catalogo": "Our Services",
+        "ing": "English",
+        "esp": "Spanish"
+    },
+    "footer": {
+        "title" : "Contact us",
+        "menu" : {
+            "itemOne": "Home",
+            "itemTwo": "About Us",
+            "itemThree": "Technologies",
+            "itemFour": "Our Services"
+        },
+        "created" : "Created by"
+    },
+    "home": {
+        "title": "We develop solutions",
+        "subtitle" : "that transform",
+        "tour" : "Take a Tour",
+        "competencia" : {
+            "top": "Technologies",
+            "text" : "At the forefront of transformative technologies.",
+            "go": "What we do"
+        },
+        "carrousel" : {
+            "cardOne":{
+                "title": "Data Science",
+                "text" : "Data capture and analysis to monitor and optimize processes, presenting risk management strategies to ensure the success of our client's operation."
+            },
+            "cardTwo": {
+                "title": "Business Intelligence",
+                "text" : "We collect data, build databases for more efficient analysis and display strategic information on dashboards for our client's convenience."
+            },
+            "cardThree" : {
+                "title" : "Big Data",
+                "text" : "We help and teach our clients how to use their large amount of stored data to identify potential business opportunities."
+            },
+            "cardFour" : {
+                "title" : "Blockchain",
+                "text" : "Using distributed databases we create decentralized applications, saving money, time and guaranteeing the security of any type of transaction of our client."
+            },
+            "cardFive" : {
+                "title" : "Artificial Intelligence",
+                "text" : "We automate services and processes for our clients, creating intelligent systems for the treatment of information and its diagnosis, reducing costs, resources and time."
+            }
+        },
+        "compania" : {
+            "title": "The Company",
+            "text" : "We help you to see from a different way"
+        },
+        "compromiso": {
+            "title": "Commitment",
+            "text": "Transparency, trust and empathy.",
+            "bottom" : "why choose us"
+        },
+        "testimonios": {
+            "cardOne": {
+                "name" : "Olimpia Orozco",
+                "text" : "Working with the BA team has been an enriching experience. In addition to developing our project with full creativity and attention to detail, they proved to be an innovative and human company. Getting to know the women who make up BA has added enormous value to my life, which goes beyond a business relationship. They are women I admire and with whom I hope to develop many more projects together."
+            },
+            "cardTwo": {
+                "name" : "Dra. Tania Meza Escorza",
+                "text" : "Binahria is the most personalized and effective company I have ever hired. It is absolutely clear to me that what they built for me, they will not be able to offer to anyone else, because their services are a tailor-made suit for each client and for each exact moment in the life stage of their clientele."
+            },
+            "cardThree": {
+                "name" : "Noor Albir",
+                "text" : "Binharia Analytics is the place to go when you want professionals to solve your projects in a timely manner. We are very proud to have worked (and continue to collaborate) with the Binharia team, and we wish them much success in all the projects to come!"
+            },
+            "cardFour": {
+                "name" : "Lic. Abigail Altúzar",
+                "text" : "Binahria Analytics is for me a company with characteristics that make it unique. I learned basic programming and web scraping issues without previous knowledge thanks to their patience and cordial treatment. The service and attention is always excellent and professional."
+            },
+            "cardFive": {
+                "name" : "Jondalar",
+                "text" : "The course I received at binahria helped me to better understand some topics of the career and also generated a new impetus to my career, the teachers are well trained and are attentive to answer your questions and help you with your problems."
+            }
+        },
+        "teamForm" : {
+            "title" : "We want to work with you",
+            "button" : "Join the Team"
+        }
+    },
+    "conocenos" : {
+        "title": "About us",
+        "text" : "We develop technologies that transform",
+        "bottom": "Scroll down",
+        "mainText": "Binahria Analytics seeks to position itself among the 10 best consolidated technology companies in Mexico. To positively impact the social and productive spheres through innovative projects and solutions based on information technologies as well as the so-called emerging technologies by proactively attending to equal participation in technology.",
+        "whiteText": {
+            "text": "We train and disseminate innovative knowledge based on technology and computer science to customers from different sectors (academic, social, public and private), through solutions that solve the main challenges to capture, store, organize and leverage data to convert them into functional information for decision making.",
+            "link": "What we do"
+        },
+        "purpleText": {
+            "title": "Products",
+            "text": "Our efforts are focused on working with data to provide intelligent solutions.",
+            "link": "Explore Projects"
+        },
+        "top": "Values",
+        "down": "We provide the best results",
+        "carrousel": {
+            "cardOne": {
+                "title": "Your demands come first",
+                "text": "We are serious about placing our customers at the center of our strategies to implement models with which we are able to improve every experience."
+            },
+            "cardTwo": {
+                "title": "Excellence in the process.",
+                "text": "We take responsibility for achieving successful results by using the best available methods and seeking the most appropriate resources to launch projects with the greatest possible advantage."
+            },
+            "cardThree": {
+                "title": "The team is part of the results.",
+                "text": "Each member of our team has the experience and knowledge necessary to carry out our clients' projects."
+            },
+            "cardFour": {
+                "title": "We show you.",
+                "text": "We guide you through the whole process, help you make the best decisions, suggest the ideal products for you and once you hire us, we show you how to get the most out of your products."
+            },
+            "cardFive": {
+                "title": "Information matters",
+                "text": "We know the importance of accessing quality information, so we guarantee accuracy and veracity in the data we use."
+            }
+        }
+    },
+    "tecnologias": {
+        "title": "Technologies",
+        "text": "Beyond the way of Innovating.",
+        "bottom": "Scroll down",
+        "mainText": "What motivates us to work with companies, institutions and organizations is the idea of offering them specialized tools that will significantly improve their workspaces and the impetus to grow.",
+        "services": {
+            "itemOne": {
+                "title":"Big Data",
+                "text": "We help and teach our clients how to use their large amount of stored data to identify potential business opportunities."
+            },
+            "itemTwo": {
+                "title":"Data Science",
+                "text": "Data capture and analysis to monitor and optimize processes, presenting risk management strategies to ensure the success of our client's operation."
+            },
+            "itemThree": {
+                "title":"Business Intelligence",
+                "text": "We collect data, build databases for more efficient analysis and display strategic information on dashboards for our client's convenience."
+            },
+            "itemFour": {
+                "title":"Artificial Intelligence",
+                "text": "We automate services and processes for our clients, creating intelligent systems for the treatment of information and its diagnosis, reducing costs, resources and time."
+            }
+        }
+    },
+    "catalogo" : {
+        "title": "Our Services",
+        "text": "Grow with Our Services",
+        "bottom": "Scroll down",
+        "table" : {
+            "itemOne": "Digital Surveys",
+            "itemTwo": "Web and android applications",
+            "itemThree": "Web Site",
+            "itemFour" : "Strategic analysis of social networks",
+            "itemFive": "Digital Dashboards",
+            "itemSix": "Online Store",
+            "itemSeven": "Specialized consultancy",
+            "itemEight" : "Mailing Service"
+        },
+        "basicos": {
+            "title": "Basic services",
+            "items" : {
+                "itemOne": {
+                    "title": "Digital Statistics",
+                    "textOne": "We are experts in gathering information and creating cost-effective digital media strategies. Using unique tools and advanced features, we offer customized surveys built with strategic questions that allow us to provide you with the insight you need to meet your needs and objectives.",
+                    "textTwo": "Have the opportunity to direct your respondents to the questions that interest them, adapt your questionnaire to your needs or assign scores to your answer options."
+                },
+                "itemTwo": {
+                    "title": "Web and Android applications",
+                    "textOne": "If your goal is to sell and generate customers through the web, it's time to think about having your own space.",
+                    "textTwo": "We design software applications to run on smartphones, tablets and other mobile devices. If you let us, we will set up the perfect site to give your project visibility and generate greater benefits."
+                },
+                "itemThree": {
+                    "title": "Digital Boards",
+                    "textOne": "View data and special indicators for strategic decision making. If you were thinking about the best way to display your information, we suggest you start using digital boards that will simply help you understand your data in terms of progress and performance.",
+                    "textTwo": "Results can be easily compared using adjustable elements and making your dashboard flexible with information, even using real-time data, easily and quickly."
+                },
+                "itemFour": {
+                    "title": "Web Sites",
+                    "textOne": "Create your own website designed with specialized modules and optimized for different mobile devices, configure your new letter of introduction to the digital world; make it easier to find you, implement technology that makes your life easier and position your business as you always dreamed.",
+                    "textTwo": "Our results are in creating a professional and modernized website with key elements that will contrast with your competitors."
+                },
+                "itemFive": {
+                    "title": "Online Shops",
+                    "textOne": "Manage your business and increase your sales is now easier with the use of online stores. Move or start your business online and let us be the creators of your platform, we give you the tools to lead your sales and expand your business.",
+                    "textTwo": "Our services include the incorporation of online shopping carts, automated payment systems and professional catalogs of all your products and services."
+                },
+                "itemSix": {
+                    "title": "Mailing Service",
+                    "textOne": "Direct Marketing Campaign through automated mass emailing from 10,000 contacts. Increase sales, gain trust, build customer loyalty and/or attract new users, are some of the advantages of using this communication channel.",
+                    "textTwo": "We will help you to compile the mailings, so that your recipients are the ones that best suit your campaign and thus achieve the greatest reach."
+                }
+            } 
+        },
+        "especiales": {
+            "title": "Specialized Services",
+            "items" : {
+                "itemOne": {
+                    "title": "Strategic Analysis of Social Networks",
+                    "textOne": "Listening to the opinions and/or needs of your target audience means being able to improve their perception of you,",
+                    "textTwo": "as well as an improvement in the strategic follow-up for your brand, therefore, putting in our hands your strategic impact study of social networks by geographic area will be one of your best decisions."
+                },
+                "itemTwo": {
+                    "title": "Specialized Consulting",
+                    "textOne": "Consulting firm specialized in the application of data science for statistical studies. We collect, classify, synthesize, organize, process, analyze and interpret large amounts of data to provide you with more accurate results.",
+                    "textTwo": "We use the art of learning through data, come with us and we will show you how we do it using technological tools in a way that you would not imagine will improve your life."
+                },
+                "itemThree": {
+                    "title": "Electoral Services",
+                    "textOne": "We offer products and services for campaigns such as: application development for the collection of demoscopic data,",
+                    "textTwo": "training for development teams in programming tools and algorithm programming for bulk mail management."
+                }
+            } 
+        },
+        "scrollButton" : "Know more about this Service"
+    }
+}

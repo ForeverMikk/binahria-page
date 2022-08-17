@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import AnimatedCursor from 'react-animated-cursor';
+
+import './assets/styles/App.css';
+import BackToTop from './components/BackToTop/BackToTop';
+import Router from "./components/Router/Router"
+
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AnimatedCursor
+        innerSize={15}
+        outerSize={15}
+        color="69, 45, 171"
+        outerAlpha={0.4}
+        innerScale={0.7}
+        outerScale={5}
+      />
+      <Router/>
+      <BackToTop />
     </div>
   );
 }

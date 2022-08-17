@@ -1,0 +1,83 @@
+/* Estilos cuarto header */
+
+#catalogo-header{
+    background: url("../../../assets/images/Competencia.png") no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: white;
+}
+
+#catalogo-header .top{
+    padding-top: 10vw;
+    padding-left: 10vw;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+}
+#catalogo-header #main-text p {
+    font-family: "Florence";
+}
+#catalogo-header #main-text {
+    font-family: 'Florence';
+    color: #CDFB4F;
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: 300;
+    width: 60vw;
+    padding-top: 3vw;
+    padding-left: 10vw;
+}
+#catalogo-header #bottom-text .left{
+    font-size: 1.1vw;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    text-transform: uppercase;
+    width: 30rem;
+    transition: all 0.5s ease;
+}
+#catalogo-header #bottom-text .left:hover {
+    transition: all 0.5s ease;
+    transform: translateX(20px);
+}
+#catalogo-header #bottom-text .left a{
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #catalogo-header .top {
+        margin-top: 40%;
+        font-size: 1.5rem;
+    }
+    #catalogo-header #main-text {
+        font-size: 4rem;
+        font-weight: 600;
+        width: 85vw;
+    }
+    #catalogo-header #bottom-text .left{
+        padding-top: 10rem;
+        font-size: 1.5rem;
+        width: auto;
+    }
+}
+
+
+
+
+@media screen and (max-width: 760px) {
+    #catalogo-header .top {
+        margin-top: 40%;
+        font-size: 1.1rem;
+    }
+    #catalogo-header #main-text {
+        font-size: 2rem;
+        font-weight: 600;
+        width: auto;
+    }
+    #catalogo-header #bottom-text .left{
+        padding-top: 10rem;
+        font-size: 1.1rem;
+        width: auto;
+    }
+}

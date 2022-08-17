@@ -1,0 +1,98 @@
+
+
+/* Tecnologias Cascada */
+
+#prod-cascade{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: auto auto auto auto auto; */
+    gap: 0px 0px;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+#prod-cascade .cascade-img{
+    justify-self: center;
+    margin-top: 2rem;
+    transition: 1.2s all cubic-bezier(0, .28, .5, 1);
+    transform: scale(1);
+}
+#prod-cascade .cascade-img:hover{
+    justify-self: center;
+    transition: 1.2s all cubic-bezier(0, .28, .5, 1);
+    transform: scale(0.95);
+}
+#prod-cascade img{
+    width: 30vw;
+    height: auto;
+}
+
+#prod-cascade .main-text{
+    width: 25vw;
+}
+
+#prod-cascade .cascade-text{
+    margin-top: 2rem;
+    justify-self: center;
+    width: 30vw;
+}
+
+#prod-cascade .cascade-text h2{
+    text-transform: uppercase;
+    font-family: 'Florence';
+    color: #CDFB4F;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+#prod-cascade .cascade-text p{
+    font-size: 1.4vw;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #prod-cascade {
+        grid-template-columns: 1fr;
+        align-items: center;
+        align-content: flex-start;
+    }
+
+    #prod-cascade .cascade-img{
+        margin-top: 1.5rem;
+        text-align: left;
+    }
+    #prod-cascade .cascade-img img {
+        width: 80%;
+    }
+    #prod-cascade .cascade-text h2 {
+        font-size: 3rem;
+    }
+    #prod-cascade .cascade-text, #prod-cascade .main-text  {
+        width: 60%;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    #prod-cascade .cascade-text p{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 760px) {
+    
+    #prod-cascade .cascade-text h2 {
+        font-size: 1.6rem;
+    }
+    #prod-cascade .cascade-text, #prod-cascade .main-text  {
+        width: 80%;
+        font-size: 1rem;
+    }
+    #prod-cascade .cascade-text p{
+        font-size: 1rem;
+    }
+
+}

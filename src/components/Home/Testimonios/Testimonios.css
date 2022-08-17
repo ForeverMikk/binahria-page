@@ -1,0 +1,125 @@
+/* Estilos de Carousel de Referencias */
+
+#testimonios .white-space{
+    height: 25vw;
+}
+#testimonios {
+    height: 100vh;
+    text-align: center;
+    color: #753399;
+    margin-bottom: 20rem;
+}
+#testimonios img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+#testimonios .card-id{
+    position: absolute;
+    left: 34vw;
+    top: 1.8vw;
+    font-size: 2vw;
+}
+#testimonios .card-main h1{
+    margin: 2rem 0;
+    font-size: 3vw;
+    font-weight: 100;
+}
+#testimonios .card-main p{
+    margin-top: 1rem;
+    font-size: 1.5vw;
+    font-weight: 300;
+    padding: 0 20rem;
+}
+
+
+/* Forma Parte de Nuestro Equipo */
+ 
+#team-form{
+    color: #753399;
+    text-align: center;
+    height: 8vw;
+}
+#team-form h1{
+    font-size: 1.4vw;
+    text-transform: uppercase;
+}
+#team-form a {
+    font-size: 1rem;
+    color: #753399;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out all;
+}
+#team-form a:hover{
+    transition: 0.5s ease-in-out all;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+/****** TESTIMONIOS CAROUSEL ******/
+    #testimonios {
+        height: 40vh;
+        margin-bottom: 15rem;
+    }
+    #testimonios .card-id {
+        font-size: 2rem;
+        left: 20vw;
+    }
+    #testimonios .card-main h1 {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    #testimonios .card-main p {
+        padding: 0 7rem;
+        font-size: 1.5rem;
+    }
+
+    #team-form h1{
+        font-size: 1rem;
+    }
+    #team-form a {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 760px) {
+
+    #testimonios {
+        height: 50vh;
+        margin-bottom: 15rem;
+    }
+    #testimonios .card-id {
+        font-size: 1.2rem;
+        left: 20vw;
+    }
+    #testimonios img {
+        height: 5rem;
+        width: 5rem;
+    }
+    #testimonios .card-main h1 {
+        font-size: 2.2rem;
+        font-weight: 600;
+        /* color: #CDFB4F; */
+    }
+    #testimonios .card-main h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    #testimonios .card-main p {
+        padding: 0 0.7rem;
+        font-size: 1rem;
+    }
+
+
+    #team-form h1{
+        font-size: 1rem;
+    }
+    #team-form a {
+        font-size: 1.5rem;
+    }
+
+}

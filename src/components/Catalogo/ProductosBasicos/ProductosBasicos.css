@@ -1,0 +1,26 @@
+/* Estilos del carrusel de productos basicos */
+
+#carousel-prod-bas{
+  background: #211942;
+  text-align: center;
+}
+#carousel-prod-bas h1 {
+  font-family: 'Florence';
+  color: #CDFB4F;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  #carousel-prod-bas .title{
+    font-size: 4rem;
+    padding: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #carousel-prod-bas .title{
+    font-size: 2.5rem;
+    padding: 5rem 0 0;
+  }
+}

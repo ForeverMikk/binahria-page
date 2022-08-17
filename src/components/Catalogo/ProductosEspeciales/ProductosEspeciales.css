@@ -1,0 +1,32 @@
+/* Estilos del carrusel de productos basicos */
+
+#carousel-prod-esp{
+  background: #5f5682;
+  text-align: center;
+}
+
+#carousel-prod-esp .title{
+  font-family: 'Florence';
+  color: #CDFB4F;
+  text-transform: uppercase;
+}
+
+#carousel-prod-esp .new-card-text {
+  background: #211942;
+}
+
+
+@media screen and (max-width: 1024px) {
+  
+  #carousel-prod-esp .title{
+    font-size: 4rem;
+    padding: 5rem 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #carousel-prod-esp .title{
+    font-size: 2.5rem;
+    padding: 5rem 0 0;
+  }
+}

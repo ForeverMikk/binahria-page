@@ -1,0 +1,83 @@
+
+/* Estilos del Carrusel de competencia */
+
+#carousel{
+    padding-left: 1.5vw;
+    /* z-index: 10; */
+    background: #fff;
+}
+#carousel img{
+    height: 17vw;
+    width: 30vw;
+    object-fit: cover;
+    transition: 1.2s all cubic-bezier(0, .28, .5, 1);
+    transform: scale(1);
+}
+#carousel img:hover{
+    transition: 1.2s all cubic-bezier(0, .28, .5, 1);
+    transform: scale(0.95);
+    height: 17vw;
+    width: 30vw;
+}
+#carousel .car-card {
+    color: #753399;
+}
+#carousel .car-card .card-id {
+    position: absolute;
+    float: left;
+    padding-left: 0.5rem;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    font-size: 1.4vw;
+}
+#carousel .car-card h1 {
+    font-size: 2vw;
+    font-weight: 350;
+}
+#carousel .car-card .card-main {
+    float: right;
+    margin-top: 1rem;
+    padding-right: 8vw;
+    font-size: 1.2vw;
+}
+#carousel p{
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1024px) { 
+    #carousel img {
+        height: 40vh;
+        width: 95%;
+    }
+
+    #carousel .car-card .card-id {
+        margin-top: 2rem;
+        font-size: 1.5rem;  
+    }
+    #carousel .car-card .card-main {
+        margin-top: 2rem;
+        padding-right: 5vw;
+    }
+    #carousel .car-card h1 {
+        font-size: 2rem;
+    }
+    #carousel p {
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 760px) {   
+    
+    #carousel .car-card .card-id {
+        font-size: 1.2rem;  
+    }
+    #carousel .car-card h1 {
+        font-size: 1.5rem;
+    }
+    #carousel p {
+        width: 80%;
+        font-size: 0.7rem;
+    }
+}

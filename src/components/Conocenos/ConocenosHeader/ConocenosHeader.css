@@ -1,0 +1,72 @@
+/* Estilos del tercer Header */
+
+#conocenos-header{
+    height: 100vh;
+    background: url("../../../assets/images/conocenos/Fondo.jpg") center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    /* z-index: -2; */
+}
+#conocenos-header a{
+    color: white;
+}
+#conocenos-header .top{
+    padding-top: 10vw;
+    padding-left: 10vw;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+/* #conocenos-header #main-text p {
+    font-family: "Florence";
+} */
+#conocenos-header #main-text{
+    padding-top: 3vw;
+    padding-left: 10vw;
+    width: 60vw;
+    font-size: 4.3vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #CDFB4F;
+}
+#conocenos-header #bottom-text .left{
+    font-size: 1rem;
+    padding-left: 10vw;
+    padding-top: 5vw;
+    text-transform: uppercase;
+    width: 30rem;
+    transition: all 0.5s ease;
+}
+#conocenos-header #bottom-text .left:hover{
+    transition: all 0.5s ease;
+    transform: translateX(20px);
+}
+
+@media screen and (max-width: 1024px) {
+    #conocenos-header .top {
+        margin-top: 30%;
+        font-size: 1.5rem;
+    }
+    #conocenos-header #main-text {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    #conocenos-header #bottom-text .left{
+        padding-top: 15rem;
+        font-size: 1.5rem;
+        width: auto;
+    }
+}
+@media screen and (max-width: 760px) {
+    #conocenos-header .top {
+        font-size: 1.1rem;
+    }
+    #conocenos-header #main-text {
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+    #conocenos-header #bottom-text .left{
+        padding-top: 5rem;
+        font-size: 1.1rem;
+        width: auto;
+    }
+}

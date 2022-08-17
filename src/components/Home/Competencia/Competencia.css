@@ -1,0 +1,92 @@
+/* Estilos Competencia */
+
+#competencia{
+    background-color: white;
+    position: relative;
+    color: #753399;
+    padding-top: 5vw;
+    height: 30vw;
+    margin-bottom: 5rem;
+}
+#competencia .top{
+    display: block;
+    float: left;
+    padding-left: 10vw;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+}
+#competencia .content{
+    position: absolute;
+    padding-left: 10vw;
+    padding-top: 1vw;
+    font-size: 4vw;
+    font-weight: 300;
+}
+#competencia .content p {
+      font-family: "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+      margin-block-start: 1em;
+      font-size: 4vw;
+      font-weight: 300;
+      width: 50%;
+}
+#competencia .nav-comp{
+    position: absolute;
+    bottom: 5vw;
+    right: 15vw;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+#competencia .nav-comp:hover {
+    transform: translateX(20px);
+}
+
+/* Tablet Size */
+@media screen and (max-width: 1024px) {
+    #competencia {
+        height: 40vh;
+        margin-bottom: 0;
+    }
+    #competencia .top, #competencia .nav-comp {
+        font-size: 1.5rem;
+    }
+    #competencia .content {
+        margin-top: 2rem;
+    }
+    #competencia .content p{
+        font-size: 3rem;
+    }
+    #competencia .nav-comp{
+        bottom: 5rem;
+        right: 10vw;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    
+    /****** COMPETENCIA ******/
+    #competencia {
+        height: 100vh;
+        margin-bottom: 0;
+    }
+    #competencia .top {
+        padding-left: 5.5vw;
+        margin-top: 2rem;
+    }
+    #competencia .top, #competencia .nav-comp {
+        font-size: 1.1rem;
+    }
+    #competencia .content {
+        line-height: 4rem;
+        padding-left: 5.5vw;
+        padding-top: 5rem;
+    }
+    #competencia .content p{
+        font-size: 2.5rem;
+    }
+    #competencia .nav-comp{
+        bottom: 30vw;
+        right: 10vw;
+    }
+}

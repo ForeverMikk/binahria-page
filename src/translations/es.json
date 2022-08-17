@@ -1,0 +1,219 @@
+{
+    "navbar": {
+        "conocenos": "Conócenos",
+        "catalogo": "Catálogo",
+        "ing": "Ingles",
+        "esp": "Español"
+    },
+    "footer": {
+        "title" : "Contáctanos",
+        "menu" : {
+            "itemOne": "Inicio",
+            "itemTwo": "Conócenos",
+            "itemThree": "Tecnologías",
+            "itemFour": "Catálogo"
+        },
+        "created" : "Creado por"
+    },
+    "home": {
+        "title": "Desarrollamos Soluciones",
+        "subtitle" : "Que Transforman",
+        "tour" : "Toma un Tour",
+        "competencia" : {
+            "top": "Tecnologías",
+            "text" : "A la vanguardia de las tecnologías transformadoras.",
+            "go": "Lo que hacemos"
+        },
+        "carrousel" : {
+            "cardOne":{
+                "title": "Ciencia de Datos",
+                "text" : "Captación y Análisis de datos para monitorear y optimizar procesos, presentando estrategias de gestión de riesgos para asegurar el éxito de la operación de nuestro cliente."
+            },
+            "cardTwo": {
+                "title": "Inteligencia de Negocios",
+                "text" : "Recolectamos datos, construimos bases de datos para un análisis más eficiente y mostramos la información estratégica en tableros de control para comodidad de nuestro cliente."
+            },
+            "cardThree" : {
+                "title" : "Big Data",
+                "text" : "Ayudamos y enseñamos a nuestros clientes como usar su gran cantidad de datos almacenados para identificar potenciales oportunidades de negocio."
+            },
+            "cardFour" : {
+                "title" : "Blockchain",
+                "text" : "Usando bases de datos distribuidas creamos aplicaciones descentralizadas, ahorrando dinero, tiempo y garantizando la seguridad de cualquier tipo de transacción de nuestro cliente."
+            },
+            "cardFive" : {
+                "title" : "Inteligencia Artificial",
+                "text" : "Automatizamos servicios y procesos a nuestros clientes, creando sistemas inteligentes para el tratamiento de información y su diagnóstico, reducimos costos, recursos y tiempo."
+            }
+        },
+        "compania" : {
+            "title": "La Compañía",
+            "text" : "Te Ayudamos a ver desde otra Perspectiva"
+        },
+        "compromiso": {
+            "title": "Compromiso",
+            "text": "Transparencia, confianza y empatía.",
+            "bottom" : "Por qué elegirnos"
+        },
+        "testimonios": {
+            "cardOne": {
+                "name" : "Olimpia Orozco",
+                "text" : "Trabajar con el equipo de BA ha sido una experiencia enriquecedora. Además de desarrollar nuestro proyecto con plena creatividad y atención al detalle, nos demostraron ser una empresa innovadora y humana. Conocer a las mujeres que conforman BA ha agregado un valor enorme a mi vida, que va más allá de una relación de negocios. Son mujeres que admiro y con las que espero desarrollar muchos más proyectos juntas."
+            },
+            "cardTwo": {
+                "name" : "Dra. Tania Meza Escorza",
+                "text" : "Binahria es la empresa más personalizada y efectiva que he contratado. Me queda absolutamente claro que lo que construyeron para mí, no podrán ofrecérselo a nadie más, porque sus servicios son un traje a la media para cada cliente y para cada momento exacto en la etapa de vida de su clientela."
+            },
+            "cardThree": {
+                "name" : "Noor Albir",
+                "text" : "Binharia Analytics es el lugar al cual acudes cuando quieres que profesionales resuelvan en tiempo y forma tus proyectos. Estamos muy orgullosos de haber trabajado (y seguir colaborando) con el equipo de Binharia. ¡Les deseamos con mucho cariño, mucho éxito en todos los proyectos que vengan!"
+            },
+            "cardFour": {
+                "name" : "Lic. Abigail Altúzar",
+                "text" : "Binahria Analytics es para mí una empresa con unas características que la hacen única. Aprendí cuestiones básicas de programación y web scraping sin conocimientos previos gracias a su paciencia y cordial trato. El servicio y la atención siempre es excelente y profesional."
+            },
+            "cardFive": {
+                "name" : "Jondalar",
+                "text" : "El curso que recibí en binahria me ayudó a comprender mejor algunos temas de la carrera y además generó un nuevo impulso a mi carrera, los maestros están bien capacitados y son atentos para poder responder tus dudas y ayudarte con tus problemas."
+            }
+        },
+        "teamForm" : {
+            "title" : "Queremos Trabajar Contigo",
+            "button" : "Únete al Equipo"
+        }
+    },
+    "conocenos" : {
+        "title": "Conócenos",
+        "text" : "Desarrollamos Tecnologías que Transforman",
+        "bottom": "Desplázate hacia abajo",
+        "mainText": "Binahria Analytics busca posicionarse entre las 10 empresas de tecnología mejor consolidadas en México. Incidir positivamente en las esferas sociales y productivas mediante proyectos y soluciones innovadoras basadas en las tecnologías de la información así como las denominadas tecnologías emergentes atendiendo proactivamente a la participación igualitaria en la tecnología.",
+        "whiteText": {
+            "text": "Capacitamos y difundimos el conocimiento innovador basado en la tecnología y ciencias informáticas a clientes de los diferentes sectores (académico, social, público y privado), mediante soluciones que resuelvan los principales retos para captar, almacenar, organizar y aprovechar datos para convertirlos en información funcional para la toma de decisiones.",
+            "link": "Lo que hacemos"
+        },
+        "purpleText": {
+            "title": "Productos",
+            "text": "Nuestros esfuerzos están en trabajar con datos para dar soluciones inteligentes.",
+            "link": "Explora los Proyectos"
+        },
+        "top": "Valores",
+        "down": "Ofrecemos los mejores resultados",
+        "carrousel": {
+            "cardOne": {
+                "title": "Tus exigencias son primero.",
+                "text": "Tomamos en serio situar a nuestros clientes al centro de nuestras estrategias para implantar modelos con el que seamos capaces de mejorar cada experiencia."
+            },
+            "cardTwo": {
+                "title": "Excelencia en el proceso.",
+                "text": "Asumimos la responsabilidad  de lograr resultados exitosos utilizando los mejores métodos disponibles y buscando los recursos más adecuados para lanzar proyectos con la mayor ventaja posible."
+            },
+            "cardThree": {
+                "title": "El equipo es parte de los resultados.",
+                "text": "Cada integrante de nuestro equipo cuenta con la experiencia y conocimientos necesarios para llevar a cabo los proyectos de nuestros clientes."
+            },
+            "cardFour": {
+                "title": "Te enseñamos.",
+                "text": "Te guiamos durante todo el proceso, te ayudamos a tomar las mejores decisiones, te sugerimos los productos ideales para ti y una vez que nos contrates, te mostramos cómo sacarle el máximo provecho a tus productos."
+            },
+            "cardFive": {
+                "title": "La información importa",
+                "text": "Conocemos la importancia de acceder a información de calidad, por ello garantizamos precisión y veracidad en los datos que utilizamos."
+            }
+        }
+    },
+    "tecnologias": {
+        "title": "Tecnologías",
+        "text": "Revolucionando la forma de Innovar.",
+        "bottom": "Desplázate hacia abajo",
+        "mainText": "Lo que nos motiva a trabajar con empresas, instituciones y organizaciones es la idea de ofrecerles herramientas especializadas que mejoren de manera trascendental sus espacios de trabajo y los impulsos de crecer.",
+        "services": {
+            "itemOne": {
+                "title":"Big Data",
+                "text": "Ayudamos y enseñamos a nuestros clientes como usar su gran cantidad de datos almacenados para identificar potenciales oportunidades de negocio."
+            },
+            "itemTwo": {
+                "title":"Ciencia de Datos",
+                "text": "Captación y Análisis de datos para monitorear y optimizar procesos, presentando estrategias de gestión de riesgos para asegurar el éxito de la operación de nuestro cliente."
+            },
+            "itemThree": {
+                "title":"Inteligencia de Negocios",
+                "text": "Recolectamos datos, construimos bases de datos para un análisis más eficiente y mostramos la información estratégica en tableros de control para comodidad de nuestro cliente."
+            },
+            "itemFour": {
+                "title":"Inteligencia Artificial",
+                "text": "Automatizamos servicios y procesos a nuestros clientes, creando sistemas inteligentes para el tratamiento de información y su diagnóstico, reducimos costos, recursos y tiempo."
+            }
+        }
+    },
+    "catalogo" : {
+        "title": "Catálogo",
+        "text": "Crece con Nuestros Servicios",
+        "bottom": "Desplázate hacia abajo",
+        "table" : {
+            "itemOne": "Encuestas Digitales",
+            "itemTwo": "Aplicaciones web y android",
+            "itemThree": "Página Web",
+            "itemFour" : "Analisis estratégico de redes sociales",
+            "itemFive": "Tableros Digitales",
+            "itemSix": "Tienda Online",
+            "itemSeven": "Consultoría especializada",
+            "itemEight" : "Servicio de Mailing"
+        },
+        "basicos": {
+            "title": "Servicios Básicos",
+            "items" : {
+                "itemOne": {
+                    "title": "Estadisticas Digitales",
+                    "textOne": "Somos expertos en recolectar información y crear estrategias rentables para los medios digitales. Con la utilización de herramientas únicas y funciones avanzadas, ofrecemos encuestas personalizadas construidas con preguntas estratégicas que nos permiten brindarte el conocimiento necesario para cumplir con tus necesidades y objetivos.",
+                    "textTwo": "Ten la oportunidad de dirigir a tus encuestados a las preguntas que les interesan, adaptar tu cuestionario a tus necesidades o asignar puntuaciones a tus opciones de respuesta."
+                },
+                "itemTwo": {
+                    "title": "Aplicaciones Web y Android",
+                    "textOne": "Si tu objetivo es vender y generar clientes por medio de la web, es momento de pensar a tener tu propio espacio.",
+                    "textTwo": "Diseñamos aplicaciones de software para ejecutarse en smartphones, tabletas y otros dispositivos móviles, si nos dejas, montaremos el sitio perfecto para darle visibilidad y generar mayores ventajas a tu proyecto."
+                },
+                "itemThree": {
+                    "title": "Tableros Digitales",
+                    "textOne": "Visualiza Data e indicadores especiales para la toma de decisiones estratégicas. Si estabas pensando en la mejor forma de mostrar tu información, te sugerimos que empieces a utilizar los tableros digitales que sencillamente te ayudaran a comprender tus datos en términos de progreso y rendimiento.",
+                    "textTwo": "Los resultados se pueden comparar fácilmente usando elementos ajustables y logrando que tu tablero sea flexible con la información, incluso utilizar datos en tiempo real, de manera fácil y rápida."
+                },
+                "itemFour": {
+                    "title": "Páginas Web",
+                    "textOne": "Crea tu propio sitio web diseñado con módulos especializados y optimizado para diferentes dispositivos móviles, configura tu nueva carta de presentación al mundo digital; haz que sea más fácil encontrarte, implementa tecnología que facilite tu vida y posiciona tu negocio como siempre lo soñaste.",
+                    "textTwo": "Nuestros resultados están en crearte una página profesional y modernizada con los elementos clave que harán contraste con tus competidores."
+                },
+                "itemFive": {
+                    "title": "Tiendas Online",
+                    "textOne": "Gestionar tu negocio e incrementar sus ventas, es ahora más sencillo con el uso de tiendas online. Traslada o inicia tu negocio en línea y déjanos ser los creadores de tu plataforma, te brindamos las herramientas para liderar tus ventas y expandir tu negocio.",
+                    "textTwo": "Dentro de nuestros servicios está el incorporar carritos de compra en línea, sistemas de pago automatizados y catálogos profesionales de todos tus productos y servicios."
+                },
+                "itemSix": {
+                    "title": "Servicio de Mailing",
+                    "textOne": "Campaña de Marketing directo por medio de envíos masivos de correo electrónico automatizado desde 10,000 contactos. Aumenta ventas, gana confianza, fideliza a tus clientes y/o atrae nuevos usuarios, son algunas de las ventajas de usar este canal de comunicación.",
+                    "textTwo": "Nosotros te ayudamos a la recopilación de correos, para que tus destinatarios sean los que más se adecúen a tu campaña y así consigas el mayor alcance."
+                }
+            } 
+        },
+        "especiales": {
+            "title": "Servicios Especializados",
+            "items" : {
+                "itemOne": {
+                    "title": "Análisis Estratégico de Redes Sociales",
+                    "textOne": "Escuchar las opiniones y/o necesidades del público en el que te concentras, significa poder mejorar la percepción que tienen de ti,",
+                    "textTwo": "así como una mejora en el seguimiento estratégico para tu marca, por ello, poner en nuestras manos tu estudio de impacto estratégico de redes sociales por zona geográfica será de tus mejores decisiones."
+                },
+                "itemTwo": {
+                    "title": "Consultorías Especializadas",
+                    "textOne": "Consultoría especializada en aplicación de ciencia de datos para estudios estadísticos. Recopilamos, clasificamos, sintetizamos, organizamos, procesamos, analizamos e interpretamos grandes cantidades de datos para ofrecerte resultados más precisos.",
+                    "textTwo": "Utilizamos el arte de aprender a través de los datos, acércate con nosotros y te mostramos cómo lo hacemos utilizando herramientas tecnológicas de una forma en que no te imaginarías mejorará tu vida."
+                },
+                "itemThree": {
+                    "title": "Servicios Electorales",
+                    "textOne": "Ofrecemos productos y servicios para campañas como: desarrollo aplicativo para recolección de datos demoscópicos,",
+                    "textTwo": "capacitaciones para equipos de desarrollo en herramientas de programación y programación de algoritmos para la gestión de correspondencia masiva."
+                }
+            }
+        },
+        "scrollButton" : "Conoce más sobre este Servicio"
+    }
+}

@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /.pnp
+/build.zip
+/build.rar
 .pnp.js
 
 # testing

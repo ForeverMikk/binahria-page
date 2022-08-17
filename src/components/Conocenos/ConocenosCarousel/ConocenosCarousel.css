@@ -1,0 +1,15 @@
+
+#conocenos #carousel{
+    padding-bottom: 3vw;
+}
+  
+@media screen and (max-width: 1024px) { 
+    #conocenos #carousel{
+        padding-bottom: 5rem;
+    }
+}
+
+
+@media screen and (max-width: 760px) { 
+
+}

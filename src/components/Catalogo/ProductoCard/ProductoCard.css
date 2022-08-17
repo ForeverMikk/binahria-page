@@ -1,0 +1,154 @@
+/* Estilos del carrusel de productos basicos */
+
+.new-card {
+    height: 100vh;
+    padding: 0 8rem;
+    color: #fff;
+    margin: 5rem 0;
+}
+.new-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+.new-card-title, .new-card-number {
+    padding: 1rem;
+}
+
+.new-card-title span{
+    font-size: 1.7vw;
+    font-weight: 300;
+    margin-right: 5px;
+}
+.new-card-title h2{
+    font-size: 2.4vw;
+}
+
+.new-card-info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.new-card-img {
+  height: auto;
+  width: 40%;
+  z-index: -1;
+  position: fixed;
+  right: 8rem;
+}
+.new-card-img img {
+    height: 30vw; 
+    width: auto;
+}
+
+.new-card-text {
+    border-radius: 5px;
+    padding: 3rem 2rem;
+    font-size: 0.9rem;
+    background: #5f5682;
+    width: 45%;
+    position: relative;
+    color: #fff;
+    text-align: start;
+}
+
+.bottom-text {
+  margin-top: 3rem;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.bottom-text:hover {
+    transition: all 0.5s ease;
+    transform: translateY(20px);
+}
+.bottom-text p {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .new-card {
+    height: auto;
+    padding: 0;
+  }
+  .new-card-title {
+    margin-left: 2.5rem;
+  }
+  .new-card-title h2 {
+    font-size: 2rem;
+  }
+  .new-card-title span {
+    font-size: 1.5rem;
+  }
+  .new-card-info {
+    margin-top: 2rem;
+  }
+  .new-card-text {
+    padding: 2.5rem;
+    width: 70%;
+  }
+  .new-card-text p {
+    font-size: 1.75rem;
+  }
+  .bottom-text {
+    margin-left: 2.5rem;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+  }
+
+  #video-wrapper {
+    height: 50vh;
+  }
+}
+
+
+
+
+@media screen and (max-width: 760px) {
+  
+  .new-card {
+    height: auto;
+    padding: 0;
+  }
+  .new-card-title {
+    margin-left: 1rem;
+  }
+  .new-card-title h2 {
+    font-size: 1.15rem;
+  }
+  .new-card-title span {
+    font-size: 1rem;
+  }
+  .new-card-number {
+    margin-left: 0;
+  }
+  .new-card-info {
+    margin-top: 2rem;
+  }
+  .new-card-text {
+    padding: 2rem;
+    width: 80%;
+  }
+  .new-card-text p {
+    font-size: 1rem;
+  }
+  .bottom-text {
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}

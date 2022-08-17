@@ -1,0 +1,89 @@
+/* Estilos de compromiso */
+
+#compromiso{
+    position: relative;
+    height: 100vh;
+    color: white;
+    background-color: #753399;
+}
+#compromiso .top{
+    padding-top: 5vw;
+    padding-left: 10vw;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+}
+#compromiso .content{
+    font-family: "Florence";
+    padding-left: 10vw;
+    margin-top: 5rem ;
+    font-size: 4vw;
+    font-weight: 300;
+    width: 57vw;
+}
+#compromiso .bot{
+    margin-top: 10vw;
+    margin-left: 10vw;
+    font-size: 1.3vw;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+#compromiso .bot:hover {
+    transition: all 0.5s ease;
+    transform: translateX(20px);
+}
+#compromiso .mid-img{
+    position: absolute;
+    right: 0;
+    bottom: -14vw;
+}
+#compromiso img{
+    width: 50vw;
+    height: auto;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #compromiso {
+        height: 65vh;
+        margin-bottom: 5rem;
+    }
+
+    #compromiso .top, #compromiso .bot {
+        font-size: 1.5rem;
+     }
+     #compromiso .content {
+        padding-top: 1rem;
+        font-size: 4rem;
+    }
+    #compromiso .mid-img{
+        bottom: -25vw;
+    }
+    #compromiso img{
+        width: 80vw;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+
+    /****** COMPROMISO  ******/
+    #compromiso {
+        height: 80vh;
+        margin-bottom: 5rem;
+    }
+    #compromiso .top, #compromiso .bot {
+        padding-left: 5.5vw;
+        font-size: 1.1rem;
+        margin: 0;
+     }
+    #compromiso .content {
+        padding-left: 5.5vw;
+        font-size: 2.3rem;
+    }
+    #compromiso .bot {
+        margin-top: 6rem;
+    }
+}

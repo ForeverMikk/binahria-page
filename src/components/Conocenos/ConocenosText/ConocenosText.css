@@ -1,0 +1,249 @@
+/* Conócenos estilos */
+
+/* Conocenmos Text */
+#con-text{
+    background-color: #211942;
+    color: white;
+    text-align: left;
+    height: 45vw;
+}
+#con-text p {
+    width: 33vw;
+    padding-top: 6vw;
+    position: absolute;
+    left: 33vw;
+    font-size: 1.6vw;
+}
+#con-text img {
+    width: 85vw;
+    height: auto;
+    padding-top: 30vw;
+}
+
+
+/* White Text */
+#conocenos #white-text{
+    color: #753399;
+    background-color: white;
+    height: 60vw;
+}
+#conocenos #white-text p{
+    text-align: left;
+    padding-top: 37vw;
+    width: 70%;
+    font-size: 1.4vw;
+    padding-left: 33vw;
+    margin-bottom: 5vw;
+}
+#conocenos #white-text a{
+    color:#753399;
+    padding-left: 33vw;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+#conocenos #white-text a:hover{
+    transition: all 0.5s ease;
+    transform: translateX(20px);
+}
+
+
+/* Purple Text */
+#con-purp {
+    background-color: #753399;
+    color: white;
+    height: 100vh;
+    position: relative;
+}
+#con-purp .top {
+    font-size: 1.1vw;
+    padding-left: 15vw;
+    position: absolute;
+    text-transform: uppercase;
+    top: 5vw;
+}
+#con-purp p {
+    font-size: 3rem;
+    width:60vw;
+    padding-left: 15vw;
+    padding-top: 15vw;
+}
+#con-purp a {
+    position: absolute;
+    color: white;
+    padding-left: 15vw;
+    padding-top: 7vw;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    transition: all 0.5s ease !important;
+}
+#con-purp a:hover {
+    transition: all 0.5s ease !important;
+    transform: translateX(20px) !important;
+}
+
+
+/* White Text 2 */
+#white-2{
+    background-color: white;
+    color: #753399;
+    /* height: 20vw; */
+}
+#white-2 .top{
+    padding-top: 5vw;
+    padding-left: 15vw;
+    font-size: 1.1vw;
+    text-transform: uppercase;
+}
+#white-2 .down{
+    padding: 5vw 0;
+    padding-left: 15vw;
+    font-size: 3rem;
+    width: 50vw;
+    font-weight: 300;
+}
+
+
+/* @media screen and (max-width: 1360px) {
+    #conocenos #white-text p {
+        padding-top: 20vw;
+    }
+} */
+@media screen and (max-width: 1024px) {
+    /* Conocenmos Text */
+    #con-text{
+        height: 90vh;
+    }
+    #con-text p {
+        padding-top: 15vw;
+        width: 70%;
+        left: 15vw;
+        font-size: 2rem;
+    }
+    #con-text img {
+        width: 100vw;
+        padding-top: 80vw;
+    }
+    
+    /* White Text */
+    #conocenos #white-text {
+        height: 50vh;
+    }
+    #conocenos #white-text p {
+        width: 80%;
+        font-size: 1.6rem;
+        padding-top: 20vw;
+        padding-left: 20vw;
+        margin-bottom: 5rem;
+    }
+    #conocenos #white-text a{  
+        padding-left: 20vw;
+        font-size: 1.5rem;
+    }
+
+    /* Purple Text */
+    #con-purp .top {
+        padding-left: 10vw;
+        padding-top: 15vw;
+        font-size: 1.5rem;
+    }
+    #con-purp p {
+        font-size: 4rem;
+        width: 80vw;
+        padding-left: 10vw;
+        padding-top: 35vw;
+    }
+    #con-purp a { 
+        padding-left: 10vw;
+        padding-top: 30vw;
+        font-size: 1.5rem;
+    }
+
+    /* White Text 2 */
+    #white-2{
+        height: 35vh;   
+    }
+    #white-2 .top{
+        padding-top: 15vw;
+        font-size: 1.5rem;
+        padding-left: 10vw;
+    }
+    #white-2 .down{
+        padding-left: 10vw;
+        font-size: 3.5rem;
+        width: 70vw;
+    }
+}
+
+
+
+@media screen and (max-width: 760px) {
+    
+    /* Conocenmos Text */
+    #con-text{
+        height: 100vh;
+    }
+    #con-text p {
+        padding-top: 15vw;
+        width: 65%;
+        left: 20vw;
+        font-size: 1.1rem;
+    }
+    #con-text img {
+        width: 100vw;
+        padding-top: 50vw;
+    }
+
+
+    /* White Text */
+    #conocenos #white-text {
+        height: 85vh;
+    }
+    #conocenos #white-text p {
+        width: 80%;
+        font-size: 1.2rem;
+        padding-top: 20vw;
+        padding-left: 20vw;
+        margin-bottom: 5rem;
+
+    }
+    #conocenos #white-text a{  
+        padding-left: 20vw;
+        font-size: 1.2rem;
+    }
+
+    
+    /* Purple Text */
+    #con-purp .top {
+        padding-left: 10vw;
+        padding-top: 15vw;
+        font-size: 1.2rem;
+    }
+    #con-purp p {
+        font-size: 2.5rem;
+        width:auto;
+        padding-left: 10vw;
+        padding-top: 35vw;
+    }
+    #con-purp a { 
+        padding-left: 10vw;
+        padding-top: 40vw;
+        font-size: 1.2rem;
+    }
+
+
+    /* White Text 2 */
+    #white-2{
+        height: 40vh;   
+    }
+    #white-2 .top{
+        padding-top: 15vw;
+        font-size: 1.2rem;
+        padding-left: 10vw;
+    }
+    #white-2 .down{
+        padding-left: 10vw;
+        font-size: 2.2rem;
+        width: auto;
+    }
+}
