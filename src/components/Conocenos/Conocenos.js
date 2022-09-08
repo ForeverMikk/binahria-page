@@ -11,11 +11,11 @@ export default class Conocenos extends Component {
 
     render() {
         return (
-            <section id="conocenos">
+            <section id="conocenos" path='/conocenos'>
                 <ConocenosHeader />
                 <ConocenosText/>
                 <ConocenosCarousel/>
-                <Contacto />
+                <Contacto /> 
             </section>
         )
     }

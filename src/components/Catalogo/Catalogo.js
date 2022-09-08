@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CatalogoCategories from './CatalogoCategories/CatalogoCategories'
 import CatalogoHeader from './CatalogoHeader/CatalogoHeader'
 import CatalogoList from './CatalogoList/CatalogoList'
 import ProductosBasicos from './ProductosBasicos/ProductosBasicos'
@@ -12,10 +13,11 @@ export default class Catalogo extends Component {
         return (
             <section id="catalogo\">
                 <CatalogoHeader/>
-                <CatalogoList/>
+                <CatalogoCategories />
+                {/* <CatalogoList/>
                 <br></br>
                 <ProductosBasicos/>
-                <ProductosEspeciales/>
+                <ProductosEspeciales/> */}
             </section>
         )
     }

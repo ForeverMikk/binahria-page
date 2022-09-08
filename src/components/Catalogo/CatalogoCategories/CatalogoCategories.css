@@ -1,0 +1,9 @@
+.catalog-categories {
+    height: 100vh;
+}
+
+.catalog-categories .categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

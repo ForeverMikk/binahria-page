@@ -1,0 +1,7 @@
+.cat-dropdown {
+    display: flex;
+    flex-direction: column;
+}
+.dropdown {
+    width: 20rem;
+}
