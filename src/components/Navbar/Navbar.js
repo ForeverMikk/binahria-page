@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 
 import './Navbar.css'
 import logo from "../../assets/images/logo/BINAHRIA_logo-05.svg"
+import mexico from '../../assets/images/mexico.png';
+import usa from '../../assets/images/united-states.png';
 
 const Navbar = () => {
     
@@ -41,12 +43,12 @@ const Navbar = () => {
                 </li>
                 <li>
                     <button onClick={() => {changeLanguage('es')}} style={{background: 'none', border: 'none'}}>
-                        ESP
+                        <img className='flag' src={mexico} alt='Bandera de Mexico'/>
                     </button>
                 </li>
                 <li>
                     <button onClick={() => {changeLanguage('en')}} style={{background: 'none', border: 'none'}}>
-                        ENG
+                        <img className='flag' src={usa} alt='Bandera de USA' />
                     </button> 
                 </li>
             </ul>

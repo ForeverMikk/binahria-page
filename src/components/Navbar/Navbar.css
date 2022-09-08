@@ -27,7 +27,8 @@
     align-items: center;
 }
 .menu li{
-    display: inline-block;
+    display: flex;
+    align-items: center;
     list-style: none;
     height: 46px;
     margin-left: 15px;
@@ -38,6 +39,12 @@
     color: #5f5682 !important;
     text-shadow: 2px 2px 3px white;
 }
+
+.menu .flag {
+    width: 2rem;
+    height: auto;
+}
+
 .navig .nav-button {
     visibility: hidden;
 }
