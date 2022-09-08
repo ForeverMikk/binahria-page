@@ -9,13 +9,13 @@ import Dashboard from "./../Dashboard/Dashboard"
 class Router extends Component{
     render(){
         return(
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/tecnologias" component={Tecnologias} />
-                    <Route path="/conocenos" component={Conocenos} />
-                    <Route path="/catalogo" component={Catalogo} />
-                    <Route path="/dashboard" component={Dashboard} />
-                </Switch>
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/tecnologias" component={Tecnologias} />
+                <Route path="/conocenos" component={Conocenos} />
+                <Route path="/catalogo" component={Catalogo} />
+                <Route path="/dashboard" component={Dashboard} />
+            </Switch>
         )
     }
 }
