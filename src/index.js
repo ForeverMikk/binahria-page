@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
+// import 'reactjs-popup/dist/index.css';
 
 import './assets/styles/index.css';
 import i18n from './i18n';

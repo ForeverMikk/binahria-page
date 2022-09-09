@@ -1,9 +1,52 @@
 .catalog-categories {
-    height: 100vh;
+    margin: 5rem;
+    margin-bottom: 8rem;
 }
 
 .catalog-categories .categories {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.catalog-categories .question{
+    text-align: left;
+    font-size: 3rem;
+    text-transform: uppercase;
+
+    color: #753399;
+}
+.down-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+ .catalog-categories .arrow {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* width: 30rem; */
+    /* text-align: left; */
+}
+.catalog-categories .arrow .arrow-title {
+    text-transform: uppercase;
+    width: 30rem;
+    text-align: left;
+}
+
+.catalog-categories .arrow img {
+    width: 10rem;
+    height: auto;
+}
+
+.catalog-categories .contact {
+    margin: 2rem;
+    margin-right: 20rem;
+    color: #fff;
+    background: #753399;
+    border: none;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
 }

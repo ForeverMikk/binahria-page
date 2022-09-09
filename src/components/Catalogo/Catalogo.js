@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import CatalogoCategories from './CatalogoCategories/CatalogoCategories'
 import CatalogoHeader from './CatalogoHeader/CatalogoHeader'
-import CatalogoList from './CatalogoList/CatalogoList'
-import ProductosBasicos from './ProductosBasicos/ProductosBasicos'
-import ProductosEspeciales from './ProductosEspeciales/ProductosEspeciales'
+// import CatalogoList from './CatalogoList/CatalogoList'
+// import ProductosBasicos from './ProductosBasicos/ProductosBasicos'
+// import ProductosEspeciales from './ProductosEspeciales/ProductosEspeciales'
 
 export default class Catalogo extends Component {
     componentDidMount() {
@@ -11,7 +11,7 @@ export default class Catalogo extends Component {
     }
     render() {
         return (
-            <section id="catalogo\">
+            <section id="catalogo">
                 <CatalogoHeader/>
                 <CatalogoCategories />
                 {/* <CatalogoList/>

@@ -25,6 +25,7 @@
     "react-select": "^5.4.0",
     "react-tsparticles": "^1.27.0",
     "react-vis": "^1.11.7",
+    "swiper": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "homepage": "https://binahria.com.mx/",

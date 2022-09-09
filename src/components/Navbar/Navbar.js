@@ -27,7 +27,9 @@ const Navbar = () => {
         <nav className="navig">
             
             <div className="icon">
-                <a href="/"><img className="logo" src={logo} alt="" ></img></a>
+                <NavLink to='/'>
+                    <img className="logo" src={logo} alt="" ></img>
+                </NavLink>
             </div>
 
             <button className="nav-button" onClick={handleClick}>
