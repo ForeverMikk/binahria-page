@@ -25,8 +25,8 @@ const CatalogoCategories = () => {
             </div>
 
             <Category title="Político Electoral" categories={options} />
-            <Category title="Político Electoral" categories={options} />
-            <Category title="Político Electoral" categories={options} />
+            <Category title="Político Gubernamental" categories={options} />
+            <Category title="Político Corporativo" categories={options} />
 
             <div className="down-menu">
                 <h1 className='question'>

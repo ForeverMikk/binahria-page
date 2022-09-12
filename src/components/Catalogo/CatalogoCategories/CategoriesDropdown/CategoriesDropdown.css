@@ -4,4 +4,5 @@
 }
 .dropdown {
     width: 20rem;
+    z-index: 10;
 }

@@ -1,0 +1,72 @@
+.product-view {
+    margin: 0 5rem 3rem ;
+}
+.product-view .navig {
+    background: #071731;
+}
+
+
+.product-view .header img {
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.product-view .header p {
+    width: 50%;
+}
+
+.product-view .how-works {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.product-view .how-works div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 70%;
+}
+.product-view .how-works p {
+    width: 40%;
+    padding: 0 2rem;
+}
+
+.product-view .video {
+    width: 100%;
+    height: 75vh;
+    margin: 3rem 0;
+}
+
+
+.product-view .adventages {
+    display: flex;
+}
+
+.product-view .adventages img, .product-view .adventages .text {
+    width: 50%;
+    padding: 2rem;
+}
+
+.product-view .adventages img{
+    object-fit: cover;
+}
+
+.product-view .add-value {
+    display: flex;
+}
+
+.product-view .add-value .valor {
+    width: 15rem;
+    /* padding: 0 2rem; */
+    margin-right: 3rem;
+}
+.product-view .add-value img {
+    height: 20rem;
+    width: auto;
+    object-fit: contain;
+}
+
+
+

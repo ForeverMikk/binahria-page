@@ -17,6 +17,7 @@
 .cat-card .swiper-main {
     width: 90%;
     margin: 0 5rem;
+    background: #1C1C1E;
 }
 .cat-card .swiper {
     height: 25rem;
@@ -48,8 +49,9 @@
     text-align: left;
 }
 
-.cat-card button {
+.cat-card .watch-more {
     background: #CDFB4F;
+    border: 1px solid #CDFB4F;
     color: #753399;
     border: none;
     padding: 0.5rem 1rem;
@@ -57,4 +59,12 @@
     align-self: flex-end;
     margin-top: 2rem;
     margin-right: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.cat-card .watch-more:hover {
+    cursor: pointer;
+    color: #CDFB4F;
+    background: #753399;
+    border: 1px solid #CDFB4F;
 }

@@ -1,21 +1,64 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Link } from 'react-router-dom';
 
 import './Category.css';
+import header from '../../../../assets/images/code.jpg';
+import img from '../../../../assets/images/IntArtificial_Col.jpg'
 
-const CategoryCard = ({title, description, img}) => {
+const products = [
+    {
+        header: header,
+        title: 'Producto 1',
+        description: 'texto de prueba',
+        howWorks: 'texto en la parte de como funciona',
+        video: 'https://www.youtube.com/watch?v=AEcZmMXRS4Q',
+        img: img,
+        adventajes: [
+            {
+                img: img,
+                description:'Texto de cada una de las caracteristicas especiales'
+            },
+            {
+                img: img,
+                description:'Texto de cada una de las caracteristicas especiales'
+            },
+        ]
+    },
+    {
+        header: header,
+        title: 'Producto 2',
+        description: 'texto de prueba 2',
+        howWorks: 'texto en la parte de como funciona 2',
+        video: 'https://www.youtube.com/watch?v=AEcZmMXRS4Q',
+        img: img,
+        adventajes: [
+            {
+                img: img,
+                description:'Texto de cada una de las caracteristicas especiales 2'
+            },
+            {
+                img: img,
+                description:'Texto de cada una de las caracteristicas especiales 2'
+            },
+        ]
+    }
+]
+
+const ProductCard = ({product, index}) => {
     return (
         <div className='cat-card'>
-            <img src={img} alt={title} />
-            <h3 className="card-title">{title}</h3>
-            <p className="card-description">{description}</p>
-            <button>Ver más</button>
+            <img src={product.img} alt={product.title} />
+            <h3 className="card-title">{product.title}</h3>
+            <p className="card-description">{product.description}</p>
+            <Link className='watch-more' to={`/product`}>Ver más</Link>
+            {/* <button>Ver más</button> */}
         </div>
     )
 }
 
-const Category = ({title, categories}) => {
+const Category = ({title}) => {
     return (
         <div className="category">
             <h3 className="title">{title}</h3>
@@ -23,7 +66,7 @@ const Category = ({title, categories}) => {
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 navigation
-                spaceBetween={50}
+                spaceBetween={200}
                 slidesPerView={3}
                 breakpoints={{
                     0: {
@@ -42,9 +85,9 @@ const Category = ({title, categories}) => {
                     },
                 }}  
             >
-                {categories.map(({label, description, img}, index) => (
+                {products.map((item, index) => (
                     <SwiperSlide key={index}>
-                        <CategoryCard title={label} description={description} img={img} />
+                        <ProductCard product={item} index={index}/>
                     </SwiperSlide>
                 ))}
             </Swiper>
