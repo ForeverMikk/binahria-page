@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { InlineWidget } from 'react-calendly'
 
 import './Contact.css';
 import Navbar from '../Navbar/Navbar';
@@ -37,7 +38,8 @@ const Contact = () => {
 
                 <div className="calendly">
                     <h2>Agenda una reunión</h2>
-                    <button>Agenda una reunion con Nosotros</button>
+                    <InlineWidget url='https://calendly.com/binahria-analytics' />
+                    {/* <div>Agenda una reunion con Nosotros</div> */}
 
                 </div>
 
