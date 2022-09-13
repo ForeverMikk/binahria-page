@@ -1,14 +1,24 @@
 .product-view {
-    margin: 0 5rem 3rem ;
+    /* margin: 0 5rem 3rem ; */
 }
-.product-view .navig {
-    background: #071731;
+
+.product-header {
+    background: url("../../../assets/images/code.jpg") center no-repeat fixed;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 70vh;
 }
-.product-view .header img {
+.product-header::before {
+    background-color: rgba(0,0,125,0.25);
+}
+
+/* .product-view .header img {
     height: 70vh;
     width: 100%;
     object-fit: cover;
-}
+} */
 
 .product-view .header p {
     width: 50%;

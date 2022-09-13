@@ -9,14 +9,14 @@ const ContactHeader = () => {
     const { t } = useTranslation();
 
     return (
-        <section className='contact-header'>  
+        <div className='contact-header'>  
             <Navbar />
             
             <div id="main-text" className='title'>
                 <p>{t('contact.title')}</p>
             </div>
 
-        </section>
+        </div>
     )
 }
 

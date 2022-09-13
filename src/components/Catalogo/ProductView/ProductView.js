@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import ReactPlayer from 'react-player/youtube'
 // import { useTranslation } from 'react-i18next';
 
 import './ProductView.css'
-import header from '../../../assets/images/code.jpg';
+// import header from '../../../assets/images/code.jpg';
 import img from '../../../assets/images/IntArtificial_Col.jpg'
 import Navbar from '../../Navbar/Navbar';
 
@@ -16,6 +14,16 @@ const scrollToElement = (element) => {
     scrolledElement.scrollIntoView()
 }
 
+const ProductHeader = () => {
+
+    // const { t } = useTranslation();
+
+    return (
+        <div className='product-header'>  
+            <Navbar />
+        </div>
+    )
+}
 
 const ProductView = () => {
 
@@ -29,10 +37,10 @@ const ProductView = () => {
     return(
         <>
         <section className='product-view' id='product-view'>
-            <Navbar />
+            <ProductHeader />
 
             <div className='header'>
-                <img src={header} alt='Header del Producto'/>
+                {/* <img src={header} alt='Header del Producto'/> */}
 
                 <h2>Nombre del Producto</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
