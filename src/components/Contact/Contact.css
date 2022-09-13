@@ -45,3 +45,22 @@
     border: #753399;
 }
 
+.calendly {
+    padding: 5rem;
+}
+
+.calendly h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.calendly button {
+    height: 30rem;
+    width: 100%;
+    font-size: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: #fff;
+    background: #753399;
+}

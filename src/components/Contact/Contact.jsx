@@ -35,9 +35,10 @@ const Contact = () => {
                     <button>Enviar</button>
                 </form>
 
-                <h2>Agenda una reunión</h2>
                 <div className="calendly">
-                    
+                    <h2>Agenda una reunión</h2>
+                    <button>Agenda una reunion con Nosotros</button>
+
                 </div>
 
             </section>
