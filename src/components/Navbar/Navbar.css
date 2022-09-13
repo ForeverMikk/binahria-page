@@ -20,7 +20,7 @@
     font-size: 1.3vw;
     color: white;
 }
-.menu{
+.menu {
     position: relative;
     float: right;
     width: 50%;
@@ -29,11 +29,12 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
+
 .menu li{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
     height: 46px;
     margin-left: 15px;
@@ -48,10 +49,13 @@
 .menu li a, .menu li button {
     color: #fff;
     text-decoration: none;
-    padding: 0.5rem;
     border: none;
     background: none;
     font-size: 1rem;
+}
+
+.menu li button {
+    padding: 0.2rem 0;
 }
 
 
