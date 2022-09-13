@@ -15,9 +15,6 @@ const scrollToElement = (element) => {
 }
 
 const ProductHeader = () => {
-
-    // const { t } = useTranslation();
-
     return (
         <div className='product-header'>  
             <Navbar />
@@ -26,7 +23,7 @@ const ProductHeader = () => {
 }
 
 const ProductView = () => {
-
+    
     // const {t} = useTranslation();
 
     useEffect(() => {
@@ -71,7 +68,7 @@ const ProductView = () => {
                 </div>
             </div>
 
-            <h2>Valor añadido</h2>
+            <h2 className='add-title'>Valor añadido</h2>
             <div className='add-value'>    
                 <div className='valor'>
                     <img src={img} alt='valor 1'/>

@@ -1,6 +1,6 @@
-.product-view {
-    /* margin: 0 5rem 3rem ; */
-}
+/* .product-view {
+    margin: 0 5rem 3rem ;
+} */
 
 .product-header {
     background: url("../../../assets/images/code.jpg") center no-repeat fixed;
@@ -19,6 +19,9 @@
     width: 100%;
     object-fit: cover;
 } */
+.product-view .header {
+    margin: 3rem 5rem;
+}
 
 .product-view .header p {
     width: 50%;
@@ -59,10 +62,12 @@
 }
 
 .product-view .adventages img{
-    object-fit: cover;
+    height: 30rem;
+    object-fit: contain;
 }
 
-.product-view .add-value {
+.product-view .add-value, .product-view .add-title {
+    margin: 3rem 5rem;
     display: flex;
 }
 
