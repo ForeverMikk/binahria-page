@@ -216,5 +216,8 @@
             }
         },
         "scrollButton" : "Conoce más sobre este Servicio"
+    },
+    "contact": {
+        "title": "Pónganse en contacto con nosotros"
     }
 }
