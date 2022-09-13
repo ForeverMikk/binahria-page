@@ -1,11 +1,9 @@
 import React from 'react';
 import { Widget } from '@typeform/embed-react';
 
-import './Contacto.css';
+import './ContactForm.css';
 
-const Contacto = () => {
-
-  
+const ContactForm = () => {
 
     return(
         <section className='formulario'>
@@ -20,4 +18,4 @@ const Contacto = () => {
     )
 }
 
-export default Contacto;
+export default ContactForm;
