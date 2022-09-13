@@ -6,14 +6,12 @@ import { useTranslation } from 'react-i18next';
 
 import './Navbar.css'
 import logo from "../../assets/images/logo/BINAHRIA_logo-05.svg"
-import mexico from '../../assets/images/mexico.png';
-import usa from '../../assets/images/united-states.png';
 
 const Navbar = () => {
     
     const { t, i18n } = useTranslation();
 
-    const [buttonClicked, setButtonClicked] = useState(true)
+    const [buttonClicked, setButtonClicked] = useState(false);
 
     const handleClick = () => {
         setButtonClicked(!buttonClicked)
@@ -33,24 +31,33 @@ const Navbar = () => {
             </div>
 
             <button className="nav-button" onClick={handleClick}>
-                <FontAwesomeIcon icon={buttonClicked ? faBars : faTimes} color='white' size="2x"/>
+                <FontAwesomeIcon icon={buttonClicked ? faTimes : faBars} color='white' size="2x"/>
             </button>
             
-            <ul className={buttonClicked ? 'menu' : 'menu active'}>
+            <ul className={buttonClicked ? 'menu active' : 'menu'}>
                 <li>
-                    <NavLink to="/conocenos" style={{ textDecoration: 'none', color: 'white' }}> {t('navbar.conocenos')} </NavLink>
+                    <NavLink to="/conocenos"> 
+                        {t('navbar.conocenos')} 
+                    </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/catalogo" style={{ textDecoration: 'none', color: 'white' }}> {t('navbar.catalogo')} </NavLink>
+                    <NavLink to="/catalogo"> 
+                        {t('navbar.catalogo')} 
+                    </NavLink>
                 </li>
                 <li>
-                    <button onClick={() => {changeLanguage('es')}} style={{background: 'none', border: 'none'}}>
-                        <img className='flag' src={mexico} alt='Bandera de Mexico'/>
+                    <NavLink to="/contact"> 
+                        {t('navbar.contact')} 
+                    </NavLink>
+                </li>
+                <li>
+                    <button onClick={() => {changeLanguage('es')}}>
+                        {t('navbar.esp')}
                     </button>
                 </li>
                 <li>
-                    <button onClick={() => {changeLanguage('en')}} style={{background: 'none', border: 'none'}}>
-                        <img className='flag' src={usa} alt='Bandera de USA' />
+                    <button onClick={() => {changeLanguage('en')}}>
+                        {t('navbar.ing')}
                     </button> 
                 </li>
             </ul>

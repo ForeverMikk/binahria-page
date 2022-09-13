@@ -2,8 +2,9 @@
     "navbar": {
         "conocenos": "Conócenos",
         "catalogo": "Catálogo",
-        "ing": "Ingles",
-        "esp": "Español"
+        "contact" : "Contacto",
+        "ing": "ING",
+        "esp": "ESP"
     },
     "footer": {
         "title" : "Contáctanos",

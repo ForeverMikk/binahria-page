@@ -4,14 +4,11 @@
 .product-view .navig {
     background: #071731;
 }
-
-
 .product-view .header img {
     height: 70vh;
     width: 100%;
     object-fit: cover;
 }
-
 
 .product-view .header p {
     width: 50%;
@@ -22,15 +19,18 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
 .product-view .how-works div {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     width: 70%;
 }
+
 .product-view .how-works p {
     width: 40%;
     padding: 0 2rem;
+    text-align: right;
 }
 
 .product-view .video {
@@ -38,7 +38,6 @@
     height: 75vh;
     margin: 3rem 0;
 }
-
 
 .product-view .adventages {
     display: flex;
@@ -62,6 +61,7 @@
     /* padding: 0 2rem; */
     margin-right: 3rem;
 }
+
 .product-view .add-value img {
     height: 20rem;
     width: auto;
@@ -69,4 +69,9 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+    .product-view .how-works div {
+        width: auto;
+    }
+}
 
