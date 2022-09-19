@@ -1,5 +1,9 @@
 .category {
     margin: 3rem 0;
+    background: #1C1C1E;
+    color: #fff;
+    padding: 1rem 2rem 2.5rem;
+    border-radius: 1rem;
 }
 
 .cat-card {
@@ -29,9 +33,10 @@
 }
 
 .cat-card img {
-    height: 10rem;
+    height: 8rem;
     width: 80%;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .cat-card .card-title, .cat-card .card-description {

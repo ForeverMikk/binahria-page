@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import './Category.css';
 import header from '../../../../assets/images/code.jpg';
-import img from '../../../../assets/images/IntArtificial_Col.jpg'
+import img from '../../../../assets/images/code.jpg'
 
 const products = [
     {
@@ -53,14 +53,13 @@ const ProductCard = ({product, index}) => {
             <h3 className="card-title">{product.title}</h3>
             <p className="card-description">{product.description}</p>
             <Link className='watch-more' to={`/product`}>Ver más</Link>
-            {/* <button>Ver más</button> */}
         </div>
     )
 }
 
-const Category = ({title}) => {
+const Category = ({title, id}) => {
     return (
-        <div className="category">
+        <div className='category' id={`category-${id}`}>
             <h3 className="title">{title}</h3>
 
             <Swiper

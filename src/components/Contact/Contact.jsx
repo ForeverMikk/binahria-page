@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { InlineWidget } from 'react-calendly'
 
@@ -10,22 +10,31 @@ const ContactHeader = () => {
     const { t } = useTranslation();
 
     return (
-        <div className='contact-header'>  
+        <div className='contact-header' id='contact'>  
             <Navbar />
-            
             <div id="main-text" className='title'>
                 <p>{t('contact.title')}</p>
             </div>
-
         </div>
     )
 }
 
 const Contact = () => {
+
+    useEffect(() => {
+        const scrollTop = () => {
+            const scrolledElement = document.getElementById('contact');
+        
+            scrolledElement.scrollIntoView();
+        }
+        
+        scrollTop();
+    }, [])
+
     return (
         <>
             <ContactHeader />
-            <section className='contact'>
+            <section className='contact' >
                 <form action="">
                     <input type="text" name="nombre" id="nombre" placeholder='Nombre' />
                     <input type="email" name="correo" id="correo" placeholder='Correo electrónico' />
@@ -39,8 +48,6 @@ const Contact = () => {
                 <div className="calendly">
                     <h2>Agenda una reunión</h2>
                     <InlineWidget url='https://calendly.com/binahria-analytics' />
-                    {/* <div>Agenda una reunion con Nosotros</div> */}
-
                 </div>
 
             </section>
