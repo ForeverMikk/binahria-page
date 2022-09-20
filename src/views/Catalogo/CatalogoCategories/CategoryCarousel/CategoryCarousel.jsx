@@ -3,9 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Link } from 'react-router-dom';
 
-import './Category.css';
+import './CategoryCarousel.css';
 import header from '../../../../assets/images/code.jpg';
-import img from '../../../../assets/images/code.jpg'
+import img from '../../../../assets/images/category-img.png'
 
 const products = [
     {
@@ -57,10 +57,13 @@ const ProductCard = ({product, index}) => {
     )
 }
 
-const Category = ({title, id}) => {
+const CategoryCarousel = ({title, id, background}) => {
     return (
-        <div className='category' id={`category-${id}`}>
-            <h3 className="title">{title}</h3>
+        <div className='category-carousel' 
+            id={`category-${id}`} 
+            style={{background: `${background}`}}
+        >
+            <h3 className="main-title">{title}</h3>
 
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -94,4 +97,4 @@ const Category = ({title, id}) => {
     )
 }
 
-export default Category
+export default CategoryCarousel;

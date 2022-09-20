@@ -1,0 +1,16 @@
+.category-button {
+    height: 12rem;
+    width: 17rem;
+    background-size: cover;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.category-button h1 {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.category-button:hover {
+    transform: translateY(5px);
+}

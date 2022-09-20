@@ -3,7 +3,18 @@
     margin-bottom: 8rem;
 }
 
+.catalog-categories .category-carousel:nth-child(4) .main-title {
+    color: #000;
+}
 .catalog-categories .categories {
+    color: #fff;
+    background: linear-gradient(
+        to top,
+        black 0%,
+        black 50%,
+        white 50%,
+        white 100%
+    );
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -21,23 +32,48 @@
     flex-direction: column;
     align-items: flex-end;
 }
- .catalog-categories .arrow {
+
+.catalog-categories .links {
+    width: 30rem;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
-    /* width: 30rem; */
-    /* text-align: left; */
-}
-.catalog-categories .arrow .arrow-title {
-    text-transform: uppercase;
-    width: 30rem;
-    text-align: left;
+    align-content: flex-start;
 }
 
-.catalog-categories .arrow img {
-    width: 10rem;
-    height: auto;
-}
+.catalog-categories .arrow {
+    width: 20rem;
+    text-transform: uppercase;
+    text-align: left;
+
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-align: start;
+    text-decoration: none;
+    color: grey;
+    line-height: 46px;
+    padding: 0 0 6px;
+    transition: left 0.8s ease-in;
+  }
+  
+  .catalog-categories .arrow:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: #333;
+    transition: left .8s;
+  }
+  
+  .catalog-categories .arrow:hover:after {
+    left: 0;
+    color: #333;
+  }
+  .catalog-categories .arrow:hover {
+    color: #333;
+  }
 
 .catalog-categories .contact {
     margin: 2rem;
@@ -45,7 +81,7 @@
     color: #fff;
     background: #753399;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;

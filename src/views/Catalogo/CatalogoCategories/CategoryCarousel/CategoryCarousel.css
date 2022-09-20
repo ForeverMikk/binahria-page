@@ -1,9 +1,14 @@
-.category {
-    margin: 3rem 0;
-    background: #1C1C1E;
+.category-carousel {
+    /* margin: 3rem 0; */
+    /* background: #1C1C1E; */
     color: #fff;
     padding: 1rem 2rem 2.5rem;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
+}
+
+.category-carousel .main-title {
+    font-size: 2rem;
+    /* padding: 1rem; */
 }
 
 .cat-card {

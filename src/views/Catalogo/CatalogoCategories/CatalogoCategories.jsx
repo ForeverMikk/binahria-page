@@ -1,11 +1,14 @@
 import React from 'react';
-import CategoriesDropdown from './CategoriesDropdown/CategoriesDropdown';
 import { Link } from 'react-router-dom';
 
 import './CatalogoCategories.css';
-import Category from './Category/Category';
-import arrow from '../../../assets/images/arrow-right.png';
-import img1 from '../../../assets/images/code.jpg';
+import img1 from '../../../assets/images/category-img.png';
+import bg1 from '../../../assets/images/category-1.png';
+import bg2 from '../../../assets/images/category-2.png';
+import bg3 from '../../../assets/images/category-3.png';
+
+import CategoryCarousel from './CategoryCarousel/CategoryCarousel';
+import CategoryButton from './CategoryButton/CategoryButton';
 
 const options = [
     { value: 'category-1', label: 'Categoria 1', description: "este texto es de prueba", img: img1},
@@ -15,26 +18,26 @@ const options = [
     { value: 'category-5', label: 'Categoria 5', description: "este texto es de prueba", img: img1},
 ]
 
-const scrollToElement = (id) => {
-    const scrolledElement = document.getElementById(id);
+// const scrollToElement = (id) => {
+//     const scrolledElement = document.getElementById(id);
 
-    console.log('onchange')
-    scrolledElement.scrollIntoView();
-}
+//     console.log('onchange')
+//     scrolledElement.scrollIntoView();
+// }
 
 const CatalogoCategories = () => {
     return (
         <div className='catalog-categories'>
             {/* <h1>Categories</h1> */}
             <div className="categories">
-                <CategoriesDropdown title='Categoría Político electoral' options={options} onChange={() => {scrollToElement('category-1')}}/>
-                <CategoriesDropdown title='Categoría Gubernamental' options={options} onChange={() => {scrollToElement('category-2')}}/>
-                <CategoriesDropdown title='Categoría Corporativa' options={options} onChange={() => {scrollToElement('category-3')}}/>
+                <CategoryButton title='Categoría Político Electoral' background={bg1}/>
+                <CategoryButton title='Categoría Gubernamental' background={bg2}/>
+                <CategoryButton title='Categoría Corporativa' background={bg3}/>
             </div>
 
-            <Category title="Político Electoral" categories={options} id={1}/>
-            <Category title="Político Gubernamental" categories={options} id={2} />
-            <Category title="Político Corporativo" categories={options} id={3}/>
+            <CategoryCarousel title="Político Electoral" categories={options} id={1} background='#000'/>
+            <CategoryCarousel title="Político Gubernamental" categories={options} id={2} background='#753399' />
+            <CategoryCarousel title="Político Corporativo" categories={options} id={3} background='#fff' />
 
             <div className="down-menu">
                 <h1 className='question'>
@@ -45,18 +48,14 @@ const CatalogoCategories = () => {
                     para más detalles
                 </h1>
 
-                <div className="arrow">
-                    <h3 className='arrow-title'>Ver fomurlario de contacto</h3>
+                <div className="links">    
                     <Link to='/contact'>
-                        <img src={arrow} className='arrow' alt="Flecha de redirección" />
+                        <h3 className='arrow'>Ver fomurlario de contacto</h3>
                     </Link>
-                </div>
-
-                <div className="arrow">
-                    <h3 className='arrow-title'>Agenda una reunión</h3>
-                   <Link to='/contact'>
-                        <img src={arrow} alt="Flecha de redirección" />
-                   </Link>
+                    
+                    <Link to='/contact'>
+                        <h3 className='arrow'>Agenda una reunión</h3>
+                    </Link>
                 </div>
 
                 <Link to='/contact' className='contact'>
