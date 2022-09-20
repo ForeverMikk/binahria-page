@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 
 import './ConocenosHeader.css'
 import Navbar from '../../../components/Navbar/Navbar'
-
+import logo from '../../../assets/images/logo/logo-white.png'
 
 const ConocenosHeader = () => {
     
@@ -12,7 +12,7 @@ const ConocenosHeader = () => {
     return (
         <div id="conocenos-header">
 
-            <Navbar />
+            <Navbar logo={logo}/>
 
             <div className="top">
                 <span>/ {t('conocenos.title')}</span>

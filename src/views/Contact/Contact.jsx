@@ -4,6 +4,7 @@ import { InlineWidget } from 'react-calendly'
 
 import './Contact.css';
 import Navbar from '../../components/Navbar/Navbar';
+import logo from '../../assets/images/logo/logo-white.png'
 
 const ContactHeader = () => {
 
@@ -11,7 +12,7 @@ const ContactHeader = () => {
 
     return (
         <div className='contact-header' id='contact'>  
-            <Navbar />
+            <Navbar logo={logo}/>
             <div id="main-text" className='title'>
                 <p>{t('contact.title')}</p>
             </div>

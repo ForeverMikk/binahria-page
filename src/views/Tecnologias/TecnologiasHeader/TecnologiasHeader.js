@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next"
 
 import './TecnologiasHeader.css'
 import Navbar from "../../../components/Navbar/Navbar"
+import logo from '../../../assets/images/logo/logo-white.png'
 
 const TecnologiasHeader = () => {
 
@@ -11,7 +12,7 @@ const TecnologiasHeader = () => {
     return (
         <>
             <section id="tecnologias-header">  
-                <Navbar />
+                <Navbar logo={logo}/>
 
                 <div className="top">
                     <span>/ {t('tecnologias.title')}</span>

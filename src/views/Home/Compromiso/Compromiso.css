@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 1024px) {
     #compromiso {
-        height: 150vh;
+        height: 80vh;
         margin-bottom: 5rem;
     }
 
@@ -64,9 +64,9 @@
     }
 }
 
-@media screen and (max-width: 1024px) and (min-height: 600px){
+@media screen and (max-width: 1024px) and (max-height: 700px){
     #compromiso {
-        height: 100vh;
+        height: 150vh;
     }
 }
 

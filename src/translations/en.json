@@ -146,7 +146,8 @@
     },
     "catalogo" : {
         "title": "Our Services",
-        "text": "Grow with Our Services",
+        "text": "Grow with Our",
+        "text2": "Services",
         "bottom": "Scroll down",
         "table" : {
             "itemOne": "Digital Surveys",

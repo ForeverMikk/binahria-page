@@ -59,8 +59,16 @@ html {
 body{
   margin: 0px;
   padding: 0px;
+  font-family: 'Manrope', sans-serif;
+  
   scroll-behavior: smooth !important;
-  font-family: 'Manrope';
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: 'Manrope', sans-serif;
 }
 
 body.dragging,
@@ -85,24 +93,5 @@ a{
   left: 10vw;
   font-weight: 100;
 }
-
-html {
-    scroll-behavior: smooth !important;
-}
   
-* {
-    scroll-behavior: smooth !important;
-}
-  
-body {
-    margin: 0;
-    font-family: 'Manrope', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    scroll-behavior: smooth !important;
-}
-
-code {
-    font-family: 'Manrope', sans-serif;
-}
   

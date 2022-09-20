@@ -146,7 +146,8 @@
     },
     "catalogo" : {
         "title": "Catálogo",
-        "text": "Crece con Nuestros Servicios",
+        "text": "Crece con Nuestros",
+        "text2": "Servicios",
         "bottom": "Desplázate hacia abajo",
         "table" : {
             "itemOne": "Encuestas Digitales",

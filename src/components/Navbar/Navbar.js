@@ -5,9 +5,9 @@ import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from 'react-i18next';
 
 import './Navbar.css'
-import logo from "../../assets/images/logo/BINAHRIA_logo-05.svg"
+// import logo from "../../assets/images/logo/BINAHRIA_logo-05.svg"
 
-const Navbar = () => {
+const Navbar = ({logo}) => {
     
     const { t, i18n } = useTranslation();
 

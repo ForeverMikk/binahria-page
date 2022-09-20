@@ -59,7 +59,7 @@
 @media screen and (max-width: 1024px) {
 /****** TESTIMONIOS CAROUSEL ******/
     #testimonios {
-        height: 40vh;
+        height: auto;
         margin-bottom: 15rem;
     }
     #testimonios .card-id {

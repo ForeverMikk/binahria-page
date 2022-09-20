@@ -2,6 +2,7 @@ import React from "react"
 import { useTranslation } from "react-i18next"
 
 import './HomeHeader.css'
+import logo from '../../../assets/images/logo/logo-white.png'
 import Navbar from "../../../components/Navbar/Navbar";
 import ParticlesHeader from "../../../components/ParticlesHeader/ParticlesHeader";
 
@@ -14,7 +15,7 @@ const HomeHeader = () => {
         <section id="header">
             <ParticlesHeader />
             
-            <Navbar />
+            <Navbar logo={logo}/>
 
             <div id="main-text">
                 <span className="title">{t('home.title')}</span>
