@@ -54,6 +54,7 @@
     }
     #competencia .content p{
         font-size: 3rem;
+        width: auto;
     }
     #competencia .nav-comp{
         bottom: 5rem;
