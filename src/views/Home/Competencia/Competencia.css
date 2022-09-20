@@ -43,31 +43,33 @@
 /* Tablet Size */
 @media screen and (max-width: 1024px) {
     #competencia {
-        height: 40vh;
+        height: auto;
         margin-bottom: 0;
     }
     #competencia .top, #competencia .nav-comp {
         font-size: 1.5rem;
     }
     #competencia .content {
+        position: relative;
         margin-top: 2rem;
     }
     #competencia .content p{
         font-size: 3rem;
-        width: auto;
+        height: auto;
+        width: 50%;
     }
     #competencia .nav-comp{
-        bottom: 5rem;
+        bottom: 0;
         right: 10vw;
     }
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     
     /****** COMPETENCIA ******/
     #competencia {
-        height: 100vh;
+        height: 80vh;
         margin-bottom: 0;
     }
     #competencia .top {
@@ -84,9 +86,10 @@
     }
     #competencia .content p{
         font-size: 2.5rem;
+        width: auto;
     }
     #competencia .nav-comp{
-        bottom: 30vw;
+        bottom: 5vw;
         right: 10vw;
     }
 }

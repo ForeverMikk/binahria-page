@@ -42,11 +42,9 @@
 }
 
 
-
-
 @media screen and (max-width: 1024px) {
     #compromiso {
-        height: 65vh;
+        height: 150vh;
         margin-bottom: 5rem;
     }
 
@@ -66,8 +64,23 @@
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1024px) and (min-height: 600px){
+    #compromiso {
+        height: 100vh;
+    }
+}
 
+@media screen and (max-width: 850px) {
+    #compromiso {
+        height: 100vh;
+        margin-bottom: 5rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 760px) {
 
     /****** COMPROMISO  ******/
     #compromiso {
