@@ -52,12 +52,12 @@ const Navbar = () => {
                 </li>
                 <li>
                     <button onClick={() => {changeLanguage('es')}}>
-                        esp
+                        Esp
                     </button>
                 </li>
                 <li>
                     <button onClick={() => {changeLanguage('en')}}>
-                        eng
+                        Eng
                     </button> 
                 </li>
             </ul>
