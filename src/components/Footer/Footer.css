@@ -112,8 +112,25 @@
         padding: 1rem 4rem;
         padding-bottom: 6rem;
     }
+}
 
 
+@media screen and (max-width: 640px) {
+    #footer .socials{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1rem;
+    } 
 
-
+    #footer .socials li{
+        margin-right: 1.5rem;
+        /* margin-bottom: 2rem; */
+    }
+    
+    #footer .copy{
+        font-size: 1.2rem;
+        margin-left: 2.5rem;
+        padding: 0;
+        padding-bottom: 6rem;
+    }
 }
