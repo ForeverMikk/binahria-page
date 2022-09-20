@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'Florence Outline';
+    src: local('Florence'), url('./assets/fonts/FlorencesansSCOutline.woff') format('woff');
+}
+@font-face {
+    font-family: 'Florence';
+    src: local('Florence'), url('./assets/fonts/Florsn18.woff') format('woff');
+}
+
+:root {
+    /* // COLORS */
+    --first-color: #753399;
+    --second-color: #CDFB4F;
+    --third-color: #EEE4DE;
+    --fourth-color: #40665C;
+    --fifth-color: #f5f0ed;
+
+    /* // Font Family */
+    --title-font: 'Florence Outline', 'Open Sans', sans-serif;
+    --subtitle-font:  'Florence', 'Roboto', sans-serif;
+    --text-font: 'Manrope', sans-serif;
+    
+
+    /* // Font Size */
+    --big-font-size: 2.5rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+
+    /* // Font Weigth */
+    --font-light: 300;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* // Margenes */
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem; 
+
+}
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth !important;
+  font-family: 'Manrope';
+}
+
+body.dragging,
+body.dragging * {
+  cursor: grabbing;
+}
+
+a{
+  text-decoration: none;
+}
+
+#bg{
+  position: absolute;
+  z-index: -1;
+  height: inherit;
+  float: none;
+}
+
+.mini{
+  position: absolute;
+  font-size: 1vw;
+  left: 10vw;
+  font-weight: 100;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+  
+* {
+    scroll-behavior: smooth !important;
+}
+  
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth !important;
+}
+
+code {
+    font-family: 'Manrope', sans-serif;
+}
+  

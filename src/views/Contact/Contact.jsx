@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { InlineWidget } from 'react-calendly'
 
 import './Contact.css';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 
 const ContactHeader = () => {
 

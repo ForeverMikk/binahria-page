@@ -2,7 +2,7 @@ import React from "react"
 import { useTranslation } from "react-i18next"
 
 import './TecnologiasHeader.css'
-import Navbar from "../../Navbar/Navbar"
+import Navbar from "../../../components/Navbar/Navbar"
 
 const TecnologiasHeader = () => {
 

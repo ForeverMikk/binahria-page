@@ -2,9 +2,7 @@
     "navbar": {
         "conocenos": "About Us",
         "catalogo": "Our Services",
-        "contact": "Contact",
-        "ing": "ENG",
-        "esp": "SPA"
+        "contact": "Contact"
     },
     "footer": {
         "title" : "Contact us",

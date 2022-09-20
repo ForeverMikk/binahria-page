@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player/youtube'
 import './ProductView.css'
 // import header from '../../../assets/images/code.jpg';
 import img from '../../../assets/images/IntArtificial_Col.jpg'
-import Navbar from '../../Navbar/Navbar';
+import Navbar from './../../../components/Navbar/Navbar';
 
 
 const scrollToElement = (element) => {

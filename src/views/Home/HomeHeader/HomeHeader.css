@@ -2,7 +2,7 @@
 #header {
     background: url(../../../assets/images/home/MainBackground.jpg) no-repeat center;
     background-size: cover;
-    height: 51.6vw;
+    /* height: 51.6vw; */
     height: 100vh;
 }
 #header #main-text{
@@ -11,13 +11,13 @@
     width: 60%;
 }
 #header #main-text .title{
-    font-family: "Florence-Normal";
-    color: #CDFB4F;
+    font-family: "Florence Outline";
+    color: var(--second-color);
     font-size: 3.5vw;
 }
 #header #main-text .subtitle{
     font-family: "Florence";
-    color: #CDFB4F;
+    color: var(--second-color);
     font-size: 6vw;
 }
 #header #bottom-text{

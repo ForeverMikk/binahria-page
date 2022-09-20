@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import './ConocenosHeader.css'
-import Navbar from '../../Navbar/Navbar'
+import Navbar from '../../../components/Navbar/Navbar'
 
 
 const ConocenosHeader = () => {

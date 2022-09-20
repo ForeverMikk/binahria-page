@@ -11,9 +11,9 @@
     visibility: hidden;
 }
 
-.navig .icon{
+.navig .icon {
     position: absolute;
-    top:3vw;
+    top: 3vw;
     display: block;
     float: left;
     padding-left: 10vw;
@@ -25,7 +25,7 @@
     float: right;
     width: 50%;
     margin-right: 0px;
-    font-size: 1.2vw;
+    font-size: var(--normal-font-size);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -71,13 +71,14 @@
     .navig .logo {
         width: 10rem;
         height: auto;
+        margin-top: 2rem;
     }
 
     .navig .nav-button {
         visibility: visible;
         position: absolute;
-        top: 4rem;
-        right: 4rem;
+        top: 2rem;
+        right: 3rem;
         z-index: 11;
         border: none;
         background: none;
@@ -90,7 +91,6 @@
     .menu {
         display: flex;
         flex-direction: column;
-
         visibility: hidden;
         overflow: hidden;
         width: 100%;
@@ -124,6 +124,14 @@
     /****** NAVBAR ******/
     .navig .icon {
         margin-top: -1rem;
+    }
+    .navig .logo {
+        margin-top: 3rem;
+    }
+
+    .navig .nav-button {
+        top: 3rem;
+        right: 2rem;
     }
 
     .menu li {

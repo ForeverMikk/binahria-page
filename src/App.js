@@ -1,9 +1,8 @@
 import React from 'react';
 import AnimatedCursor from 'react-animated-cursor';
 
-import './assets/styles/App.css';
 import BackToTop from './components/BackToTop/BackToTop';
-import Router from "./components/Router/Router"
+import Router from "./views/Router/Router"
 
 
 function App() {

@@ -1,9 +1,9 @@
 import React from "react"
-import ParticlesHeader from "./../../ParticlesHeader/ParticlesHeader"
 import { useTranslation } from "react-i18next"
 
 import './HomeHeader.css'
-import Navbar from "../../Navbar/Navbar"
+import Navbar from "../../../components/Navbar/Navbar";
+import ParticlesHeader from "../../../components/ParticlesHeader/ParticlesHeader";
 
 
 const HomeHeader = () => {
