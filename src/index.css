@@ -11,11 +11,10 @@
 
 :root {
     /* // COLORS */
-    --first-color: #753399;
+    --first-color: #9147FB;
     --second-color: #CDFB4F;
-    --third-color: #EEE4DE;
-    --fourth-color: #40665C;
-    --fifth-color: #f5f0ed;
+    --third-color:  #E8E8E8;
+    --fourth-color: #1E1E1E;
 
     /* // Font Family */
     --title-font: 'Florence Outline', 'Open Sans', sans-serif;

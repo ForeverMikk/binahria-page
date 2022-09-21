@@ -11,27 +11,25 @@
     color: white;
 }
 #conocenos-header .top{
-    padding-top: 10vw;
+    padding-top: 7vw;
     padding-left: 10vw;
     font-size: 1rem;
     text-transform: uppercase;
 }
-/* #conocenos-header #main-text p {
-    font-family: "Florence";
-} */
+
 #conocenos-header #main-text{
-    padding-top: 3vw;
+    /* padding-top: 3vw; */
     padding-left: 10vw;
     width: 60vw;
     font-size: 4.3vw;
     font-weight: 300;
+    font-family: "Florence";
     text-transform: uppercase;
     color: #CDFB4F;
 }
 #conocenos-header #bottom-text .left{
     font-size: 1rem;
     padding-left: 10vw;
-    padding-top: 5vw;
     text-transform: uppercase;
     width: 30rem;
     transition: all 0.5s ease;

@@ -9,7 +9,7 @@
 }
 #con-text p {
     width: 33vw;
-    padding-top: 6vw;
+    padding-top: 2vw;
     position: absolute;
     left: 33vw;
     font-size: 1.6vw;
@@ -30,7 +30,7 @@
 #conocenos #white-text p{
     text-align: left;
     padding-top: 37vw;
-    width: 70%;
+    width: 50%;
     font-size: 1.4vw;
     padding-left: 33vw;
     margin-bottom: 5vw;
@@ -100,7 +100,7 @@
     padding-left: 15vw;
     font-size: 3rem;
     width: 50vw;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 
