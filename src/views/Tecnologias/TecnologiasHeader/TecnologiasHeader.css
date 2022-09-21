@@ -8,14 +8,14 @@
 }
 
 #tecnologias-header .top{
-    padding-top: 10vw;
+    padding-top: 7vw;
     padding-left: 10vw;
     font-size: 1.1vw;
     text-transform: uppercase;
 }
 
 #tecnologias-header #main-text p {
-    font-family: 'Florence';
+    font-family: 'Florence Outline';
 }
 
 #tecnologias-header #main-text{
@@ -25,13 +25,12 @@
     font-size: 4vw;
     font-weight: 300;
     width: 60vw;
-    padding-top: 3vw;
     padding-left: 10vw;
 }
 #tecnologias-header #bottom-text .left{
     font-size: 1.1vw;
     padding-left: 10vw;
-    padding-top: 5vw;
+    padding-top: 3vw;
     text-transform: uppercase;
     width: 30rem;
     transition: all 0.5s ease;
