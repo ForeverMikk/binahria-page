@@ -1,11 +1,11 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import { Link } from 'react-router-dom';
 
 import './CategoryCarousel.css';
 import header from '../../../../assets/images/code.jpg';
 import img from '../../../../assets/images/category-img.png'
+import ProductCard from '../ProductCard/ProductCard';
 
 const products = [
     {
@@ -46,16 +46,6 @@ const products = [
     }
 ]
 
-const ProductCard = ({product, index}) => {
-    return (
-        <div className='cat-card'>
-            <img src={product.img} alt={product.title} />
-            <h3 className="card-title">{product.title}</h3>
-            <p className="card-description">{product.description}</p>
-            <Link className='watch-more' to={`/product`}>Ver más</Link>
-        </div>
-    )
-}
 
 const CategoryCarousel = ({title, id, background}) => {
     return (

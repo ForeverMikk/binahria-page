@@ -37,15 +37,13 @@ const CatalogoCategories = () => {
 
             <CategoryCarousel title="Político Electoral" categories={options} id={1} background='#000'/>
             <CategoryCarousel title="Político Gubernamental" categories={options} id={2} background='#753399' />
-            <CategoryCarousel title="Político Corporativo" categories={options} id={3} background='#fff' />
+            <CategoryCarousel title="Político Corporativo" categories={options} id={3} background='#E8E8E8' />
 
             <div className="down-menu">
                 <h1 className='question'>
-                    ¿Tienes alguna 
+                    ¿Tienes alguna duda? 
                     <br />
-                    duda? Contáctate
-                    <br />
-                    para más detalles
+                    <span> Contáctate para más detalles</span>
                 </h1>
 
                 <div className="links">    
@@ -57,10 +55,6 @@ const CatalogoCategories = () => {
                         <h3 className='arrow'>Agenda una reunión</h3>
                     </Link>
                 </div>
-
-                <Link to='/contact' className='contact'>
-                    Contacto
-                </Link>
             </div>
         </div>
     )
