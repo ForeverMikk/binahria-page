@@ -88,10 +88,13 @@ class ParticlesHeader extends Component {
                             enable: true,
                         },
                         move: {
-                            attract: {
-                                enable: true, rotateX: 600, rotateY: 1200
-                            },
-                            bounce: false,
+                            // attract: {
+                            //     enable: true, rotateX: 600, rotateY: 1200
+                            // },
+                            // outModes: {
+                            //     default: "bounce",
+                            // },
+                            // bounce: false,
                             direction: "none",
                             enable: true,
                             outMode: "out",

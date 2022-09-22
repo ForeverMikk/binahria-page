@@ -11,14 +11,14 @@ function App() {
 
   return (
     <div className="App">
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={15}
         outerSize={15}
         color="69, 45, 171"
         outerAlpha={0.4}
         innerScale={0.7}
         outerScale={5}
-      />
+      /> */}
       <Router/>
       <BackToTop />
     </div>
