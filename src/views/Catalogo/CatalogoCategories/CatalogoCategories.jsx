@@ -50,7 +50,7 @@ const CatalogoCategories = () => {
 
                 <div className="links">    
                     <Link to='/contact'>
-                        <h3 className='arrow'>Ver fomurlario de contacto</h3>
+                        <h3 className='arrow'>Contactanos</h3>
                     </Link>
                     
                     <Link to='/contact'>
