@@ -112,10 +112,10 @@
 @media screen and (max-width: 1024px) {
     /* Conocenmos Text */
     #con-text{
-        height: 90vh;
+        height: auto;
     }
     #con-text p {
-        padding-top: 15vw;
+        padding-top: 7vw;
         width: 70%;
         left: 15vw;
         font-size: 2rem;
@@ -127,17 +127,17 @@
     
     /* White Text */
     #conocenos #white-text {
-        height: 50vh;
+        height: auto;
     }
     #conocenos #white-text p {
         width: 80%;
         font-size: 1.6rem;
-        padding-top: 20vw;
-        padding-left: 20vw;
+        padding-top: 10vw;
+        padding-left: 10vw;
         margin-bottom: 5rem;
     }
     #conocenos #white-text a{  
-        padding-left: 20vw;
+        padding-left: 10vw;
         font-size: 1.5rem;
     }
 
@@ -161,10 +161,10 @@
 
     /* White Text 2 */
     #white-2{
-        height: 35vh;   
+        height: 40vh;   
     }
     #white-2 .top{
-        padding-top: 15vw;
+        padding-top: 10vw;
         font-size: 1.5rem;
         padding-left: 10vw;
     }

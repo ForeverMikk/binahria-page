@@ -67,7 +67,7 @@
 @media screen and (max-width: 640px) {
     #compania .content {
         width: auto;
-        font-size: 3rem;
-        line-height: 5rem;
+        font-size: 2rem;
+        line-height: 4rem;
     }
 }

@@ -20,7 +20,7 @@
     font-size: 1.3vw;
     color: white;
 }
-.menu {
+.navig .menu {
     position: relative;
     float: right;
     width: 50%;
@@ -32,7 +32,7 @@
     align-items: flex-start;
 }
 
-.menu li{
+.navig .menu li{
     display: flex;
     align-items: flex-start;
     list-style: none;
@@ -41,12 +41,12 @@
     margin-right: 15px;
     transition: all 0.5s;
 }
-.menu li:hover {
+.navig .menu li:hover {
     color: #5f5682 !important;
     text-shadow: 2px 2px 3px white;
 }
 
-.menu li a, .menu li button {
+.navig .menu li a, .navig .menu li button {
     color: #fff;
     text-decoration: none;
     border: none;
@@ -54,7 +54,7 @@
     font-size: 1rem;
 }
 
-.menu li button {
+.navig .menu li button {
     padding: 0.2rem 0;
 }
 
@@ -88,7 +88,7 @@
         padding-top: 0 !important;
     }
 
-    .menu {
+    .navig .menu {
         flex-direction: column;
         align-items: center;
         visibility: hidden;
@@ -98,12 +98,13 @@
         left: 100%;
         position: fixed;
         margin: 0;
+        padding: 0;
         opacity: 1;
         transition: all 0.5s ease-in-out;
         z-index: 1;
     }
 
-    .menu.active {
+    .navig .menu.active {
         visibility: visible;
         background: #753399;
         left: 0;
@@ -111,10 +112,10 @@
         z-index: 10;
     }
 
-    .menu li {
+    .navig .menu li {
         margin-top: 3rem;
     }
-    .menu li a, .menu li button {
+    .navig .menu li a, .navig .menu li button {
         font-size: 2rem;
     }
 }
@@ -132,7 +133,7 @@
         top: 3rem;
         right: 1rem;
     }
-    .menu li {
+    .navig .menu li {
         margin: 2rem 0;
     }
 }

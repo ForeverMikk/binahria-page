@@ -1,5 +1,5 @@
 import React from 'react';
-import AnimatedCursor from 'react-animated-cursor';
+// import AnimatedCursor from 'react-animated-cursor';
 
 import './index.css'
 import BackToTop from './components/BackToTop/BackToTop';
