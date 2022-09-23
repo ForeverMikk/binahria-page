@@ -177,21 +177,24 @@
 
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     
     /* Conocenmos Text */
     #con-text{
         height: 100vh;
     }
     #con-text p {
-        padding-top: 15vw;
-        width: 65%;
-        left: 20vw;
+        position: relative;
+        padding: 3rem 0;
+        margin: 0;
+        width: 70%;
+        /* left: 20vw; */
         font-size: 1.1rem;
     }
     #con-text img {
         width: 100vw;
-        padding-top: 50vw;
+        height: auto;
+        padding-top: 0;
     }
 
 
@@ -200,15 +203,15 @@
         height: 85vh;
     }
     #conocenos #white-text p {
-        width: 80%;
-        font-size: 1.2rem;
-        padding-top: 20vw;
-        padding-left: 20vw;
+        width: 70%;
+        font-size: 1.1rem;
+        padding-top: 10vw;
+        padding-left: 15vw;
         margin-bottom: 5rem;
 
     }
     #conocenos #white-text a{  
-        padding-left: 20vw;
+        padding-left: 15vw;
         font-size: 1.2rem;
     }
 
@@ -245,5 +248,19 @@
         padding-left: 10vw;
         font-size: 2.2rem;
         width: auto;
+    }
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    #con-purp p {
+        font-size: 2rem;
+        width: 80%;
+    }
+    
+    #white-2 {
+        height: 50vh;
     }
 }
