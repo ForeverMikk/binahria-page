@@ -1,10 +1,11 @@
 /* Estilos de compromiso */
 
-#compromiso{
+#compromiso { 
     position: relative;
     height: 100vh;
     color: white;
     background-color: #753399;
+    z-index: 1;
 }
 #compromiso .top{
     padding-top: 5vw;

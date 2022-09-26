@@ -49,6 +49,7 @@
 
 * {
   scroll-behavior: smooth !important;
+  cursor: none;
 }
 
 html {

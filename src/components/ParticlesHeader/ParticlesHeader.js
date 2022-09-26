@@ -120,7 +120,7 @@ class ParticlesHeader extends Component {
                               font: "Verdana",
                               style: "",
                               value: "*",
-                              weight: "400"
+                              weight: "200"
                             },
                             image: {
                                 height: 100,
@@ -136,10 +136,10 @@ class ParticlesHeader extends Component {
                             anim: { 
                                 enable: false, 
                                 size_min: 0.1, 
-                                speed: 40, 
+                                speed: 10, 
                                 sync: false },      
                                 random: true,
-                                value: 10
+                                value: 7
                         },
                     },
                     polygon: {

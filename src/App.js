@@ -4,6 +4,7 @@ import React from 'react';
 import './index.css'
 import BackToTop from './components/BackToTop/BackToTop';
 import Router from "./views/Router/Router"
+import CursorAnimated from './components/CursorAnimated/CursorAnimated';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <CursorAnimated />
       {/* <AnimatedCursor
         innerSize={15}
         outerSize={15}
