@@ -64,17 +64,22 @@
 
 
 @media screen and (max-width: 1024px) {
+    #catalogo-header {
+        height: auto;
+    }
+
     #catalogo-header .top {
-        margin-top: 40%;
+        margin-top: 30%;
         font-size: 1.5rem;
     }
+
     #catalogo-header #main-text {
         font-size: 4rem;
         font-weight: 600;
         width: 85vw;
     }
     #catalogo-header #bottom-text .left{
-        padding-top: 10rem;
+        padding-top: 7rem;
         font-size: 1.5rem;
         width: auto;
     }

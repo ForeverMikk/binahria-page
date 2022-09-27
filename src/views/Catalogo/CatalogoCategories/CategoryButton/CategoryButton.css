@@ -1,16 +1,34 @@
 .category-button {
-    height: 12rem;
-    width: 17rem;
+    height: 15rem;
+    width: 20rem;
     background-size: cover;
     border: none;
     transition: all 0.3s ease-in-out;
+
 }
 
 .category-button h1 {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .category-button:hover {
     transform: translateY(5px);
+}
+
+.dropdown-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.dropdown-container button {
+    background: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
 }

@@ -1,0 +1,54 @@
+
+.catalog-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.catalog-bottom .links {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.catalog-bottom .arrow::before {
+    color: grey;
+    line-height: 46px;
+    padding: 0 0 6px;
+    background: var(--third-color);
+}
+.catalog-bottom .arrow {
+    width: 20rem;
+    text-transform: uppercase;
+    text-align: left;
+
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-align: start;
+    text-decoration: none;
+    color: grey;
+    line-height: 46px;
+    padding: 0 0 6px;
+    transition: left 0.8s ease-in;
+  }
+  
+  .catalog-bottom .arrow:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: var(--fourth-color);
+    transition: left .8s ease-in;
+  }
+  
+  .catalog-bottom .arrow:hover:after {
+    left: 0;
+    color: var(--fourth-color);
+  }
+  .catalog-bottom .arrow:hover {
+    color: var(--fourth-color);
+  }

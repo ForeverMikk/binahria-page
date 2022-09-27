@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './CatalogoCategories.css';
 import img1 from '../../../assets/images/category-img.png';
@@ -18,44 +17,21 @@ const options = [
     { value: 'category-5', label: 'Categoria 5', description: "este texto es de prueba", img: img1},
 ]
 
-// const scrollToElement = (id) => {
-//     const scrolledElement = document.getElementById(id);
-
-//     console.log('onchange')
-//     scrolledElement.scrollIntoView();
-// }
-
 const CatalogoCategories = () => {
     return (
         <div className='catalog-categories'>
             {/* <h1>Categories</h1> */}
             <div className="categories">
-                <CategoryButton title='Categoría Político Electoral' background={bg1}/>
-                <CategoryButton title='Categoría Gubernamental' background={bg2}/>
-                <CategoryButton title='Categoría Corporativa' background={bg3}/>
+                {/* <Select options={options} /> */}
+
+                <CategoryButton title='Categoría Político Electoral' background={bg1} options={options}/>
+                <CategoryButton title='Categoría Gubernamental' background={bg2} options={options}/>
+                <CategoryButton title='Categoría Corporativa' background={bg3} options={options}/>
             </div>
 
             <CategoryCarousel title="Político Electoral" categories={options} id={1} background='#000'/>
             <CategoryCarousel title="Político Gubernamental" categories={options} id={2} background='#9147FB' />
             <CategoryCarousel title="Político Corporativo" categories={options} id={3} background='#E8E8E8' />
-
-            <div className="down-menu">
-                <h1 className='question'>
-                    ¿Tienes alguna duda? 
-                    <br />
-                    <span> Contáctate para más detalles</span>
-                </h1>
-
-                <div className="links">    
-                    <Link to='/contact'>
-                        <h3 className='arrow'>Contactanos</h3>
-                    </Link>
-                    
-                    <Link to='/contact'>
-                        <h3 className='arrow'>Agenda una reunión</h3>
-                    </Link>
-                </div>
-            </div>
         </div>
     )
 }
