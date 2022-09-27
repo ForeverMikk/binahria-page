@@ -1,17 +1,43 @@
 .contact-header {
-    height: 100vh;
-    background: url("../../../assets/images/conocenos/Fondo.jpg") center no-repeat fixed;
+    height: auto;
+    background: url("../../../assets/images/contacto-bg.jpg") center no-repeat fixed;
     background-size: cover;
     color: white;
 }
 
+.contact-header .top{
+    padding-top: 7vw;
+    padding-left: 10vw;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
 .contact-header .title {
     font-family: "Florence";
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-left: 10vw;
     width: 60vw;
     font-size: 4.3vw;
     font-weight: 300;
+    line-height: 1rem;
     text-transform: uppercase;
-    color: #CDFB4F;
+    color: #FFF;
+}
+
+.contact-header .subtitle {
+    font-family: 'Florence Outline', sans-serif;
+    font-size: 6.5vw;
+}
+
+.contact-header .bottom-text {
+    display: flex;
+}
+
+.contact-header .bottom-text p, .contact-header .bottom-text .buttons {
+    width: 50%;
+    padding: 1rem 5rem;
+}
+
+.contact-header .bottom-text p {
+    
 }

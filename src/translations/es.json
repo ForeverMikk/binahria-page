@@ -217,6 +217,8 @@
         "scrollButton" : "Conoce más sobre este Servicio"
     },
     "contact": {
-        "title": "Pónganse en contacto con nosotros"
+        "title": "Te ayudamos a",
+        "subtitle": "Crecer",
+        "top": "Contacto"
     }
 }
