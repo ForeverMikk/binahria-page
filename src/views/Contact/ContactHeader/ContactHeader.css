@@ -32,8 +32,12 @@
 .contact-header .bottom-text {
     display: flex;
     padding-bottom: 2rem;
+    /* margin-top: 2rem; */
 }
 
+.contact-header .bottom-text p {
+    margin-top: 2rem;
+}
 .contact-header .bottom-text p, .contact-header .bottom-text .buttons {
     width: 50%;
     padding: 1rem 5rem;

@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
-import { InlineWidget } from 'react-calendly'
+// import { InlineWidget } from 'react-calendly'
 
 import './Contact.css';
+import ContactBottom from './ContactBottom/ContactBottom';
+import ContactForm from './ContactForm/ContactForm';
 import ContactHeader from './ContactHeader/ContactHeader';
 
 const Contact = () => {
@@ -19,23 +21,8 @@ const Contact = () => {
     return (
         <>
             <ContactHeader />
-            <section className='contact' >
-                <form action="">
-                    <input type="text" name="nombre" id="nombre" placeholder='Nombre' />
-                    <input type="email" name="correo" id="correo" placeholder='Correo electrónico' />
-                    <input type="tel" name="telefono" id="telefono" placeholder='Telefóno' />
-                    <input type="text" name="empresa" id="empresa" placeholder='Empresa' />
-                    <input type="text" name="estado" id="estado" placeholder='Estado' />
-                    <input type="text" name="descripcion" id="descripcion" placeholder='Motivos de Contacto' />
-                    <button>Enviar</button>
-                </form>
-
-                <div className="calendly">
-                    <h2>Agenda una reunión</h2>
-                    <InlineWidget url='https://calendly.com/binahria-analytics' />
-                </div>
-
-            </section>
+            <ContactForm />
+            <ContactBottom />
         </>
     )
 }
