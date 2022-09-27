@@ -42,8 +42,9 @@
     transition: all 0.5s;
 }
 .navig .menu li:hover {
-    color: #5f5682 !important;
+    color: #5f5682 ;
     text-shadow: 2px 2px 3px white;
+    /* cursor: pointer; */
 }
 
 .navig .menu li a, .navig .menu li button {
@@ -89,6 +90,7 @@
     }
 
     .navig .menu {
+        cursor: default;
         flex-direction: column;
         align-items: center;
         visibility: hidden;
@@ -115,8 +117,13 @@
     .navig .menu li {
         margin-top: 3rem;
     }
-    .navig .menu li a, .navig .menu li button {
+    .navig .menu li a, 
+    .navig .menu li button {
         font-size: 2rem;
+    }
+    .navig .menu li a:hover, 
+    .navig .menu li button:hover {
+        cursor: pointer;
     }
 }
 

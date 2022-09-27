@@ -78,6 +78,10 @@
         font-size: 1.5rem;
         width: auto;
     }
+    
+    #catalogo-header .navig .nav-button svg{
+        color: #000;
+    }
 }
 
 
