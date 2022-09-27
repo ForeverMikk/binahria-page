@@ -31,6 +31,7 @@
 
 .contact-header .bottom-text {
     display: flex;
+    padding-bottom: 2rem;
 }
 
 .contact-header .bottom-text p, .contact-header .bottom-text .buttons {
@@ -38,6 +39,22 @@
     padding: 1rem 5rem;
 }
 
-.contact-header .bottom-text p {
-    
+.contact-header .bottom-text .contact-button,
+.contact-header .bottom-text .meet-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    width: auto;
+}
+
+.contact-header .bottom-text .contact-button p,
+.contact-header .bottom-text .meet-button p {
+    width: auto;
+    padding: 0.5rem 1rem;
+}
+
+.contact-header .bottom-text span {
+    color: var(--second-color);
 }
