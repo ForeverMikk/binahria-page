@@ -1,0 +1,30 @@
+.contact-bottom {
+    padding: 5rem;
+    background: #000;
+    color: #fff;
+}
+
+.contact-bottom .main {
+    display: flex;
+}
+.contact-bottom .main .text,
+.contact-bottom .main .video {
+    width: 50%;
+}
+
+.contact-bottom .main .text h3 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.contact-bottom .main .text button {
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: var(--second-color);
+    margin-bottom: 5rem;
+}
+
+
+
