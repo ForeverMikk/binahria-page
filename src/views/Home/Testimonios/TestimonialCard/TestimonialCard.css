@@ -1,0 +1,26 @@
+.testimonial-card {
+    width: 60%;
+    background: var(--fourth-color);
+    color: #fff;
+    padding: 3rem;
+    align-self: center;
+}
+
+.testimonial-card img {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+
+.testimonial-card span {
+    color: var(--second-color);
+}
+
+.testimonial-card h2 {
+    color: var(--first-color);
+}
+
+.testimonial .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+}

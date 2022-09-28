@@ -2,8 +2,8 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 // import Select from 'react-select';
 
-import './CategoryButton.css';
-const CategoryButton = ({title,  background, options}) => {
+import './CategoryDropdown.css';
+const CategoryDropdown = ({title,  background, options}) => {
     return (
         <Popup 
             trigger={
@@ -29,4 +29,4 @@ const CategoryButton = ({title,  background, options}) => {
     )
 }
 
-export default CategoryButton;
+export default CategoryDropdown;

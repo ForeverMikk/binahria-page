@@ -2,12 +2,17 @@
 
 #testimonios .white-space{
     height: 25vw;
+    /* background: var(--third-color); */
 }
 #testimonios {
     height: 100vh;
     text-align: center;
     color: #753399;
     margin-bottom: 20rem;
+    padding-top: 15rem;
+    display: flex;
+    justify-content: center;
+    background: var(--third-color);
 }
 #testimonios img{
     width: 8vw;
@@ -32,6 +37,15 @@
     padding: 0 20rem;
 }
 
+#testimonios .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#testimonios .swiper-button-prev,
+#testimonios .swiper-button-next {
+    color: var(--first-color);
+}
 
 /* Forma Parte de Nuestro Equipo */
  

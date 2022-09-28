@@ -3,11 +3,15 @@ import Carousel from "react-multi-carousel"
 import 'react-multi-carousel/lib/styles.css'
 import { useTranslation } from "react-i18next"
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
 import './Testimonios.css'
 import abi from "../../../assets/images/home/abi.jpeg"
 import jona from "../../../assets/images/home/jon.jpg"
 import tania from "../../../assets/images/home/tania-meza.jpg"
 import woman from "../../../assets/images/home/woman.png"
+import TestimonialCard from "./TestimonialCard/TestimonialCard"
 
 
 const Testimonios = () => {
@@ -37,22 +41,24 @@ const Testimonios = () => {
             <section id="testimonios">
                 <div className="white-space dragging"></div>
 
-                <Carousel
-                    swipeable={true}
-                    draggable={true}
-                    showDots={false}
-                    responsive={responsive}
-                    infinite={true}
-                    // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-                    autoPlaySpeed={5000}
-                    keyBoardControl={true}
-                    transitionDuration={5000}
-                    containerClass="carousel-container"
-                    removeArrowOnDeviceType={["tablet", "mobile"]}
-                    dotListClass="custom-dot-list-style"
-                    itemClass="carousel-item-padding-40-px"
-                >
-                    <div className="car-card">
+                <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                navigation
+                spaceBetween={50}
+                slidesPerView={1}
+            >
+                <SwiperSlide>
+                    <TestimonialCard id='1' img={tania} title='Taniza Meza' description={t('home.testimonios.cardOne.text')} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <TestimonialCard id='1' img={tania} title='Taniza Meza' description={t('home.testimonios.cardOne.text')} />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <TestimonialCard id='1' img={tania} title='Taniza Meza' description={t('home.testimonios.cardOne.text')} />
+                </SwiperSlide>
+                    
+
+                    {/* <div className="car-card">
                         <img src={woman} alt={`Foto de ${t('home.testimonios.cardOne.name')}`}></img>
                         <div className="card-text">
                             <div className="card-id">
@@ -115,10 +121,10 @@ const Testimonios = () => {
                                 <p>{t('home.testimonios.cardFive.text')}</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
-                </Carousel>
+                </Swiper>
             </section>
 
             <section id="team-form">

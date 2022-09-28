@@ -7,7 +7,7 @@ import bg2 from '../../../assets/images/category-2.png';
 import bg3 from '../../../assets/images/category-3.png';
 
 import CategoryCarousel from './CategoryCarousel/CategoryCarousel';
-import CategoryButton from './CategoryButton/CategoryButton';
+import CategoryDropdown from './CategoryDropdown/CategoryDropdown';
 
 const options = [
     { value: 'category-1', label: 'Categoria 1', description: "este texto es de prueba", img: img1},
@@ -24,9 +24,9 @@ const CatalogoCategories = () => {
             <div className="categories">
                 {/* <Select options={options} /> */}
 
-                <CategoryButton title='Categoría Político Electoral' background={bg1} options={options}/>
-                <CategoryButton title='Categoría Gubernamental' background={bg2} options={options}/>
-                <CategoryButton title='Categoría Corporativa' background={bg3} options={options}/>
+                <CategoryDropdown title='Categoría Político Electoral' background={bg1} options={options}/>
+                <CategoryDropdown title='Categoría Gubernamental' background={bg2} options={options}/>
+                <CategoryDropdown title='Categoría Corporativa' background={bg3} options={options}/>
             </div>
 
             <CategoryCarousel title="Político Electoral" categories={options} id={1} background='#000'/>
