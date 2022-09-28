@@ -7,29 +7,29 @@ import ContactField from './ContactField/ContactField';
 const ContactBottom = () => {
     
     useEffect(() => {
-        // let framenumber = 0;
-        let playbackConst = 500;
-        // let videoHeight = document.getElementById("video");
-        let vid = document.getElementById("v0");
+        let height = document.getElementById('contact-bottom');
+        let video = document.getElementById('v0')
 
-        // vid.addEventListener('loadedmetadata', () => {
-            // videoHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
-            // console.log(videoHeight.style.height);
-        // });
+        const registerVideo = (height, video) => {
+            const scrollVideo = () => {
+                if (video.duration) {
+                    const distanceFromTop = window.scrollY + height.getBoundingClientRect().top;
+                    const rawPercentScrolled = (window.scrollY - distanceFromTop) / (height.scrollHeight - window.innerHeight);
+                    const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
 
-        function scrollPlay() {
-            let frameNumber = (window.pageYOffset)/playbackConst;
-            vid.currentTime = frameNumber;
-            window.requestAnimationFrame(scrollPlay);
+                    video.currentTime = video.duration * percentScrolled;
+                }
+                window.requestAnimationFrame(scrollVideo);
+            }
+            window.requestAnimationFrame(scrollVideo);
         }
 
-        window.requestAnimationFrame(scrollPlay);
-
+        registerVideo(height, video);
     }, [])
     
     
     return (
-        <section className="contact-bottom">
+        <section className="contact-bottom" id='contact-bottom'>
             
             <div className="main">
                 <div className="text">
