@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './CatalogoBottom.css';
+
 const CatalogoBottom = () => {
     return (
         <div className="catalog-bottom">
@@ -11,12 +13,12 @@ const CatalogoBottom = () => {
             </h1>
 
             <div className="links">    
-                <Link to='/contact' className=''>
+                <Link to='/contact' className='contact-button'>
                     <h3 className='arrow'>Contactanos</h3>
                     <span>+ info</span>
                 </Link>
                 
-                <Link to='/contact'>
+                <Link to='/contact' className='calendly-button'>
                     <h3 className='arrow'>Agenda una reunión</h3>
                     <span>+ info</span>
                 </Link>
