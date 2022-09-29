@@ -24,13 +24,7 @@ class Home extends Component{
                 <Compania />
                 <Compromiso />
                 <Testimonios />
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                
             </section>
         )
     }

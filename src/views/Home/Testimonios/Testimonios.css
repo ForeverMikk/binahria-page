@@ -2,44 +2,25 @@
 
 #testimonios .white-space{
     height: 25vw;
-    /* background: var(--third-color); */
-}
-#testimonios {
-    height: 100vh;
-    text-align: center;
-    color: var(--first-color);
-    margin-bottom: 20rem;
-    padding-top: 15rem;
-    display: flex;
-    justify-content: center;
     background: var(--third-color);
 }
-#testimonios img{
-    width: 8vw;
-    height: 8vw;
-    border-radius: 50%;
-}
-#testimonios .card-id{
-    position: absolute;
-    left: 34vw;
-    top: 1.8vw;
-    font-size: 2vw;
-}
-#testimonios .card-main h1{
-    margin: 2rem 0;
-    font-size: 3vw;
-    font-weight: 100;
-}
-#testimonios .card-main p{
-    margin-top: 1rem;
-    font-size: 1.5vw;
-    font-weight: 300;
-    padding: 0 20rem;
+#testimonios {
+    /* height: 100vh; */
+    width: 100%;
+    text-align: right;
+    color: var(--first-color);
+    /* margin-bottom: 20rem; */
+    padding-bottom: 5rem;
+    /* 
+    /* display: flex;
+    justify-content: center; */
+    background: var(--third-color);
 }
 
 #testimonios .swiper-slide {
-    display: flex !important;
-    justify-content: center !important;
+    /* width: 30rem; */
+    display: flex ;
+    justify-content: center ;
 }
 
 #testimonios .swiper-button-prev,
@@ -50,9 +31,11 @@
 /* Forma Parte de Nuestro Equipo */
  
 #team-form{
+    background: var(--third-color);
     color: var(--first-color);
     text-align: center;
     height: 8vw;
+    padding-bottom: 5rem;
 }
 #team-form h1{
     font-size: 1.4vw;
@@ -76,18 +59,6 @@
         height: auto;
         margin-bottom: 15rem;
     }
-    #testimonios .card-id {
-        font-size: 2rem;
-        left: 20vw;
-    }
-    #testimonios .card-main h1 {
-        font-size: 2.2rem;
-        font-weight: 600;
-    }
-    #testimonios .card-main p {
-        padding: 0 7rem;
-        font-size: 1.5rem;
-    }
 
     #team-form h1{
         font-size: 1rem;
@@ -105,29 +76,11 @@
         height: 50vh;
         margin-bottom: 15rem;
     }
-    #testimonios .card-id {
-        font-size: 1.2rem;
-        left: 20vw;
-    }
+    
     #testimonios img {
         height: 5rem;
         width: 5rem;
     }
-    #testimonios .card-main h1 {
-        font-size: 2.2rem;
-        font-weight: 600;
-        /* color: #CDFB4F; */
-    }
-    #testimonios .card-main h2 {
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-    }
-    
-    #testimonios .card-main p {
-        padding: 0 0.7rem;
-        font-size: 1rem;
-    }
-
 
     #team-form h1{
         font-size: 1rem;

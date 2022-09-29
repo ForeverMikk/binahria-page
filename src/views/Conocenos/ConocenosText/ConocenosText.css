@@ -2,7 +2,7 @@
 
 /* Conocenmos Text */
 #con-text{
-    background-color: #211942;
+    background-color: var(--fourth-color);
     color: white;
     text-align: left;
     height: 45vw;
@@ -23,7 +23,7 @@
 
 /* White Text */
 #conocenos #white-text{
-    color: #753399;
+    color: var(--first-color);
     background-color: white;
     height: 60vw;
 }
@@ -36,7 +36,7 @@
     margin-bottom: 5vw;
 }
 #conocenos #white-text a{
-    color:#753399;
+    color:var(--first-color);
     padding-left: 33vw;
     font-size: 1.3vw;
     text-transform: uppercase;
@@ -50,7 +50,7 @@
 
 /* Purple Text */
 #con-purp {
-    background-color: #753399;
+    background-color: var(--first-color);
     color: white;
     height: 100vh;
     position: relative;
@@ -86,7 +86,7 @@
 /* White Text 2 */
 #white-2{
     background-color: white;
-    color: #753399;
+    color: var(--first-color);
     /* height: 20vw; */
 }
 #white-2 .top{

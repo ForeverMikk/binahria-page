@@ -1,5 +1,5 @@
 .testimonial-card {
-    width: 60%;
+    width: 40rem;
     background: var(--fourth-color);
     color: #fff;
     padding: 3rem;
@@ -14,6 +14,7 @@
 
 .testimonial-card span {
     color: var(--second-color);
+    margin: 0 1rem;
 }
 
 .testimonial-card h2 {
