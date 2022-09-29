@@ -54,12 +54,13 @@
         width: auto;
     }
 }
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 768px) {
     #conocenos-header .top {
         font-size: 1.1rem;
     }
     #conocenos-header #main-text {
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 600;
     }
     #conocenos-header #bottom-text .left{
