@@ -46,7 +46,7 @@
 @media screen and (max-width: 1024px) {
     #compromiso {
         height: 80vh;
-        margin-bottom: 5rem;
+        padding-bottom: 5rem;
     }
 
     #compromiso .top, #compromiso .bot {
@@ -74,7 +74,6 @@
 @media screen and (max-width: 850px) {
     #compromiso {
         height: 100vh;
-        margin-bottom: 5rem;
     }
 }
 
@@ -86,7 +85,6 @@
     /****** COMPROMISO  ******/
     #compromiso {
         height: 80vh;
-        margin-bottom: 5rem;
     }
     #compromiso .top, #compromiso .bot {
         padding-left: 5.5vw;

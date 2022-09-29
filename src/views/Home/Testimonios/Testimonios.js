@@ -71,7 +71,6 @@ const Testimonios = () => {
             </section>
 
             <section id="team-form">
-                <br />
                 <div>
                     <h1>{t('home.teamForm.title')}</h1>
                     <a href="https://binahria.typeform.com/to/UbhFpYxW">{t('home.teamForm.button')}</a>
