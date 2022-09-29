@@ -38,7 +38,8 @@
 .contact-header .bottom-text p {
     margin-top: 2rem;
 }
-.contact-header .bottom-text p, .contact-header .bottom-text .buttons {
+.contact-header .bottom-text p, 
+.contact-header .bottom-text .buttons {
     width: 50%;
     padding: 1rem 5rem;
 }
@@ -61,4 +62,48 @@
 
 .contact-header .bottom-text span {
     color: var(--second-color);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contact-header .top {
+        padding-top: 15rem;
+        padding-left: 7vw;
+    }
+
+    .contact-header .title {
+        padding-left: 7vw;
+    }
+
+    .contact-header .bottom-text p, 
+    .contact-header .bottom-text .buttons {
+        padding: 1rem 3.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 640px) {
+    
+    .contact-header .title {
+        width: auto;
+        font-size: 3rem;
+        line-height: normal;
+    }
+    .contact-header .subtitle {
+        font-size: 3.5rem;
+        line-height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .contact-header .bottom-text {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .contact-header .bottom-text p, 
+    .contact-header .bottom-text .buttons {
+        width: auto;
+        padding: 1rem 8vw;
+    }
 }

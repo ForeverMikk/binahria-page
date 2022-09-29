@@ -57,3 +57,38 @@
     padding-right: 1rem;
     width: 50%;
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .contact-bottom {
+        padding: 3.5rem;
+    }
+    
+    .contact-bottom .main .text h3 {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .contact-bottom .main {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    .contact-bottom .main .text,
+    .contact-bottom .main .video {
+        width: 100%;
+    }
+    .contact-bottom .social-media {
+        flex-direction: column;
+    }
+    .contact-bottom .social {
+        width: 100%;
+    }
+    .contact-bottom .container {
+        padding: 0;
+        width: 100%;
+    }
+}

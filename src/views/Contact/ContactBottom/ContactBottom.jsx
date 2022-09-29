@@ -23,10 +23,8 @@ const ContactBottom = () => {
             }
             window.requestAnimationFrame(scrollVideo);
         }
-
         registerVideo(height, video);
     }, [])
-    
     
     return (
         <section className="contact-bottom" id='contact-bottom'>
