@@ -4,7 +4,7 @@
     position: relative;
     height: 100vh;
     color: white;
-    background-color: #753399;
+    background-color: var(--first-color);
     z-index: 1;
 }
 #compromiso .top{

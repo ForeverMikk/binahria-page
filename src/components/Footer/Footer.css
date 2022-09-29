@@ -6,6 +6,7 @@
     background-size: 100% 100%;
     color: white;
     height: 100vh;
+    z-index: 0;
 }
 
 #footer .correo {
@@ -71,7 +72,7 @@
     font-size: 1.4vw;
 }
 #footer .right li a:hover{
-    color: #5f5682 !important;
+    color: var(--third-color) !important;
     text-shadow: 2px 2px 3px white;
 }
 

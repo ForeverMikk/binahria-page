@@ -20,7 +20,7 @@
     width: 30vw;
 }
 #carousel .car-card {
-    color: #753399;
+    color: var(--first-color);
 }
 #carousel .car-card .card-id {
     position: absolute;

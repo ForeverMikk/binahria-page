@@ -3,7 +3,7 @@
 #competencia{
     background-color: white;
     position: relative;
-    color: #753399;
+    color: var(--first-color);
     padding-top: 5vw;
     height: 30vw;
     margin-bottom: 5rem;

@@ -108,7 +108,7 @@
 
     .navig .menu.active {
         visibility: visible;
-        background: #753399;
+        background: var(--first-color);
         left: 0;
         opacity: 1;
         z-index: 10;
