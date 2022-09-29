@@ -67,17 +67,21 @@
     #catalogo-header {
         height: auto;
     }
-
     #catalogo-header .top {
         margin-top: 30%;
         font-size: 1.5rem;
     }
 
     #catalogo-header #main-text {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 600;
         width: 85vw;
     }
+
+    #catalogo-header #main-text span {
+        font-size: 5rem;
+    }
+
     #catalogo-header #bottom-text .left{
         padding-top: 7rem;
         font-size: 1.5rem;
@@ -92,7 +96,7 @@
 
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     #catalogo-header .top {
         margin-top: 40%;
         font-size: 1.1rem;
@@ -106,5 +110,16 @@
         padding-top: 10rem;
         font-size: 1.1rem;
         width: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    #catalogo-header #main-text {
+        font-size: 2rem;
+    }
+    #catalogo-header #main-text span {
+        font-size: 3rem;
     }
 }

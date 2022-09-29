@@ -49,15 +49,15 @@ const ContactBottom = () => {
                 
                 <div className="social main">
                     <h3 className="title">CONTACTO</h3>
-                    <ContactField title='Dirección' description='C. 20 de noviembre, Santiago Tlapacoya, Pachuca, Hgo' />
                     <ContactField title='Correo electrónico' description='Ventas, solicitudes y ofertas binahria.analytics@gmail.com' />
+                    <ContactField title='Videollamadas' description='calendly/binahria' />
                 </div>
 
                 <div className="social second">
                     <div className="container uno">
                         <h3 className="title">LLAMADAS</h3>
                         <ContactField title='Teléfono' description='(+52) 55 2568 0859' />
-                        <ContactField title='Videollamadas' description='calendly/binahria' />
+                        <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
                     </div>
 
                     <div className="container dos">

@@ -28,7 +28,7 @@ const ContactHeader = () => {
                 <div className="buttons">
 
                     <div className="contact-button">
-                        <p>Ver formulario de contacto</p>
+                        <p>Contactanos por WhattsApp</p>
                         <span>+ Info</span>
                     </div>
 

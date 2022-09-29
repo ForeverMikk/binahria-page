@@ -71,3 +71,10 @@
     cursor: pointer;
     transform: translateX(7px);
 }
+
+
+@media screen and (max-width: 640px) {
+    .cat-card {
+        margin: 0;
+    }
+}

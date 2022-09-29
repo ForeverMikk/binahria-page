@@ -7,7 +7,7 @@ const CategoryDropdown = ({title,  background, options}) => {
     return (
         <Popup 
             trigger={
-                <button className='category-button' style={{backgroundImage: `url(${background})`}}>
+                <button className='category-dropdown' style={{backgroundImage: `url(${background})`}}>
                     <h1>{title}</h1>
                 </button>
             } 

@@ -31,3 +31,10 @@
     padding: 0.75rem 1rem;
     border-radius: 0.5rem;
 } */
+
+
+@media screen and (max-width: 640px) {
+    .catalog-categories .categories {
+        flex-direction: column;
+    }
+}
