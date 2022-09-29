@@ -20,7 +20,3 @@
     color: var(--first-color);
 }
 
-.testimonial .swiper-slide {
-    display: flex !important;
-    justify-content: center !important;
-}
