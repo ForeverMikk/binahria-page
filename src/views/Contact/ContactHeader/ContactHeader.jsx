@@ -28,7 +28,9 @@ const ContactHeader = () => {
                 <div className="buttons">
 
                     <div className="contact-button">
-                        <p>Contactanos por WhattsApp</p>
+                        <a href='https://wa.me/5526680859/?text=Comunicate%20con%20nosotros' target='_blank' rel="noreferrer">
+                            Contactanos por WhattsApp
+                        </a>
                         <span>+ Info</span>
                     </div>
 

@@ -55,7 +55,9 @@ const ContactBottom = () => {
                     <div className="container uno">
                         <h3 className="title">LLAMADAS</h3>
                         <ContactField title='Teléfono' description='(+52) 55 2568 0859' />
-                        <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
+                        <a href='https://wa.me/5526680859/?text=Comunicate%20con%20nosotros' target='_blank' rel="noreferrer" style={{color: '#fff'}}>
+                            <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
+                        </a>
                     </div>
 
                     <div className="container dos">

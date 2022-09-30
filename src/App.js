@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <CursorAnimated />
+      {/* <CursorAnimated /> */}
       {/* <AnimatedCursor
         innerSize={15}
         outerSize={15}

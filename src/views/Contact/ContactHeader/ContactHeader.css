@@ -55,11 +55,16 @@
 }
 
 .contact-header .bottom-text .contact-button p,
+.contact-header .bottom-text .contact-button a,
 .contact-header .bottom-text .meet-button p {
     width: auto;
     padding: 0.5rem 1rem;
+    color: #FFF;
 }
 
+.contact-header .bottom-text .contact-button a{
+    padding: 1.5rem 1rem;
+}
 .contact-header .bottom-text span {
     color: var(--second-color);
 }

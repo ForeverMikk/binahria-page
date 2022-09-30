@@ -4,28 +4,80 @@
 
 .product-header {
     background: url("../../../assets/images/code.jpg") center no-repeat fixed;
+    /* background-color: var(--fourth-color); */
     background-blend-mode: screen;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 70vh;
+    height: 90vh;
 }
 .product-header::before {
     background-color: rgba(0,0,125,0.25);
 }
 
-.product-view .header {
+
+
+/*********** TITULO ***********/
+.product-view .title {
     margin: 3rem 5rem;
+    margin-top: -15rem;
+    padding: 2rem;
+    background: rgb(232,232,232);
+    background: linear-gradient(0deg, rgba(232,232,232,1) 0%, rgba(255,255,255,1) 100%);
 }
 
-.product-view .header p {
+.product-view .title p,
+.product-view .title h2 {
     width: 50%;
 }
 
+.product-view .title span {
+    font-weight: 700;
+}
+
+.product-view .title h2 {
+    font-size: 3rem;
+    font-family: 'Manrope';
+    font-weight: 400;
+    padding: 3rem 5rem 0;
+}
+.product-view .title button {
+    border: none;
+    background: none;
+    font-size: 1rem;
+    color: var(--first-color);
+    padding-left: 5rem;
+}
+
+
+
+/*********** FACIL ***********/
+.product-view .easy {
+    background: rgb(232,232,232);
+    background: linear-gradient(0deg, rgba(232,232,232,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.product-view .easy img{
+    height: auto;
+    width: 70%;
+    object-fit: contain;
+}
+
+.product-view .easy .text{
+    padding: 3rem 3rem 3rem 13rem;
+}
+
+.product-view .easy .text p {
+    width: 40%;
+}
+
+
+/*********** COMO FUNCIONA ***********/
 .product-view .how-works {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding: 3rem 5rem;
 }
 
 .product-view .how-works div {
@@ -37,46 +89,43 @@
 
 .product-view .how-works p {
     width: 40%;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     text-align: right;
 }
 
-.product-view .video {
+.product-view .how-works img{ 
+    margin-top: 3rem;
+    width: 100%;
+}
+
+/* .product-view .video {
     width: 100%;
     height: 75vh;
     margin: 3rem 0;
+} */
+
+
+
+/*********** VENTAJAS ***********/
+.adventages {
+    padding: 5rem;
+    color: #fff;
+    background: var(--fourth-color);
 }
 
-.product-view .adventages {
+.adventages h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.adventages .container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
-.product-view .adventages img, .product-view .adventages .text {
-    width: 50%;
-    padding: 2rem;
-}
-
-.product-view .adventages img{
-    height: 30rem;
-    object-fit: contain;
-}
-
-.product-view .add-value, .product-view .add-title {
-    margin: 3rem 5rem;
-    display: flex;
-}
-
-.product-view .add-value .valor {
-    width: 15rem;
-    /* padding: 0 2rem; */
-    margin-right: 3rem;
-}
-
-.product-view .add-value img {
-    height: 20rem;
-    width: auto;
-    object-fit: contain;
-}
 
 
 @media screen and (max-width: 1024px) {
