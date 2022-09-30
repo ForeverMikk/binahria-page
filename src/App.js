@@ -4,7 +4,7 @@ import React from 'react';
 import './index.css'
 import BackToTop from './components/BackToTop/BackToTop';
 import Router from "./views/Router/Router"
-import CursorAnimated from './components/CursorAnimated/CursorAnimated';
+// import CursorAnimated from './components/CursorAnimated/CursorAnimated';
 
 
 function App() {

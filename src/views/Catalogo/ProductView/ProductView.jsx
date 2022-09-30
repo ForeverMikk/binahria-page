@@ -1,10 +1,8 @@
 import React, { useEffect } from 'react';
-import ReactPlayer from 'react-player/youtube'
+// import ReactPlayer from 'react-player/youtube'
 // import { useTranslation } from 'react-i18next';
 
 import './ProductView.css'
-// import header from '../../../assets/images/code.jpg';
-import img from '../../../assets/images/IntArtificial_Col.jpg';
 import code from "../../../assets/images/code.jpg";
 import icon from '../../../assets/images/hand-shake.png';
 import logo from '../../../assets/images/logo/logo-white.png';
