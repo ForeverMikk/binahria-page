@@ -1,32 +1,29 @@
 import React from 'react';
-import Popup from 'reactjs-popup';
+// import Popup from 'reactjs-popup';
 // import Select from 'react-select';
 
 import './CategoryDropdown.css';
+
 const CategoryDropdown = ({title,  background, options}) => {
-    
+
     return (
-        <Popup 
-            trigger={
-                <button className='category-dropdown' style={{backgroundImage: `url(${background})`}}>
-                    <h1>{title}</h1>
-                </button>
-            } 
-            position="bottom center"
-            closeOnDocumentClick
-        >
-            {
-                <div className="dropdown-container">
+        <div className="dropdown-card">
+            
+            <button className='dropdown-img' style={{backgroundImage: `url(${background})`}}>
+                <h1>{title}</h1>
+            </button> 
+
+            <div className="content">
+                <div className="dropdown-list">
                     {options && options.map(({label}, index)=> 
                         <button key={index}>
                             {label}
                         </button>
                     )}
-
                 </div>
-            }
-        </Popup>
+            </div>
 
+        </div>
     )
 }
 
