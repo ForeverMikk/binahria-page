@@ -3,10 +3,10 @@ import React, { useEffect } from 'react';
 // import { useTranslation } from 'react-i18next';
 
 import './ProductView.css'
-import code from "../../../assets/images/code.jpg";
-import icon from '../../../assets/images/hand-shake.png';
-import logo from '../../../assets/images/logo/logo-white.png';
-import Navbar from '../../../components/Navbar/Navbar';
+import code from "../../assets/images/code.jpg";
+import icon from '../../assets/images/hand-shake.png';
+import logo from '../../assets/images/logo/logo-white.png';
+import Navbar from '../../components/Navbar/Navbar';
 import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
 

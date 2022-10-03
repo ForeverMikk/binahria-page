@@ -5,7 +5,7 @@ import Home from "../Home/Home"
 import Tecnologias from "./../Tecnologias/Tecnologias"
 import Catalogo from "./../Catalogo/Catalogo"
 // import Dashboard from "./../Dashboard/Dashboard"
-import ProductView from '../Catalogo/ProductView/ProductView';
+import ProductView from '../ProductView/ProductView';
 import Contact from '../Contact/Contact'
 
 class Router extends Component{

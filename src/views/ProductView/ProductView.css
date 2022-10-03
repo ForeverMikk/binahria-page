@@ -3,7 +3,7 @@
 } */
 
 .product-header {
-    background: url("../../../assets/images/code.jpg") center no-repeat fixed;
+    background: url("../../assets/images/code.jpg") center no-repeat fixed;
     /* background-color: var(--fourth-color); */
     background-blend-mode: screen;
     background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './ProductBottom.css';
-import graphics from '../../../../assets/images/graphics.jpg';
+import graphics from '../../../assets/images/graphics.jpg';
 
 const ProductBottom = () => {
     return (

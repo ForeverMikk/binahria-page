@@ -4,6 +4,7 @@ import Popup from 'reactjs-popup';
 
 import './CategoryDropdown.css';
 const CategoryDropdown = ({title,  background, options}) => {
+    
     return (
         <Popup 
             trigger={
