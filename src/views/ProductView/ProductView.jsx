@@ -9,7 +9,7 @@ import logo from '../../assets/images/logo/logo-white.png';
 import Navbar from '../../components/Navbar/Navbar';
 import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
-
+import { corporativos } from '../../variables/products';
 
 const scrollToElement = (element) => {
     const scrolledElement = document.getElementById(element)
@@ -26,11 +26,13 @@ const ProductHeader = () => {
 }
 
 const ProductView = () => {
-    
+    const product = corporativos[0];
+    const { adventages } = product;
     // const {t} = useTranslation();
 
     useEffect(() => {
-      scrollToElement('product-view');
+        // console.log(product);
+        scrollToElement('product-view');
     }, [])
     
 
@@ -40,7 +42,7 @@ const ProductView = () => {
             <ProductHeader />
 
             <div className='title'>
-                <p className='name'> / CATÁLOGO - <span>DASHBOARDS</span></p>
+                <p className='name'> / CATÁLOGO - <span>{product.title}</span></p>
 
                 <h2>La mejor forma de ver tu información</h2>
                 <button>PROGRAMA UNA REUNIÓN &rarr;</button>
@@ -51,17 +53,14 @@ const ProductView = () => {
 
                 <div className='text'>
                     <h3>TUS DATOS MÁS FÁCIL</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
+                    <p>{product.desciption}</p>
                 </div>
             </div>
 
             <div className='how-works'>
                 <h2>¿Cómo Funciona?</h2>
                 <div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    {product.howItWorks}
                 </div>
 
                 <img src={code} alt="Imagen de Codigo" />
@@ -75,12 +74,14 @@ const ProductView = () => {
                 <h2>Ventajas de implementación</h2>
                 
                 <div className="container">
-                    <Adventage icon={icon} title='Anális en segundos' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut' />
-                    <Adventage icon={icon} title='Anális en segundos' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut' />
-                    <Adventage icon={icon} title='Anális en segundos' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut' />
-                    <Adventage icon={icon} title='Anális en segundos' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut' />
-                    <Adventage icon={icon} title='Anális en segundos' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut' />
-                    <Adventage icon={icon} title='Anális en segundos' description='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut' />
+                    {adventages.map((item, index) => (
+                        <Adventage 
+                            key={index}
+                            icon={icon} 
+                            title='Anális en segundos' 
+                            description={item} 
+                        />
+                    ))}
                 </div>
 
             </div>

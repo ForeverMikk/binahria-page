@@ -5,6 +5,7 @@ import img1 from '../../../assets/images/category-img.png';
 import bg1 from '../../../assets/images/category-1.png';
 import bg2 from '../../../assets/images/category-2.png';
 import bg3 from '../../../assets/images/category-3.png';
+import { corporativos, gubernamentales, politicos } from '../../../variables/products';
 
 import CategoryCarousel from './CategoryCarousel/CategoryCarousel';
 import CategoryDropdown from './CategoryDropdown/CategoryDropdown';
@@ -29,9 +30,9 @@ const CatalogoCategories = () => {
                 <CategoryDropdown title='Categoría Corporativa' background={bg3} options={options} id={3}/>
             </div>
 
-            <CategoryCarousel title="Político Electoral" categories={options} id={1} background='#000'/>
-            <CategoryCarousel title="Político Gubernamental" categories={options} id={2} background='#9147FB' />
-            <CategoryCarousel title="Político Corporativo" categories={options} id={3} background='#E8E8E8' />
+            <CategoryCarousel title="Político Electoral" categories={options} id={1} background='#000'products={politicos}/>
+            <CategoryCarousel title="Político Gubernamental" categories={options} id={2} background='#9147FB' products={gubernamentales}/>
+            <CategoryCarousel title="Político Corporativo" categories={options} id={3} background='#E8E8E8' products={corporativos}/>
         </div>
     )
 }
