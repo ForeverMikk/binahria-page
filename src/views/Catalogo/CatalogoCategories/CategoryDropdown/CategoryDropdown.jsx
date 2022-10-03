@@ -4,7 +4,13 @@ import React from 'react';
 
 import './CategoryDropdown.css';
 
-const CategoryDropdown = ({title,  background, options}) => {
+const scrollToElement = (element) => {
+    const scrolledElement = document.getElementById(element);
+
+    scrolledElement.scrollIntoView();
+}
+
+const CategoryDropdown = ({title,  background, options, id}) => {
 
     return (
         <div className="dropdown-card">
@@ -16,7 +22,7 @@ const CategoryDropdown = ({title,  background, options}) => {
             <div className="content">
                 <div className="dropdown-list">
                     {options && options.map(({label}, index)=> 
-                        <button key={index}>
+                        <button key={index} onClick={() => scrollToElement(`category-${id}`)}>
                             {label}
                         </button>
                     )}

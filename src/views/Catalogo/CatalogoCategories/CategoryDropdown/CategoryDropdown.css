@@ -47,16 +47,33 @@
     font-size: 1rem;
     font-family: 'Manrope', sans-serif;
 }
+.dropdown-list button:hover {
+    cursor: pointer;
+}
 
 
 
 @media screen and (max-width: 1024px) {
+
+    .dropdown-card {
+        height: 10rem;
+        width: 15rem;
+        margin: 2rem 0;
+    }
+    .dropdown-card:hover {
+        height: 30rem;
+    }
+
     .dropdown-img {
         height: 10rem;
         width: 15rem;
     }
+
     .dropdown-img h1 {
         font-size: 1.2rem;
+    }
+    .dropdown-list {
+        height: 15rem;
     }
 }
 
