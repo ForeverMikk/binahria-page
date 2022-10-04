@@ -87,14 +87,14 @@ const ProductView = () => {
                             description={item} 
                         />
                     ))}
-                    {product && product.value.map((item, index) => (
+                    {/* {product && product.value.map((item, index) => (
                         <Adventage 
                             key={index}
                             icon={icon} 
                             title='Valor añadido' 
                             description={item} 
                         />
-                    ))}
+                    ))} */}
                 </div>
 
             </div>

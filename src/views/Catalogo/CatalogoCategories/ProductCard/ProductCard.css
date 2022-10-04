@@ -45,7 +45,7 @@
 
 .cat-card .card-title {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-align: left;
     margin-top: 2rem;
@@ -61,6 +61,7 @@
     color: var(--third-color);
     border: none;
     padding: 0.5rem 1.5rem;
+    font-size: 1rem;
     border-radius: 0.5rem;
     align-self: flex-start;
     transition: all 0.5s ease-in-out;
@@ -68,9 +69,9 @@
     margin-bottom: 0.75rem;
 }
 
-.cat-card .watch-more:hover {
+.cat-card:hover .watch-more {
     cursor: pointer;
-    transform: translateX(7px);
+    transform: translateX(10px);
 }
 
 

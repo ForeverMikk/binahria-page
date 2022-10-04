@@ -6,7 +6,7 @@ import graphics from '../../../assets/images/graphics.jpg';
 const ProductBottom = () => {
     return (
         <div className='product-bottom'>
-            <h2 className='title'>
+            <h2 className='titulo'>
                 <span>/ 01</span>
                 <br />
                 Haz análisis enriquecidos
