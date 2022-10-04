@@ -39,7 +39,7 @@ const CategoryCarousel = ({title, id, background, products}) => {
             >
                 {products.map((item, index) => (
                     <SwiperSlide key={index}>
-                        <ProductCard product={item} index={index}/>
+                        <ProductCard product={item} index={index} />
                     </SwiperSlide>
                 ))}
             </Swiper>

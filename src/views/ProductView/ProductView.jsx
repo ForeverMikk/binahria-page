@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 // import ReactPlayer from 'react-player/youtube'
 // import { useTranslation } from 'react-i18next';
 
@@ -26,23 +27,25 @@ const ProductHeader = () => {
 }
 
 const ProductView = () => {
-    const product = corporativos[0];
-    const { adventages } = product;
     // const {t} = useTranslation();
-
+    const { id } = useParams();
+    const [product, setProduct] = useState('');
+    
     useEffect(() => {
-        // console.log(product);
+        // console.log(id)
+        setProduct(corporativos[id]);
+        // console.log('product', product);
         scrollToElement('product-view');
-    }, [])
+    }, [id])
     
 
     return(
         <>
-        <section className='product-view' id='product-view'>
+        {<section className='product-view' id='product-view'>
             <ProductHeader />
 
             <div className='title'>
-                <p className='name'> / CATÁLOGO - <span>{product.title}</span></p>
+                <p className='name'> / CATÁLOGO  -  <span> {product.title} </span></p>
 
                 <h2>La mejor forma de ver tu información</h2>
                 <button>PROGRAMA UNA REUNIÓN &rarr;</button>
@@ -60,7 +63,9 @@ const ProductView = () => {
             <div className='how-works'>
                 <h2>¿Cómo Funciona?</h2>
                 <div>
-                    {product.howItWorks}
+                    {product && product.howItWorks.map((item, index) => (
+                        <p>{item}</p>
+                    ))}
                 </div>
 
                 <img src={code} alt="Imagen de Codigo" />
@@ -74,11 +79,19 @@ const ProductView = () => {
                 <h2>Ventajas de implementación</h2>
                 
                 <div className="container">
-                    {adventages.map((item, index) => (
+                    {product && product.adventages.map((item, index) => (
                         <Adventage 
                             key={index}
                             icon={icon} 
-                            title='Anális en segundos' 
+                            title='Ventaja' 
+                            description={item} 
+                        />
+                    ))}
+                    {product && product.value.map((item, index) => (
+                        <Adventage 
+                            key={index}
+                            icon={icon} 
+                            title='Valor añadido' 
                             description={item} 
                         />
                     ))}
@@ -88,7 +101,7 @@ const ProductView = () => {
 
             <ProductBottom />
 
-        </section>
+        </section>}
        
         </>
     )

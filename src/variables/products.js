@@ -9,7 +9,8 @@ export const corporativos = [
             'Observar las plataformas en busca de conversaciones relacionadas con un tema específico (una organización o empresa) y analizar la información en búsqueda de oportunidades.',
             'Es un proceso en tres pasos: 1. Monitorear los canales de redes sociales en busca de menciones de tu marca, competidores, productos y palabras clave relacionadas con tu negocio.',
             '2. Recopilación de datos referentes a un tema específico',
-            '3. Analizar la información en búsqueda de tendencias y recomendación de plan de acción'],
+            '3. Analizar la información en búsqueda de tendencias y recomendación de plan de acción'
+        ],
         adventages: [
             'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
             'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
