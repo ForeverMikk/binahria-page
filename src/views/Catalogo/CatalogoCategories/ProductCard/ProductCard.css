@@ -1,7 +1,7 @@
 
 .cat-card {
-    width: 15rem;
-    height: 22rem;
+    width: 17rem;
+    height: 24rem;
     margin-right: 3rem;
     background: var(--fourth-color);
     display: flex;
@@ -45,9 +45,10 @@
 
 .cat-card .card-title {
     color: #fff;
+    font-size: 1.2rem;
     text-transform: uppercase;
     text-align: left;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .cat-card .card-description {
