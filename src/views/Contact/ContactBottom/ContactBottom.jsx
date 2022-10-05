@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { PopupButton } from 'react-calendly';
 
 import './ContactBottom.css';
 import cubos from './../../../assets/videos/cubos.mp4';
@@ -48,7 +49,14 @@ const ContactBottom = () => {
                 <div className="social main">
                     <h3 className="title">CONTACTO</h3>
                     <ContactField title='Correo electrónico' description='Ventas, solicitudes y ofertas binahria.analytics@gmail.com' />
-                    <ContactField title='Videollamadas' description='calendly/binahria' />
+                    
+                    <ContactField title='Videollamadas'  />
+                    <PopupButton
+                        url='https://calendly.com/binahria-analytics/'
+                        rootElement={document.getElementById("root")}
+                        text="calendly.com/binahria-analytics/"
+                        className='video-call'
+                    />
                 </div>
 
                 <div className="social second">

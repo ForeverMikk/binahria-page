@@ -56,10 +56,14 @@
 
 .contact-header .bottom-text .contact-button p,
 .contact-header .bottom-text .contact-button a,
-.contact-header .bottom-text .meet-button p {
+.contact-header .bottom-text .meet-button button {
+    font-family: 'Manrope', sans-serif;
     width: auto;
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 1rem;
     color: #FFF;
+    background: none;
+    border: none;
+    font-size: 1rem;
 }
 
 .contact-header .bottom-text .contact-button a{

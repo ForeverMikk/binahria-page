@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { PopupButton } from 'react-calendly';
 
 import './ContactHeader.css';
 import Navbar from "../../../components/Navbar/Navbar";
@@ -35,7 +36,12 @@ const ContactHeader = () => {
                     </div>
 
                     <div className="meet-button">
-                        <p>Agendar una reunión</p>
+                        <PopupButton
+                            url='https://calendly.com/binahria-analytics/'
+                            rootElement={document.getElementById("root")}
+                            text="Agenda tu cita aqui!"
+                        />
+                        {/* <p>Agendar una reunión</p> */}
                         <span>+ Info</span>
                     </div>
                     
