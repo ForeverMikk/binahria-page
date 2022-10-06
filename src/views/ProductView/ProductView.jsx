@@ -10,6 +10,7 @@ import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
 import { corporativos } from '../../variables/products';
 import ProductHeader from './ProductHeader/ProductHeader';
+import ValueCarrousel from './ValueCarroucel/ValueCarrousel';
 
 const scrollToElement = (element) => {
     const scrolledElement = document.getElementById(element)
@@ -56,7 +57,7 @@ const ProductView = () => {
                 <h2>¿Cómo Funciona?</h2>
                 <div>
                     {product && product.howItWorks.map((item, index) => (
-                        <p>{item}</p>
+                        <p key={index}>{item}</p>
                     ))}
                 </div>
 
@@ -79,17 +80,11 @@ const ProductView = () => {
                             description={item} 
                         />
                     ))}
-                    {/* {product && product.value.map((item, index) => (
-                        <Adventage 
-                            key={index}
-                            icon={icon} 
-                            title='Valor añadido' 
-                            description={item} 
-                        />
-                    ))} */}
-                </div>
 
+                </div>
             </div>
+
+            {product && <ValueCarrousel values={product.value} />}
 
             <ProductBottom />
 

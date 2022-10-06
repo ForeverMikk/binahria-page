@@ -117,6 +117,9 @@
 
 
 @media screen and (max-width: 1024px) {
+    .product-view .title {
+        margin-top: -18rem;
+    }
     .product-view .how-works div {
         width: auto;
     }

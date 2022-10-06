@@ -4,23 +4,6 @@
     padding-bottom: 5rem;
 }
 
-.product-bottom span {
-    color: var(--fourth-color);
-    font-size: 1rem;
-}
-
-.product-bottom .titulo {
-    margin: 0;
-    padding: 5rem;
-    padding-bottom: 7rem;
-    font-size: 3rem;
-    position: relative;
-    background: var(--first-color);
-    /* background: linear-gradient(0deg, rgba(232,232,232,1) 100%, rgba(255,255,255,1) 0%); */
-    color: #fff;
-    font-weight: 300;
-    text-align: left;
-}
 
 .product-bottom .text {
     color: #fff;

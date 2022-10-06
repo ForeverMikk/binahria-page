@@ -13,7 +13,7 @@ const ProductHeader = () => {
                     src="https://www.youtube.com/embed/mkhvraSWqS0?controls=0&autoplay=1&mute=1&playsinline=1&playlist=mkhvraSWqS0&loop=1&showinfo=0" 
                     title=" " 
                     frameborder="0" 
-                    allow="autoplay; loop; mute;" 
+                    allow="autoplay;" 
                     >
                 </iframe>
             </div>

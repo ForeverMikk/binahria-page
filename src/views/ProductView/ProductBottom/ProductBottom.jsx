@@ -6,15 +6,6 @@ import graphics from '../../../assets/images/graphics.jpg';
 const ProductBottom = () => {
     return (
         <div className='product-bottom'>
-            <h2 className='titulo'>
-                <span>/ 01</span>
-                <br />
-                Haz análisis enriquecidos
-                <br />
-                y comparte los datos más
-                <br />
-                importantes con tus colegas
-            </h2>
 
             <img className='graphics-img' src={graphics} alt="" />
 

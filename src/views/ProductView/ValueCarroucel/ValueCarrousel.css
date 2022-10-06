@@ -1,0 +1,40 @@
+.value-carrousel {
+    width: 100%;
+}
+
+.value-carrousel span {
+    color: var(--fourth-color);
+    font-size: 2rem;
+}
+
+.value-carrousel .title {
+    height: 15rem;
+    margin: 0;
+    position: relative;
+    padding: auto !important;
+    padding-bottom: 7rem;
+    background: var(--first-color);
+}
+
+.value-carrousel span {
+    padding: 2rem;
+}
+
+.value-carrousel .titulo {
+    font-size: 3rem;
+    margin: 0;
+    padding: 2rem !important;
+    color: #fff;
+    font-weight: 300;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .value-carrousel .title {
+        height: 20rem;
+    }
+
+    .value-carrousel .titulo {
+        width: 70% !important;
+    }
+}
