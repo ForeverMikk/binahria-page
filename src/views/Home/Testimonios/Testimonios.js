@@ -3,7 +3,7 @@ import 'react-multi-carousel/lib/styles.css'
 import { useTranslation } from "react-i18next"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 
 import './Testimonios.css'
 import abi from "../../../assets/images/home/abi.jpeg"
@@ -56,10 +56,33 @@ const Testimonios = () => {
                 <div className="white-space dragging"></div>
 
                 <Swiper
-                    modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    navigation
-                    spaceBetween={50}
-                    slidesPerView={1}
+                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                    // navigation
+                    spaceBetween={30}
+                    slidesPerView={3}
+                    // loop
+                    autoplay={{
+                        delay: 3000
+                    }}
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 1,
+                        },
+                        // when window width is >= 640px
+                       640: {
+                           width: 640,
+                           slidesPerView: 1,
+                       },
+                       // when window width is >= 768px
+                       768: {
+                            spaceBetween: 0,
+                            slidesPerView: 2,
+                       },
+                       1024: {
+                            spaceBetween: 50,
+                            slidesPerView: 2,
+                        },
+                   }}
                 >
                     {testimonios.map(({id, name, description, img}) => (
                         <SwiperSlide key={id}>

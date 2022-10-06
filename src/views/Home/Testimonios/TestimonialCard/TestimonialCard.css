@@ -1,5 +1,6 @@
 .testimonial-card {
-    width: 40rem;
+    width: 18rem;
+    height: 30rem;
     background: var(--fourth-color);
     color: #fff;
     padding: 3rem;
@@ -21,3 +22,13 @@
     color: var(--first-color);
 }
 
+
+.testimonial-card .description {
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .testimonial-card {
+        width: 15rem;
+    }
+}
