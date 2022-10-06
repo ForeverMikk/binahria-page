@@ -16,7 +16,7 @@ const ProductBottom = () => {
                 importantes con tus colegas
             </h2>
 
-            <img src={graphics} alt="" />
+            <img className='graphics-img' src={graphics} alt="" />
 
             <div className='text'>
                 <h3>PROYECTOS</h3>

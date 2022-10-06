@@ -18,3 +18,23 @@
     font-size: 1.65rem;
     font-weight: 300;
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .adventage {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .adventage {
+        flex-direction: column;
+    }
+    .adventage .icon {
+        padding: 0.5rem;
+    }
+    .adventage h3 {
+        margin: 0.5rem 0;
+    }
+}

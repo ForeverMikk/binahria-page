@@ -9,10 +9,8 @@ const ProductHeader = () => {
         <div className='product-header'>  
             <Navbar logo={logo}/>
             <div className="video-container">
-                <iframe 
-                    // width="1349" 
-                    // height="480" 
-                    src="https://www.youtube.com/embed/mkhvraSWqS0?controls=0&autoplay=1&mute=1&playsinline=1&playlist=mkhvraSWqS0&loop=1" 
+                <iframe
+                    src="https://www.youtube.com/embed/mkhvraSWqS0?controls=0&autoplay=1&mute=1&playsinline=1&playlist=mkhvraSWqS0&loop=1&showinfo=0" 
                     title=" " 
                     frameborder="0" 
                     allow="autoplay; loop; mute;" 
