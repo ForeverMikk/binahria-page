@@ -1,0 +1,36 @@
+
+.product-header {
+    color: white;
+    height: 90vh;
+}
+
+.product-header .navig {
+    position: absolute;
+    width: 100%;
+}
+
+.product-header .video-contaiuner {
+    height: 90vh;
+    width: 100%;
+}
+.product-header iframe {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+
+.product-header video {
+    height: 10rem;
+    width: 20rem;
+}
+
+.product-header video source {
+    height: 10rem;
+    width: 20rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+}

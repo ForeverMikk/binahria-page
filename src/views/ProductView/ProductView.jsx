@@ -6,24 +6,15 @@ import { useParams } from 'react-router-dom';
 import './ProductView.css'
 import code from "../../assets/images/code.jpg";
 import icon from '../../assets/images/hand-shake.png';
-import logo from '../../assets/images/logo/logo-white.png';
-import Navbar from '../../components/Navbar/Navbar';
 import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
 import { corporativos } from '../../variables/products';
+import ProductHeader from './ProductHeader/ProductHeader';
 
 const scrollToElement = (element) => {
     const scrolledElement = document.getElementById(element)
 
     scrolledElement.scrollIntoView()
-}
-
-const ProductHeader = () => {
-    return (
-        <div className='product-header'>  
-            <Navbar logo={logo}/>
-        </div>
-    )
 }
 
 const ProductView = () => {
@@ -43,6 +34,7 @@ const ProductView = () => {
         <>
         {<section className='product-view' id='product-view'>
             <ProductHeader />
+ 
 
             <div className='title'>
                 <p className='name'> / CATÁLOGO  -  <span> {product.title} </span></p>
