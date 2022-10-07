@@ -47,6 +47,7 @@
 }
 
 .contact-form form button {
+    cursor: pointer;
     margin-top: 1rem;
     font-size: 1.25rem;
     border: none;

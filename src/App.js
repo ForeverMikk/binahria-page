@@ -1,5 +1,5 @@
 import React from 'react';
-// import AnimatedCursor from 'react-animated-cursor'
+import { Toaster } from 'react-hot-toast';
 
 import './index.css'
 import BackToTop from './components/BackToTop/BackToTop';
@@ -13,14 +13,14 @@ function App() {
     <div className="App">
 
       {/* <CursorAnimated /> */}
-      {/* <AnimatedCursor
-        innerSize={15}
-        outerSize={15}
-        color="69, 45, 171"
-        outerAlpha={0.4}
-        innerScale={0.7}
-        outerScale={5}
-      /> */}
+      <Toaster
+      toastOptions={{
+        style: {
+          fontFamily: 'var(--text-font)'
+        }
+      }}
+      />
+      
       <Router/>
       <BackToTop />
     </div>
