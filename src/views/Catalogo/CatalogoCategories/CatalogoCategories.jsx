@@ -30,9 +30,33 @@ const CatalogoCategories = () => {
                 <CategoryDropdown title='Categoría Corporativa' background={bg3} options={options} id={3}/>
             </div>
 
-            <CategoryCarousel title="Político Electoral" categories={options} id={1} background='#000'products={politicos}/>
-            <CategoryCarousel title="Político Gubernamental" categories={options} id={2} background='#9147FB' products={gubernamentales}/>
-            <CategoryCarousel title="Político Corporativo" categories={options} id={3} background='#E8E8E8' products={corporativos}/>
+            <CategoryCarousel 
+                id={1} 
+                title="Político Electoral" 
+                categories={options} 
+                background='#000'
+                products={politicos}
+                productType='politic'
+            />
+            
+            <CategoryCarousel 
+                id={2} 
+                title="Político Gubernamental" 
+                categories={options} 
+                background='#9147FB' 
+                products={gubernamentales}
+                productType='goberment'
+            />
+            
+            <CategoryCarousel 
+                id={3} 
+                title="Político Corporativo" 
+                categories={options} 
+                background='#E8E8E8' 
+                products={corporativos}
+                productType='corporative'
+            />
+
         </div>
     )
 }

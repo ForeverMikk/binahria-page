@@ -7,7 +7,7 @@ import './CategoryCarousel.css';
 // import img from '../../../../assets/images/category-img.png'
 import ProductCard from '../ProductCard/ProductCard';
 
-const CategoryCarousel = ({title, id, background, products}) => {
+const CategoryCarousel = ({title, id, background, products, productType}) => {
     return (
         <div className='category-carousel' 
             id={`category-${id}`} 
@@ -39,7 +39,7 @@ const CategoryCarousel = ({title, id, background, products}) => {
             >
                 {products.map((item, index) => (
                     <SwiperSlide key={index}>
-                        <ProductCard product={item} index={index} />
+                        <ProductCard product={item} index={index} productType={productType}/>
                     </SwiperSlide>
                 ))}
             </Swiper>

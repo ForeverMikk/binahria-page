@@ -21,7 +21,7 @@
 }
 
 .value-carrousel .titulo {
-    font-size: 3rem;
+    font-size: 2.5rem !important;
     margin: 0;
     padding: 2rem !important;
     color: #fff;

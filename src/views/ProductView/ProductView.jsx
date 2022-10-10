@@ -20,15 +20,15 @@ const scrollToElement = (element) => {
 
 const ProductView = () => {
     // const {t} = useTranslation();
-    const { id } = useParams();
+    const { id, productType } = useParams();
     const [product, setProduct] = useState('');
     
     useEffect(() => {
-        // console.log(id)
+        console.log(productType)
         setProduct(corporativos[id]);
         // console.log('product', product);
         scrollToElement('product-view');
-    }, [id])
+    }, [id, productType])
     
 
     return(
