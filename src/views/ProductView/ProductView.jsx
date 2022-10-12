@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom';
 
 import './ProductView.css'
 import code from "../../assets/images/code.jpg";
-import icon from '../../assets/images/hand-shake.png';
 import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
 import { corporativos } from '../../variables/products';
@@ -20,15 +19,17 @@ const scrollToElement = (element) => {
 
 const ProductView = () => {
     // const {t} = useTranslation();
-    const { id, productType } = useParams();
+    const { id } = useParams();
     const [product, setProduct] = useState('');
     
     useEffect(() => {
-        console.log(productType)
+        // console.log(productList);
+        // console.log(productType);
+        // console.log(id);
         setProduct(corporativos[id]);
         // console.log('product', product);
         scrollToElement('product-view');
-    }, [id, productType])
+    }, [id])
     
 
     return(
@@ -38,7 +39,7 @@ const ProductView = () => {
  
 
             <div className='title'>
-                <p className='name'> / CATÁLOGO  -  <span> {product.title} </span></p>
+               {product && <p className='name'> / CATÁLOGO  -  <span> {product.title} </span></p>}
 
                 <h2>La mejor forma de ver tu información</h2>
                 <button>PROGRAMA UNA REUNIÓN &rarr;</button>
@@ -49,7 +50,7 @@ const ProductView = () => {
 
                 <div className='text'>
                     <h3>TUS DATOS MÁS FÁCIL</h3>
-                    <p>{product.desciption}</p>
+                    {product && <p>{product.desciption}</p>}
                 </div>
             </div>
 
@@ -75,9 +76,9 @@ const ProductView = () => {
                     {product && product.adventages.map((item, index) => (
                         <Adventage 
                             key={index}
-                            icon={icon} 
+                            icon={item.icon} 
                             title='Ventaja' 
-                            description={item} 
+                            description={item.text} 
                         />
                     ))}
 

@@ -1,4 +1,7 @@
 import img  from '../assets/images/category-img.png';
+import icon1 from '../assets/images/icons/icon1.svg';
+import icon2 from '../assets/images/icons/icon2.svg';
+import icon3 from '../assets/images/icons/icon3.svg';
 
 export const corporativos = [
     {
@@ -12,9 +15,18 @@ export const corporativos = [
             '3. Analizar la información en búsqueda de tendencias y recomendación de plan de acción'
         ],
         adventages: [
-            'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
-            'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
-            'Permite el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.'
+            {
+                text:'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
+                icon: icon1
+            },
+            {
+                text: 'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
+                icon: icon2
+            },
+            {
+                text: 'Permite el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.',
+                icon: icon3
+            }
         ],
         value: [
             'Conoce las necesidades de tus clientes y crea los productos ideales para satisfacer sus necesidades',
@@ -300,7 +312,7 @@ export const politicos = [
             'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
             'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
             'Permitan el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.',
-
+            
         ],
         value: [
             'Conocer las necesidades de las personas y  los problemas sociales.',
@@ -424,4 +436,16 @@ export const politicos = [
         ],
         img: img,
     },
+]
+
+export const productList = [
+    {
+        corporativos: corporativos
+    },
+    {
+        politicos: politicos
+    },
+    {
+        gubernamentales: gubernamentales
+    }
 ]
