@@ -45,9 +45,9 @@
 }
 
 .product-view .easy img{
-    height: auto;
-    width: 70%;
-    object-fit: contain;
+    height: 27rem;
+    width: 60%;
+    object-fit: cover;
 }
 
 .product-view .easy .text{
@@ -115,6 +115,14 @@
 }
 
 
+
+
+@media screen and (min-width: 1920px) {
+    .product-view .title {
+        margin-top: -23rem;
+        width: 80%;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .product-view .title {

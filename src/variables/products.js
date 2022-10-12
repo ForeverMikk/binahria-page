@@ -7,7 +7,7 @@ import icon5 from '../assets/images/icons/icon5.svg';
 import icon6 from '../assets/images/icons/icon6.svg';
 import icon7 from '../assets/images/icons/icon7.svg';
 import icon8 from '../assets/images/icons/icon8.svg';
-import icon9 from '../assets/images/icons/icon9.svg';
+import icon9 from '../assets/images/icons/icon4.svg';
 import icon10 from '../assets/images/icons/icon10.svg';
 import icon11 from '../assets/images/icons/icon11.svg';
 import icon12 from '../assets/images/icons/icon12.svg';

@@ -14,15 +14,14 @@
     text-align: center;
     font-weight: 300;
     padding-top: 5vw;
-    transition: all 0.5s ease-in;
 }
-#footer .correo a {
+#footer .correo .conocenos {
     color: #fff;
+    transition: all 0.5s ease-in;
 }
 
-#footer .correo:hover{
-    transition: all 0.5s ease-in;
-    text-decoration: underline;
+#footer .correo a:hover{
+    border-bottom: 1px solid #fff;
 }
 
 #footer .data {

@@ -14,7 +14,7 @@ const Footer = () => {
         <section id="footer">
             
             <div className="correo">
-                <a href="conocenos"><span>{t('footer.title')}</span></a>
+                <a href="conocenos" className="conocenos">{t('footer.title')}</a>
             </div>
 
             <div className="data">
