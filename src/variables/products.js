@@ -2,6 +2,25 @@ import img  from '../assets/images/category-img.png';
 import icon1 from '../assets/images/icons/icon1.svg';
 import icon2 from '../assets/images/icons/icon2.svg';
 import icon3 from '../assets/images/icons/icon3.svg';
+import icon4 from '../assets/images/icons/icon4.svg';
+import icon5 from '../assets/images/icons/icon5.svg';
+import icon6 from '../assets/images/icons/icon6.svg';
+import icon7 from '../assets/images/icons/icon7.svg';
+import icon8 from '../assets/images/icons/icon8.svg';
+import icon9 from '../assets/images/icons/icon9.svg';
+import icon10 from '../assets/images/icons/icon10.svg';
+import icon11 from '../assets/images/icons/icon11.svg';
+import icon12 from '../assets/images/icons/icon12.svg';
+import icon13 from '../assets/images/icons/icon13.svg';
+import icon14 from '../assets/images/icons/icon14.svg';
+import icon15 from '../assets/images/icons/icon15.svg';
+import icon16 from '../assets/images/icons/icon16.svg';
+import icon17 from '../assets/images/icons/icon17.svg';
+import icon18 from '../assets/images/icons/icon18.svg';
+import icon19 from '../assets/images/icons/icon19.svg';
+import icon20 from '../assets/images/icons/icon20.svg';
+import icon21 from '../assets/images/icons/icon21.svg';
+import icon22 from '../assets/images/icons/icon22.svg';
 
 export const corporativos = [
     {
@@ -44,10 +63,22 @@ export const corporativos = [
             'Para posteriormente hacer análisis socio demográfico y realizar un informe con los hallazgos más sobresalientes.',
         ],
         adventages: [
-            'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
-            'Útil para la confección de estrategias comerciales acotado a segmentos o nichos de mercado.',
-            'Proporciona información oportuna para la proyección de escenarios de acción y operación.',
-            'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.'
+            {
+                text: 'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
+                icon: icon4
+            },
+            {
+                text: 'Útil para la confección de estrategias comerciales acotado a segmentos o nichos de mercado.',
+                icon: icon5
+            },
+            {
+                text: 'Proporciona información oportuna para la proyección de escenarios de acción y operación.',
+                icon: icon6
+            },
+            {   
+                text: 'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.',
+                icon: icon7
+            }
         ],
         value: [
             'Desarrolla un estudio demográfico de un nicho de mercado',
@@ -65,8 +96,14 @@ export const corporativos = [
             'El mapa le ayudará a comprender cómo los actores se relacionan entre ellos, de modo que usted puede ver rápidamente la forma en que influyen en los flujos.',
         ],
         adventages: [
-            'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
-            'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
+            {
+                text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
+                icon: icon8
+            },
+            {
+                text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
+                icon: icon9
+            }
         ],
         value: [
             'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
@@ -83,9 +120,18 @@ export const corporativos = [
             '2. Análisis de los beneficios que se pueden obtener y los gastos que se requieren',
         ],
         adventages: [
-            'Permite identiﬁcar la rentabilidad digital, territorial e híbrida agilizando la toma de decisiones.',
-            'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
-            'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
+            {
+                text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida agilizando la toma de decisiones.',
+                icon: icon10
+            },
+            {
+                text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
+                icon: icon11
+            },
+            {
+                text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
+                icon: icon12
+            }
         ],
         value: [
             'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
@@ -101,8 +147,14 @@ export const corporativos = [
             'Usamos herramientas tecnológicas con inteligencia artificial para pasar esos archivos físicos a digitales en muy poco tiempo.',
         ],
         adventages: [
-            'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos.',
-            'Reducción del tiempo en dar el salto tecnológico en tu empresa u organización',
+            {
+                text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos.',
+                icon: icon13
+            },
+            {
+                text: 'Reducción del tiempo en dar el salto tecnológico en tu empresa u organización',
+                icon: icon14
+            }
         ],
         value: [
             'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
@@ -117,10 +169,22 @@ export const corporativos = [
             'Consiste en la selección de los datos más relevantes de la empresa y se diseña una visualización fácil de entender, actualizable y vinculada a la base de datos, para tener visualizaciones en tiempo real, diarias, semanales o mensuales.',
         ],
         adventages: [
-            'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar',
-            'Agilizan el consumo de datos haciéndolo más fácil y conveniente.',
-            'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
-            'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).'
+            {
+                text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar',
+                icon: icon15
+            },
+            {
+                text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente.',
+                icon: icon16
+            },
+            {
+                text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
+                icon: icon17
+            },
+            {
+                text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
+                icon: icon18
+            }
         ],
         value: [
             'Permite conocer el estado actual de la empresa u organización',
@@ -137,12 +201,30 @@ export const corporativos = [
             'Nuestro mayor enfoque es incorporar herramientas tecnológicas en las empresas Fintech.'
         ],
         adventages: [
-            'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
-            'Diseño de estrategias de negocio con enfoque fintech.',
-            'Investigación de usuario y análisis de comportamientos de consumo.',
-            'Gestión de la innovación en nuevos modelos de negocios.',
-            'Análisis del marco jurídico aplicable a la operación de negocios fintech.',
-            'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.'
+            {
+                text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
+                icon: icon19
+            },
+            {
+                text: 'Diseño de estrategias de negocio con enfoque fintech.',
+                icon: icon20
+            },
+            {
+                text: 'Investigación de usuario y análisis de comportamientos de consumo.',
+                icon: icon21
+            },
+            {
+                text: 'Gestión de la innovación en nuevos modelos de negocios.',
+                icon: icon22
+            },
+            {
+                text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech.',
+                icon: icon1
+            },
+            {
+                text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
+                icon: icon2
+            }
         ],
         value: [
             'Permite otorgar servicios financieros de manera eficiente, ágil, cómoda y confiable',
@@ -165,9 +247,18 @@ export const gubernamentales = [
             '3. Analizar la información en búsqueda de tendencias y recomendación de plan de acción'
         ],
         adventages: [
-            'Permite la identificación de tendencias sociales.',
-            'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria.',
-            'Permite el posicionamiento de servicios gubernamentales, apoyos o campañas sociales.',
+            {
+                text: 'Permite la identificación de tendencias sociales.',
+                icon: icon3
+            },
+            {
+                text: 'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria.',
+                icon: icon4
+            },
+            {
+                text: 'Permite el posicionamiento de servicios gubernamentales, apoyos o campañas sociales.',
+                icon: icon5
+            },
         ],
         value: [
             'Conocer las necesidades de las personas y  los problemas sociales.',
@@ -184,11 +275,26 @@ export const gubernamentales = [
             'Consiste en la elección de una zona geográfica y variables sociales, una vez seleccionada comienza la búsqueda y/o creación de la información, para posteriormente hacer análisis socio demográfico y realizar un informe con los hallazgos más sobresalientes. ',
         ],
         adventages: [
-            'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
-            'Útil para la confección de estrategias de posicionamiento acotado a segmentos de la población',
-            'Insumo valioso para el diseño y localización de propuestas electorales y agendas políticas',
-            'Proporciona información oportuna para la proyección de escenarios de acción y operación',
-            'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.'
+            {
+                text: 'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
+                icon: icon4
+            },
+            {
+                text: 'Útil para la confección de estrategias de posicionamiento acotado a segmentos de la población',
+                icon: icon5
+            },
+            {
+                text: 'Insumo valioso para el diseño y localización de propuestas electorales y agendas políticas',
+                icon: icon6
+            },
+            {
+                text: 'Proporciona información oportuna para la proyección de escenarios de acción y operación',
+                icon: icon7
+            },
+            {
+                text: 'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.',
+                icon: icon8
+            },
         ],
         value: [
             'Desarrolla un estudio demográfico de un segmento poblacional.',
@@ -206,8 +312,14 @@ export const gubernamentales = [
             'El mapa le ayudará a comprender cómo los actores se relacionan entre ellos, de modo que usted puede ver rápidamente la forma en que influyen en los flujos.'
         ],
         adventages: [
-            'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
-            'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
+            {
+                text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
+                icon: icon9
+            },
+            {
+                text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
+                icon: icon10
+            },
         ],
         value: [
             'Permite identificar dónde reside el poder de decisión dentro de la instituciones, secretarías, paraestatales, o ayuntamientos de gobierno.',
@@ -225,9 +337,18 @@ export const gubernamentales = [
             '2. Análisis de los beneficios que se pueden obtener y los gastos que se requieren'
         ],
         adventages: [
-            'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones. ',
-            'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
-            'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.'
+            {
+                text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones. ',
+                icon: icon11
+            },
+            {
+                text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
+                icon: icon12
+            },
+            {
+                text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
+                icon: icon13
+            }
         ],
         value: [
             'Identifica costo de operaciones y los beneficios a lograr.',
@@ -244,7 +365,10 @@ export const gubernamentales = [
             'Usamos herramientas tecnológicas con inteligencia artificial para pasar esos archivos físicos a digitales en muy poco tiempo.'
         ],
         adventages: [
-            'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
+            {
+                text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
+                icon: icon14
+            }
         ],
         value: [
             'Reducción del tiempo en dar el salto tecnológico en alguna institución gubernamental',
@@ -259,10 +383,22 @@ export const gubernamentales = [
             `Consiste en la selección de los datos más relevantes de alguna dependencia gubernamental y se diseña una visualización fácil de entender, actualizable y vinculada a la base de datos, para tener visualizaciones en tiempo real, diarias, semanales o mensuales.`,
         ],
         adventages: [
-            'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
-            'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
-            'Los tableros dinámicos permiten contar historias basadas en temáticas específicas',
-            'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).'
+            {
+                text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
+                icon: icon15
+            },
+            {
+                text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
+                icon: icon16
+            },
+            {
+                text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas',
+                icon: icon17
+            },
+            {
+                text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
+                icon: icon18
+            },
         ],
         value: [
             'Permite conocer el estado actual de la institución, secretaria, ayuntamiento o paraestatal gubernamental',
@@ -279,13 +415,34 @@ export const gubernamentales = [
             'Nuestro mayor enfoque es incorporar herramientas tecnológicas en las organizaciones Fintech.'
         ],
         adventages: [
-            'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa',
-            'Diseño de estrategias de negocio con enfoque fintech',
-            'Investigación de usuario y análisis de comportamientos de consumo',
-            'Gestión de la innovación en nuevos modelos de negocios.',
-            'Panorama estadístico y determinación del tamaño del mercado.',
-            'Análisis del marco jurídico aplicable a la operación negocios fintech.',
-            'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.'
+            {
+                text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa',
+                icon: icon19
+            },
+            {
+                text: 'Diseño de estrategias de negocio con enfoque fintech',
+                icon: icon20
+            },
+            {
+                text: 'Investigación de usuario y análisis de comportamientos de consumo',
+                icon: icon21
+            },
+            {
+                text: 'Gestión de la innovación en nuevos modelos de negocios.',
+                icon: icon22
+            },
+            {
+                text: 'Panorama estadístico y determinación del tamaño del mercado.',
+                icon: icon1
+            },
+            {
+                text: 'Análisis del marco jurídico aplicable a la operación negocios fintech.',
+                icon: icon2
+            },
+            {
+                text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
+                icon: icon3
+            },
         ],
         value: [
             'Permite conocer el estado actual de la institución, secretaria, ayuntamiento o paraestatal gubernamental',
@@ -309,9 +466,18 @@ export const politicos = [
             '3. Analizar la información en búsqueda de tendencias y recomendación de plan de acción.'
         ],
         adventages: [
-            'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
-            'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
-            'Permitan el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.',
+            {
+                text: 'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
+                icon: icon4
+            },
+            {
+                text: 'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
+                icon: icon5
+            },
+            {
+                text: 'Permitan el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.',
+                icon: icon6
+            },
             
         ],
         value: [
@@ -329,11 +495,26 @@ export const politicos = [
             `Consiste en la elección de una zona geográfica y variables sociales, una vez seleccionada comienza la búsqueda y/o creación de la información, para posteriormente hacer análisis socio demográfico y realizar un informe con los hallazgos más sobresalientes.`,
         ],
         adventages: [
-            'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
-            'Útil para la confección de estrategias comerciales acotado a segmentos o nichos de mercado.',
-            'Insumo valioso para el diseño y localización de propuestas electorales y agendas políticas.',
-            'Proporciona información oportuna para la proyección de escenarios de acción y operación',
-            'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.'
+            {
+                text: 'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
+                icon: icon7
+            },
+            {
+                text: 'Útil para la confección de estrategias comerciales acotado a segmentos o nichos de mercado.',
+                icon: icon8
+            },
+            {
+                text: 'Insumo valioso para el diseño y localización de propuestas electorales y agendas políticas.',
+                icon: icon9
+            },
+            {
+                text: 'Proporciona información oportuna para la proyección de escenarios de acción y operación',
+                icon: icon10
+            },
+            {
+                text: 'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.',
+                icon: icon11
+            },
         ],
         value: [
             'Desarrolla un estudio demográfico de un segmento poblacional.',
@@ -351,8 +532,14 @@ export const politicos = [
             'El mapa le ayudará a comprender cómo los actores se relacionan entre ellos, de modo que usted puede ver rápidamente la forma en que influyen en los flujos.'
         ],
         adventages: [
-            'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
-            'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
+            {
+                text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
+                icon: icon12
+            },
+            {
+                text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
+                icon: icon13
+            },
         ],
         value: [
             'Permite identificar dónde reside el poder de decisión dentro de los partidos políticos, campañas políticas, etcétera.',
@@ -370,9 +557,18 @@ export const politicos = [
             '2. Análisis de los beneficios que se pueden obtener y los gastos que se requieren para una campaña política'
         ],
         adventages: [
-            'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones.',
-            'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
-            'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.'
+            {
+                text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones.',
+                icon: icon14
+            },
+            {
+                text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
+                icon: icon15
+            },
+            {
+                text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
+                icon: icon16
+            },
         ],
         value: [
             'Identifica costo de operaciones y los beneficios a lograr.',
@@ -389,7 +585,10 @@ export const politicos = [
             'Usamos herramientas tecnológicas con inteligencia artificial para pasar esos archivos físicos a digitales en muy poco tiempo.'
         ],
         adventages: [
-            'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
+            {
+                text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
+                icon: icon17
+            }
         ],
         value: [
             'Reducción del tiempo en dar el salto tecnológico en tu campaña o partido político.',
@@ -404,10 +603,22 @@ export const politicos = [
             `Consiste en la selección de los datos más relevantes de alguna campaña o partido político y se diseña una visualización fácil de entender, actualizable y vinculada a la base de datos, para tener visualizaciones en tiempo real, diarias, semanales o mensuales.`,
         ],
         adventages: [
-            'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
-            'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
-            'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
-            'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).'
+            {
+                text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
+                icon: icon18
+            },
+            {
+                text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
+                icon: icon19
+            },
+            {
+                text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
+                icon: icon20
+            },
+            {
+                text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
+                icon: icon21
+            },
         ],
         value: [
             'Permite conocer el estado actual del partido político',
@@ -424,10 +635,22 @@ export const politicos = [
             'Nuestro mayor enfoque es incorporar herramientas tecnológicas en las organizaciones Fintech.'
         ],
         adventages: [
-            'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
-            'Diseño de estrategias de negocio con enfoque fintech; Investigación de usuario y análisis de comportamientos de consumo.',
-            'Gestión de la innovación en nuevos modelos de negocios; Panorama estadístico y determinación del tamaño del mercado.',
-            'Análisis del marco jurídico aplicable a la operación de negocios fintech; Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.'
+            {
+                text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
+                icon: icon22
+            },
+            {
+                text: 'Diseño de estrategias de negocio con enfoque fintech; Investigación de usuario y análisis de comportamientos de consumo.',
+                icon: icon1
+            },
+            {
+                text: 'Gestión de la innovación en nuevos modelos de negocios; Panorama estadístico y determinación del tamaño del mercado.',
+                icon: icon2
+            },
+            {
+                text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech; Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
+                icon: icon3
+            },
         ],
         value: [
             'Permite otorgar servicios financieros de manera eficiente, ágil, cómoda y confiable.',
