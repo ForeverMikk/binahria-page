@@ -8,10 +8,11 @@
 }
 
 .dropdown-card:hover {
-    height: 32rem;
+    height: 35rem;
 }
 .dropdown-card .content {
     position: relative;
+    width: 20rem;
 }
 
 

@@ -25,9 +25,9 @@ const CatalogoCategories = () => {
             <div className="categories">
                 {/* <Select options={options} /> */}
 
-                <CategoryDropdown title='Categoría Político Electoral' background={bg1} options={options} id={1}/>
-                <CategoryDropdown title='Categoría Gubernamental' background={bg2} options={options} id={2}/>
-                <CategoryDropdown title='Categoría Corporativa' background={bg3} options={options} id={3}/>
+                <CategoryDropdown title='Categoría Político Electoral' background={bg1} options={politicos} id={1}/>
+                <CategoryDropdown title='Categoría Gubernamental' background={bg2} options={gubernamentales} id={2}/>
+                <CategoryDropdown title='Categoría Corporativa' background={bg3} options={corporativos} id={3}/>
             </div>
 
             <CategoryCarousel 

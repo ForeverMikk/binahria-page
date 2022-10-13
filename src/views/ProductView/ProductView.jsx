@@ -24,7 +24,6 @@ const ProductView = () => {
     
 
     useEffect(() => {
-
         if(type === 'politic'){
             setProduct(productList.politicos[state.id]);
         }
@@ -48,7 +47,7 @@ const ProductView = () => {
  
 
             <div className='title'>
-               {product && <p className='name'> / CATÁLOGO  -  <span> {product.title} </span></p>}
+               {product && <p className='name'> / CATÁLOGO  -  <span> {product.label} </span></p>}
 
                 <h2>La mejor forma de ver tu información</h2>
                 <button>PROGRAMA UNA REUNIÓN &rarr;</button>
