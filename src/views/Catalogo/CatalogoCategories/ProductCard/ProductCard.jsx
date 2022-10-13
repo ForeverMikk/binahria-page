@@ -11,8 +11,13 @@ const ProductCard = ({product, index, productType}) => {
             <img src={product.img} alt={product.title} />
             <h3 className="card-title">{product.title}</h3>
             <p className="card-description">{product.description}</p>
-            <Link className='watch-more' to={`/product${index}`}> Ver más &rarr; </Link>
-            {/* <Link className='watch-more' to={`/product${productType}?${index}`}> Ver más &rarr; </Link> */}
+            {/* <Link className='watch-more' to={`/product${index}`}> Ver más &rarr; </Link> */}
+            <Link className='watch-more' to={{
+                pathname: `/product${productType}`,
+                state: {
+                    id: index
+                }
+                }}> Ver más &rarr; </Link>
         </div>
     )
 }

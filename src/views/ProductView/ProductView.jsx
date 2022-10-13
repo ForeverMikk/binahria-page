@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router';
 // import ReactPlayer from 'react-player/youtube'
 // import { useTranslation } from 'react-i18next';
 
@@ -7,7 +7,7 @@ import './ProductView.css'
 import code from "../../assets/images/code.jpg";
 import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
-import { corporativos } from '../../variables/products';
+import { productList } from '../../variables/products';
 import ProductHeader from './ProductHeader/ProductHeader';
 import ValueCarrousel from './ValueCarroucel/ValueCarrousel';
 
@@ -18,18 +18,27 @@ const scrollToElement = (element) => {
 }
 
 const ProductView = () => {
-    // const {t} = useTranslation();
-    const { id } = useParams();
-    const [product, setProduct] = useState('');
+    const { type } = useParams();
+    const { state } = useLocation();
+    const [product, setProduct] = useState();
     
+
     useEffect(() => {
-        // console.log(productList);
-        // console.log(productType);
-        // console.log(id);
-        setProduct(corporativos[id]);
-        // console.log('product', product);
+
+        if(type === 'politic'){
+            setProduct(productList.politicos[state.id]);
+        }
+        else if (type === 'goberment') {
+            setProduct(productList.gubernamentales[state.id])
+        }
+        else if (type === 'corporative') {
+            setProduct(productList.corporativos[state.id])
+        }
+        else {
+            alert("No existe esa categoria")
+        }
         scrollToElement('product-view');
-    }, [id])
+    }, [state, type])
     
 
     return(

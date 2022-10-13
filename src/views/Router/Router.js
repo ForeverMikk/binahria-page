@@ -18,8 +18,9 @@ class Router extends Component{
                 <Route path="/catalogo" component={Catalogo} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/product" component={ProductView} />
-                <Route path="/product:id" component={ProductView} />
-                <Route path="/product:productType?:id" component={ProductView} />
+                <Route path="/product:type" component={ProductView} />
+                {/* <Route path="/product:type:id" component={ProductView} /> */}
+                {/* <Route path="/product:id" component={ProductView} /> */}
             </Switch>
         )
     }

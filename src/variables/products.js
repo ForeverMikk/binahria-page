@@ -661,14 +661,8 @@ export const politicos = [
     },
 ]
 
-export const productList = [
-    {
-        corporativos: corporativos
-    },
-    {
-        politicos: politicos
-    },
-    {
-        gubernamentales: gubernamentales
-    }
-]
+export const productList = {
+    corporativos,
+    politicos,
+    gubernamentales
+}
