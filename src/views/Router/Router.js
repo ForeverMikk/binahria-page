@@ -19,8 +19,6 @@ class Router extends Component{
                 <Route path="/contact" component={Contact} />
                 <Route path="/product" component={ProductView} />
                 <Route path="/product:type" component={ProductView} />
-                {/* <Route path="/product:type:id" component={ProductView} /> */}
-                {/* <Route path="/product:id" component={ProductView} /> */}
             </Switch>
         )
     }
