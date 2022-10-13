@@ -41,7 +41,7 @@
 .product-view .easy {
     padding-top: 15rem;
     background: rgb(232,232,232);
-    background: linear-gradient(0deg, rgba(232,232,232,1) 100%, rgba(255,255,255,1) 0%);
+    background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(232,232,232,1) 90%, rgba(205,251,79,1) 100%);
 }
 
 .product-view .easy img{

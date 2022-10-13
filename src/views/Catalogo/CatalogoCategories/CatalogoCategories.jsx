@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './CatalogoCategories.css';
-import img1 from '../../../assets/images/category-img.png';
 import bg1 from '../../../assets/images/category-1.png';
 import bg2 from '../../../assets/images/category-2.png';
 import bg3 from '../../../assets/images/category-3.png';

@@ -5,6 +5,7 @@ import { useParams, useLocation } from 'react-router';
 
 import './ProductView.css'
 import code from "../../assets/images/code.jpg";
+import mainImg from '../../assets/images/home/IntNegocios_BW.jpg'
 import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
 import { productList } from '../../variables/products';
@@ -54,7 +55,7 @@ const ProductView = () => {
             </div>
 
             <div className='easy'>
-                <img src={code} alt='Imagen de facilidades'></img>
+                <img src={mainImg} alt='Imagen de facilidades'></img>
 
                 <div className='text'>
                     <h3>TUS DATOS MÁS FÁCIL</h3>
