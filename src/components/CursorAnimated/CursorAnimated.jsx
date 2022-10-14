@@ -7,7 +7,9 @@ import './CursorAnimated.css';
 const CursorAnimated = () => {
     
     useEffect(() => {
+      
         let cursor = document.querySelector('.cursor'),
+            cursorScale = document.querySelectorAll('.cursor-scale'),
             mouseX = 0,
             mouseY = 0;
 
@@ -28,6 +30,17 @@ const CursorAnimated = () => {
             mouseX = e.clientX;
             mouseY = e.clientY;
         })
+
+        cursorScale.forEach(link => {
+            link.addEventListener("mouseleave", () => {
+                cursor.classList.remove('grow');
+            });
+            link.addEventListener("mousemove", () => {
+                cursor.classList.add('grow');
+            });
+        })
+
+
 
         let links = Array.from(document.querySelectorAll("a"));
         let buttons = Array.from(document.querySelectorAll("button"));

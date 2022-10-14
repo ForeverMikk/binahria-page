@@ -7,6 +7,7 @@
 .product-header .navig {
     position: absolute;
     width: 100%;
+    z-index: 2;
 }
 
 .product-header .video-container {

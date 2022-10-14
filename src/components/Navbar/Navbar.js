@@ -25,7 +25,7 @@ const Navbar = ({logo}) => {
         <nav className="navig">
             
             <div className="icon">
-                <NavLink to='/'>
+                <NavLink to='/' className='cursor-scale'>
                     <img className="logo" src={logo} alt="" ></img>
                 </NavLink>
             </div>
@@ -51,12 +51,12 @@ const Navbar = ({logo}) => {
                     </NavLink>
                 </li>
                 <li>
-                    <button onClick={() => {changeLanguage('es')}}>
+                    <button className='cursor-scale' onClick={() => {changeLanguage('es')}}>
                         Esp
                     </button>
                 </li>
                 <li>
-                    <button onClick={() => {changeLanguage('en')}}>
+                    <button className='cursor-scale' onClick={() => {changeLanguage('en')}}>
                         Eng
                     </button> 
                 </li>
