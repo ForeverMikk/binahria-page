@@ -13,6 +13,7 @@
     "@typeform/embed-react": "^1.13.0",
     "axios": "^1.1.0",
     "firebase": "^9.6.9",
+    "gsap": "^3.11.3",
     "i18next": "^21.8.4",
     "i18next-browser-languagedetector": "^6.1.4",
     "react": "^17.0.2",

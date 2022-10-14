@@ -36,17 +36,17 @@ const Navbar = ({logo}) => {
             
             <ul className={buttonClicked ? 'menu active' : 'menu'}>
                 <li>
-                    <NavLink to="/conocenos"> 
+                    <NavLink to="/conocenos" className='cursor-scale'> 
                         {t('navbar.conocenos')} 
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/catalogo"> 
+                    <NavLink to="/catalogo" className='cursor-scale'> 
                         {t('navbar.catalogo')} 
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/contact"> 
+                    <NavLink to="/contact" className='cursor-scale'> 
                         {t('navbar.contact')} 
                     </NavLink>
                 </li>

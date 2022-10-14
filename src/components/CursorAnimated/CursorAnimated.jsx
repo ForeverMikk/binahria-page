@@ -1,3 +1,4 @@
+import gsap from 'gsap';
 import React, { useEffect } from 'react';
 
 import './CursorAnimated.css';
@@ -6,44 +7,49 @@ import './CursorAnimated.css';
 const CursorAnimated = () => {
     
     useEffect(() => {
-      
-        let innerCursor = document.querySelector('.inner-cursor');
-        let outerCursor = document.querySelector('.outer-cursor');
+        let cursor = document.querySelector('.cursor'),
+            mouseX = 0,
+            mouseY = 0;
+
+        gsap.to({}, 0.016, {
+            repeat: -1,
+
+            onRepeat: function() {
+                gsap.set(cursor, {
+                    css: {
+                        left: mouseX,
+                        top: mouseY
+                    }
+                })
+            }
+        });
+
+        window.addEventListener("mousemove", function(e) {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        })
+
         let links = Array.from(document.querySelectorAll("a"));
         let buttons = Array.from(document.querySelectorAll("button"));
-        
-        document.addEventListener('mousemove', moveCursor);
-        
-        function moveCursor (e) {
-            let x = e.clientX;
-            let y = e.clientY;
-        
-            // console.log(x, y)
-        
-            innerCursor.style.left = `${x}px`;
-            innerCursor.style.top = `${y}px`;
-            outerCursor.style.left = `${x}px`;
-            outerCursor.style.top = `${y}px`;
-        }
 
-        console.log('buttons',buttons)
-        console.log('links',links)
+        // console.log('buttons',buttons)
+        // console.log('links',links)
         
         links.forEach((link) => {
             link.addEventListener("mouseover", () => {
-                innerCursor.classList.add("grow");
+                cursor.classList.add("grow");
             });
             link.addEventListener("mouseleave", () => {
-                innerCursor.classList.remove("grow");
+                cursor.classList.remove("grow");
             });
         });
 
         buttons.forEach((button) => {
             button.addEventListener("mouseover", () => {
-                innerCursor.classList.add("grow");
+                cursor.classList.add("grow");
             });
             button.addEventListener("mouseleave", () => {
-                innerCursor.classList.remove("grow");
+                cursor.classList.remove("grow");
             });
         });
 
@@ -52,10 +58,7 @@ const CursorAnimated = () => {
     
 
     return (
-       <>
-        <div className="inner-cursor"></div>
-        <div className="outer-cursor"></div>
-       </>
+       <div className="cursor"></div>
     )
  }
 
