@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Adventage.css';
 
-const Adventage = ({icon, title, description}) => {
+const Adventage = ({icon, title='Ventaja', description}) => {
     return (
         <div className='adventage'>
             <img src={icon} alt={title} className="icon" />

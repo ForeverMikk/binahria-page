@@ -1,4 +1,9 @@
 import img  from '../assets/images/category-img.png';
+import tableros from '../assets/images/catagories/dashboards.png';
+import fintech from '../assets/images/catagories/servicios-fintech.png';
+import digitalizacion from '../assets/images/catagories/digitalizacion.png';
+
+
 import icon1 from '../assets/images/icons/icon1.svg';
 import icon2 from '../assets/images/icons/icon2.svg';
 import icon3 from '../assets/images/icons/icon3.svg';
@@ -35,14 +40,17 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: 'Tendencias del mercado',
                 text:'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
                 icon: icon1
             },
             {
+                title: 'Discursos de impacto',
                 text: 'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
                 icon: icon2
             },
             {
+                title: 'Posicionamiento de marca',
                 text: 'Permite el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.',
                 icon: icon3
             }
@@ -64,18 +72,22 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: 'Identificación de variables',
                 text: 'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
                 icon: icon4
             },
             {
+                title: 'Segmentado',
                 text: 'Útil para la confección de estrategias comerciales acotado a segmentos o nichos de mercado.',
                 icon: icon5
             },
             {
+                title: 'Decisiones bajo escenarios',
                 text: 'Proporciona información oportuna para la proyección de escenarios de acción y operación.',
                 icon: icon6
             },
             {   
+                title: 'Variedad de formatos',
                 text: 'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.',
                 icon: icon7
             }
@@ -159,7 +171,7 @@ export const corporativos = [
         value: [
             'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
         ],
-        img: img,
+        img: digitalizacion,
     },
     {
         id: 6,
@@ -190,7 +202,7 @@ export const corporativos = [
             'Permite conocer el estado actual de la empresa u organización',
             'Facilita la comprensión de grandes bases de datos'
         ],
-        img: img,
+        img: tableros,
     },
     {
         id: 7,
@@ -231,7 +243,7 @@ export const corporativos = [
             'Incorpora herramientas tecnológicas para mejorar o automatizar los servicios y procesos financieros.',
             'Aplica nuevas tecnologías a actividades financieras y de inversión.'
         ],
-        img: img,
+        img: fintech,
     },
 ]
 
@@ -373,7 +385,7 @@ export const gubernamentales = [
         value: [
             'Reducción del tiempo en dar el salto tecnológico en alguna institución gubernamental',
         ],
-        img: img,
+        img: digitalizacion,
     },
     {
         id: 6,
@@ -404,7 +416,7 @@ export const gubernamentales = [
             'Permite conocer el estado actual de la institución, secretaria, ayuntamiento o paraestatal gubernamental',
             'Facilita la comprensión de grandes bases de datos'
         ],
-        img: img,
+        img: tableros,
     },
     {
         id: 7,
@@ -448,7 +460,7 @@ export const gubernamentales = [
             'Permite conocer el estado actual de la institución, secretaria, ayuntamiento o paraestatal gubernamental',
             'Facilita la comprensión de grandes bases de datos'
         ],
-        img: img,
+        img: fintech,
     },
 ]
 
@@ -533,10 +545,12 @@ export const politicos = [
         ],
         adventages: [
             {
+                title: '',
                 text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
                 icon: icon12
             },
             {
+                title: '',
                 text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
                 icon: icon13
             },
@@ -558,14 +572,17 @@ export const politicos = [
         ],
         adventages: [
             {
+                title: '',
                 text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones.',
                 icon: icon14
             },
             {
+                title: '',
                 text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
                 icon: icon15
             },
             {
+                title: '',
                 text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
                 icon: icon16
             },
@@ -586,6 +603,7 @@ export const politicos = [
         ],
         adventages: [
             {
+                title: '',
                 text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
                 icon: icon17
             }
@@ -593,7 +611,7 @@ export const politicos = [
         value: [
             'Reducción del tiempo en dar el salto tecnológico en tu campaña o partido político.',
         ],
-        img: img,
+        img: digitalizacion,
     },
     {
         id: 6,
@@ -604,18 +622,22 @@ export const politicos = [
         ],
         adventages: [
             {
+                title: '',
                 text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
                 icon: icon18
             },
             {
+                title: '',
                 text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
                 icon: icon19
             },
             {
+                title: '',
                 text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
                 icon: icon20
             },
             {
+                title: '',
                 text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
                 icon: icon21
             },
@@ -624,7 +646,7 @@ export const politicos = [
             'Permite conocer el estado actual del partido político',
             'Facilita la comprensión de grandes bases de datos'
         ],
-        img: img,
+        img: tableros,
     },
     {
         id: 7,
@@ -636,18 +658,22 @@ export const politicos = [
         ],
         adventages: [
             {
+                title: '',
                 text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
                 icon: icon22
             },
             {
+                title: '',
                 text: 'Diseño de estrategias de negocio con enfoque fintech; Investigación de usuario y análisis de comportamientos de consumo.',
                 icon: icon1
             },
             {
+                title: '',
                 text: 'Gestión de la innovación en nuevos modelos de negocios; Panorama estadístico y determinación del tamaño del mercado.',
                 icon: icon2
             },
             {
+                title: '',
                 text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech; Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
                 icon: icon3
             },
@@ -657,7 +683,7 @@ export const politicos = [
             'Incorpora herramientas tecnológicas para mejorar o automatizar los servicios y procesos financieros.',
             'Aplica nuevas tecnologías a actividades financieras y de inversión'
         ],
-        img: img,
+        img: fintech,
     },
 ]
 

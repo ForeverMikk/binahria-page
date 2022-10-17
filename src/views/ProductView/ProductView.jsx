@@ -4,7 +4,6 @@ import { useParams, useLocation } from 'react-router';
 // import { useTranslation } from 'react-i18next';
 
 import './ProductView.css'
-import code from "../../assets/images/code.jpg";
 import mainImg from '../../assets/images/home/IntNegocios_BW.jpg'
 import Adventage from './Adventage/Adventage';
 import ProductBottom from './ProductBottom/ProductBottom';
@@ -71,7 +70,7 @@ const ProductView = () => {
                     ))}
                 </div>
 
-                <img src={code} alt="Imagen de Codigo" />
+                { product && <img src={product.img} alt="Imagen de Codigo" />}
             </div>
           
             {/* <div className='video'>
@@ -86,7 +85,7 @@ const ProductView = () => {
                         <Adventage 
                             key={index}
                             icon={item.icon} 
-                            title='Ventaja' 
+                            title={item.title} 
                             description={item.text} 
                         />
                     ))}
