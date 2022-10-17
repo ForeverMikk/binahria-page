@@ -1,7 +1,10 @@
+
 import img  from '../assets/images/category-img.png';
 import tableros from '../assets/images/catagories/dashboards.png';
-import fintech from '../assets/images/catagories/servicios-fintech.png';
+import fintech from '../assets/images/catagories/serviciosFintech.png';
 import digitalizacion from '../assets/images/catagories/digitalizacion.png';
+import lienzoSocial from '../assets/images/catagories/lienzoSocial.png';
+import tendenciaDiscursiva from '../assets/images/catagories/tendenciaDiscursiva.png'
 
 
 import icon1 from '../assets/images/icons/icon1.svg';
@@ -60,7 +63,7 @@ export const corporativos = [
             'Descubre la imagen que tiene tu marca y toma acciones para mantener tu imagen o mejorarla.',
             'Crea los mejores discursos y mensajes para el interior de tu empresa o para expresarte mejor a la audiencia en general'
         ],
-        img: img,
+        img: tendenciaDiscursiva,
     },
     {
         id: 2,
@@ -97,7 +100,7 @@ export const corporativos = [
             'Conoce las necesidades de tus posibles clientes',
             'Planifica estrategias para la entrada de un producto en una zona geográfica'
         ],
-        img: img,
+        img: lienzoSocial,
     },
     {
         id: 3,
@@ -277,7 +280,7 @@ export const gubernamentales = [
             'Conocer la opinión pública.',
             'Construye discursos claros y concisos para las audiencias.'
         ],
-        img: img,
+        img: tendenciaDiscursiva,
     },
     {
         id: 2,
@@ -313,7 +316,7 @@ export const gubernamentales = [
             'Conoce las necesidades de la población',
             'Planifica estrategias para la entrada de un producto en una zona geográfica.'
         ],
-        img: img,
+        img: lienzoSocial,
     },
     {
         id: 3,
@@ -497,7 +500,7 @@ export const politicos = [
             'Conocer la opinión pública',
             'Construye discursos claros y concisos para las audiencias'
         ],
-        img: img,
+        img: tendenciaDiscursiva,
     },
     {
         id: 2,
@@ -533,7 +536,7 @@ export const politicos = [
             'Conoce las necesidades de la población.',
             'Planifica estrategias políticas para la obtención de la mayoría de votantes.'
         ],
-        img: img,
+        img: lienzoSocial,
     },
     {
         id: 3,
@@ -545,12 +548,10 @@ export const politicos = [
         ],
         adventages: [
             {
-                title: '',
                 text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
                 icon: icon12
             },
             {
-                title: '',
                 text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
                 icon: icon13
             },
@@ -572,17 +573,14 @@ export const politicos = [
         ],
         adventages: [
             {
-                title: '',
                 text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones.',
                 icon: icon14
             },
             {
-                title: '',
                 text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
                 icon: icon15
             },
             {
-                title: '',
                 text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
                 icon: icon16
             },
@@ -603,7 +601,6 @@ export const politicos = [
         ],
         adventages: [
             {
-                title: '',
                 text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
                 icon: icon17
             }
@@ -622,22 +619,18 @@ export const politicos = [
         ],
         adventages: [
             {
-                title: '',
                 text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
                 icon: icon18
             },
             {
-                title: '',
                 text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
                 icon: icon19
             },
             {
-                title: '',
                 text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
                 icon: icon20
             },
             {
-                title: '',
                 text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
                 icon: icon21
             },
@@ -658,22 +651,18 @@ export const politicos = [
         ],
         adventages: [
             {
-                title: '',
                 text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
                 icon: icon22
             },
             {
-                title: '',
                 text: 'Diseño de estrategias de negocio con enfoque fintech; Investigación de usuario y análisis de comportamientos de consumo.',
                 icon: icon1
             },
             {
-                title: '',
                 text: 'Gestión de la innovación en nuevos modelos de negocios; Panorama estadístico y determinación del tamaño del mercado.',
                 icon: icon2
             },
             {
-                title: '',
                 text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech; Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
                 icon: icon3
             },

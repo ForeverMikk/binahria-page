@@ -220,5 +220,105 @@
         "title": "Te ayudamos a",
         "subtitle": "Crecer",
         "top": "Formulario"
+    },
+    "goberment": {
+        "product1": {
+            "title": "tutuulo",
+            "description": "",
+            "howItWorks": {
+                "h1": ""
+            },
+            "adventages": {
+                "ad1": ""
+            },
+            "value":{
+                "val1": ""
+            }
+    
+        },
+        "product2": {
+            "title": "tutuulo",
+            "description": "",
+            "howItWorks": {
+                "h1": ""
+            },
+            "adventages": {
+                "ad1": ""
+            },
+            "value":{
+                "val1": ""
+            }
+    
+        },
+        "product3": {
+            "title": "tutuulo",
+            "description": "",
+            "howItWorks": {
+                "h1": ""
+            },
+            "adventages": {
+                "ad1": ""
+            },
+            "value":{
+                "val1": ""
+            }
+    
+        },
+        "product4": {
+            "title": "tutuulo",
+            "description": "",
+            "howItWorks": {
+                "h1": ""
+            },
+            "adventages": {
+                "ad1": ""
+            },
+            "value":{
+                "val1": ""
+            }
+    
+        },
+        "product5": {
+            "title": "tutuulo",
+            "description": "",
+            "howItWorks": {
+                "h1": ""
+            },
+            "adventages": {
+                "ad1": ""
+            },
+            "value":{
+                "val1": ""
+            }
+    
+        },
+        "product6": {
+            "title": "tutuulo",
+            "description": "",
+            "howItWorks": {
+                "h1": ""
+            },
+            "adventages": {
+                "ad1": ""
+            },
+            "value":{
+                "val1": ""
+            }
+    
+        },
+        "product7": {
+            "title": "tutuulo",
+            "description": "",
+            "howItWorks": {
+                "h1": ""
+            },
+            "adventages": {
+                "ad1": ""
+            },
+            "value":{
+                "val1": ""
+            }
+    
+        }
     }
 }
