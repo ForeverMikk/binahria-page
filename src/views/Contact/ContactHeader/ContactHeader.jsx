@@ -30,7 +30,7 @@ const ContactHeader = () => {
 
                     <div className="contact-button">
                         <a href='https://wa.me/5526680859/?text=Queiro%20comunicarme%20con%20ustedes' target='_blank' rel="noreferrer">
-                            Contactanos por WhattsApp
+                            {t('contact.whats')}
                         </a>
                         <span>+ Info</span>
                     </div>
@@ -39,9 +39,8 @@ const ContactHeader = () => {
                         <PopupButton
                             url='https://calendly.com/binahria-analytics/'
                             rootElement={document.getElementById("root")}
-                            text="Agenda tu cita aqui!"
+                            text={t('contact.schedule')}
                         />
-                        {/* <p>Agendar una reunión</p> */}
                         <span>+ Info</span>
                     </div>
                     
