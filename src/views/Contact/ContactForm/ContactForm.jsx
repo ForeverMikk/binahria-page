@@ -44,36 +44,36 @@ const ContactForm = () => {
     return (
         <section className='contact-form' >
 
-            <h3 className="title">/ {t('contact.top')}</h3>
+            <h3 className="title">/ {t('contact.form.top')}</h3>
 
             <form action="" onChange={onChangeForm} onSubmit={(e) => handleSendEmail(e, contactInfo)}>
 
-                <label htmlFor="nombre">¿Cuál es tu nombre? *</label>
-                <input type="text" name="nombre" placeholder='Escribe tu nombre completo' required/>
+                <label htmlFor="nombre">{t('contact.form.name')} *</label>
+                <input type="text" name="nombre" placeholder={t('contact.form.name-label')} required/>
 
-                <label htmlFor="email">Dirección de correo electrónico *</label>
-                <input type="email" name="email" placeholder='ejemplo@correo.com' required/>
+                <label htmlFor="email">{t('contact.form.email')} *</label>
+                <input type="email" name="email" placeholder={t('contact.form.email-label')} required/>
                 
-                <label htmlFor="telefono">Número teléfonico *</label>
+                <label htmlFor="telefono">{t('contact.form.phone')} *</label>
                 <input type="tel" name="telefono" placeholder='(+52) 55 1234 5678' required/>
 
                 
-                <label htmlFor="compania">Compañía / institución</label>
-                <input type="text" name="compania" placeholder='Nombre de tu empresa o escuela' />
+                <label htmlFor="compania">{t('contact.form.company')}</label>
+                <input type="text" name="compania" placeholder={t('contact.form.company-label')} />
                 
-                <label htmlFor="estado">Estado o Provincia</label>
-                <input type="text" name="estado" placeholder='Nombre de tu estado o ciudad' />
+                <label htmlFor="estado">{t('contact.form.state')}</label>
+                <input type="text" name="estado" placeholder={t('contact.form.state-label')} />
 
-                <label htmlFor="intencion">¿Para qué deseas contactarte? *</label>
-                <input type="text" name="intencion" placeholder='ej. Redes sociales, recomendación personal, etc' required/>
+                <label htmlFor="intencion">{t('contact.form.why')} *</label>
+                <input type="text" name="intencion" placeholder={t('contact.form.why-label')} required/>
 
-                <label htmlFor="rastreo">¿Cómo escuchaste sobre nosotros? *</label>
-                <input type="text" name="rastreo" placeholder='Porfavor describe tu solicitud a detalle' required/>
+                <label htmlFor="rastreo">{t('contact.form.how')} *</label>
+                <input type="text" name="rastreo" placeholder={t('contact.form.how-label')} required/>
 
 
                 <div className="bottom-form">
-                    <p>Ve las <a href="https://binahria.com.mx/">Politicas de privacidad</a> </p>
-                    <button>Enviar &rarr;</button>
+                    <p>{t('contact.form.see')} <a href="https://binahria.com.mx/">{t('contact.form.politics')}</a> </p>
+                    <button>{t('contact.form.submit')} &rarr;</button>
                 </div>
             </form>
 

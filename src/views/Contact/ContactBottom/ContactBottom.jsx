@@ -4,9 +4,12 @@ import { PopupButton } from 'react-calendly';
 import './ContactBottom.css';
 import cubos from './../../../assets/videos/cubos.mp4';
 import ContactField from './ContactField/ContactField';
+import { useTranslation } from 'react-i18next';
 
 const ContactBottom = () => {
     
+    const { t } = useTranslation();
+
     useEffect(() => {
         let height = document.getElementById('contact-bottom');
         let video = document.getElementById('v0')
@@ -32,8 +35,8 @@ const ContactBottom = () => {
             
             <div className="main">
                 <div className="text">
-                    <h3>Déjanos llevarte más lejos de lo que nunca has estado.</h3>
-                    <button>PROGRAMA UNA REUNIÓN &rarr;</button>
+                    <h3>{t('contact.bottom.title')}</h3>
+                    <button>{t('contact.bottom.schedule-button')} &rarr;</button>
                 </div>
 
                 <div className="video" id='video'>
@@ -47,10 +50,12 @@ const ContactBottom = () => {
             <div className="social-media">
                 
                 <div className="social main">
-                    <h3 className="title">CONTACTO</h3>
-                    <ContactField title='Correo electrónico' description='Ventas, solicitudes y ofertas binahria.analytics@gmail.com' />
+                    <h3 className="title">{t('contact.bottom.contact')}</h3>
+                    <ContactField 
+                        title={t('contact.bottom.email')} 
+                        description={`${t('contact.bottom.email-label')} binahria.analytics@gmail.com`} />
                     
-                    <ContactField title='Videollamadas'  />
+                    <ContactField title={t('contact.bottom.videocall')}  />
                     <PopupButton
                         url='https://calendly.com/binahria-analytics/'
                         rootElement={document.getElementById("root")}
@@ -61,17 +66,17 @@ const ContactBottom = () => {
 
                 <div className="social second">
                     <div className="container uno">
-                        <h3 className="title">LLAMADAS</h3>
-                        <ContactField title='Teléfono' description='(+52) 55 2568 0859' />
+                        <h3 className="title">{t('contact.bottom.calls')}</h3>
+                        <ContactField title={t('contact.bottom.phone')} description='(+52) 55 2568 0859' />
                         <a href='https://wa.me/5526680859/?text=Comunicate%20con%20nosotros' target='_blank' rel="noreferrer" style={{color: '#fff'}}>
                             <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
                         </a>
                     </div>
 
                     <div className="container dos">
-                        <h3 className="title">HORARIO</h3>
-                        <ContactField title='Lunes a viernes' description='8:00 - 10:00 hrs' />
-                        <ContactField title='Sábados' description='8:00 - 12:00 hrs' />
+                        <h3 className="title">{t('contact.bottom.schedule')}</h3>
+                        <ContactField title={t('contact.bottom.days')} description='8:00 - 10:00 hrs' />
+                        <ContactField title={t('contact.bottom.saturday')} description='8:00 - 12:00 hrs' />
                     </div>
                 </div>
 
