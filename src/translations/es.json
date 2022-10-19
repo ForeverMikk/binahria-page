@@ -219,17 +219,53 @@
     "contact": {
         "title": "Te ayudamos a",
         "subtitle": "Crecer",
-        "top": "Formulario"
+        "whatts": "Contáctanos por WhatsApp ",
+        "schedule": "Agenda tu cita aquí!",
+        "form": {
+            "top": "Formulario",
+            "name": "¿Cuál es tu nombre?",
+            "name-label": "Escribe tu nombre completo",
+            "email": "Dirección de correo electrónico",
+            "email-label": "ejemplo@correo.com",
+            "phone": "Número teléfonico",
+            "company": "Compañía / Institución",
+            "company-label": "Nombre de tu estado o ciudad",
+            "why": "¿Para qué deseas contactarte?",
+            "why-label": "Por favor describe tu solicitud a detalle",
+            "how": "¿Cómo escuchaste sobre nosotros? ",
+            "how-label": "Por favor describe tu solicitud a detalle",
+            "politics": "Ver las políticas de privacidad",
+            "submit": "Enviar"
+        },
+        "bottom": {
+            "title": "Déjanos llevarte más lejos de lo que nunca has estado.",
+            "schedule": "Programa una reunión"
+        }
     },
     "goberment": {
+        "title": "Categoría Político Electoral",
         "product1": {
-            "title": "tutuulo",
-            "description": "",
+            "title": "Escucha de tendencias discursivas",
+            "description": "Mapa de identificación de frecuencia clasificado por temas y variables de interés, principalmente aplicado a redes sociales, y clasiﬁcados de acuerdo con parámetros específicos como zona geográfica hasta nivel colonia, sección, edad, género, entre otras.",
             "howItWorks": {
-                "h1": ""
+                "h1": "Observar las plataformas en busca de conversaciones relacionadas con un tema específico (Opinión pública, estadísticas de votantes, necesidades de la población, afinidad política, etcétera) y analizar la información en búsqueda de oportunidades. Es un proceso en tres pasos:",
+                "h2": "1. Monitorear los canales de redes sociales para conocer la opinión pública, las necesidades de las personas, lo que opinan de los servidores público y candidatos.",
+                "h3": "2. Recopilación de datos referentes a un tema específico",
+                "h4": "3. Analizar la información en búsqueda de tendencias y recomendación de plan de acción."
             },
             "adventages": {
-                "ad1": ""
+                "ad1": {
+                    "title": "",
+                    "description":"Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor."
+                },
+                "ad2": {
+                    "title": "",
+                    "description":"Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria"
+                },
+                "ad3": {
+                    "title": "",
+                    "description":"Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor."
+                }
             },
             "value":{
                 "val1": ""
