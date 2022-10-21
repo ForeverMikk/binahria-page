@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
@@ -21,6 +21,32 @@ const Navbar = ({logo}) => {
         i18n.changeLanguage(lng);
     } 
 
+
+    useEffect(() => {
+        let cursor = document.querySelector('.cursor');
+        let links = Array.from(document.querySelectorAll("a"));
+        let buttons = Array.from(document.querySelectorAll("button"));
+        
+        links.forEach((link) => {
+            link.addEventListener("mouseover", () => {
+                cursor.classList.add("grow");
+            });
+            link.addEventListener("mouseleave", () => {
+                cursor.classList.remove("grow");
+            });
+        });
+
+        buttons.forEach((button) => {
+            button.addEventListener("mouseover", () => {
+                cursor.classList.add("grow");
+            });
+            button.addEventListener("mouseleave", () => {
+                cursor.classList.remove("grow");
+            });
+        });
+
+    }, []);
+    
     return (
         <nav className="navig">
             

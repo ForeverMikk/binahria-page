@@ -24,12 +24,10 @@ const ContactHeader = () => {
             </div>
 
             <div className="bottom-text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus molestias nam laboriosam porro quis fugiat tempore dicta rerum quos est eligendi, consequatur, itaque odio soluta ratione harum minus dolor omnis.</p>
-
                 <div className="buttons">
 
                     <div className="contact-button">
-                        <a href='https://wa.me/5526680859/?text=Queiro%20comunicarme%20con%20ustedes' target='_blank' rel="noreferrer">
+                        <a href='https://wa.me/5512345678/?text=Queiro%20comunicarme%20con%20ustedes' target='_blank' rel="noreferrer">
                             {t('contact.whats')}
                         </a>
                         <span>+ Info</span>

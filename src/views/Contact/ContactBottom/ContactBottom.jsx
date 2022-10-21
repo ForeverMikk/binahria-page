@@ -75,7 +75,7 @@ const ContactBottom = () => {
 
                     <div className="container dos">
                         <h3 className="title">{t('contact.bottom.schedule')}</h3>
-                        <ContactField title={t('contact.bottom.days')} description='8:00 - 10:00 hrs' />
+                        <ContactField title={t('contact.bottom.days')} description='8:00 - 17:00 hrs' />
                         <ContactField title={t('contact.bottom.saturday')} description='8:00 - 12:00 hrs' />
                     </div>
                 </div>

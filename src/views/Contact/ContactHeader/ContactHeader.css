@@ -35,13 +35,10 @@
     /* margin-top: 2rem; */
 }
 
-.contact-header .bottom-text p {
-    margin-top: 2rem;
-}
-.contact-header .bottom-text p, 
 .contact-header .bottom-text .buttons {
-    width: 50%;
+    width: 30%;
     padding: 1rem 5rem;
+    padding-left: 10vw;
 }
 
 .contact-header .bottom-text .contact-button,
@@ -80,7 +77,8 @@
         padding-left: 7vw;
     }
 
-    .contact-header .title {
+    .contact-header .title,
+    .contact-header .bottom-text .buttons {
         padding-left: 7vw;
     }
 
