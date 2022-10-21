@@ -5,13 +5,16 @@
     background: #fff;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    width: 20rem;
 }
 
 .dropdown-card:hover {
-    height: auto;
+    height: 30rem;
+    overflow: scroll;
 }
+
 .dropdown-card .content {
-    position: relative;
+    position: sticky;
     width: 20rem;
 }
 

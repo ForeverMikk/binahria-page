@@ -15,7 +15,7 @@
 
 .cursor.grow {
     transform: scale(2);
-    background: #fff;
+    background: var(--second-color);
     mix-blend-mode: difference;
     border: none;
 }
