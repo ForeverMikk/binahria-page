@@ -14,7 +14,7 @@ const CatalogoBottom = () => {
 
             <div className="links">    
                 <Link to='/contact' className='contact-button'>
-                    <h3 className='arrow'>Contactanos</h3>
+                    <h3 className='arrow'>Deja tu mensaje</h3>
                     <span>+ info</span>
                 </Link>
                 

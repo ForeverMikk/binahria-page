@@ -32,7 +32,7 @@ const CatalogoCategories = () => {
             
             <CategoryCarousel 
                 id={2} 
-                title="Político Gubernamental" 
+                title="Gubernamental" 
                 background='#9147FB' 
                 products={gubernamentales}
                 productType='goberment'
@@ -40,7 +40,7 @@ const CatalogoCategories = () => {
             
             <CategoryCarousel 
                 id={3} 
-                title="Político Corporativo" 
+                title="Corporativo" 
                 background='#E8E8E8' 
                 products={corporativos}
                 productType='corporative'
