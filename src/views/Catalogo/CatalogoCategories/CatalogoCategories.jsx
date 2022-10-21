@@ -9,7 +9,7 @@ import { corporativos, gubernamentales, politicos } from '../../../variables/pro
 import CategoryCarousel from './CategoryCarousel/CategoryCarousel';
 import CategoryDropdown from './CategoryDropdown/CategoryDropdown';
 
-
+console.log(corporativos, gubernamentales, politicos)
 const CatalogoCategories = () => {
     return (
         <div className='catalog-categories'>

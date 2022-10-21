@@ -640,40 +640,7 @@ export const politicos = [
             'Facilita la comprensión de grandes bases de datos'
         ],
         img: tableros,
-    },
-    {
-        id: 7,
-        label: 'Servicios Fintech ',
-        desciption: 'Seleccionamos e integramos tecnologías fintech mediante interfaces de programación de aplicaciones (API), diseñamos y conectamos a bases de datos, gestionamos plataformas en la nube y desarrollamos algoritmos de aprendizaje automático para ayudar a las empresas a incrementar sus utilidades a partir de nuevas propuestas de negocios.',
-        howItWorks: [
-            `Consultoría, plan de acción, desarrollo de proyecto Fintech, propuesta de valor e integración de tecnologías para facilitar los procesos financieros a los clientes finales.`,
-            'Nuestro mayor enfoque es incorporar herramientas tecnológicas en las organizaciones Fintech.'
-        ],
-        adventages: [
-            {
-                text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
-                icon: icon22
-            },
-            {
-                text: 'Diseño de estrategias de negocio con enfoque fintech; Investigación de usuario y análisis de comportamientos de consumo.',
-                icon: icon1
-            },
-            {
-                text: 'Gestión de la innovación en nuevos modelos de negocios; Panorama estadístico y determinación del tamaño del mercado.',
-                icon: icon2
-            },
-            {
-                text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech; Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
-                icon: icon3
-            },
-        ],
-        value: [
-            'Permite otorgar servicios financieros de manera eficiente, ágil, cómoda y confiable.',
-            'Incorpora herramientas tecnológicas para mejorar o automatizar los servicios y procesos financieros.',
-            'Aplica nuevas tecnologías a actividades financieras y de inversión'
-        ],
-        img: fintech,
-    },
+    }
 ]
 
 export const productList = {

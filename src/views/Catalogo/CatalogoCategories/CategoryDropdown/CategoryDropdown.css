@@ -8,7 +8,7 @@
 }
 
 .dropdown-card:hover {
-    height: 35rem;
+    height: auto;
 }
 .dropdown-card .content {
     position: relative;
