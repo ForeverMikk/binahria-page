@@ -16,8 +16,8 @@
     },
     "home": {
         "title": "Desarrollamos Soluciones",
-        "subtitle" : "Que Transforman",
-        "tour" : "Toma un Tour",
+        "subtitle" : "Que transforman",
+        "tour" : "Toma un tour",
         "competencia" : {
             "top": "Tecnologías",
             "text" : "A la vanguardia de las tecnologías transformadoras.",
@@ -25,11 +25,11 @@
         },
         "carrousel" : {
             "cardOne":{
-                "title": "Ciencia de Datos",
-                "text" : "Captación y Análisis de datos para monitorear y optimizar procesos, presentando estrategias de gestión de riesgos para asegurar el éxito de la operación de nuestro cliente."
+                "title": "Ciencia de datos",
+                "text" : "Captación y análisis de datos para monitorear y optimizar procesos, presentando estrategias de gestión de riesgos para asegurar el éxito de la operación de nuestro cliente."
             },
             "cardTwo": {
-                "title": "Inteligencia de Negocios",
+                "title": "Inteligencia de negocios",
                 "text" : "Recolectamos datos, construimos bases de datos para un análisis más eficiente y mostramos la información estratégica en tableros de control para comodidad de nuestro cliente."
             },
             "cardThree" : {
@@ -41,13 +41,13 @@
                 "text" : "Usando bases de datos distribuidas creamos aplicaciones descentralizadas, ahorrando dinero, tiempo y garantizando la seguridad de cualquier tipo de transacción de nuestro cliente."
             },
             "cardFive" : {
-                "title" : "Inteligencia Artificial",
+                "title" : "Inteligencia artificial",
                 "text" : "Automatizamos servicios y procesos a nuestros clientes, creando sistemas inteligentes para el tratamiento de información y su diagnóstico, reducimos costos, recursos y tiempo."
             }
         },
         "compania" : {
-            "title": "La Compañía",
-            "text" : "Te Ayudamos a ver desde otra Perspectiva"
+            "title": "La compañía",
+            "text" : "Te ayudamos a ver desde otra perspectiva"
         },
         "compromiso": {
             "title": "Compromiso",
@@ -57,7 +57,7 @@
         "testimonios": {
             "cardOne": {
                 "name" : "Olimpia Orozco",
-                "text" : "Trabajar con el equipo de BA ha sido una experiencia enriquecedora. Además de desarrollar nuestro proyecto con plena creatividad y atención al detalle, nos demostraron ser una empresa innovadora y humana. Conocer a las mujeres que conforman BA ha agregado un valor enorme a mi vida, que va más allá de una relación de negocios. Son mujeres que admiro y con las que espero desarrollar muchos más proyectos juntas."
+                "text" : "Trabajar con el equipo de BA ha sido una experiencia enriquecedora. Además de desarrollar nuestro proyecto con plena creatividad y atención al detalle, nos demostraron ser una empresa innovadora y humana. Conocer a las mujeres que conforman BA ha agregado un valor enorme a mi vida, que va más allá de una relación de negocios."
             },
             "cardTwo": {
                 "name" : "Dra. Tania Meza Escorza",
@@ -77,13 +77,13 @@
             }
         },
         "teamForm" : {
-            "title" : "Queremos Trabajar Contigo",
-            "button" : "Únete al Equipo"
+            "title" : "Queremos trabajar contigo",
+            "button" : "Únete al equipo"
         }
     },
     "conocenos" : {
         "title": "Conócenos",
-        "text" : "Desarrollamos Tecnologías que Transforman",
+        "text" : "Desarrollamos tecnologías que transforman",
         "bottom": "Desplázate hacia abajo",
         "mainText": "Binahria Analytics busca posicionarse entre las 10 empresas de tecnología mejor consolidadas en México. Incidir positivamente en las esferas sociales y productivas mediante proyectos y soluciones innovadoras basadas en las tecnologías de la información así como las denominadas tecnologías emergentes atendiendo proactivamente a la participación igualitaria en la tecnología.",
         "whiteText": {
@@ -93,7 +93,7 @@
         "purpleText": {
             "title": "Productos",
             "text": "Nuestros esfuerzos están en trabajar con datos para dar soluciones inteligentes.",
-            "link": "Explora los Proyectos"
+            "link": "Explora los proyectos"
         },
         "top": "Valores",
         "down": "Ofrecemos los mejores resultados",
@@ -146,21 +146,21 @@
     },
     "catalogo" : {
         "title": "Catálogo",
-        "text": "Crece con Nuestros",
-        "text2": "Servicios",
+        "text": "Crece con nuestros",
+        "text2": "servicios",
         "bottom": "Desplázate hacia abajo",
         "table" : {
-            "itemOne": "Encuestas Digitales",
+            "itemOne": "Encuestas digitales",
             "itemTwo": "Aplicaciones web y android",
-            "itemThree": "Página Web",
+            "itemThree": "Página web",
             "itemFour" : "Analisis estratégico de redes sociales",
-            "itemFive": "Tableros Digitales",
-            "itemSix": "Tienda Online",
+            "itemFive": "Tableros digitales",
+            "itemSix": "Tienda online",
             "itemSeven": "Consultoría especializada",
-            "itemEight" : "Servicio de Mailing"
+            "itemEight" : "Servicio de mailing"
         },
         "basicos": {
-            "title": "Servicios Básicos",
+            "title": "Servicios básicos",
             "items" : {
                 "itemOne": {
                     "title": "Estadisticas Digitales",
@@ -230,7 +230,7 @@
             "phone": "Número teléfonico",
             "company": "Compañía / Institución",
             "company-label": "Nombre de tu escuela o institución",
-            "state": "Estado o Provincia",
+            "state": "Estado o provincia",
             "state-label": "Nombre de tu estado o ciudad",
             "why": "¿Para qué deseas contactarte?",
             "why-label": "Por favor describe tu solicitud a detalle",
@@ -255,7 +255,7 @@
         }
     },
     "goberment": {
-        "title": "Categoría Político Electoral",
+        "title": "Categoría político electoral",
         "product1": {
             "title": "Escucha de tendencias discursivas",
             "description": "Mapa de identificación de frecuencia clasificado por temas y variables de interés, principalmente aplicado a redes sociales, y clasiﬁcados de acuerdo con parámetros específicos como zona geográfica hasta nivel colonia, sección, edad, género, entre otras.",

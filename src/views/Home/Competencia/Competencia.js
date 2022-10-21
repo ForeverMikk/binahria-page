@@ -20,7 +20,7 @@ const Competencia = () => {
             </div>
             
             <div className="nav-comp">
-                <Link to="/tecnologias" style={{ textDecoration: 'none', color: '#753399'  }}>{t('home.competencia.go')} &rarr;</Link>
+                <Link to="/tecnologias" style={{ textDecoration: 'none', color: '#9147FB'  }}>{t('home.competencia.go')} &rarr;</Link>
             </div>
 
         </section>

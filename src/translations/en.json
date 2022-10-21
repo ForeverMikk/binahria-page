@@ -1,16 +1,16 @@
 {
     "navbar": {
-        "conocenos": "About Us",
-        "catalogo": "Our Services",
+        "conocenos": "About us",
+        "catalogo": "Our services",
         "contact": "Contact"
     },
     "footer": {
         "title" : "Contact us",
         "menu" : {
             "itemOne": "Home",
-            "itemTwo": "About Us",
+            "itemTwo": "About us",
             "itemThree": "Technologies",
-            "itemFour": "Our Services"
+            "itemFour": "Our services"
         },
         "created" : "Created by"
     },
@@ -25,11 +25,11 @@
         },
         "carrousel" : {
             "cardOne":{
-                "title": "Data Science",
+                "title": "Data science",
                 "text" : "Data capture and analysis to monitor and optimize processes, presenting risk management strategies to ensure the success of our client's operation."
             },
             "cardTwo": {
-                "title": "Business Intelligence",
+                "title": "Business intelligence",
                 "text" : "We collect data, build databases for more efficient analysis and display strategic information on dashboards for our client's convenience."
             },
             "cardThree" : {
@@ -41,23 +41,23 @@
                 "text" : "Using distributed databases we create decentralized applications, saving money, time and guaranteeing the security of any type of transaction of our client."
             },
             "cardFive" : {
-                "title" : "Artificial Intelligence",
+                "title" : "Artificial intelligence",
                 "text" : "We automate services and processes for our clients, creating intelligent systems for the treatment of information and its diagnosis, reducing costs, resources and time."
             }
         },
         "compania" : {
-            "title": "The Company",
+            "title": "The company",
             "text" : "We help you to see from a different way"
         },
         "compromiso": {
             "title": "Commitment",
             "text": "Transparency, trust and empathy.",
-            "bottom" : "why choose us"
+            "bottom" : "Why choose us"
         },
         "testimonios": {
             "cardOne": {
                 "name" : "Olimpia Orozco",
-                "text" : "Working with the BA team has been an enriching experience. In addition to developing our project with full creativity and attention to detail, they proved to be an innovative and human company. Getting to know the women who make up BA has added enormous value to my life, which goes beyond a business relationship. They are women I admire and with whom I hope to develop many more projects together."
+                "text" : "Working with the BA team has been an enriching experience. In addition to developing our project with full creativity and attention to detail, they proved to be an innovative and human company. Getting to know the women who make up BA has added enormous value to my life, which goes beyond a business relationship."
             },
             "cardTwo": {
                 "name" : "Dra. Tania Meza Escorza",
@@ -78,7 +78,7 @@
         },
         "teamForm" : {
             "title" : "We want to work with you",
-            "button" : "Join the Team"
+            "button" : "Join the team"
         }
     },
     "conocenos" : {
@@ -93,7 +93,7 @@
         "purpleText": {
             "title": "Products",
             "text": "Our efforts are focused on working with data to provide intelligent solutions.",
-            "link": "Explore Projects"
+            "link": "Explore projects"
         },
         "top": "Values",
         "down": "We provide the best results",
@@ -122,7 +122,7 @@
     },
     "tecnologias": {
         "title": "Technologies",
-        "text": "Beyond the way of Innovating.",
+        "text": "Beyond the way of innovating.",
         "bottom": "Scroll down",
         "mainText": "What motivates us to work with companies, institutions and organizations is the idea of offering them specialized tools that will significantly improve their workspaces and the impetus to grow.",
         "services": {
@@ -135,40 +135,40 @@
                 "text": "Data capture and analysis to monitor and optimize processes, presenting risk management strategies to ensure the success of our client's operation."
             },
             "itemThree": {
-                "title":"Business Intelligence",
+                "title":"Business intelligence",
                 "text": "We collect data, build databases for more efficient analysis and display strategic information on dashboards for our client's convenience."
             },
             "itemFour": {
-                "title":"Artificial Intelligence",
+                "title":"Artificial intelligence",
                 "text": "We automate services and processes for our clients, creating intelligent systems for the treatment of information and its diagnosis, reducing costs, resources and time."
             }
         }
     },
     "catalogo" : {
-        "title": "Our Services",
-        "text": "Grow with Our",
+        "title": "Our services",
+        "text": "Grow with our",
         "text2": "Services",
         "bottom": "Scroll down",
         "table" : {
-            "itemOne": "Digital Surveys",
+            "itemOne": "Digital surveys",
             "itemTwo": "Web and android applications",
-            "itemThree": "Web Site",
+            "itemThree": "Web site",
             "itemFour" : "Strategic analysis of social networks",
-            "itemFive": "Digital Dashboards",
-            "itemSix": "Online Store",
+            "itemFive": "Digital dashboards",
+            "itemSix": "Online store",
             "itemSeven": "Specialized consultancy",
-            "itemEight" : "Mailing Service"
+            "itemEight" : "Mailing service"
         },
         "basicos": {
             "title": "Basic services",
             "items" : {
                 "itemOne": {
-                    "title": "Digital Statistics",
+                    "title": "Digital statistics",
                     "textOne": "We are experts in gathering information and creating cost-effective digital media strategies. Using unique tools and advanced features, we offer customized surveys built with strategic questions that allow us to provide you with the insight you need to meet your needs and objectives.",
                     "textTwo": "Have the opportunity to direct your respondents to the questions that interest them, adapt your questionnaire to your needs or assign scores to your answer options."
                 },
                 "itemTwo": {
-                    "title": "Web and Android applications",
+                    "title": "Web and android applications",
                     "textOne": "If your goal is to sell and generate customers through the web, it's time to think about having your own space.",
                     "textTwo": "We design software applications to run on smartphones, tablets and other mobile devices. If you let us, we will set up the perfect site to give your project visibility and generate greater benefits."
                 },
