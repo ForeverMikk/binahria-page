@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 import './ProductHeader.css';
 import Navbar from "../../../components/Navbar/Navbar"
@@ -6,6 +6,33 @@ import logo from '../../../assets/images/logo/logo-white.png';
 import background from '../../../assets/videos/product-background.mp4';
 
 const ProductHeader = () => {
+
+    useEffect(() => {
+        
+        let cursor = document.querySelector('.cursor');
+        let links = Array.from(document.querySelectorAll("a"));
+        let buttons = Array.from(document.querySelectorAll("button"));
+        
+        links.forEach((link) => {
+            link.addEventListener("mouseover", () => {
+                cursor.classList.add("grow");
+            });
+            link.addEventListener("mouseleave", () => {
+                cursor.classList.remove("grow");
+            });
+        });
+
+        buttons.forEach((button) => {
+            button.addEventListener("mouseover", () => {
+                cursor.classList.add("grow");
+            });
+            button.addEventListener("mouseleave", () => {
+                cursor.classList.remove("grow");
+            });
+        });
+
+    }, []);
+
     return (
         <div className='product-header'>  
             <Navbar logo={logo}/>
