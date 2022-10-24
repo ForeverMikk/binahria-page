@@ -4,11 +4,20 @@
     height: 25vw;
     background: var(--third-color);
 }
+
+
 #testimonios {
     width: 100%;
     text-align: right;
     color: var(--first-color);
     background: var(--third-color);
+}
+
+.testimonial-title {
+    text-align: center;
+    padding: 2rem;
+    font-size: var(--big-font-size);
+    font-weight: 350;
 }
 
 #testimonios .swiper-slide {
@@ -20,6 +29,7 @@
 #testimonios .swiper-button-next {
     color: var(--first-color);
 }
+
 
 /* Forma Parte de Nuestro Equipo */
  

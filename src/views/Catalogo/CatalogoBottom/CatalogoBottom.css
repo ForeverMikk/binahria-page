@@ -29,8 +29,10 @@
 }
 
 .catalog-bottom .links a {
+  width: 30rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   /* border-bottom: 2px solid var(--fourth-color); */
 }
 
@@ -39,7 +41,7 @@
 }
 
 .catalog-bottom .arrow {
-  width: 20rem;
+  width: 25rem;
   text-transform: uppercase;
   text-align: left;
 
