@@ -12,12 +12,12 @@
     padding-top: 2vw;
     position: absolute;
     left: 33vw;
-    font-size: 1.6vw;
+    font-size: var(--h3-font-size);
 }
 #con-text img {
     width: 85vw;
     height: auto;
-    padding-top: 30vw;
+    padding-top: 25vw;
 }
 
 
@@ -31,7 +31,7 @@
     text-align: left;
     padding-top: 37vw;
     width: 50%;
-    font-size: 1.4vw;
+    font-size: var(--h3-font-size);
     padding-left: 33vw;
     margin-bottom: 5vw;
 }

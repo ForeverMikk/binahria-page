@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ConocenosHeader from './ConocenosHeader/ConocenosHeader'
 import ConocenosText from './ConocenosText/ConocenosText'
 import ConocenosCarousel from './ConocenosCarousel/ConocenosCarousel'
-import ContactForm from './ContactForm/ContactForm'
+// import ContactForm from './ContactForm/ContactForm'
 
 export default class Conocenos extends Component {
     componentDidMount() {
@@ -15,7 +15,7 @@ export default class Conocenos extends Component {
                 <ConocenosHeader />
                 <ConocenosText/>
                 <ConocenosCarousel/>
-                <ContactForm /> 
+                {/* <ContactForm />  */}
             </section>
         )
     }
