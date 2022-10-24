@@ -14,7 +14,17 @@ const ContactHeader = () => {
         let cursor = document.querySelector('.cursor');
         let links = Array.from(document.querySelectorAll("a"));
         let buttons = Array.from(document.querySelectorAll("button"));
+        let inputs = Array.from(document.querySelectorAll("input"));
         
+        inputs.forEach((input) => {
+            input.addEventListener("mouseover", () => {
+                cursor.classList.add("grow");
+            });
+            input.addEventListener("mouseleave", () => {
+                cursor.classList.remove("grow");
+            });
+        });
+
         links.forEach((link) => {
             link.addEventListener("mouseover", () => {
                 cursor.classList.add("grow");

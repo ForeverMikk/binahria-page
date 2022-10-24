@@ -36,7 +36,13 @@ const ContactBottom = () => {
             <div className="main">
                 <div className="text">
                     <h3>{t('contact.bottom.title')}</h3>
-                    <button>{t('contact.bottom.schedule-button')} &rarr;</button>
+                    <PopupButton
+                        url='https://calendly.com/binahria-analytics/'
+                        rootElement={document.getElementById("root")}
+                        text={`${t('contact.bottom.schedule-button')} →`}
+                        styles={{transition: "all 0.5s ease"}}
+                        className='schedule-button'
+                    />
                 </div>
 
                 <div className="video" id='video'>

@@ -22,6 +22,7 @@
     width: 57vw;
 }
 #compromiso .bot{
+    position: absolute;
     margin-top: 10vw;
     margin-left: 10vw;
     font-size: 1.3vw;

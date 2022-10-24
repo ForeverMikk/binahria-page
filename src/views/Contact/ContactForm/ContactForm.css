@@ -44,6 +44,11 @@
 }
 
 .contact-form form .bottom-form a {
+    transition: all 0.5s ease;
+}
+
+.contact-form form .bottom-form a:hover {
+    color: var(--first-color);
     text-decoration: underline;
 }
 
@@ -53,6 +58,12 @@
     font-size: 1.25rem;
     border: none;
     background: none;
+    transition: all 0.5s ease;
+}
+
+.contact-form form button:hover {
+    color: var(--first-color);
+    transform: translateX(15px);
 }
 
 

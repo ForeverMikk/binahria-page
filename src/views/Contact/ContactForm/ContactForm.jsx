@@ -72,7 +72,10 @@ const ContactForm = () => {
 
 
                 <div className="bottom-form">
-                    <p>{t('contact.form.see')} <a href="https://binahria.com.mx/">{t('contact.form.politics')}</a> </p>
+                    <p>
+                        {t('contact.form.see')} 
+                        <a href="https://binahria.com.mx/"> {t('contact.form.politics')}</a> 
+                    </p>
                     <button>{t('contact.form.submit')} &rarr;</button>
                 </div>
             </form>

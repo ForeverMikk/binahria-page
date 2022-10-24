@@ -10,12 +10,14 @@
 
 .dropdown-card:hover {
     height: 30rem;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .dropdown-card .content {
-    position: sticky;
+    /* position: sticky; */
     width: 20rem;
+    height: 15rem;
+    overflow: scroll;
 }
 
 
@@ -50,9 +52,11 @@
     padding: 1rem;
     font-size: 1rem;
     font-family: 'Manrope', sans-serif;
+    transition: all 0.5s ;
 }
 .dropdown-list button:hover {
-    cursor: pointer;
+    background: var(--third-color);
+    color: var(--first-color);
 }
 
 

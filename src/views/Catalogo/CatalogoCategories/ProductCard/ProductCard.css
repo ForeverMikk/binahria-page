@@ -70,8 +70,9 @@
 }
 
 .cat-card:hover .watch-more {
-    cursor: pointer;
+    /* cursor: pointer; */
     transform: translateX(10px);
+    color: var(--second-color);
 }
 
 
