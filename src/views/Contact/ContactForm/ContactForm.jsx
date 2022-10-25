@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { sendEmail } from '../../../services/emailService';
-
 
 import './ContactForm.css';
+import avisoDePrivacidad from '../../../assets/Aviso_de_Privacidad.pdf';
+import { sendEmail } from '../../../services/emailService';
 
 const ContactForm = () => {
 
@@ -74,7 +74,7 @@ const ContactForm = () => {
                 <div className="bottom-form">
                     <p>
                         {t('contact.form.see')} 
-                        <a href="https://binahria.com.mx/"> {t('contact.form.politics')}</a> 
+                        <a download='' href={avisoDePrivacidad}> {t('contact.form.politics')}</a> 
                     </p>
                     <button>{t('contact.form.submit')} &rarr;</button>
                 </div>
