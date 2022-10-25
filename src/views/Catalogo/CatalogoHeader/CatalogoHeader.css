@@ -7,13 +7,9 @@
     color: white;
 }
 
-#catalogo-header .menu li a, #catalogo-header .menu li button {
+#catalogo-header .menu li a, 
+#catalogo-header .menu li button {
     color: black;
-    transition: all 0.3s ease-in-out;
-}
-
-#catalogo-header .menu li a:hover, #catalogo-header .menu li button:hover {
-    transform: translateY(3px);
 }
 
 #catalogo-header .top{
