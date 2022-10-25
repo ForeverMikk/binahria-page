@@ -91,14 +91,13 @@
   transition: left .6s ease-in;
 }
 
+.catalog-bottom .arrow:hover a,
+.catalog-bottom .arrow:hover button,
 .catalog-bottom .arrow:hover:after {
   left: 0;
   color: var(--fourth-color);
 }
 
-.catalog-bottom .arrow:hover {
-  color: var(--fourth-color);
-}
 
 
   

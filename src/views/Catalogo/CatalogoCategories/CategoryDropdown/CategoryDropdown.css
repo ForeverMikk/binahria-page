@@ -55,8 +55,8 @@
     transition: all 0.5s ;
 }
 .dropdown-list button:hover {
-    background: var(--third-color);
-    color: var(--first-color);
+    background: var(--first-color);
+    color: var(--third-color);
 }
 
 

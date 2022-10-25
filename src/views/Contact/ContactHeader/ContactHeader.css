@@ -98,17 +98,19 @@
     color: var(--second-color);
 }
 
-.contact-header .arrow:hover {
-    color: var(--first-color);
-}
-
 .contact-header .bottom-text .contact-button a{
     padding: 1.5rem 1rem;
 }
 
 .contact-header .bottom-text span {
     color: var(--second-color);
+    transition: all 0.6s ease-in;
 }
+.contact-header .arrow:hover span {
+    color: var(--first-color);
+}
+
+
 
 
 @media screen and (max-width: 1024px) {
