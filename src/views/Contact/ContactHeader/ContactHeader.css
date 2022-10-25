@@ -47,9 +47,11 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #fff;
+    /* border-bottom: 1px solid #fff; */
     width: auto;
+    transition: left .8s ease-in;
 }
+
 
 .contact-header .bottom-text .contact-button p,
 .contact-header .bottom-text .contact-button a,
@@ -63,9 +65,47 @@
     font-size: 1rem;
 }
 
+.contact-header .arrow {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-header .arrow:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--third-color);
+}
+
+.contact-header .arrow:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: var(--first-color);
+    transition: left .6s ease-in;
+}
+
+
+.contact-header .arrow:hover a,
+.contact-header .arrow:hover button,
+.contact-header .arrow:hover:after {
+    left: 0;
+    color: var(--second-color);
+}
+
+.contact-header .arrow:hover {
+    color: var(--first-color);
+}
+
 .contact-header .bottom-text .contact-button a{
     padding: 1.5rem 1rem;
 }
+
 .contact-header .bottom-text span {
     color: var(--second-color);
 }

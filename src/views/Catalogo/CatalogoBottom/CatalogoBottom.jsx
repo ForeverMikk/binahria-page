@@ -1,9 +1,14 @@
 import React from 'react';
+import { PopupButton } from 'react-calendly';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 import './CatalogoBottom.css';
 
 const CatalogoBottom = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className="catalog-bottom">
             <h1 className='question'>
@@ -13,15 +18,22 @@ const CatalogoBottom = () => {
             </h1>
 
             <div className="links">    
-                <Link to='/contact' className='contact-button'>
-                    <h3 className='arrow'>Deja tu mensaje</h3>
-                    <span>+ info</span>
-                </Link>
                 
-                <Link to='/contact' className='calendly-button'>
-                    <h3 className='arrow'>Agenda una reunión</h3>
+                <div to='/contact' className='contact-button arrow'>
+                    <Link to='/contact'>Deja tu mensaje</Link>
                     <span>+ info</span>
-                </Link>
+                </div>
+                
+                <div className='calendly-button arrow'>
+                    <PopupButton
+                        url='https://calendly.com/binahria-analytics/'
+                        rootElement={document.getElementById("root")}
+                        text={t('contact.schedule')}
+                        className='pop-button'
+                    />
+                    <span>+ Info</span>
+                </div>
+
             </div>
         </div>
     )

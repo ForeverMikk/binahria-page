@@ -61,14 +61,18 @@ const ContactHeader = () => {
             <div className="bottom-text">
                 <div className="buttons">
 
-                    <div className="contact-button">
-                        <a href='https://wa.me/5512345678/?text=Queiro%20comunicarme%20con%20ustedes' target='_blank' rel="noreferrer">
+                    <div className="contact-button arrow">
+                        <a 
+                            href='https://wa.me/5512345678/?text=Queiro%20comunicarme%20con%20ustedes' 
+                            target='_blank' 
+                            rel="noreferrer"
+                        >
                             {t('contact.whats')}
                         </a>
                         <span>+ Info</span>
                     </div>
 
-                    <div className="meet-button">
+                    <div className="meet-button arrow" >
                         <PopupButton
                             url='https://calendly.com/binahria-analytics/'
                             rootElement={document.getElementById("root")}

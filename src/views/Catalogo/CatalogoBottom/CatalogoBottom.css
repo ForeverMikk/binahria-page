@@ -29,7 +29,7 @@
 }
 
 .catalog-bottom .links a {
-  width: 30rem;
+  /* width: 30rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,22 +38,36 @@
 
 .catalog-bottom span {
   color: var(--first-color);
+  padding-right: 1rem;
+}
+
+.catalog-bottom .arrow a,
+.catalog-bottom .arrow .pop-button {
+  border: none;
+  font-size: var(--h3-font-size);
+  text-transform: uppercase;
+  padding: 1rem 0 1rem;
+  font-weight: 500;
+  color: gray;
+  background: none;
+
+}
+
+
+.catalog-bottom .arrow .pop-button {
+  margin-top: 1rem;
 }
 
 .catalog-bottom .arrow {
-  width: 25rem;
-  text-transform: uppercase;
-  text-align: left;
-
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
   position: relative;
   overflow: hidden;
-  display: block;
-  text-align: start;
-  text-decoration: none;
-  color: grey;
   line-height: 46px;
   padding: 0 0 6px;
-  transition: left 0.8s ease-in;
 }
 
 .catalog-bottom .arrow:before {
@@ -74,7 +88,7 @@
   width: 100%;
   height: 3px;
   background: var(--fourth-color);
-  transition: left .8s ease-in;
+  transition: left .6s ease-in;
 }
 
 .catalog-bottom .arrow:hover:after {
