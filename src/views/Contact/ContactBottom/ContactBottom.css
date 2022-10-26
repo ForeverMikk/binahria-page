@@ -30,6 +30,7 @@
     border: none;
     color: var(--second-color);
     margin-bottom: 5rem;
+    text-transform: uppercase;
 }
 
 .contact-bottom .main .text button:hover {
