@@ -74,7 +74,7 @@ const ContactBottom = () => {
                     <div className="container uno">
                         <h3 className="title">{t('contact.bottom.calls')}</h3>
                         {/* <ContactField title={t('contact.bottom.phone')} description='(+52) 55 2568 0859' /> */}
-                        <a href='https://wa.me/5526680859/?text=Comunicate%20con%20nosotros' target='_blank' rel="noreferrer" style={{color: '#fff'}}>
+                        <a href="https://wa.me/7714141066" target='_blank' rel="noreferrer" style={{color: '#fff'}}>
                             <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
                         </a>
                     </div>
@@ -86,7 +86,15 @@ const ContactBottom = () => {
                     </div>
                 </div>
 
+
             </div>
+
+            <div style={{width: "40rem"}}>
+                <div className="gumroad-product-embed" style={{height: "10rem", width: "100%"}}>
+                    <a href="https://emohedano.gumroad.com/l/augnmx">Loading...</a>
+                </div>
+            </div>
+            
         </section>
     )
 }

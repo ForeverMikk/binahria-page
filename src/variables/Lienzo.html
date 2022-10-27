@@ -18,12 +18,12 @@
         padding: 0;
     }
 
-    .title {
+    .title, .municipio {
         color: gray;
         font-size: 0.85rem;
     }
     .subtitle {
-        color: rgb(199, 121, 32);
+        color: #CAAA7B;
         font-size: 1rem;
     }
 
@@ -45,13 +45,13 @@
         width: 50%;
         background: rgb(255, 250, 242);
         padding: 2rem;
+        box-shadow: 2px 2px 10px 2px grey;
     }
 
     .left-container,
     .right-container,
     .bottom-container {
         margin: 0.25rem 0.5rem;
-        box-shadow: 2px 2px 10px 2px grey;
         border-radius: 5px;
     }
 
@@ -66,18 +66,27 @@
     .left-container .table {
         width: 30%;
         padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .left-container .table .data {
         display: flex;
         justify-content: space-around;
-        background: rgb(29, 29, 126);
+        background: #AC3C54;
         border-radius: 2rem;
         margin-bottom: 0.5rem;
-        padding: 0 0.5rem;
+        /* padding: 0 0.5rem; */
         color: #fff;
     }
-    .left-container .table .data .porcent{
-        /* background: blueviolet; */
+    .left-container .table .data p {
+        margin: 0;
+        padding: 1.1rem 0.75rem;
+        border-radius: 2rem;
+        width: 100%;
+    }
+    .left-container .table .data .porcent {
+        background: #CCAFB3;
     }
 
     /* Right Container Styles */
@@ -92,6 +101,7 @@
     .right-container .second {
         width: 70%;
         padding: 0 2rem;
+        text-align: right;
     }
 
     /* Bottom Container Styles */
@@ -100,21 +110,43 @@
         background: rgb(223, 223, 223);
     }
 
+    .bottom-container .title {
+        margin-top: 1rem;
+    }
+    .bottom-container .right .subtitle {
+        color: #AC3C54;
+    }
+
     .bottom-container .left,
     .bottom-container .right {
         border-radius: 5px;
         padding: 0 2rem ;
+        box-shadow: 2px 2px 10px 2px grey;
     }
 
     .bottom-container .left {
         width: 30%;
         background: rgb(255, 250, 242);
-        margin-right: 1rem;color: rgb(199, 121, 32);
+        margin-right: 1rem;
+        color: #CAAA7B;
     }
     .bottom-container .right {
         width: 70%;
-        background: rgb(233, 200, 160);
+        background: #CAAA7B;
+        display: flex;
     }
+    .bottom-container .right .first {
+        width: 70%;
+    }
+    .bottom-container .right .second {
+        width: 30%;
+    }
+    
+    .bottom-container .right .first,
+    .bottom-container .right .second {
+        text-align: right;
+    }
+    
 
 
 
@@ -130,24 +162,28 @@
                     <img src="" alt="">
                 </div>
                 <div class="table">
-                    <h3 class="title">Población con</h3>
-                    <h2 class="subtitle">DISCAPACIDADES Y/O LIMITACIONES</h2>
-                    <img src="" alt="" class="diagram">
-                    <div class="data">
-                        <p class="porcent">33%</p>
-                        <p class="description">Población</p>
+                    <div class="first">
+                        <h3 class="title">Población con</h3>
+                        <h2 class="subtitle">DISCAPACIDADES Y/O LIMITACIONES</h2>
+                        <img src="" alt="" class="diagram">
                     </div>
-                    <div class="data">
-                        <p class="porcent">33%</p>
-                        <p class="description">Población</p>
-                    </div>
-                    <div class="data">
-                        <p class="porcent">33%</p>
-                        <p class="description">Población</p>
-                    </div>
-                    <div class="data">
-                        <p class="porcent">33%</p>
-                        <p class="description">Población</p>
+                    <div class="second">
+                        <div class="data">
+                            <p class="porcent"></p>
+                            <p class="description"></p>
+                        </div>
+                        <div class="data">
+                            <p class="porcent"></p>
+                            <p class="description"></p>
+                        </div>
+                        <div class="data">
+                            <p class="porcent"></p>
+                            <p class="description"></p>
+                        </div>
+                        <div class="data">
+                            <p class="porcent"></p>
+                            <p class="description"></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,8 +201,8 @@
                 </div>
 
                 <div class="second">
-                    <h3 class="title">Conectividad</h3>
-                    <h2 class="subtitle">VIVIENDAS CON ACCESO A TICS</h2>
+                    <h3 class="title">Viviendas con</h3>
+                    <h2 class="subtitle">ACCESO A TICS</h2>
                     <div class="barras">
                         <img src="" alt="">
                     </div>
