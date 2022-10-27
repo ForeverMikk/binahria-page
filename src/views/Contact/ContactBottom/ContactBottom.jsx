@@ -73,7 +73,7 @@ const ContactBottom = () => {
                 <div className="social second">
                     <div className="container uno">
                         <h3 className="title">{t('contact.bottom.calls')}</h3>
-                        <ContactField title={t('contact.bottom.phone')} description='(+52) 55 2568 0859' />
+                        {/* <ContactField title={t('contact.bottom.phone')} description='(+52) 55 2568 0859' /> */}
                         <a href='https://wa.me/5526680859/?text=Comunicate%20con%20nosotros' target='_blank' rel="noreferrer" style={{color: '#fff'}}>
                             <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
                         </a>

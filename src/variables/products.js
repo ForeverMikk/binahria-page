@@ -4,7 +4,7 @@
 // import fintech from '../assets/images/catagories/serviciosFintech.png';
 // import digitalizacion from '../assets/images/catagories/digitalizacion.png';
 // import lienzoSocial from '../assets/images/catagories/lienzoSocial.png';
-import tendenciaDiscursiva from '../assets/images/catagories/tendenciaDiscursiva.png'
+import tendenciaDiscursiva from '../assets/images/catagories/tendenciaDiscursiva.gif'
 
 
 import icon1 from '../assets/images/icons/icon1.svg';
