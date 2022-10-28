@@ -89,11 +89,49 @@ const ContactBottom = () => {
 
             </div>
 
-            <div style={{width: "40rem"}}>
-                <div className="gumroad-product-embed" style={{height: "10rem", width: "100%"}}>
-                    <a href="https://emohedano.gumroad.com/l/augnmx">Loading...</a>
+        <div className="market" style={{display: "flex", justifyContent: "space-between"}}>
+
+            <div style={{width: "23rem", marginTop: "2rem"}}>
+                <div className="gumroad-product-embed">
+                    <a href="https://emohedano.gumroad.com/l/augnmx" target="_blank" rel="noopener noreferrer">Loading...</a>
                 </div>
             </div>
+
+            <div style={{width: "23rem", marginTop: "2rem"}}>
+                <div className="gumroad-product-embed">
+                    <a href="https://emohedano.gumroad.com/l/augnmx" target="_blank" rel="noopener noreferrer">Loading...</a>
+                </div>
+            </div>
+
+            <div style={{width: "23rem", marginTop: "2rem"}}>
+                <div className="gumroad-product-embed">
+                    <a href="https://emohedano.gumroad.com/l/augnmx" target="_blank" rel="noopener noreferrer">Loading...</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div className="market" style={{display: "flex", justifyContent: "space-between"}}>
+
+            <div style={{width: "23rem", marginTop: "2rem"}}>
+                <div className="gumroad-product-embed">
+                    <a href="https://emohedano.gumroad.com/l/augnmx" target="_blank" rel="noopener noreferrer">Loading...</a>
+                </div>
+            </div>
+
+            <div style={{width: "23rem", marginTop: "2rem"}}>
+                <div className="gumroad-product-embed">
+                    <a href="https://emohedano.gumroad.com/l/augnmx" target="_blank" rel="noopener noreferrer">Loading...</a>
+                </div>
+            </div>
+
+            <div style={{width: "23rem", marginTop: "2rem"}}>
+                <div className="gumroad-product-embed">
+                    <a href="https://emohedano.gumroad.com/l/augnmx" target="_blank" rel="noopener noreferrer">Loading...</a>
+                </div>
+            </div>
+
+        </div>
             
         </section>
     )

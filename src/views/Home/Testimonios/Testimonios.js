@@ -64,7 +64,7 @@ const Testimonios = () => {
                     slidesPerView={3}
                     // loop
                     autoplay={{
-                        delay: 6000
+                        delay: 10000
                     }}
                     breakpoints={{
                         0: {

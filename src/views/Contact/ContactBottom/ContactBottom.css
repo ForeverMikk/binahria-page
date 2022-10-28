@@ -85,6 +85,10 @@
     padding-right: 1rem;
     width: 50%;
 }
+.contact-bottom iframe {
+    /* height: 20rem !important; */
+    overflow: scroll;
+}
 
 
 

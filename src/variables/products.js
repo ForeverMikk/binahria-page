@@ -18,8 +18,6 @@ import icon4 from '../assets/images/icons/icon4.svg';
 // import icon9 from '../assets/images/icons/icon4.svg';
 import icon10 from '../assets/images/icons/icon10.svg';
 import icon11 from '../assets/images/icons/icon11.svg';
-import icon12 from '../assets/images/icons/icon12.svg';
-import icon13 from '../assets/images/icons/icon13.svg';
 import icon14 from '../assets/images/icons/icon14.svg';
 import icon15 from '../assets/images/icons/icon15.svg';
 // import icon16 from '../assets/images/icons/icon16.svg';
@@ -52,7 +50,7 @@ export const corporativos = [
         img: tendenciaDiscursiva,
     },
     // {
-    //     id: 1,
+    //     id: 2,
     //     label: 'Escucha de tendencias discursivas',
     //     desciption: 'Mapa de identificación de frecuencia clasificado por temas y variables de interés, principalmente aplicado a redes sociales, y clasiﬁcados de acuerdo con parámetros específicos como zona geográfica hasta nivel colonia, sección, edad, género, entre otras.',
     //     howItWorks: [
@@ -86,7 +84,7 @@ export const corporativos = [
     //     img: tendenciaDiscursiva,
     // },
     // {
-    //     id: 2,
+    //     id: 3,
     //     label: 'Lienzo social',
     //     desciption: 'Análisis socio demográﬁco acotado a una o varias zonas geográficas de interés (municipio, estado, región) basado en estadística descriptiva. Se muestra en formato de informe de indicadores estratégicos de distintas fuentes y variables de interés.',
     //     howItWorks: [
@@ -123,7 +121,7 @@ export const corporativos = [
     //     img: lienzoSocial,
     // },
     // {
-    //     id: 3,
+    //     id: 4,
     //     label: 'Mapa de redes de influencia',
     //     desciption: 'Diagrama de nodos basado en un estudio cualitativo y cuantitativo para conocer el grado de vinculación y cercanía entre actores clave, así como la identificación de factores de inﬂuencia con respecto a una organización (o empresa) determinada.',
     //     howItWorks: [
@@ -146,7 +144,7 @@ export const corporativos = [
     //     img: img,
     // },
     // {
-    //     id: 4,
+    //     id: 5,
     //     label: 'Análisis de rentabilidad digital y territorial',
     //     desciption: 'Modelo de series de tiempo para pronosticar la rentabilidad de un bien o servicio dentro de una zona geográfica específica y en el mercado en línea. ',
     //     howItWorks: [
@@ -174,7 +172,7 @@ export const corporativos = [
     //     img: img,
     // },
     // {
-    //     id: 5,
+    //     id: 6,
     //     label: 'Servicios de digitalización con inteligencia artificial',
     //     desciption: 'Algoritmo de digitalización de registros físicos masivos, para extraer y ordenar la información en bases de datos. (Folio de Registro Nacional de Proveedores: RNP 202008231137244 -2021A005)',
     //     howItWorks: [
@@ -197,7 +195,7 @@ export const corporativos = [
     //     img: digitalizacion,
     // },
     // {
-    //     id: 6,
+    //     id: 7,
     //     label: 'Tableros digitales',
     //     desciption: 'Visualización dinámica de información a partir de diversos elementos visuales interactivos, incluidos mapas, gráﬁcos e indicadores. Los tableros se basan en una tecnología poderosa que puede admitir varios ﬂujos de trabajo, puede cargar diferentes funciones que garantizan que los tableros funcionen como se espera y que se adapten para transmitir la información más relevante a audiencias especíﬁcas.',
     //     howItWorks: [
@@ -228,7 +226,7 @@ export const corporativos = [
     //     img: tableros,
     // },
     // {
-    //     id: 7,
+    //     id: 8,
     //     label: 'Servicios Fintech',
     //     desciption: 'Seleccionamos e integramos tecnologías fintech mediante interfaces de programación de aplicaciones (API), diseñamos y conectamos a bases de datos, gestionamos plataformas en la nube y desarrollamos algoritmos de aprendizaje automático para ayudar a las empresas a incrementar sus utilidades a partir de nuevas propuestas de negocios.',
     //     howItWorks: [
@@ -321,11 +319,11 @@ export const gubernamentales = [
             },
             {
                 text: 'Crea un proceso de aprendizaje donde la comunidad y los ciudadanos aprenden a elaborar y gestionar proyectos.',
-                icon: icon12
+                icon: icon11
             },
             {
                 text: 'Favorece e impulsa la responsabilidad compartida entre los actores.',
-                icon: icon13
+                icon: icon2
             },
             {
                 text: 'Posibilita cambios sociales profundos, ya que promueve la integración y cohesión social y promueve el cambio de visión individualista e instrumental hacia la integración de lo comunitario.',
@@ -470,7 +468,7 @@ export const gubernamentales = [
     },
     
     // {
-    //     id: 1,
+    //     id: 9,
     //     label: 'Escucha de tendencias discursivas',
     //     desciption: 'Mapa de identificación de frecuencia clasificado por temas y variables de interés, principalmente aplicado a redes sociales, y clasiﬁcados de acuerdo con parámetros específicos como zona geográfica hasta nivel colonia, sección, edad, género, entre otras.',
     //     howItWorks: [
@@ -501,7 +499,7 @@ export const gubernamentales = [
     //     img: tendenciaDiscursiva,
     // },
     // {
-    //     id: 2,
+    //     id: 10,
     //     label: 'Lienzo social',
     //     desciption: 'Análisis socio demográﬁco acotado a una o varias zonas geográficas de interés (municipio, estado, región) basado en estadística descriptiva. Se muestra en formato de informe de indicadores estratégicos de distintas fuentes y variables de interés.',
     //     howItWorks: [
@@ -537,7 +535,7 @@ export const gubernamentales = [
     //     img: lienzoSocial,
     // },
     // {
-    //     id: 3,
+    //     id: 11,
     //     label: 'Mapa de redes de influencia',
     //     desciption: 'Diagrama de nodos basado en un estudio cualitativo y cuantitativo para conocer el grado de vinculación y cercanía entre actores clave, así como la identificación de factores de inﬂuencia con respecto a una persona u organización (gobierno o empresa) determinada.',
     //     howItWorks: [
@@ -560,7 +558,7 @@ export const gubernamentales = [
     //     img: img,
     // },
     // {
-    //     id: 4,
+    //     id: 12,
     //     label: 'Análisis de rentabilidad digital y territorial',
     //     desciption: 'Modelo de series de tiempo para pronosticar el voto duro y la meta para un candidato o partido político. Insumo vital para la confección de la estrategia electoral.',
     //     howItWorks: [
@@ -590,7 +588,7 @@ export const gubernamentales = [
     //     img: img,
     // },
     // {
-    //     id: 5,
+    //     id: 13,
     //     label: 'Servicios de digitalización con inteligencia artificial',
     //     desciption: 'Algoritmo de digitalización de registros físicos masivos, para extraer y ordenar la información en bases de datos. (Folio de Registro Nacional de Proveedores: RNP 202008231137244 -2021A005',
     //     howItWorks: [
@@ -609,7 +607,7 @@ export const gubernamentales = [
     //     img: digitalizacion,
     // },
     // {
-    //     id: 6,
+    //     id: 14,
     //     label: 'Tableros digitales',
     //     desciption: 'Visualización dinámica de información a partir de diversos elementos visuales interactivos, incluidos mapas, gráﬁcos e indicadores. Los tableros se basan en una tecnología poderosa que puede admitir varios ﬂujos de trabajo, puede cargar diferentes funciones que garantizan que los tableros funcionen como se espera y que se adapten para transmitir la información más relevante a audiencias especíﬁcas.',
     //     howItWorks: [
@@ -640,7 +638,7 @@ export const gubernamentales = [
     //     img: tableros,
     // },
     // {
-    //     id: 7,
+    //     id: 15,
     //     label: 'Servicios Fintech',
     //     desciption: 'Seleccionamos e integramos tecnologías fintech mediante interfaces de programación de aplicaciones (API), diseñamos y conectamos a bases de datos, gestionamos plataformas en la nube y desarrollamos algoritmos de aprendizaje automático para ayudar a las empresas a incrementar sus utilidades a partir de nuevas propuestas de negocios.',
     //     howItWorks: [
@@ -735,7 +733,7 @@ export const politicos = [
         img: tendenciaDiscursiva,
     },
     // {
-    //     id: 1,
+    //     id: 3,
     //     label: 'Escucha de tendencias discursivas',
     //     desciption: 'Mapa de identificación de frecuencia clasificado por temas y variables de interés, principalmente aplicado a redes sociales, y clasiﬁcados de acuerdo con parámetros específicos como zona geográfica hasta nivel colonia, sección, edad, género, entre otras.',
     //     howItWorks: [
@@ -769,7 +767,7 @@ export const politicos = [
     //     img: tendenciaDiscursiva,
     // },
     // {
-    //     id: 2,
+    //     id: 4,
     //     label: 'Lienzo social',
     //     desciption: 'Análisis socio demográﬁco acotado a una o varias zonas geográficas de interés (municipio, estado, región) basado en estadística descriptiva. Se muestra en formato de informe de indicadores estratégicos de distintas fuentes y variables de interés.',
     //     howItWorks: [

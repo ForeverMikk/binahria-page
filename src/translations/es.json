@@ -60,7 +60,7 @@
                 "text" : "Trabajar con el equipo de BA ha sido una experiencia enriquecedora. Además de desarrollar nuestro proyecto con plena creatividad y atención al detalle, nos demostraron ser una empresa innovadora y humana. Conocer a las mujeres que conforman BA ha agregado un valor enorme a mi vida, que va más allá de una relación de negocios."
             },
             "cardTwo": {
-                "name" : "Dra. Tania Meza Escorza",
+                "name" : "Dra. Tania Meza Escarza",
                 "text" : "Binahria es la empresa más personalizada y efectiva que he contratado. Me queda absolutamente claro que lo que construyeron para mí, no podrán ofrecérselo a nadie más, porque sus servicios son un traje a la media para cada cliente y para cada momento exacto en la etapa de vida de su clientela."
             },
             "cardThree": {
@@ -143,79 +143,7 @@
                 "text": "Automatizamos servicios y procesos a nuestros clientes, creando sistemas inteligentes para el tratamiento de información y su diagnóstico, reducimos costos, recursos y tiempo."
             }
         }
-    },
-    "catalogo" : {
-        "title": "Catálogo",
-        "text": "Crece con nuestros",
-        "text2": "servicios",
-        "bottom": "Desplázate hacia abajo",
-        "table" : {
-            "itemOne": "Encuestas digitales",
-            "itemTwo": "Aplicaciones web y android",
-            "itemThree": "Página web",
-            "itemFour" : "Analisis estratégico de redes sociales",
-            "itemFive": "Tableros digitales",
-            "itemSix": "Tienda online",
-            "itemSeven": "Consultoría especializada",
-            "itemEight" : "Servicio de mailing"
-        },
-        "basicos": {
-            "title": "Servicios básicos",
-            "items" : {
-                "itemOne": {
-                    "title": "Estadisticas Digitales",
-                    "textOne": "Somos expertos en recolectar información y crear estrategias rentables para los medios digitales. Con la utilización de herramientas únicas y funciones avanzadas, ofrecemos encuestas personalizadas construidas con preguntas estratégicas que nos permiten brindarte el conocimiento necesario para cumplir con tus necesidades y objetivos.",
-                    "textTwo": "Ten la oportunidad de dirigir a tus encuestados a las preguntas que les interesan, adaptar tu cuestionario a tus necesidades o asignar puntuaciones a tus opciones de respuesta."
-                },
-                "itemTwo": {
-                    "title": "Aplicaciones Web y Android",
-                    "textOne": "Si tu objetivo es vender y generar clientes por medio de la web, es momento de pensar a tener tu propio espacio.",
-                    "textTwo": "Diseñamos aplicaciones de software para ejecutarse en smartphones, tabletas y otros dispositivos móviles, si nos dejas, montaremos el sitio perfecto para darle visibilidad y generar mayores ventajas a tu proyecto."
-                },
-                "itemThree": {
-                    "title": "Tableros Digitales",
-                    "textOne": "Visualiza Data e indicadores especiales para la toma de decisiones estratégicas. Si estabas pensando en la mejor forma de mostrar tu información, te sugerimos que empieces a utilizar los tableros digitales que sencillamente te ayudaran a comprender tus datos en términos de progreso y rendimiento.",
-                    "textTwo": "Los resultados se pueden comparar fácilmente usando elementos ajustables y logrando que tu tablero sea flexible con la información, incluso utilizar datos en tiempo real, de manera fácil y rápida."
-                },
-                "itemFour": {
-                    "title": "Páginas Web",
-                    "textOne": "Crea tu propio sitio web diseñado con módulos especializados y optimizado para diferentes dispositivos móviles, configura tu nueva carta de presentación al mundo digital; haz que sea más fácil encontrarte, implementa tecnología que facilite tu vida y posiciona tu negocio como siempre lo soñaste.",
-                    "textTwo": "Nuestros resultados están en crearte una página profesional y modernizada con los elementos clave que harán contraste con tus competidores."
-                },
-                "itemFive": {
-                    "title": "Tiendas Online",
-                    "textOne": "Gestionar tu negocio e incrementar sus ventas, es ahora más sencillo con el uso de tiendas online. Traslada o inicia tu negocio en línea y déjanos ser los creadores de tu plataforma, te brindamos las herramientas para liderar tus ventas y expandir tu negocio.",
-                    "textTwo": "Dentro de nuestros servicios está el incorporar carritos de compra en línea, sistemas de pago automatizados y catálogos profesionales de todos tus productos y servicios."
-                },
-                "itemSix": {
-                    "title": "Servicio de Mailing",
-                    "textOne": "Campaña de Marketing directo por medio de envíos masivos de correo electrónico automatizado desde 10,000 contactos. Aumenta ventas, gana confianza, fideliza a tus clientes y/o atrae nuevos usuarios, son algunas de las ventajas de usar este canal de comunicación.",
-                    "textTwo": "Nosotros te ayudamos a la recopilación de correos, para que tus destinatarios sean los que más se adecúen a tu campaña y así consigas el mayor alcance."
-                }
-            } 
-        },
-        "especiales": {
-            "title": "Servicios Especializados",
-            "items" : {
-                "itemOne": {
-                    "title": "Análisis Estratégico de Redes Sociales",
-                    "textOne": "Escuchar las opiniones y/o necesidades del público en el que te concentras, significa poder mejorar la percepción que tienen de ti,",
-                    "textTwo": "así como una mejora en el seguimiento estratégico para tu marca, por ello, poner en nuestras manos tu estudio de impacto estratégico de redes sociales por zona geográfica será de tus mejores decisiones."
-                },
-                "itemTwo": {
-                    "title": "Consultorías Especializadas",
-                    "textOne": "Consultoría especializada en aplicación de ciencia de datos para estudios estadísticos. Recopilamos, clasificamos, sintetizamos, organizamos, procesamos, analizamos e interpretamos grandes cantidades de datos para ofrecerte resultados más precisos.",
-                    "textTwo": "Utilizamos el arte de aprender a través de los datos, acércate con nosotros y te mostramos cómo lo hacemos utilizando herramientas tecnológicas de una forma en que no te imaginarías mejorará tu vida."
-                },
-                "itemThree": {
-                    "title": "Servicios Electorales",
-                    "textOne": "Ofrecemos productos y servicios para campañas como: desarrollo aplicativo para recolección de datos demoscópicos,",
-                    "textTwo": "capacitaciones para equipos de desarrollo en herramientas de programación y programación de algoritmos para la gestión de correspondencia masiva."
-                }
-            }
-        },
-        "scrollButton" : "Conoce más sobre este Servicio"
-    },
+    },   
     "contact": {
         "title": "Te ayudamos a",
         "subtitle": "Crecer",
@@ -252,6 +180,17 @@
             "schedule": "HORARIO",
             "days": "Lunes a viernes",
             "saturday": "Sábados"
+        }
+    },
+    "catalogo" : {
+        "title": "Catálogo",
+        "text": "Crece con nuestros",
+        "text2": "servicios",
+        "bottom": "Desplázate hacia abajo",
+        "categories": {
+            "cat1": "Categoría Político Electoral",
+            "cat2": "Categoría Gubernamental",
+            "cat3": "Categoría Corporativa"
         }
     },
     "goberment": {

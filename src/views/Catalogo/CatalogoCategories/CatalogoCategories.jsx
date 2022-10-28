@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import './CatalogoCategories.css';
 import bg1 from '../../../assets/images/category-1.png';
@@ -9,22 +10,25 @@ import { corporativos, gubernamentales, politicos } from '../../../variables/pro
 import CategoryCarousel from './CategoryCarousel/CategoryCarousel';
 import CategoryDropdown from './CategoryDropdown/CategoryDropdown';
 
-console.log(corporativos, gubernamentales, politicos)
+// console.log(corporativos, gubernamentales, politicos)
 const CatalogoCategories = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className='catalog-categories'>
             {/* <h1>Categories</h1> */}
             <div className="categories">
                 {/* <Select options={options} /> */}
 
-                <CategoryDropdown title='Categoría Político Electoral' background={bg1} options={politicos} id={1}/>
-                <CategoryDropdown title='Categoría Gubernamental' background={bg2} options={gubernamentales} id={2}/>
-                <CategoryDropdown title='Categoría Corporativa' background={bg3} options={corporativos} id={3}/>
+                <CategoryDropdown title={t('catalogo.categories.cat1')} background={bg1} options={politicos} id={1}/>
+                <CategoryDropdown title={t('catalogo.categories.cat1')} background={bg2} options={gubernamentales} id={2}/>
+                <CategoryDropdown title={t('catalogo.categories.cat1')} background={bg3} options={corporativos} id={3}/>
             </div>
 
             <CategoryCarousel 
                 id={1} 
-                title="Político Electoral" 
+                title={t('catalogo.categories.cat1')}
                 background='#000'
                 products={politicos}
                 productType='politic'
@@ -32,7 +36,7 @@ const CatalogoCategories = () => {
             
             <CategoryCarousel 
                 id={2} 
-                title="Gubernamental" 
+                title={t('catalogo.categories.cat1')}
                 background='#9147FB' 
                 products={gubernamentales}
                 productType='goberment'
@@ -40,7 +44,7 @@ const CatalogoCategories = () => {
             
             <CategoryCarousel 
                 id={3} 
-                title="Corporativo" 
+                title={t('catalogo.categories.cat1')}
                 background='#E8E8E8' 
                 products={corporativos}
                 productType='corporative'

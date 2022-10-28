@@ -144,78 +144,6 @@
             }
         }
     },
-    "catalogo" : {
-        "title": "Our services",
-        "text": "Grow with our",
-        "text2": "Services",
-        "bottom": "Scroll down",
-        "table" : {
-            "itemOne": "Digital surveys",
-            "itemTwo": "Web and android applications",
-            "itemThree": "Web site",
-            "itemFour" : "Strategic analysis of social networks",
-            "itemFive": "Digital dashboards",
-            "itemSix": "Online store",
-            "itemSeven": "Specialized consultancy",
-            "itemEight" : "Mailing service"
-        },
-        "basicos": {
-            "title": "Basic services",
-            "items" : {
-                "itemOne": {
-                    "title": "Digital statistics",
-                    "textOne": "We are experts in gathering information and creating cost-effective digital media strategies. Using unique tools and advanced features, we offer customized surveys built with strategic questions that allow us to provide you with the insight you need to meet your needs and objectives.",
-                    "textTwo": "Have the opportunity to direct your respondents to the questions that interest them, adapt your questionnaire to your needs or assign scores to your answer options."
-                },
-                "itemTwo": {
-                    "title": "Web and android applications",
-                    "textOne": "If your goal is to sell and generate customers through the web, it's time to think about having your own space.",
-                    "textTwo": "We design software applications to run on smartphones, tablets and other mobile devices. If you let us, we will set up the perfect site to give your project visibility and generate greater benefits."
-                },
-                "itemThree": {
-                    "title": "Digital Boards",
-                    "textOne": "View data and special indicators for strategic decision making. If you were thinking about the best way to display your information, we suggest you start using digital boards that will simply help you understand your data in terms of progress and performance.",
-                    "textTwo": "Results can be easily compared using adjustable elements and making your dashboard flexible with information, even using real-time data, easily and quickly."
-                },
-                "itemFour": {
-                    "title": "Web Sites",
-                    "textOne": "Create your own website designed with specialized modules and optimized for different mobile devices, configure your new letter of introduction to the digital world; make it easier to find you, implement technology that makes your life easier and position your business as you always dreamed.",
-                    "textTwo": "Our results are in creating a professional and modernized website with key elements that will contrast with your competitors."
-                },
-                "itemFive": {
-                    "title": "Online Shops",
-                    "textOne": "Manage your business and increase your sales is now easier with the use of online stores. Move or start your business online and let us be the creators of your platform, we give you the tools to lead your sales and expand your business.",
-                    "textTwo": "Our services include the incorporation of online shopping carts, automated payment systems and professional catalogs of all your products and services."
-                },
-                "itemSix": {
-                    "title": "Mailing Service",
-                    "textOne": "Direct Marketing Campaign through automated mass emailing from 10,000 contacts. Increase sales, gain trust, build customer loyalty and/or attract new users, are some of the advantages of using this communication channel.",
-                    "textTwo": "We will help you to compile the mailings, so that your recipients are the ones that best suit your campaign and thus achieve the greatest reach."
-                }
-            } 
-        },
-        "especiales": {
-            "title": "Specialized Services",
-            "items" : {
-                "itemOne": {
-                    "title": "Strategic Analysis of Social Networks",
-                    "textOne": "Listening to the opinions and/or needs of your target audience means being able to improve their perception of you,",
-                    "textTwo": "as well as an improvement in the strategic follow-up for your brand, therefore, putting in our hands your strategic impact study of social networks by geographic area will be one of your best decisions."
-                },
-                "itemTwo": {
-                    "title": "Specialized Consulting",
-                    "textOne": "Consulting firm specialized in the application of data science for statistical studies. We collect, classify, synthesize, organize, process, analyze and interpret large amounts of data to provide you with more accurate results.",
-                    "textTwo": "We use the art of learning through data, come with us and we will show you how we do it using technological tools in a way that you would not imagine will improve your life."
-                },
-                "itemThree": {
-                    "title": "Electoral Services",
-                    "textOne": "We offer products and services for campaigns such as: application development for the collection of demoscopic data,",
-                    "textTwo": "training for development teams in programming tools and algorithm programming for bulk mail management."
-                }
-            } 
-        },
-        "scrollButton" : "Know more about this Service"
-    },
     "contact": {
         "title": "We help you",
         "subtitle": "to grow",
@@ -252,6 +180,17 @@
             "schedule": "HOURS",
             "days": "Monday - Friday",
             "saturday": "Saturdays"
+        }
+    },
+    "catalogo" : {
+        "title": "Our services",
+        "text": "Grow with our",
+        "text2": "Services",
+        "bottom": "Scroll down",
+        "categories": {
+            "cat1": "Political Electoral Category",
+            "cat2": "Government Category",
+            "cat3": "Corporate Category"
         }
     }
 }
