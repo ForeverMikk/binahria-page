@@ -11,9 +11,9 @@ import icon1 from '../assets/images/icons/icon1.svg';
 import icon2 from '../assets/images/icons/icon2.svg';
 import icon3 from '../assets/images/icons/icon3.svg';
 import icon4 from '../assets/images/icons/icon4.svg';
-// import icon5 from '../assets/images/icons/icon5.svg';
-// import icon6 from '../assets/images/icons/icon6.svg';
-// import icon7 from '../assets/images/icons/icon7.svg';
+import icon5 from '../assets/images/icons/icon5.svg';
+import icon6 from '../assets/images/icons/icon6.svg';
+import icon7 from '../assets/images/icons/icon7.svg';
 // import icon8 from '../assets/images/icons/icon8.svg';
 // import icon9 from '../assets/images/icons/icon4.svg';
 import icon10 from '../assets/images/icons/icon10.svg';
@@ -38,6 +38,7 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: '',
                 text: 'Mejorar ventas, dar herramientas para mejorar la toma de decisiones',
                 icon: icon3
             }
@@ -272,9 +273,13 @@ export const gubernamentales = [
     {
         id: 1,
         label: 'Asesoría Técnica para la Autoprodución del Espacio Habitable',
+        header: 'Autoproducir para vivir mejor',
+        subtitle: 'El espacio habitable que necesitas',
         desciption: 'Desarrollar un sistema que brinde asesoría técnica a la población que se encuentre iniciando un proceso de autoconstrucción de la vivienda mediante una aplicación que sirva para generar un diagnóstico del proyecto, asi como entregar avances y llevar un seguimiento del proceso creativo. El objetivo es entregar un proyecto ejecutivo (planos arquitectónicos, estructurales, instalaciones, catálogo de conceptos y volumetría) diseñado a medida de las necesidades familiares y el contexto urbano.',
         howItWorks: [
-            'Como funciona',
+            'La Asesoría Técnica para la Autoproducción del Espacio Habitable es un servicio de asesoría técnica especializada en la planificación y ejecución de proyectos de autoproducción de espacio habitable.',
+            'Ofrecemos asesoría en todas las etapas de un proyecto de autoproducción de espacio habitable, desde la planificación inicial hasta la finalización de la construcción.',
+            'También ofrecemos asesoría técnica especializada en la selección y uso de materiales eficientes en términos de energía y de impacto ambiental, así como en el diseño y la construcción de estructuras sostenibles.'
         ],
         adventages: [
             {
@@ -291,18 +296,24 @@ export const gubernamentales = [
             }
         ],
         value: [
-            'valor añadido 1',
-            'valor añadido 2',
-            'valor añadido 3'
+            'Servicio de asesoría técnica especializada en la planificación y ejecución de proyectos de autoproducción de espacio habitable.',
+            'Ofrece asesoría en todas las etapas de un proyecto de autoproducción de espacio habitable, desde la planificación inicial hasta la finalización de la construcción.',
+            'Asesoría técnica especializada en la selección y uso de materiales eficientes en términos de energía y de impacto ambiental, así como en el diseño y la construcción de estructuras sostenibles.',
+            'Servicio personalizado de acuerdo a las necesidades y características de cada proyecto.',
+            'Disponemos de una amplia gama de recursos técnicos y tecnológicos para el desarrollo de proyectos de autoproducción de espacio habitable.'
         ],
         img: tendenciaDiscursiva,
     },
     {
         id: 2,
         label: 'Diseño e implementación de metodologías participativas ',
+        header: 'El cambio comienza con la participación ciudadana.',
+        subtitle: 'Juntos podemos mejorar nuestra comunidad',
         desciption: 'Diseñar e mplementar instrumentos participativos que contribuyan a fomentar y fortalecer los mecanismos de profundización de la democracia colocando en el centro a los ciudadanos y/o comunidades para construir un proceso de reflexión sobre el entorno y sus dinamicas sociales. Se trata de guiar a los ciudadanos, colectivos y comunidades en el proceso de identificación de necesidades y problemáticas que existen en su entorno y realidad inmediata.',
         howItWorks: [
-            'Como funciona',
+            'Es un proceso en el que se involucran a los ciudadanos de una comunidad en el diseño y la ejecución de proyectos de desarrollo.',
+            'Se busca que los ciudadanos se sientan involucrados y tengan voz en el desarrollo de sus comunidades, y que puedan aportar sus necesidades y perspectivas a los proyectos.',
+            'Se utilizan diversas técnicas de participación, como talleres, grupos focales y encuestas, para involucrar a la mayor cantidad de personas posible.'
         ],
         adventages: [
             {
@@ -332,18 +343,53 @@ export const gubernamentales = [
 
         ],
         value: [
-            'valor añadido 1',
-            'valor añadido 2',
-            'valor añadido 3'
+            'Permite que los ciudadanos tengan voz en el desarrollo de sus comunidades.',
+            'Fomenta el sentido de comunidad y el espíritu de colaboración.',
+            'Identifica las necesidades de la comunidad y busca soluciones creativas.',
+            'La participación ciudadana da a los ciudadanos un sentido de ownership (pertenencia) de sus comunidades.'
         ],
         img: tendenciaDiscursiva,
     },
     {
         id: 3,
-        label: 'Talleres de sensibilización y formación',
+        label: 'Planeación urbana',
+        header: 'La clave para una ciudad sostenible, eficiente y próspera',
+        subtitle: 'Desarrollando un mundo mejor',
+        desciption: 'Desarrollar proyectos de carácter urbano con un enfoque de planeación estratégica que garantice el cumplimiento de los objetivos del desarrollo, sea habitacional, comercial, industrial o de movilidad.',
+        howItWorks: [
+            'La planeación urbana es el proceso de planificar el desarrollo de una ciudad o un área urbana. Se trata de un proceso continuo que implica la participación de diversos actores, incluidos los líderes comunales, el sector privado y el sector público.',
+            'La planeación urbana tiene como objetivo mejorar la calidad de vida de los habitantes de una ciudad o un área urbana al proporcionar un entorno urbano seguro, eficiente y sostenible.'
+        ],
+        adventages: [
+            {
+                text: 'Planeación',
+                icon: icon10
+            },
+            {
+                text: 'Desarrollo',
+                icon: icon11
+            },
+            {
+                text: 'Urbanismo',
+                icon: icon2
+            },
+        ],
+        value: [
+            'Mejora el desarrollo económico de las ciudades.',
+            'Favorece la convivencia social en las ciudades.',
+            'Permite el desarrollo sostenible de una ciudad, lo que significa que se puede mejorar la calidad de vida de las personas sin comprometer el medio ambiente.'
+        ],
+        img: tendenciaDiscursiva,
+    },
+    {
+        id: 4,
+        label: 'Talleres de sensibilización y formación ciudadana.',
+        header: 'La participación ciudadana empieza aquí.',
+        subtitle: 'Sensibilización y formación para una mejor participación ciudadana',
         desciption: 'Sensibilizar y formar a funcionarios públicos, comunidades, promotores, agentes y personas en general sobre la participación ciudadana y las herramientas participativas como elementos fundamentales para el desarrollo comunitario, la cohesión e integración social y la mejora de la transparencia y rendición de cuentas.',
         howItWorks: [
-            'Como funciona',
+            'Los talleres de sensibilización y formación en mecanismos de participación ciudadana son eventos organizados por entidades públicas o privadas con el objetivo de promover la participación de la ciudadanía en la vida pública.',
+            'En estos talleres, se ofrecen charlas y actividades dirigidas a fomentar el conocimiento sobre los mecanismos de participación ciudadana y a sensibilizar y formar a funcionarios públicos, comunidades, promotores, agentes y personas en general sobre la importancia de su participación en la toma de decisiones públicas.'
         ],
         adventages: [
             {
@@ -356,18 +402,22 @@ export const gubernamentales = [
             },
         ],
         value: [
-            'valor añadido 1',
-            'valor añadido 2',
-            'valor añadido 3'
+            'Fomentar el diálogo y el debate sobre temas de interés público',
+            'Facilitar el acceso de la ciudadanía a la información y a los canales adecuados para participar en la vida pública',
         ],
         img: tendenciaDiscursiva,
     },
     {
-        id: 4,
+        id: 5,
         label: 'Curso-Taller Ética pública y los valores cívicos',
+        header: 'Ética pública y valores cívicos, pilares de una nación',
+        subtitle: 'Valores cívicos para una democracia sólida',
         desciption: 'Comprender y aplicar los conceptos que implican la ética pública y los valores cívicos en el diario acontecer de las dependencias públicas y la vida cotidiana para transformar estos espacios desde el interior y mejorar significativamente los ambientes de trabajo.',
         howItWorks: [
-            'Como funciona',
+            '1. El curso-taller Ética pública y los valores cívicos está dirigido a todos los ciudadanos que quieran mejorar su formación ética y cívica.',
+            '2. El curso está compuesto por 10 módulos que tratan temas como la democracia, los derechos humanos, la justicia, la tolerancia o el respeto.',
+            '3. Cada módulo consta de una parte teórica y una práctica, en la que los participantes pondrán en práctica lo aprendido.',
+            '4. Al finalizar el curso, los participantes recibirán un diploma acreditativo.'
         ],
         adventages: [
             {
@@ -380,35 +430,55 @@ export const gubernamentales = [
             },
         ],
         value: [
-            'valor añadido 1',
-            'valor añadido 2',
-            'valor añadido 3'
+            'Los participantes recibirán orientación sobre cómo aplicar los valores cívicos en su vida diaria',
         ],
         img: tendenciaDiscursiva,
     },
     {
-        id: 5,
+        id: 6,
         label: 'Gobernautas (estrategia digital local)',
+        header: 'Mejora como te ve la ciudadanía',
+        subtitle: 'Piensa digitalmente',
         desciption: 'Acciones orientadas a mejorar la percepción de los gobiernos locales a través del uso de medios digitales. La estrategia puede incluir: 1I) diagnóstico del estado de gobernanza digital 2) pauta de acciones de gobierno con microsegmentación en sitios estratégicos; 3) análisis de redes sociales; 4) diseño administrativo de oficina digital local; 5) sistema de monitoreo digital de incidencias ',
         howItWorks: [
-            'Como funciona',
+            '1. Investigación: Es importante hacer una investigación exhaustiva sobre la percepción del público general, la brecha tecnológica y el estado actual de gobernanza digital.',
+            '2. Planificación: Generar el plan de acción.',
+            '3. Ejecución: Una vez que se haya planificado cuidadosamente la estrategia, se lanza y comienza a generar tráfico. Se trata de medir y analizar los resultados para poder ajustar y mejorar sus estrategias en consecuencia.',
+            '4. Mantenimiento: Es importante mantener una visión a largo plazo y ser consistente en la ejecución de las acciones para lograr los mejores resultados.'
         ],
         adventages: [
             {
                 text: 'Aumento de la percepción positiva del gobierno; acercamiento de las demandas ciudadanas en espacios digitales',
                 icon: icon10
             },
+            {
+                title: 'Mejorar la toma de decisiones:',
+                text: ' La percepción de los gobiernos locales permite a los líderes tomar decisiones más acertadas y alineadas con las necesidades y expectativas de la población.',
+                icon: icon5
+            },
+            {
+                title: 'Mejorar la toma de decisiones:',
+                text: 'Una mejor percepción de los gobiernos locales facilita la rendición de cuentas y promueve la transparencia en la gestión pública.',
+                icon: icon6
+            },
+            {
+                title: 'Mejorar la toma de decisiones:',
+                text: ' La percepción positiva de los gobiernos locales contribuye al desarrollo económico y social de las comunidades, al atraer inversiones y talentos.',
+                icon: icon7
+            }
         ],
         value: [
-            'valor añadido 1',
-            'valor añadido 2',
-            'valor añadido 3'
+            'Permite a los gobiernos locales ser más eficientes en la prestación de servicios a los ciudadanos.',
+            'Facilita el acceso a la información por parte de la ciudadanía, lo que promueve la transparencia y la rendición de cuentas.',
+            'Permite reducir los costos de operación, al optimizar los procesos y eliminar la necesidad de papel.'
         ],
         img: tendenciaDiscursiva,
     },
     {
-        id: 6,
+        id: 7,
         label: 'Matriz de indicadores de resultados (MIR)',
+        header: 'Indicadores de resultados clave',
+        subtitle: 'Indicadores que dan resultados',
         desciption: 'La MIR organiza los objetivos, indicadores y metas en la estructura programática, vinculados a demandas presupuetarias',
         howItWorks: [
             'Asegurar el sostenimiento financiero de programas derivados de la plataforma de gobierno, mediante indicadores que permitan la evaluación continua de la política pública',
@@ -427,7 +497,7 @@ export const gubernamentales = [
         img: tendenciaDiscursiva,
     },
     {
-        id: 7,
+        id: 8,
         label: 'Evaluación de política social (programas)',
         desciption: 'Medición de impacto de programas orientados a mejorar el bienestar de la población; permite que los tomadores de decisiones puedan optimizar sus acciones a través de evidencia empírica, conforme a los estándares de la plataforma de gobierno',
         howItWorks: [
@@ -447,7 +517,7 @@ export const gubernamentales = [
         img: tendenciaDiscursiva,
     },
     {
-        id: 8,
+        id: 9,
         label: 'Predictor de delitos',
         desciption: 'Plataforma para pronosticar de manera espaciotemporal los cambios positivos en la incidencia delictiva',
         howItWorks: [
@@ -687,9 +757,13 @@ export const politicos = [
     {
         id: 1,
         label: 'Evaluación de Politicas Públicas ',
+        header: 'Evaluando lo más importante o Evaluando lo que nos importa',
+        subtitle: 'La evaluación como herramienta de cambio',
         desciption: 'Seguimiento y evaluación de normas, programas o acciones que requieran ser medidas, evaluadas, en cuanto a resultados e impacto ',
         howItWorks: [
-            'Como funciona',
+            'La evaluación de políticas públicas es un proceso mediante el cual se analizan y evalúan los resultados y el impacto de las políticas públicas.',
+            'Este proceso permite identificar qué políticas públicas son efectivas y cómo se pueden mejorar.',
+            'La evaluación de políticas públicas es una herramienta importante para el gobierno, ya que le permite tomar decisiones basadas en datos y evidencia.'
         ],
         adventages: [
             {
@@ -706,29 +780,34 @@ export const politicos = [
             }
         ],
         value: [
-            'valor añadido 1',
-            'valor añadido 2',
-            'valor añadido 3'
+            'Permite medir el impacto de las políticas y programas públicos.',
+            'Identificar las políticas y programas que funcionan y aquellos que no.',
+            'Contribuye a mejorar la toma de decisiones en el sector público.',
+            'Herramienta de gestión para asegurar que los recursos se destinen a aquellas políticas y programas que son más efectivos.',
+            'Importante para la rendición de cuentas, ya que permite evaluar si se están logrando los objetivos previstos.'
         ],
         img: tendenciaDiscursiva,
     },
     {
         id: 2,
         label: 'Diseño de proyectos político-electorales ',
+        header: 'La clave para el éxito',
+        subtitle: 'El mejor diseño de proyectos',
         desciption: 'Diseño e implementación de estrategias en materia politico electoral, posicionamiento, seguimiento, construcción de agenda, discurso politico, sistematizacion geoelectoral.',
         howItWorks: [
-            'Como funciona',
+            'El diseño de proyectos político-electorales es una herramienta que ayuda a los partidos y candidatos a planificar y llevar a cabo sus campañas políticas.',
+            'Se centra en la identificación de los objetivos de la campaña, el público objetivo, el mensaje y la estrategia de comunicación.',
+            'También puede incluir la identificación de recursos necesarios, la planificación de actividades y el seguimiento y evaluación del progreso.'
         ],
         adventages: [
             {
-                text: 'apoyar en el posicionamiento de la persona u organización en materia electoral, mapeo de actores politicos, diseño de discurso politico, diseño de encuestas, tracking electoral, diseño de planes de campaña, plataforma politica y de propuestas ',
+                text: 'Apoyar en el posicionamiento de la persona u organización en materia electoral, mapeo de actores politicos, diseño de discurso politico, diseño de encuestas, tracking electoral, diseño de planes de campaña, plataforma politica y de propuestas ',
                 icon: icon1
             },
         ],
         value: [
-            'valor añadido 1',
-            'valor añadido 2',
-            'valor añadido 3'
+            'Ayuda a los partidos y candidatos a mantenerse enfocados en los resultados y a asegurarse de que sus actividades están orientadas a alcanzar sus objetivos.',
+            'Ayuda a los equipos de campaña a comprender mejor el entorno en el que se desarrollará su trabajo y a identificar las oportunidades y amenazas que podrían afectar el éxito de la campaña.',
         ],
         img: tendenciaDiscursiva,
     },
