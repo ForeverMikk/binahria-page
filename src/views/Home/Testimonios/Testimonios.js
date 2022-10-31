@@ -20,7 +20,7 @@ const Testimonios = () => {
     const testimonios = [
         {
             id: '1',
-            name: 'Taniza Meza',
+            name: t('home.testimonios.cardTwo.name'),
             description: t('home.testimonios.cardTwo.text'),
             img: tania
         },
