@@ -22,8 +22,8 @@ const CatalogoCategories = () => {
                 {/* <Select options={options} /> */}
 
                 <CategoryDropdown title={t('catalogo.categories.cat1')} background={bg1} options={politicos} id={1}/>
-                <CategoryDropdown title={t('catalogo.categories.cat1')} background={bg2} options={gubernamentales} id={2}/>
-                <CategoryDropdown title={t('catalogo.categories.cat1')} background={bg3} options={corporativos} id={3}/>
+                <CategoryDropdown title={t('catalogo.categories.cat2')} background={bg2} options={gubernamentales} id={2}/>
+                <CategoryDropdown title={t('catalogo.categories.cat3')} background={bg3} options={corporativos} id={3}/>
             </div>
 
             <CategoryCarousel 
@@ -36,7 +36,7 @@ const CatalogoCategories = () => {
             
             <CategoryCarousel 
                 id={2} 
-                title={t('catalogo.categories.cat1')}
+                title={t('catalogo.categories.cat2')}
                 background='#9147FB' 
                 products={gubernamentales}
                 productType='goberment'
@@ -44,7 +44,7 @@ const CatalogoCategories = () => {
             
             <CategoryCarousel 
                 id={3} 
-                title={t('catalogo.categories.cat1')}
+                title={t('catalogo.categories.cat3')}
                 background='#E8E8E8' 
                 products={corporativos}
                 productType='corporative'
