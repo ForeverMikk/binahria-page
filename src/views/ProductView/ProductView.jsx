@@ -45,11 +45,10 @@ const ProductView = () => {
         {<section className='product-view' id='product-view'>
             <ProductHeader />
  
-
             <div className='title'>
                {product && <p className='name'> / CATÁLOGO  -  <span> {product.label} </span></p>}
 
-                <h2>La mejor forma de ver tu información</h2>
+                {product && <h2>{product.header}</h2>}
                 <button>PROGRAMA UNA REUNIÓN &rarr;</button>
             </div>
 
@@ -57,7 +56,7 @@ const ProductView = () => {
                 <img src={mainImg} alt='Imagen de facilidades'></img>
 
                 <div className='text'>
-                    <h3>TUS DATOS MÁS FÁCIL</h3>
+                    {product && <h3 className='subtitle'>{product.subtitle}</h3>}
                     {product && <p>{product.desciption}</p>}
                 </div>
             </div>
