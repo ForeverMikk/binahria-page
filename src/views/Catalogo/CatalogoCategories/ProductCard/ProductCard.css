@@ -32,14 +32,14 @@
 }
 
 .cat-card img {
-    height: 8rem;
-    width: 80%;
+    height: 9rem;
+    width: auto;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .cat-card .card-title, .cat-card .card-description {
-    width: 80%;
+    width: 85%;
     margin: 0.5rem 0;
 }
 
@@ -48,7 +48,7 @@
     font-size: 1rem;
     text-transform: uppercase;
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .cat-card .card-description {

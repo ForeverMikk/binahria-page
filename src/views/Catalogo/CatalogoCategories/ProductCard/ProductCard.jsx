@@ -8,7 +8,7 @@ const ProductCard = ({product, index, productType}) => {
     return (
         <div className='cat-card'>
             <p className='top-number'>/0{index+1}</p>
-            <img src={product.img} alt={product.label} />
+            <img src={product.cardIcon} alt={product.label} />
             <h3 className="card-title">{product.label}</h3>
             <p className="card-description">{product.description}</p>
             <Link className='watch-more' to={{

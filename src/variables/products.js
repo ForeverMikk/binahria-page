@@ -19,15 +19,34 @@ import icon8 from '../assets/images/icons/icon8.svg';
 import icon9 from '../assets/images/icons/icon4.svg';
 import icon10 from '../assets/images/icons/icon10.svg';
 import icon11 from '../assets/images/icons/icon11.svg';
-import icon14 from '../assets/images/icons/icon14.svg';
-import icon15 from '../assets/images/icons/icon15.svg';
-import icon16 from '../assets/images/icons/icon16.svg';
-import icon17 from '../assets/images/icons/icon17.svg';
-import icon18 from '../assets/images/icons/icon18.svg';
-import icon19 from '../assets/images/icons/icon19.svg';
-import icon20 from '../assets/images/icons/icon20.svg';
-import icon21 from '../assets/images/icons/icon21.svg';
-import icon22 from '../assets/images/icons/icon22.svg';
+import icon12 from '../assets/images/icons/icon14.svg';
+import icon13 from '../assets/images/icons/icon15.svg';
+import icon14 from '../assets/images/icons/icon16.svg';
+import icon15 from '../assets/images/icons/icon17.svg';
+import icon16 from '../assets/images/icons/icon18.svg';
+import icon17 from '../assets/images/icons/icon19.svg';
+import icon18 from '../assets/images/icons/icon20.svg';
+import icon19 from '../assets/images/icons/icon21.svg';
+import icon20 from '../assets/images/icons/icon22.svg';
+
+import cardIcon01 from '../assets/images/icons/card-icon-01.png';
+import cardIcon02 from '../assets/images/icons/card-icon-02.png';
+import cardIcon03 from '../assets/images/icons/card-icon-03.png';
+import cardIcon04 from '../assets/images/icons/card-icon-04.png';
+import cardIcon05 from '../assets/images/icons/card-icon-05.png';
+import cardIcon06 from '../assets/images/icons/card-icon-06.png';
+import cardIcon07 from '../assets/images/icons/card-icon-07.png';
+import cardIcon08 from '../assets/images/icons/card-icon-08.png';
+import cardIcon09 from '../assets/images/icons/card-icon-09.png';
+import cardIcon10 from '../assets/images/icons/card-icon-10.png';
+import cardIcon11 from '../assets/images/icons/card-icon-11.png';
+import cardIcon12 from '../assets/images/icons/card-icon-12.png';
+import cardIcon13 from '../assets/images/icons/card-icon-13.png';
+import cardIcon14 from '../assets/images/icons/card-icon-14.png';
+import cardIcon15 from '../assets/images/icons/card-icon-15.png';
+// import cardIcon16 from '../assets/images/icons/card-icon-16.png';
+// import cardIcon17 from '../assets/images/icons/card-icon-17.png';
+import cardIcon18 from '../assets/images/icons/card-icon-18.png';
 
 export const corporativos = [
     // {
@@ -41,7 +60,7 @@ export const corporativos = [
     //         {
     //             title: '',
     //             text: 'Mejorar ventas, dar herramientas para mejorar la toma de decisiones',
-    //             icon: icon3
+    //             icon: icon1
     //         }
     //     ],
     //     value: [
@@ -51,6 +70,7 @@ export const corporativos = [
     //     ],
     //     // CAMBIAR
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon01
     // },
     {
         id: 2,
@@ -68,17 +88,17 @@ export const corporativos = [
             {
                 title: 'Tendencias del mercado',
                 text:'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
-                icon: icon1
+                icon: icon2
             },
             {
                 title: 'Discursos de impacto',
                 text: 'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
-                icon: icon2
+                icon: icon3
             },
             {
                 title: 'Posicionamiento de marca',
                 text: 'Permite el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.',
-                icon: icon3
+                icon: icon4
             }
         ],
         value: [
@@ -87,6 +107,7 @@ export const corporativos = [
             'Crea los mejores discursos y mensajes para el interior de tu empresa o para expresarte mejor a la audiencia en general'
         ],
         img: tendenciaDiscursiva,
+        cardIcon: cardIcon02
     },
     {
         id: 3,
@@ -102,22 +123,22 @@ export const corporativos = [
             {
                 title: 'Identificación de variables',
                 text: 'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
-                icon: icon4
+                icon: icon5
             },
             {
                 title: 'Segmentado',
                 text: 'Útil para la confección de estrategias comerciales acotado a segmentos o nichos de mercado.',
-                icon: icon5
+                icon: icon6
             },
             {
                 title: 'Decisiones bajo escenarios',
                 text: 'Proporciona información oportuna para la proyección de escenarios de acción y operación.',
-                icon: icon6
+                icon: icon7
             },
             {   
                 title: 'Variedad de formatos',
                 text: 'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.',
-                icon: icon7
+                icon: icon8
             }
         ],
         value: [
@@ -126,6 +147,7 @@ export const corporativos = [
             'Planifica estrategias para la entrada de un producto en una zona geográfica'
         ],
         img: lienzoSocial,
+        cardIcon: cardIcon03
     },
     {
         id: 4,
@@ -140,17 +162,18 @@ export const corporativos = [
         adventages: [
             {
                 text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
-                icon: icon8
+                icon: icon9
             },
             {
                 text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
-                icon: icon9
+                icon: icon10
             }
         ],
         value: [
             'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
         ],
         img: mapaRedesInfluencia,
+        cardIcon: cardIcon04
     },
     {
         id: 5,
@@ -166,21 +189,22 @@ export const corporativos = [
         adventages: [
             {
                 text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida agilizando la toma de decisiones.',
-                icon: icon10
-            },
-            {
-                text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
                 icon: icon11
             },
             {
+                text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
+                icon: icon12
+            },
+            {
                 text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
-                icon: icon16
+                icon: icon13
             }
         ],
         value: [
             'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
         ],
         img: rentavilidad,
+        cardIcon: cardIcon05
     },
     {
         id: 6,
@@ -195,17 +219,18 @@ export const corporativos = [
         adventages: [
             {
                 text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos.',
-                icon: icon17
+                icon: icon14
             },
             {
                 text: 'Reducción del tiempo en dar el salto tecnológico en tu empresa u organización',
-                icon: icon14
+                icon: icon15
             }
         ],
         value: [
             'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
         ],
         img: digitalizacion,
+        cardIcon: cardIcon06
     },
     {
         id: 7,
@@ -219,19 +244,19 @@ export const corporativos = [
         adventages: [
             {
                 text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar',
-                icon: icon15
-            },
-            {
-                text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente.',
                 icon: icon16
             },
             {
-                text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
+                text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente.',
                 icon: icon17
             },
             {
-                text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
+                text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
                 icon: icon18
+            },
+            {
+                text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
+                icon: icon19
             }
         ],
         value: [
@@ -239,6 +264,7 @@ export const corporativos = [
             'Facilita la comprensión de grandes bases de datos'
         ],
         img: tableros,
+        cardIcon: cardIcon07
     },
     {
         id: 8,
@@ -253,27 +279,27 @@ export const corporativos = [
         adventages: [
             {
                 text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
-                icon: icon19
-            },
-            {
-                text: 'Diseño de estrategias de negocio con enfoque fintech.',
                 icon: icon20
             },
             {
-                text: 'Investigación de usuario y análisis de comportamientos de consumo.',
-                icon: icon21
-            },
-            {
-                text: 'Gestión de la innovación en nuevos modelos de negocios.',
-                icon: icon22
-            },
-            {
-                text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech.',
+                text: 'Diseño de estrategias de negocio con enfoque fintech.',
                 icon: icon1
             },
             {
-                text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
+                text: 'Investigación de usuario y análisis de comportamientos de consumo.',
                 icon: icon2
+            },
+            {
+                text: 'Gestión de la innovación en nuevos modelos de negocios.',
+                icon: icon3
+            },
+            {
+                text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech.',
+                icon: icon4
+            },
+            {
+                text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
+                icon: icon5
             }
         ],
         value: [
@@ -282,6 +308,7 @@ export const corporativos = [
             'Aplica nuevas tecnologías a actividades financieras y de inversión.'
         ],
         img: fintech,
+        cardIcon: cardIcon08
     },
 ]
 
@@ -300,15 +327,15 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Vivienda Digna y Asequible.',
-    //             icon: icon1
+    //             icon: icon6
     //         },
     //         {
     //             text: 'Conciliar la autoconstrucción y la asesoría técnica.',
-    //             icon: icon2
+    //             icon: icon7
     //         },
     //         {
     //             text: 'Oportunidad de financiamiento de la asesoría técnica. ',
-    //             icon: icon4
+    //             icon: icon8
     //         }
     //     ],
     //     value: [
@@ -319,6 +346,7 @@ export const gubernamentales = [
     //         'Disponemos de una amplia gama de recursos técnicos y tecnológicos para el desarrollo de proyectos de autoproducción de espacio habitable.'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon09
     // },
     // {
     //     id: 2,
@@ -334,27 +362,27 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Favorece los procesos políticos y sociales de cualquier proyecto que se contemple. ',
-    //             icon: icon10
+    //             icon: icon9
     //         },
     //         {
     //             text: ' Si se orienta y guía adecuadamente puden servir como instrumentos de gestión política, social o empresarial.',
-    //             icon: icon11
+    //             icon: icon10
     //         },
     //         {
     //             text: 'Mejora la percepción de la comunidad e individuos respecto a los procesos de planificación e implementación de acciones.',
-    //             icon: icon14
-    //         },
-    //         {
-    //             text: 'Crea un proceso de aprendizaje donde la comunidad y los ciudadanos aprenden a elaborar y gestionar proyectos.',
     //             icon: icon11
     //         },
     //         {
+    //             text: 'Crea un proceso de aprendizaje donde la comunidad y los ciudadanos aprenden a elaborar y gestionar proyectos.',
+    //             icon: icon12
+    //         },
+    //         {
     //             text: 'Favorece e impulsa la responsabilidad compartida entre los actores.',
-    //             icon: icon2
+    //             icon: icon13
     //         },
     //         {
     //             text: 'Posibilita cambios sociales profundos, ya que promueve la integración y cohesión social y promueve el cambio de visión individualista e instrumental hacia la integración de lo comunitario.',
-    //             icon: icon15
+    //             icon: icon14
     //         }
 
     //     ],
@@ -365,6 +393,7 @@ export const gubernamentales = [
     //         'La participación ciudadana da a los ciudadanos un sentido de ownership (pertenencia) de sus comunidades.'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon10
     // },
     // {
     //     id: 3,
@@ -379,15 +408,15 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Planeación',
-    //             icon: icon10
+    //             icon: icon15
     //         },
     //         {
     //             text: 'Desarrollo',
-    //             icon: icon11
+    //             icon: icon16
     //         },
     //         {
     //             text: 'Urbanismo',
-    //             icon: icon2
+    //             icon: icon17
     //         },
     //     ],
     //     value: [
@@ -396,6 +425,7 @@ export const gubernamentales = [
     //         'Permite el desarrollo sostenible de una ciudad, lo que significa que se puede mejorar la calidad de vida de las personas sin comprometer el medio ambiente.'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon11
     // },
     // {
     //     id: 4,
@@ -410,11 +440,11 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Identificación  y comprención los mecanismos de participación ciudadana como herramienta para fortalecer las relaciones entre las instituciones gubernamentales y las comunidades, así como las relaciones entre los mismos individuos. ',
-    //             icon: icon10
+    //             icon: icon18
     //         },
     //         {
     //             text: 'Mejoramiento de la eficacia, eficiencia y efectividad de las acciones gubernamentales, políticas públicas y proyectos de desarrollo comunitario orientando acciones de participación ciudadana.',
-    //             icon: icon11
+    //             icon: icon2
     //         },
     //     ],
     //     value: [
@@ -422,6 +452,7 @@ export const gubernamentales = [
     //         'Facilitar el acceso de la ciudadanía a la información y a los canales adecuados para participar en la vida pública',
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon12
     // },
     // {
     //     id: 5,
@@ -438,17 +469,18 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Reconocer la complejidad de la administración pública y de la sociedad  desde la ética publica y los valores cívicos para impulsar y fortalecer buenas prácticas éticas y de transparencia en la gestión de lo público. ',
-    //             icon: icon10
+    //             icon: icon19
     //         },
     //         {
     //             text: 'Sensibilización de los conceptos éticos para relacionarlos con los principios rectores de las instituciones democráticas (la administración pública).',
-    //             icon: icon11
+    //             icon: icon20
     //         },
     //     ],
     //     value: [
     //         'Los participantes recibirán orientación sobre cómo aplicar los valores cívicos en su vida diaria',
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon13
     // },
     // {
     //     id: 6,
@@ -465,22 +497,22 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Aumento de la percepción positiva del gobierno; acercamiento de las demandas ciudadanas en espacios digitales',
-    //             icon: icon10
+    //             icon: icon1
     //         },
     //         {
     //             title: 'Mejorar la toma de decisiones:',
     //             text: ' La percepción de los gobiernos locales permite a los líderes tomar decisiones más acertadas y alineadas con las necesidades y expectativas de la población.',
-    //             icon: icon5
+    //             icon: icon2
     //         },
     //         {
     //             title: 'Mejorar la toma de decisiones:',
     //             text: 'Una mejor percepción de los gobiernos locales facilita la rendición de cuentas y promueve la transparencia en la gestión pública.',
-    //             icon: icon6
+    //             icon: icon3
     //         },
     //         {
     //             title: 'Mejorar la toma de decisiones:',
     //             text: ' La percepción positiva de los gobiernos locales contribuye al desarrollo económico y social de las comunidades, al atraer inversiones y talentos.',
-    //             icon: icon7
+    //             icon: icon4
     //         }
     //     ],
     //     value: [
@@ -489,6 +521,7 @@ export const gubernamentales = [
     //         'Permite reducir los costos de operación, al optimizar los procesos y eliminar la necesidad de papel.'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon14
     // },
     // {
     //     id: 7,
@@ -502,7 +535,7 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'ventaja 1',
-    //             icon: icon10
+    //             icon: icon5
     //         },
     //     ],
     //     value: [
@@ -511,6 +544,7 @@ export const gubernamentales = [
     //         'valor añadido 3'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon15
     // },
     // {
     //     id: 8,
@@ -522,7 +556,7 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Diseñar política social eficiente e incluyente',
-    //             icon: icon10
+    //             icon: icon6
     //         },
     //     ],
     //     value: [
@@ -531,6 +565,7 @@ export const gubernamentales = [
     //         'valor añadido 3'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon16
     // },
     // {
     //     id: 9,
@@ -542,7 +577,7 @@ export const gubernamentales = [
     //     adventages: [
     //         {
     //             text: 'Orientación de estrategia de seguridad conforme a campañas de prevención, deterrance y movilización de recursos en puntos y horarios estratégicos del espacio urbano',
-    //             icon: icon10
+    //             icon: icon7
     //         },
     //     ],
     //     value: [
@@ -551,6 +586,7 @@ export const gubernamentales = [
     //         'valor añadido 3'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon17
     // },
     {
         id: 10,
@@ -567,15 +603,15 @@ export const gubernamentales = [
         adventages: [
             {
                 text: 'Permite la identificación de tendencias sociales.',
-                icon: icon3
+                icon: icon8
             },
             {
                 text: 'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria.',
-                icon: icon4
+                icon: icon9
             },
             {
                 text: 'Permite el posicionamiento de servicios gubernamentales, apoyos o campañas sociales.',
-                icon: icon5
+                icon: icon10
             },
         ],
         value: [
@@ -584,6 +620,7 @@ export const gubernamentales = [
             'Construye discursos claros y concisos para las audiencias.'
         ],
         img: tendenciaDiscursiva,
+        cardIcon: cardIcon18
     },
     {
         id: 11,
@@ -597,23 +634,23 @@ export const gubernamentales = [
         adventages: [
             {
                 text: 'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
-                icon: icon4
+                icon: icon11
             },
             {
                 text: 'Útil para la confección de estrategias de posicionamiento acotado a segmentos de la población',
-                icon: icon5
+                icon: icon12
             },
             {
                 text: 'Insumo valioso para el diseño y localización de propuestas electorales y agendas políticas',
-                icon: icon6
+                icon: icon13
             },
             {
                 text: 'Proporciona información oportuna para la proyección de escenarios de acción y operación',
-                icon: icon7
+                icon: icon14
             },
             {
                 text: 'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.',
-                icon: icon8
+                icon: icon15
             },
         ],
         value: [
@@ -622,6 +659,7 @@ export const gubernamentales = [
             'Planifica estrategias para la entrada de un producto en una zona geográfica.'
         ],
         img: lienzoSocial,
+        cardIcon: cardIcon01
     },
     {
         id: 12,
@@ -636,17 +674,18 @@ export const gubernamentales = [
         adventages: [
             {
                 text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
-                icon: icon9
+                icon: icon16
             },
             {
                 text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
-                icon: icon10
+                icon: icon17
             },
         ],
         value: [
             'Permite identificar dónde reside el poder de decisión dentro de la instituciones, secretarías, paraestatales, o ayuntamientos de gobierno.',
         ],
         img: mapaRedesInfluencia,
+        cardIcon: cardIcon02
     },
     {
         id: 13,
@@ -663,15 +702,15 @@ export const gubernamentales = [
         adventages: [
             {
                 text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones. ',
-                icon: icon11
+                icon: icon18
             },
             {
                 text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
-                icon: icon14
+                icon: icon19
             },
             {
                 text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
-                icon: icon15
+                icon: icon20
             }
         ],
         value: [
@@ -679,6 +718,7 @@ export const gubernamentales = [
             'Incrementa tu rentabilidad asignando óptimamente los recursos.'
         ],
         img: rentavilidad,
+        cardIcon: cardIcon03
     },
     {
         id: 14,
@@ -693,13 +733,14 @@ export const gubernamentales = [
         adventages: [
             {
                 text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
-                icon: icon14
+                icon: icon1
             }
         ],
         value: [
             'Reducción del tiempo en dar el salto tecnológico en alguna institución gubernamental',
         ],
         img: digitalizacion,
+        cardIcon: cardIcon04
     },
     {
         id: 15,
@@ -713,19 +754,19 @@ export const gubernamentales = [
         adventages: [
             {
                 text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
-                icon: icon15
+                icon: icon2
             },
             {
                 text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
-                icon: icon16
+                icon: icon3
             },
             {
                 text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas',
-                icon: icon17
+                icon: icon4
             },
             {
                 text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
-                icon: icon18
+                icon: icon5
             },
         ],
         value: [
@@ -733,6 +774,7 @@ export const gubernamentales = [
             'Facilita la comprensión de grandes bases de datos'
         ],
         img: tableros,
+        cardIcon: cardIcon05
     },
     {
         id: 16,
@@ -747,31 +789,31 @@ export const gubernamentales = [
         adventages: [
             {
                 text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa',
-                icon: icon19
+                icon: icon6
             },
             {
                 text: 'Diseño de estrategias de negocio con enfoque fintech',
-                icon: icon20
+                icon: icon7
             },
             {
                 text: 'Investigación de usuario y análisis de comportamientos de consumo',
-                icon: icon21
+                icon: icon8
             },
             {
                 text: 'Gestión de la innovación en nuevos modelos de negocios.',
-                icon: icon22
+                icon: icon9
             },
             {
                 text: 'Panorama estadístico y determinación del tamaño del mercado.',
-                icon: icon1
+                icon: icon10
             },
             {
                 text: 'Análisis del marco jurídico aplicable a la operación negocios fintech.',
-                icon: icon2
+                icon: icon11
             },
             {
                 text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
-                icon: icon3
+                icon: icon12
             },
         ],
         value: [
@@ -779,6 +821,7 @@ export const gubernamentales = [
             'Facilita la comprensión de grandes bases de datos'
         ],
         img: fintech,
+        cardIcon: cardIcon06
     },
 ]
 
@@ -797,15 +840,15 @@ export const politicos = [
     //     adventages: [
     //         {
     //             text: 'Generar acciones de evaluación a las politicas publicas de los diferentes ordenes de gobierno. ',
-    //             icon: icon1
+    //             icon: icon13
     //         },
     //         {
     //             text: 'Mostrar recomendaciones de mejores practicas para el desarrollo de politicas publicas en beneficio de la población.',
-    //             icon: icon2
+    //             icon: icon14
     //         },
     //         {
     //             text: 'Diseñar indicadores y sistemas de información con enfoque social',
-    //             icon: icon4
+    //             icon: icon15
     //         }
     //     ],
     //     value: [
@@ -816,6 +859,7 @@ export const politicos = [
     //         'Importante para la rendición de cuentas, ya que permite evaluar si se están logrando los objetivos previstos.'
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon07
     // },
     // {
     //     id: 2,
@@ -831,7 +875,7 @@ export const politicos = [
     //     adventages: [
     //         {
     //             text: 'Apoyar en el posicionamiento de la persona u organización en materia electoral, mapeo de actores politicos, diseño de discurso politico, diseño de encuestas, tracking electoral, diseño de planes de campaña, plataforma politica y de propuestas ',
-    //             icon: icon1
+    //             icon: icon16
     //         },
     //     ],
     //     value: [
@@ -839,6 +883,7 @@ export const politicos = [
     //         'Ayuda a los equipos de campaña a comprender mejor el entorno en el que se desarrollará su trabajo y a identificar las oportunidades y amenazas que podrían afectar el éxito de la campaña.',
     //     ],
     //     img: tendenciaDiscursiva,
+    // cardIcon: cardIcon08
     // },
     {
         id: 3,
@@ -857,15 +902,15 @@ export const politicos = [
         adventages: [
             {
                 text: 'Permite la identificación de tendencias de mercado de acuerdo con interés del consumidor.',
-                icon: icon4
+                icon: icon17
             },
             {
                 text: 'Útil para el desarrollo de discursos de impacto con un alto sentido de pertenencia comunitaria',
-                icon: icon5
+                icon: icon18
             },
             {
                 text: 'Permitan el posicionamiento de marcas personales y comerciales para la atracción de segmentos de mercado específicos.',
-                icon: icon6
+                icon: icon19
             },
             
         ],
@@ -875,6 +920,7 @@ export const politicos = [
             'Construye discursos claros y concisos para las audiencias'
         ],
         img: tendenciaDiscursiva,
+        cardIcon: cardIcon09
     },
     {
         id: 4,
@@ -888,23 +934,23 @@ export const politicos = [
         adventages: [
             {
                 text: 'Provee una panorama descriptivo general de diversas variables de interés para una zona determinada.',
-                icon: icon7
+                icon: icon20
             },
             {
                 text: 'Útil para la confección de estrategias comerciales acotado a segmentos o nichos de mercado.',
-                icon: icon8
+                icon: icon1
             },
             {
                 text: 'Insumo valioso para el diseño y localización de propuestas electorales y agendas políticas.',
-                icon: icon9
+                icon: icon2
             },
             {
                 text: 'Proporciona información oportuna para la proyección de escenarios de acción y operación',
-                icon: icon10
+                icon: icon3
             },
             {
                 text: 'Puede desplegarse en formato estático (pdf) o en un tablero dinámico con inteligencia de negocios para el monitoreo de información en tiempo real.',
-                icon: icon11
+                icon: icon4
             },
         ],
         value: [
@@ -913,6 +959,7 @@ export const politicos = [
             'Planifica estrategias políticas para la obtención de la mayoría de votantes.'
         ],
         img: lienzoSocial,
+        cardIcon: cardIcon10
     },
     {
         id: 5,
@@ -927,17 +974,18 @@ export const politicos = [
         adventages: [
             {
                 text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
-                icon: icon17
+                icon: icon5
             },
             {
                 text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
-                icon: icon18
+                icon: icon6
             },
         ],
         value: [
             'Permite identificar dónde reside el poder de decisión dentro de los partidos políticos, campañas políticas, etcétera.',
         ],
         img: mapaRedesInfluencia,
+        cardIcon: cardIcon11
     },
     {
         id: 6,
@@ -954,15 +1002,15 @@ export const politicos = [
         adventages: [
             {
                 text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida por sección electoral agilizando la toma de decisiones.',
-                icon: icon14
+                icon: icon7
             },
             {
                 text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
-                icon: icon15
+                icon: icon8
             },
             {
                 text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
-                icon: icon16
+                icon: icon9
             },
         ],
         value: [
@@ -970,6 +1018,7 @@ export const politicos = [
             'Incrementa tu rentabilidad asignando óptimamente los recursos.'
         ],
         img: rentavilidad,
+        cardIcon: cardIcon12
     },
     {
         id: 7,
@@ -984,13 +1033,14 @@ export const politicos = [
         adventages: [
             {
                 text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos. ',
-                icon: icon17
+                icon: icon10
             }
         ],
         value: [
             'Reducción del tiempo en dar el salto tecnológico en tu campaña o partido político.',
         ],
         img: digitalizacion,
+        cardIcon: cardIcon13
     },
     {
         id: 8,
@@ -1004,19 +1054,19 @@ export const politicos = [
         adventages: [
             {
                 text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar.',
-                icon: icon18
+                icon: icon11
             },
             {
                 text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente',
-                icon: icon19
+                icon: icon12
             },
             {
                 text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
-                icon: icon20
+                icon: icon13
             },
             {
                 text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
-                icon: icon21
+                icon: icon14
             },
         ],
         value: [
@@ -1024,6 +1074,7 @@ export const politicos = [
             'Facilita la comprensión de grandes bases de datos'
         ],
         img: tableros,
+        cardIcon: cardIcon14
     },
     {
         id: 9,
@@ -1038,31 +1089,31 @@ export const politicos = [
         adventages: [
             {
                 text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa',
-                icon: icon19
+                icon: icon15
             },
             {
                 text: 'Diseño de estrategias de negocio con enfoque fintech',
-                icon: icon20
+                icon: icon16
             },
             {
                 text: 'Investigación de usuario y análisis de comportamientos de consumo',
-                icon: icon21
+                icon: icon17
             },
             {
                 text: 'Gestión de la innovación en nuevos modelos de negocios.',
-                icon: icon22
+                icon: icon18
             },
             {
                 text: 'Panorama estadístico y determinación del tamaño del mercado.',
-                icon: icon1
+                icon: icon19
             },
             {
                 text: 'Análisis del marco jurídico aplicable a la operación negocios fintech.',
-                icon: icon2
+                icon: icon20
             },
             {
                 text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
-                icon: icon3
+                icon: icon1
             },
         ],
         value: [
@@ -1070,6 +1121,7 @@ export const politicos = [
             'Facilita la comprensión de grandes bases de datos'
         ],
         img: fintech,
+        cardIcon: cardIcon15
     },
 ]
 
