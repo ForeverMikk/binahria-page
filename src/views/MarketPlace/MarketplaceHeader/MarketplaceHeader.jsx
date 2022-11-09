@@ -14,11 +14,11 @@ const MarketplaceHeader = () => {
             <Navbar logo={logo} />
 
             <div className="top">
-                <span>/ {t('conocenos.title')}</span>
+                <span>/ descubre</span>
             </div>
 
             <div className="main-text">
-                <p>{t('conocenos.text')}</p>
+                <p>Las mejores herramientas <span>a tu alcance</span> </p>
             </div>
 
             <div className="bottom-text">

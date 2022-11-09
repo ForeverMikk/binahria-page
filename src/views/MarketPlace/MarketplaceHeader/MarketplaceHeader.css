@@ -13,10 +13,8 @@
     color: black;
 }
 
-.marketplace-header a{
-    color: white;
-}
 .marketplace-header .top{
+    color: #000;
     padding-top: 7vw;
     padding-left: 10vw;
     font-size: 1rem;
@@ -29,9 +27,12 @@
     width: 60vw;
     font-size: 4.3vw;
     font-weight: 300;
-    font-family: "Florence";
+    font-family: "Florence", sans-serif;
     text-transform: uppercase;
     color: #000;
+}
+.marketplace-header .main-text span{
+    font-family: "Florence Outline", sans-serif;
 }
 .marketplace-header .bottom-text .left{
     font-size: 1rem;
@@ -43,4 +44,7 @@
 .marketplace-header .bottom-text .left:hover{
     transition: all 0.5s ease;
     transform: translateX(20px);
+}
+.marketplace-header .bottom-text .left a {
+    color: #000;
 }
