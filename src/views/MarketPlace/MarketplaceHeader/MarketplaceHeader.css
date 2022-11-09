@@ -48,3 +48,47 @@
 .marketplace-header .bottom-text .left a {
     color: #000;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .marketplace-header .top {
+        margin-top: 30%;
+        font-size: 1.5rem;
+    }
+    .marketplace-header .main-text {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .marketplace-header .bottom-text .left{
+        padding-top: 15rem;
+        font-size: 1.5rem;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .marketplace-header .top {
+        font-size: 1.1rem;
+    }
+    .marketplace-header .main-text {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .marketplace-header .bottom-text .left{
+        padding-top: 5rem;
+        font-size: 1.1rem;
+        width: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .marketplace-header .main-text {
+        font-size: 2rem;
+        font-weight: 600;
+        width: auto;
+        padding-left: 7vw;
+    }
+}
