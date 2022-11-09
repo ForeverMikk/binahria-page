@@ -77,6 +77,11 @@ const Navbar = ({logo}) => {
                     </NavLink>
                 </li>
                 <li>
+                    <NavLink to="/marketplace" className='cursor-scale'>
+                        Marketplace
+                    </NavLink>
+                </li>
+                <li>
                     <button className='cursor-scale' onClick={() => {changeLanguage('es')}}>
                         Esp
                     </button>

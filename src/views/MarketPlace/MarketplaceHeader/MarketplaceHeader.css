@@ -1,0 +1,46 @@
+/* Estilos del tercer Header */
+
+.marketplace-header{
+    height: 100vh;
+    background: url("../../../assets/images/white-background.jpg") center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    /* z-index: -2; */
+}
+
+.marketplace-header .menu li a, 
+.marketplace-header .menu li button {
+    color: black;
+}
+
+.marketplace-header a{
+    color: white;
+}
+.marketplace-header .top{
+    padding-top: 7vw;
+    padding-left: 10vw;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.marketplace-header .main-text{
+    /* padding-top: 3vw; */
+    padding-left: 10vw;
+    width: 60vw;
+    font-size: 4.3vw;
+    font-weight: 300;
+    font-family: "Florence";
+    text-transform: uppercase;
+    color: #000;
+}
+.marketplace-header .bottom-text .left{
+    font-size: 1rem;
+    padding-left: 10vw;
+    text-transform: uppercase;
+    width: 30rem;
+    transition: all 0.5s ease;
+}
+.marketplace-header .bottom-text .left:hover{
+    transition: all 0.5s ease;
+    transform: translateX(20px);
+}

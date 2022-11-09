@@ -7,6 +7,7 @@ import Catalogo from "./../Catalogo/Catalogo"
 // import Dashboard from "./../Dashboard/Dashboard"
 import ProductView from '../ProductView/ProductView';
 import Contact from '../Contact/Contact'
+import MarketPlace from '../MarketPlace/MarketPlace';
 
 class Router extends Component{
     render(){
@@ -16,6 +17,7 @@ class Router extends Component{
                 <Route path="/tecnologias" component={Tecnologias} />
                 <Route path="/conocenos" component={Conocenos} />
                 <Route path="/catalogo" component={Catalogo} />
+                <Route path="/marketplace" component={MarketPlace} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/product" component={ProductView} />
                 <Route path="/product:type" component={ProductView} />
