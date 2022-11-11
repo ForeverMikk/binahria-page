@@ -52,21 +52,41 @@ export const corporativos = [
     // {
     //     id: 1,
     //     label: 'SIGs para Retail',
+    // header: 'Una herramienta indispensable para el éxito en ventas',
+    // subtitle: 'La base de la toma de decisiones estratégicas',
     //     desciption: 'Utilizar técnicas de análisis territorial para ayuda a solucionar las preguntas más frecuentes de empresas en el sector de Retail, como por ejemplo: ¿Dónde están mis clientes? ¿Cuál es mi cobertura? ¿Qué productos han adquirido mis clientes en una zona?',
     //     howItWorks: [
-    //         'Como funciona',
+    //         'Es un método de investigación de mercado que se centra en el estudio de un área específica.',
+    // 'Se utiliza para comprender mejor las dinámicas del mercado en una región determinada, así como para identificar oportunidades y amenazas para una empresa.'
     //     ],
     //     adventages: [
     //         {
-    //             title: '',
-    //             text: 'Mejorar ventas, dar herramientas para mejorar la toma de decisiones',
+    //             title: 'Mejora las ventas',
+    //             text: 'obtén herramientas para mejorar la toma de decisiones.',
     //             icon: icon1
-    //         }
+    //         },
+            // {
+            //     title: 'Cobertura',
+            //     text: 'Se puede analizar el área de cobertura de una empresa y determinar si esta cubre a todos sus clientes y si existen oportunidades de expansión.',
+            //     icon: icon2
+            // },
+            // {
+            //     title: 'Análisis de la competencia',
+            //     text: 'Se pueden identificar las empresas competidoras y analizar su cobertura y estrategia.',
+            //     icon: icon3
+            // },
+            // {
+            //     title: 'Productos',
+            //     text: 'Se pueden analizar los productos que se venden en una zona y determinar si existen oportunidades de venta de otros productos.',
+            //     icon: icon4
+            // }
     //     ],
     //     value: [
-    //         'valor añadido 1',
-    //         'valor añadido 2',
-    //         'valor añadido 3'
+    //         'Proporciona una visión más completa del mercado.',
+    //         'Ayuda a identificar oportunidades de mercado.',
+    //         'Facilita la toma de decisiones estratégicas.',
+    // 'Mejora la eficacia de la comunicación de marketing.',
+    // 'Aumenta la efectividad de la segmentación del mercado.'
     //     ],
     //     // CAMBIAR
     //     img: tendenciaDiscursiva,
@@ -161,10 +181,12 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: 'Diseño visual',
                 text: 'Diagrama visual que modela la red de sujetos involucrados cercanos a una persona u organización.',
                 icon: icon9
             },
             {
+                title: 'Indicadores de influencia',
                 text: 'Califica el grado de influencia entre los nodos mediante un índice de valoración de las características cualitativas de la relación (afinidad ideológica, frecuencia de réplica, cercanía, etc.)',
                 icon: icon10
             }
@@ -188,20 +210,24 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: 'Dimensión de la capacidad',
                 text: 'Permite identiﬁcar la rentabilidad digital, territorial e híbrida agilizando la toma de decisiones.',
                 icon: icon11
             },
             {
+                title: 'Seccionalizacion de zonas fuertes',
                 text: 'Categoriza zonas de media, baja y alta probabilidad de triunfo con base en los registros históricos.',
                 icon: icon12
             },
             {
+                title: 'Redirección de recursos',
                 text: 'Mejora el enfoque y la asignación de recursos humanos, técnicos y financieros.',
                 icon: icon13
             }
         ],
         value: [
-            'Permite identificar dónde reside el poder en la empresa y dentro del proyecto',
+            'Averigua el impacto que tendrá en el mercado físico y en línea tus nuevos bienes o servicios',
+            'Conoce la rentabilidad de tu empresa y cómo mejorarla'
         ],
         img: rentavilidad,
         cardIcon: cardIcon05
@@ -218,12 +244,19 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: 'Archivos masivos',
                 text: 'Útil para la captura de información en grandes cantidades, ordenamiento y sistematización digital en bases de datos.',
                 icon: icon14
             },
             {
-                text: 'Reducción del tiempo en dar el salto tecnológico en tu empresa u organización',
+                title: 'Ahorro de tiempo-espacio',
+                text: 'Menor tiempo en consulta de datos y ahorro de espacio físico.',
                 icon: icon15
+            },
+            {
+                title: 'Adaptabilidad y versatilidad',
+                text: 'Información disponible en diferentes dispositivos de forma fácil y rápida.',
+                icon: icon16
             }
         ],
         value: [
@@ -243,18 +276,22 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: 'Abstracción de la información',
                 text: 'Simplifican la forma en la que se explora y describe la información haciéndola más sencilla de entender y analizar',
                 icon: icon16
             },
             {
+                title: 'Transparencia y comunicación',
                 text: 'Agilizan el consumo de datos haciéndolo más fácil y conveniente.',
                 icon: icon17
             },
             {
+                title: 'Historias a la medida',
                 text: 'Los tableros dinámicos permiten contar historias basadas en temáticas específicas.',
                 icon: icon18
             },
             {
+                title: 'Panoramas globales',
                 text: 'A partir de la gestión de datos en tiempo real o en momentos concretos de análisis es posible realizar análisis en retrospectiva (en el pasado) o prospectiva (hacia el futuro).',
                 icon: icon19
             }
@@ -278,28 +315,39 @@ export const corporativos = [
         ],
         adventages: [
             {
+                title: 'Modelos crediticios',
                 text: 'Análisis de bases de datos para la generación de modelos de calificación crediticia basados en data alternativa.',
                 icon: icon20
             },
             {
+                title: 'Inteligencia tecnológica-financiera',
                 text: 'Diseño de estrategias de negocio con enfoque fintech.',
                 icon: icon1
             },
             {
+                title: 'Patrones del cliente',
                 text: 'Investigación de usuario y análisis de comportamientos de consumo.',
                 icon: icon2
             },
             {
+                title: 'Cambio de paradigma',
                 text: 'Gestión de la innovación en nuevos modelos de negocios.',
                 icon: icon3
             },
             {
+                title: 'Determinación y caracterización',
                 text: 'Análisis del marco jurídico aplicable a la operación de negocios fintech.',
                 icon: icon4
             },
             {
+                title: 'Marco normativo',
                 text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
                 icon: icon5
+            },
+            {
+                title: 'Bajos costos y rendimiento alto',
+                text: 'Análisis e integraciones tecnológicas estratégicas para reducción de costos y maximización de utilidades.',
+                icon: icon6
             }
         ],
         value: [
@@ -326,14 +374,17 @@ export const gubernamentales = [
     //     ],
     //     adventages: [
     //         {
+        // title: 'Vivienda',
     //             text: 'Vivienda Digna y Asequible.',
     //             icon: icon6
     //         },
     //         {
+        // title: 'Asesoría técnica',
     //             text: 'Conciliar la autoconstrucción y la asesoría técnica.',
     //             icon: icon7
     //         },
     //         {
+        // title: 'Financiamiento',
     //             text: 'Oportunidad de financiamiento de la asesoría técnica. ',
     //             icon: icon8
     //         }
@@ -361,28 +412,29 @@ export const gubernamentales = [
     //     ],
     //     adventages: [
     //         {
-    //             text: 'Favorece los procesos políticos y sociales de cualquier proyecto que se contemple. ',
+        // title: 'Instrumentos de gestión',
+    //             text: 'Favorece los procesos políticos y sociales de cualquier proyecto que se contemple.  Si se orienta y guía adecuadamente puden servir como instrumentos de gestión política, social o empresarial.',
     //             icon: icon9
     //         },
     //         {
-    //             text: ' Si se orienta y guía adecuadamente puden servir como instrumentos de gestión política, social o empresarial.',
-    //             icon: icon10
-    //         },
-    //         {
+        //         title: 'Mejora de imagen',
     //             text: 'Mejora la percepción de la comunidad e individuos respecto a los procesos de planificación e implementación de acciones.',
     //             icon: icon11
     //         },
     //         {
-    //             text: 'Crea un proceso de aprendizaje donde la comunidad y los ciudadanos aprenden a elaborar y gestionar proyectos.',
-    //             icon: icon12
+        //              title: 'Procesos de aprendizajes',
+        //              text: 'Crea un proceso de aprendizaje donde la comunidad y los ciudadanos aprenden a elaborar y gestionar proyectos.',
+        //              icon: icon12
+        //         },
+        //         {
+        //              title: 'Responsabilidad social'
+        //              text: 'Favorece e impulsa la responsabilidad compartida entre los actores.',
+        //              icon: icon13
     //         },
     //         {
-    //             text: 'Favorece e impulsa la responsabilidad compartida entre los actores.',
-    //             icon: icon13
-    //         },
-    //         {
-    //             text: 'Posibilita cambios sociales profundos, ya que promueve la integración y cohesión social y promueve el cambio de visión individualista e instrumental hacia la integración de lo comunitario.',
-    //             icon: icon14
+        //          title: 'Posibilita cambios sociales',
+    //              text: 'Posibilita cambios sociales profundos, ya que promueve la integración y cohesión social y promueve el cambio de visión individualista e instrumental hacia la integración de lo comunitario.',
+    //              icon: icon14
     //         }
 
     //     ],
@@ -439,10 +491,12 @@ export const gubernamentales = [
     //     ],
     //     adventages: [
     //         {
+        // title: 'Mecanismos de participación ciudadana',
     //             text: 'Identificación  y comprención los mecanismos de participación ciudadana como herramienta para fortalecer las relaciones entre las instituciones gubernamentales y las comunidades, así como las relaciones entre los mismos individuos. ',
     //             icon: icon18
     //         },
     //         {
+        // title: 'Optimización',
     //             text: 'Mejoramiento de la eficacia, eficiencia y efectividad de las acciones gubernamentales, políticas públicas y proyectos de desarrollo comunitario orientando acciones de participación ciudadana.',
     //             icon: icon2
     //         },
@@ -468,10 +522,12 @@ export const gubernamentales = [
     //     ],
     //     adventages: [
     //         {
+        // title: 'Aprendizaje'
     //             text: 'Reconocer la complejidad de la administración pública y de la sociedad  desde la ética publica y los valores cívicos para impulsar y fortalecer buenas prácticas éticas y de transparencia en la gestión de lo público. ',
     //             icon: icon19
     //         },
     //         {
+        // title: 'Enseñansa',
     //             text: 'Sensibilización de los conceptos éticos para relacionarlos con los principios rectores de las instituciones democráticas (la administración pública).',
     //             icon: icon20
     //         },
@@ -496,7 +552,8 @@ export const gubernamentales = [
     //     ],
     //     adventages: [
     //         {
-    //             text: 'Aumento de la percepción positiva del gobierno; acercamiento de las demandas ciudadanas en espacios digitales',
+        // title: 'Aumento de la percepción positiva del gobierno:',
+    //             text: 'Acercamiento de las demandas ciudadanas en espacios digitales',
     //             icon: icon1
     //         },
     //         {
@@ -505,12 +562,12 @@ export const gubernamentales = [
     //             icon: icon2
     //         },
     //         {
-    //             title: 'Mejorar la toma de decisiones:',
+    //             title: 'Aumentar la transparencia',
     //             text: 'Una mejor percepción de los gobiernos locales facilita la rendición de cuentas y promueve la transparencia en la gestión pública.',
     //             icon: icon3
     //         },
     //         {
-    //             title: 'Mejorar la toma de decisiones:',
+    //             title: 'Impulsar el desarrollo local',
     //             text: ' La percepción positiva de los gobiernos locales contribuye al desarrollo económico y social de las comunidades, al atraer inversiones y talentos.',
     //             icon: icon4
     //         }
@@ -534,14 +591,14 @@ export const gubernamentales = [
     //     ],
     //     adventages: [
     //         {
-    //             text: 'ventaja 1',
+        // title: 'Indicadores financieros',
+    //             text: 'Asegurar el sostenimiento financiero de programas derivados de la plataforma de gobierno, mediante indicadores que permitan la evaluación continua de la política pública',
     //             icon: icon5
     //         },
     //     ],
     //     value: [
-    //         'valor añadido 1',
-    //         'valor añadido 2',
-    //         'valor añadido 3'
+    //         'Herramienta útil para mejorar la coordinación entre los diferentes niveles de gobierno',
+    //         'Vinculación entre los objetivos y las metas presupuestarias',
     //     ],
     //     img: tendenciaDiscursiva,
     // cardIcon: cardIcon15
@@ -549,9 +606,12 @@ export const gubernamentales = [
     // {
     //     id: 8,
     //     label: 'Evaluación de política social (programas)',
+    // header: 'Evaluación para un futuro mejor',
+    // subtitle: 'Conoce el impacto de tus programas y toma mejores decisiones'
     //     desciption: 'Medición de impacto de programas orientados a mejorar el bienestar de la población; permite que los tomadores de decisiones puedan optimizar sus acciones a través de evidencia empírica, conforme a los estándares de la plataforma de gobierno',
     //     howItWorks: [
-    //         'Como funciona',
+    //         'Consiste en la evaluación de los efectos de un programa o intervención sobre los participantes.',
+    // 'Se trata de una evaluación externa, cuyo objetivo es medir el efecto neto de un programa social, es decir, el efecto que se produce una vez que se haya dado comienzo y conocer su impacto'
     //     ],
     //     adventages: [
     //         {
@@ -560,9 +620,9 @@ export const gubernamentales = [
     //         },
     //     ],
     //     value: [
-    //         'valor añadido 1',
-    //         'valor añadido 2',
-    //         'valor añadido 3'
+    //         'Útil para identificar las mejoras necesarias en un programa',
+    //         'Evaluar el impacto social de un programa',
+    // 'Identificar los beneficios de un programa'
     //     ],
     //     img: tendenciaDiscursiva,
     // cardIcon: cardIcon16
@@ -570,20 +630,25 @@ export const gubernamentales = [
     // {
     //     id: 9,
     //     label: 'Predictor de delitos',
+    // header: 'Manténgase informado, manténgase alerta, manténgase seguro',
+    // subtitle: 'Manténgase un paso por delante del crimen',
     //     desciption: 'Plataforma para pronosticar de manera espaciotemporal los cambios positivos en la incidencia delictiva',
     //     howItWorks: [
-    //         'Como funciona',
+    //         'El Predictor de delitos es una plataforma creada por Binahria Analytics que permite conocer la probabilidad de que se cometan determinados delitos en una zona concreta.',
+    // 'Para ello, se utilizan datos estadísticos sobre delitos cometidos en el pasado y se aplican técnicas de inteligencia artificial.'
     //     ],
     //     adventages: [
     //         {
-    //             text: 'Orientación de estrategia de seguridad conforme a campañas de prevención, deterrance y movilización de recursos en puntos y horarios estratégicos del espacio urbano',
+        // title: 'Mejora de seguridad'
+    //             text: 'Orientación de estrategia de seguridad conforme a campañas de prevención, deterrence y movilización de recursos en puntos y horarios estratégicos del espacio urbano',
     //             icon: icon7
     //         },
     //     ],
     //     value: [
-    //         'valor añadido 1',
-    //         'valor añadido 2',
-    //         'valor añadido 3'
+    //         'Estar un paso por delante del crimen.',
+    //         'Proporciona información sobre los delitos que se están cometiendo en un área específica',
+    //         'Ayuda a la gente a tomar medidas para protegerse a sí misma y a sus seres queridos',
+    // 'Herramienta útil para cualquier persona que quiera estar informada sobre el crimen'
     //     ],
     //     img: tendenciaDiscursiva,
     // cardIcon: cardIcon17
@@ -839,14 +904,17 @@ export const politicos = [
     //     ],
     //     adventages: [
     //         {
+                    // title: 'Plan de acción',
     //             text: 'Generar acciones de evaluación a las politicas publicas de los diferentes ordenes de gobierno. ',
     //             icon: icon13
     //         },
     //         {
+                    // title: 'Enfoque social'
     //             text: 'Mostrar recomendaciones de mejores practicas para el desarrollo de politicas publicas en beneficio de la población.',
     //             icon: icon14
     //         },
     //         {
+        // title: 'Transmisión de datos',
     //             text: 'Diseñar indicadores y sistemas de información con enfoque social',
     //             icon: icon15
     //         }
@@ -874,6 +942,7 @@ export const politicos = [
     //     ],
     //     adventages: [
     //         {
+            // title: 'Posicionamiento',
     //             text: 'Apoyar en el posicionamiento de la persona u organización en materia electoral, mapeo de actores politicos, diseño de discurso politico, diseño de encuestas, tracking electoral, diseño de planes de campaña, plataforma politica y de propuestas ',
     //             icon: icon16
     //         },
