@@ -26,3 +26,41 @@
 .marketplace-body .body .resume p {
     width: 30rem;
 }
+
+.marketplace-body .benefits h2 {
+    margin: 5rem 0 2rem;
+    margin-left: 10vw;
+}
+.marketplace-body .benefits .content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.benefit {
+    background: var(--fourth-color);
+    width: 15rem;
+    height: 20rem;
+    margin: 2rem;
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.benefit .icon {
+    height: 3rem;
+    margin: 2rem 0 0;
+}
+
+
+.benefit .benefit-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--second-color);
+}
+.benefit .benefit-title,
+.benefit p {
+    text-align: left;
+}
