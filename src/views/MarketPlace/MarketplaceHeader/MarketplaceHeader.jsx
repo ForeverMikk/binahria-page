@@ -18,7 +18,7 @@ const MarketplaceHeader = () => {
             </div>
 
             <div className="main-text">
-                <p>Las mejores herramientas <span>a tu alcance</span> </p>
+                <p>Te contamos con  <span>Datos</span> </p>
             </div>
 
             <div className="bottom-text">

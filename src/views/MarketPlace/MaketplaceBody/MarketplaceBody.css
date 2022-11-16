@@ -1,0 +1,28 @@
+.marketplace-body .body{
+    background: rgb(205,251,79);
+    background: linear-gradient(0deg, rgba(205,251,79,1) 70%, rgba(251,252,255,1) 100%);
+}
+
+.marketplace-body .body {
+    padding: 5rem 0;
+    display: flex;
+}
+
+.marketplace-body .body .images, 
+.marketplace-body .body .resume {
+    width: 50%;
+}
+
+.marketplace-body .images img {
+    height: 15rem;
+    margin: 2rem 1rem;
+}
+
+.marketplace-body .body .resume .title {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.marketplace-body .body .resume p {
+    width: 30rem;
+}
