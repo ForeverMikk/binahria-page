@@ -1,20 +1,23 @@
 import React from 'react';
 
+import './MarketplaceCatalog.css';
+import img from '../../../assets/images/graphic_01.jpg'
 
-const MarketplaceProduct = () => {
+const MarketplaceProduct = ({img, title, description, date}) => {
     return (
         <div className="mkt-product">
-            <img src="" alt="" />
-            <div className="text">
-                <h3 className="title">Investigación y Ciencia</h3>
-                <p></p>
+            <img src={img} alt={title} />
+
+            <div className="content">
+                <h3 className="title">{title}</h3>
+                <p>{description}</p>
 
                 <div className="date">
                     <p>Fecha de publicación</p>
-                    <span>SEPTIEMBRE 2022</span>
+                    <span>{date}</span>
                 </div>
 
-                <button>Más iformacion</button>
+                <button>Más iformacion &rarr;</button>
             </div>
         </div>
     )
@@ -33,7 +36,30 @@ const MarketplaceCatalog = () => {
             </div>
 
             <div className="products">
-                <MarketplaceProduct />
+                <MarketplaceProduct 
+                    title='Investigación y Ciencia' 
+                    description='Ofrece información más importante sobre la ciencia y la técnica en todo  el mundo'
+                    date='SEPTIEMBRE 2022'
+                    img={img}
+                />
+                <MarketplaceProduct 
+                    title='Investigación y Ciencia' 
+                    description='Ofrece información más importante sobre la ciencia y la técnica en todo  el mundo'
+                    date='SEPTIEMBRE 2022'
+                    img={img}
+                />
+                <MarketplaceProduct 
+                    title='Investigación y Ciencia' 
+                    description='Ofrece información más importante sobre la ciencia y la técnica en todo  el mundo'
+                    date='SEPTIEMBRE 2022'
+                    img={img}
+                />
+                <MarketplaceProduct 
+                    title='Investigación y Ciencia' 
+                    description='Ofrece información más importante sobre la ciencia y la técnica en todo  el mundo'
+                    date='SEPTIEMBRE 2022'
+                    img={img}
+                />
             </div>
         </div>
     )

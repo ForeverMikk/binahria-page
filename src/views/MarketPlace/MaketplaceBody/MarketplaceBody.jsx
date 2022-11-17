@@ -66,7 +66,7 @@ const MarketplaceBody = () => {
                     />
                 </div>
 
-                <button>Programa una Reunion</button>
+                <button>Programa una Reunion &rarr;</button>
             </div>
         </div>
     )
