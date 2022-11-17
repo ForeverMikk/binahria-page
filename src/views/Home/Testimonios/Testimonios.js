@@ -9,7 +9,7 @@ import './Testimonios.css'
 import abi from "../../../assets/images/home/abi.jpeg"
 import jona from "../../../assets/images/home/jon.jpg"
 import tania from "../../../assets/images/home/tania-meza.jpg"
-import woman from "../../../assets/images/home/woman.png"
+import woman from "../../../assets/images/home/woman.svg"
 import TestimonialCard from "./TestimonialCard/TestimonialCard"
 
 
@@ -81,8 +81,8 @@ const Testimonios = () => {
                             slidesPerView: 2,
                        },
                        1024: {
-                            spaceBetween: 50,
-                            slidesPerView: 2,
+                            spaceBetween: 10,
+                            slidesPerView: 3,
                         },
                    }}
                 >
