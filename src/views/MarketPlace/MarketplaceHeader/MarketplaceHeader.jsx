@@ -2,7 +2,7 @@ import React from 'react';
 
 import './MarketplaceHeader.css';
 import Navbar from '../../../components/Navbar/Navbar';
-import logo from '../../../assets/images/logo/logo-black.png'
+import logo from '../../../assets/images/logo/logo-white.png'
 import { useTranslation } from 'react-i18next';
 
 const MarketplaceHeader = () => {
