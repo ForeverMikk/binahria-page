@@ -29,11 +29,31 @@
 
 .marketplace-body .benefits h2 {
     margin: 5rem 0 2rem;
-    margin-left: 10vw;
+    margin-left: 7vw;
+    /* padding: 5rem; */
 }
 .marketplace-body .benefits .content {
     display: flex;
     justify-content: space-evenly;
+}
+
+.marketplace-body .benefits button {
+    /* display: block; */
+    position: absolute;
+    right: 4rem;
+    font-size: 1.25rem;
+    text-align: right;
+    background: none;
+    border: none;
+    color: var(--first-color);
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    margin: 0 2rem;
+}
+
+.marketplace-body .benefits button:hover {
+    color: var(--fourth-color);
+    transform: translateX(15px);
 }
 
 

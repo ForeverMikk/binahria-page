@@ -1,4 +1,5 @@
 import React from 'react';
+import { PopupButton } from 'react-calendly';
 
 import './MarketplaceBody.css';
 import graphic1 from '../../../assets/images/graphic_01.jpg';
@@ -8,6 +9,7 @@ import graphic3 from '../../../assets/images/graphic_03.jpg';
 import icon1 from '../../../assets/images/icons/icon1.svg';
 import icon2 from '../../../assets/images/icons/icon2.svg';
 import icon3 from '../../../assets/images/icons/icon3.svg';
+import { useTranslation } from 'react-i18next';
 
 const Benefit = ({title, icon, text}) => {
     return (
@@ -21,6 +23,9 @@ const Benefit = ({title, icon, text}) => {
 
 
 const MarketplaceBody = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div className="marketplace-body">
 
@@ -45,7 +50,6 @@ const MarketplaceBody = () => {
             </div>
 
             <div className="benefits">
-
                 <h2>/ BENEFICIOS</h2>
 
                 <div className="content">
@@ -66,7 +70,11 @@ const MarketplaceBody = () => {
                     />
                 </div>
 
-                <button>Programa una Reunion &rarr;</button>
+                <PopupButton
+                    url='https://calendly.com/binahria-analytics/'
+                    rootElement={document.getElementById("root")}
+                    text={`${t('contact.schedule')} →`}
+                />
             </div>
         </div>
     )
