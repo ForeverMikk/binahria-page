@@ -11,6 +11,7 @@
 .marketplace-body .body .images, 
 .marketplace-body .body .resume {
     width: 50%;
+    margin-left: 4rem;
 }
 
 .marketplace-body .images img {

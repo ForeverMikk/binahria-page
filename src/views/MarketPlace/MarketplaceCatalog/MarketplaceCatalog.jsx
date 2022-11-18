@@ -30,9 +30,17 @@ const MarketplaceCatalog = () => {
             <h2>/ TOP EN INVESTIGACIÓN</h2>
 
             <div className="selectors">
-                <h3 className="politic">Política</h3>
-                <h3 className="economy">Economía</h3>
-                <h3 className="fintech">Fintech</h3>
+                <div className="underline">
+                    <h3 className="politic">Política</h3>
+                </div>
+
+                <div className="underline">
+                    <h3 className="economy">Economía</h3>
+                </div>
+
+                <div className="underline">
+                    <h3 className="fintech">Fintech</h3>
+                </div>
             </div>
 
             <div className="products">
