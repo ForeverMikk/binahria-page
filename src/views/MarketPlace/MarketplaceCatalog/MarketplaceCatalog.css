@@ -1,20 +1,21 @@
 .marketplace-catalog{ 
-    margin: 5rem;
+    margin: 5rem 7vw;
 }
 
 .marketplace-catalog h2 {
-    margin-top: 1rem;
-    margin-left: 1rem;
+    padding: 5rem 2rem 0 3rem;
 }
 .marketplace-catalog .selectors {
+    margin-top: 3rem;
+    margin-left: 3rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .marketplace-catalog .underline { 
     position: relative;
     overflow: hidden;
-    width: 10rem;
+    width: 20rem;
 }
 
 .marketplace-catalog .underline:before {
@@ -22,7 +23,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: var(--fourth-color);
 }
 
@@ -32,7 +33,7 @@
     bottom: 0;
     left: -100%;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background: var(--first-color);
     transition: left .6s ease-in;
 }
@@ -41,6 +42,10 @@
 .marketplace-catalog .underline:hover:after {
     left: 0;
     color: var(--first-color);
+}
+
+.marketplace-catalog .underline h3 {
+    font-size: 1.35rem;
 }
 
 .marketplace-catalog .products {

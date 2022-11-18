@@ -28,10 +28,12 @@
     width: 30rem;
 }
 
+.marketplace-body .benefits {
+    margin: 0 7vw;
+}
+
 .marketplace-body .benefits h2 {
-    margin: 5rem 0 2rem;
-    margin-left: 7vw;
-    /* padding: 5rem; */
+    padding: 5rem 2rem 0 3rem;
 }
 .marketplace-body .benefits .content {
     display: flex;
