@@ -1,27 +1,9 @@
 import React from 'react';
 
 import './MarketplaceCatalog.css';
-import img from '../../../assets/images/graphic_01.jpg'
+import img from '../../../assets/images/blank_image.png'
+import MarketplaceProduct from './MarketplaceProduct/MarketplaceProduct';
 
-const MarketplaceProduct = ({img, title, description, date}) => {
-    return (
-        <div className="mkt-product">
-            <img src={img} alt={title} />
-
-            <div className="content">
-                <h3 className="title">{title}</h3>
-                <p>{description}</p>
-
-                <div className="date">
-                    <p>Fecha de publicación</p>
-                    <span>{date}</span>
-                </div>
-
-                <button>Más iformacion &rarr;</button>
-            </div>
-        </div>
-    )
-}
 
 
 const MarketplaceCatalog = () => {
@@ -44,7 +26,7 @@ const MarketplaceCatalog = () => {
             </div>
 
             <div className="products">
-                <MarketplaceProduct 
+                <MarketplaceProduct
                     title='Investigación y Ciencia' 
                     description='Ofrece información más importante sobre la ciencia y la técnica en todo  el mundo'
                     date='SEPTIEMBRE 2022'

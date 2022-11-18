@@ -51,31 +51,6 @@
 .marketplace-catalog .products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    /* margin-top: 3rem; */
-}
-
-.mkt-product {
-    display: flex;
-    width: 30rem;
-    margin: 2rem 0;
-    /* border: 1px solid red; */
-}
-
-.mkt-product img,
-.mkt-product .content {
-    width: 50%;
-    /* padding: 1rem; */
-}
-
-.mkt-product img {
-    object-fit: contain;
-    /* padding: 1rem; */
-}
-
-.mkt-product .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 1rem;
+    justify-content: space-around;
+    margin-top: 3rem;
 }
