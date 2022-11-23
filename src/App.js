@@ -1,17 +1,14 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
 
-import './index.css'
+import './App.css';
 import BackToTop from './components/BackToTop/BackToTop';
-import Router from "./views/Router/Router"
+import Router from "./components/Router/Router"
 import CursorAnimated from './components/CursorAnimated/CursorAnimated';
 
-
 function App() {
-
   return (
-    <div className="App">
-
+    <>
       <CursorAnimated />
       <Toaster
       toastOptions={{
@@ -23,8 +20,8 @@ function App() {
       
       <Router/>
       <BackToTop />
-    </div>
-  );
+    </>
+  )
 }
 
 export default App;

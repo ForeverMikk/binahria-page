@@ -3,12 +3,15 @@ import React from 'react';
 import './MarketplaceCatalog.css';
 import img from '../../../assets/images/blank_image.png'
 import MarketplaceProduct from './MarketplaceProduct/MarketplaceProduct';
+import MarketTabs from './MarketTabs';
 
 
 
 const MarketplaceCatalog = () => {
     return (
         <div className="marketplace-catalog">
+
+            <MarketTabs />
             <h2>/ TOP EN INVESTIGACIÓN</h2>
 
             <div className="selectors">
