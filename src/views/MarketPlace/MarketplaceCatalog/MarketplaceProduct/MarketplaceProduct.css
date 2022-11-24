@@ -50,3 +50,23 @@
     color: var(--fourth-color);
 }
 
+@media screen and (max-width: 1024px) {
+    .mkt-product {
+        width: auto;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mkt-product {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mkt-product img {
+        width: 10rem;
+    }
+    .mkt-product .content {
+        width: auto;
+    }
+}

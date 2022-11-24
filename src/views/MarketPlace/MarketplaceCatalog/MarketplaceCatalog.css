@@ -54,3 +54,33 @@
     justify-content: space-around;
     margin-top: 3rem;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .marketplace-catalog {
+        margin: 5rem 8vw;
+    }
+
+    .marketplace-catalog h2 {
+        padding: 5rem 2rem 0 1.5rem;
+    }
+    .marketplace-catalog .selectors {
+        margin: 0;
+        padding: 0;
+    }
+    .marketplace-catalog .underline {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .marketplace-catalog h2 {
+        padding: 0.5rem;
+    }
+
+    .marketplace-catalog .underline {
+        width: auto;
+    }
+}

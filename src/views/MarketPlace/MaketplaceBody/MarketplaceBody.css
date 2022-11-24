@@ -100,3 +100,63 @@
         margin-bottom: 2rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .marketplace-body .body {
+        flex-direction: column;
+    }
+    .marketplace-body .body .images,
+    .marketplace-body .body .resume {
+        width: 80%;
+    }
+    .marketplace-body .benefits .content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .marketplace-body .benefits button {
+        left: 4rem;
+        right: unset;
+    }
+
+    .marketplace-body .body .resume .title {
+        font-size: 3rem;
+    }
+
+    .marketplace-body .body .resume p {
+        width: auto;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .marketplace-body .body {
+        padding: 0;
+    }
+    .marketplace-body .body .images,
+    .marketplace-body .body .resume {
+        width: auto;
+        margin: 0;
+    }
+
+    .marketplace-body .body .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .marketplace-body .images img {
+        margin: 0.5rem 1rem;
+    }
+
+    .marketplace-body .body .resume .title {
+        font-size: 2rem;
+    }
+
+    .marketplace-body .body .resume {
+        width: auto;
+        padding: 3rem;
+    }
+
+    .marketplace-body .benefits button {
+        left: 0.5rem;
+    }
+}
