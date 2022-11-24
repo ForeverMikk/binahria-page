@@ -87,3 +87,16 @@
 .benefit p {
     text-align: left;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .marketplace-body .benefits h2 {
+        padding: 5rem 2rem 0 1.5rem;
+    }
+
+    .benefit {
+        margin: 1rem;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
