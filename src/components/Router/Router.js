@@ -8,6 +8,7 @@ import Catalogo from "../../views/Catalogo/Catalogo"
 import ProductView from '../../views/ProductView/ProductView';
 import Contact from '../../views/Contact/Contact'
 import MarketPlace from '../../views/MarketPlace/MarketPlace';
+import MarketProduct from '../../views/MarketProduct/MarketProduct';
 
 class Router extends Component{
     render(){
@@ -18,6 +19,7 @@ class Router extends Component{
                 <Route path="/conocenos" element={<Conocenos/>} />
                 <Route path="/catalogo" element={<Catalogo/>} />
                 <Route path="/marketplace" element={<MarketPlace/>} />
+                <Route path='/marketplace-product' element={<MarketProduct />} />
                 <Route path="/contact" element={<Contact/>} />
                 <Route path="/product" element={<ProductView/>} />
                 <Route path="/product:type" element={<ProductView/>} />
