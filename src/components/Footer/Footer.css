@@ -46,8 +46,9 @@
 .footer .left .footer-menu li:hover {
     transform: translateX(10px);
 }
-.footer .left .footer-menu li:hover a {
-    color: var(--second-color);
+.footer .left .footer-menu li:hover a,
+.footer .right .social-media a:hover svg {
+    color: var(--second-color) !important;
 }
 
 .footer .copy{
@@ -63,6 +64,16 @@
     justify-content: flex-start;
 }
 
+.footer .right .social-media a {
+    margin-right: 1rem;
+}
+
+.footer .right .social-media a svg{
+    transition: all 0.5s ease;
+}
+.footer .right .social-media a:hover svg{
+    transform: translateY(10px);
+}
 
 
 
