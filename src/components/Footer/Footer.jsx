@@ -1,76 +1,100 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { PopupButton } from "react-calendly";
 import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { useTranslation } from "react-i18next";
 
 import './Footer.css'
+import logo from '../../assets/images/logo/logo-white.svg';
+import ContactField from "../../views/Contact/ContactBottom/ContactField/ContactField";
 
 const Footer = () => {
 
     const { t } = useTranslation();
 
     return(
-        <section id="footer">
+        <section id="footer" className="footer">
             
-            <div className="correo">
-                <a href="contact" className="conocenos">{t('footer.title')}</a>
-            </div>
+            <img src={logo} alt="" className="logo" />
 
             <div className="data">
                 <div className="left">
-                    <div className="direccion">
-                        <a href="https://goo.gl/maps/X8b6jpc87EUSTdPt6" target="_blank" rel="noreferrer">
-                            <span>Pachuca de Soto, Hgo.</span> 
-                        </a>
-                    </div>
-
-                    <ul className="socials">
+                    <h3 className="navegacion">NAVEGACIÓN</h3>
+                    <ul className="footer-menu">
                         <li>
-                            <a href="https://www.facebook.com/BinahriaAnalytics" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon icon={faFacebook} color='white' size="2x"/>
-                            </a>
+                            <Link to="/">{t('footer.menu.itemOne')}</Link>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/b1nahr1a/" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon icon={faInstagram} color='white' size="2x"/>
-                            </a>
+                            <Link to="/conocenos">{t('footer.menu.itemTwo')}</Link>
                         </li>
                         <li>
-                            <a href="https://twitter.com/b1nahr1a" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon icon={faTwitter} color='white' size="2x"/>
-                            </a>
+                            <Link to="/tecnologias">{t('footer.menu.itemThree')}</Link>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com/channel/UC-lu1QPtQEZpzixBVSd6KQw" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon icon={faYoutube} color='white' size="2x"/>
-                            </a>
+                            <Link to="/catalogo">{t('footer.menu.itemFour')}</Link>
+                        </li>
+                        <li>
+                            <Link to="/marketplace">Marketplace</Link>
+                        </li>
+                        <li>
+                            <Link to="/data">Te contamos con datos</Link>
                         </li>
                     </ul>
-                    
+
+
                     <div className="copy">
                         <span>{t('footer.created')} &copy; Binahria Analytics</span>
                     </div>
                 </div>
 
+                <div className="right">
 
-                <ul className="right">
-                    <li>
-                        <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>{t('footer.menu.itemOne')}</Link>
-                    </li>
-                    <li>
-                        <Link to="/conocenos" style={{ textDecoration: 'none', color: 'white' }}>{t('footer.menu.itemTwo')}</Link>
-                    </li>
-                    <li>
-                        <Link to="/tecnologias" style={{ textDecoration: 'none', color: 'white' }}>{t('footer.menu.itemThree')}</Link>
-                    </li>
-                    <li>
-                        <Link to="/catalogo" style={{ textDecoration: 'none', color: 'white' }}>{t('footer.menu.itemFour')}</Link>
-                    </li>
-                </ul>
+                    <div className="contact">
+                        <h3 className="title">{t('contact.bottom.contact')}</h3>
+                        <ContactField title='Direccion' description='C. 20 de noviembre, Santiago Tlapacoya, Pachuca, Hgo' />
 
+                        <ContactField title={t('contact.bottom.email')} description={`${t('contact.bottom.email-label')} binahria.analytics@gmail.com`} />
+                        
+                        <a href="https://wa.me/7714141066" target='_blank' rel="noreferrer" style={{color: '#fff'}}>
+                            <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
+                        </a>
+                        
+                        <ContactField title={t('contact.bottom.videocall')}  />
+                        <PopupButton
+                            url='https://calendly.com/binahria-analytics/'
+                            rootElement={document.getElementById("root")}
+                            text="calendly.com/binahria-analytics/"
+                            className='video-call'
+                        />
+                    </div>
+
+                    <div className="schedule">
+                        <h3 className="title">{t('contact.bottom.schedule')}</h3>
+                        <ContactField title={t('contact.bottom.days')} description='8:00 - 17:00 hrs' />
+                        <ContactField title={t('contact.bottom.saturday')} description='8:00 - 12:00 hrs' />
+
+                        <div className="social-media">
+                            <a href="https://www.facebook.com/BinahriaAnalytics" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faFacebook} color='white' size="2x"/>
+                            </a>
+
+                            <a href="https://www.instagram.com/b1nahr1a/" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faInstagram} color='white' size="2x"/>
+                            </a>
+
+                            <a href="https://twitter.com/b1nahr1a" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faTwitter} color='white' size="2x"/>
+                            </a>
+
+                            <a href="https://www.youtube.com/channel/UC-lu1QPtQEZpzixBVSd6KQw" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon icon={faYoutube} color='white' size="2x"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    
             </div>
-            
         </section>
     )
 }

@@ -1,113 +1,102 @@
 /* Estilos del Footer */
 
-#footer{
-    background-image: url("../../assets/images/PiePagina.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.footer{
+    background: var(--fourth-color);
     color: white;
     height: 100vh;
     z-index: 0;
+    padding: 5rem;
 }
 
-#footer .correo {
-    font-size: 5vw;
-    text-align: center;
-    font-weight: 300;
-    padding-top: 5vw;
-}
-#footer .correo .conocenos {
-    color: #fff;
-    transition: all 0.5s ease-in;
+.footer .logo {
+    height: 5rem;
 }
 
-#footer .correo a:hover{
-    border-bottom: 1px solid #fff;
+.footer h3 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 1rem;
+    width: 15rem;
 }
 
-#footer .data {
-    margin-top: 5rem;
+.footer .data {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+}
+.footer .data .left,
+.footer .data .right {
+    width: 50%;
 }
 
-#footer .direccion {
-    font-size: 1.4vw;
-    padding: 0 0.5rem;
-    margin-bottom: 2rem;
+/* Left Side */
+.footer .left .footer-menu {
+    padding: 0;
+    margin-bottom: 3rem;
 }
-#footer .direccion span {
-    font-size: larger;
-    font-weight: 600;
+.footer .left .footer-menu li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 1.25rem 0;
+    transition: all 0.5s ease;
 }
-#footer .direccion a {
-    cursor: pointer;
+.footer .left .footer-menu li a {
     color: #fff;
 }
 
-#footer .socials{
+.footer .left .footer-menu li:hover {
+    transform: translateX(10px);
+}
+.footer .left .footer-menu li:hover a {
+    color: var(--second-color);
+}
+
+.footer .copy{
+    font-size: 1rem;
+    color: gray;
+}
+
+
+
+/* Right Side */
+.footer .right{
     display: flex;
-    justify-content: space-evenly;
-} 
-#footer .socials li{
-    text-decoration: none;
-    list-style: none;
-    margin-right: 4vw;
-    margin-bottom: 2rem;
+    justify-content: flex-start;
 }
 
-#footer .copy{
-    font-size: 1.4vw;
-}
-
-#footer .right{
-    display: flex;
-    flex-direction: column;
-}
-
-#footer .right li{
-    list-style: none;
-    padding-bottom: 3vw;
-    font-size: 1.4vw;
-}
-#footer .right li a:hover{
-    color: var(--third-color) !important;
-    text-shadow: 2px 2px 3px white;
-}
 
 
 
 @media screen and (max-width: 960px) {
-    #footer{ 
+    .footer{ 
         height: auto;
     }
-    #footer .data {
+    .footer .data {
         margin-top: 3rem;
     }
-    #footer .correo {
+    .footer .correo {
         padding-top: 3rem;
         font-size: 1.45rem;
     }
-    #footer .data {
+    .footer .data {
         flex-direction: column-reverse;
         align-items: flex-start;
     }
 
-    #footer .right {
+    .footer .right {
         padding: 0 3rem;
     }
 
-    #footer .right li{ 
+    .footer .right li{ 
         font-size: 1.5rem;
         padding-bottom: 2rem;
     }
 
-    #footer .direccion {
+    .footer .direccion {
         padding: 1rem 3rem;
         font-size: 1.2rem;
     }
 
-    #footer .copy{
+    .footer .copy{
         font-size: 1.2rem;
         padding: 1rem 4rem;
         padding-bottom: 6rem;
@@ -116,18 +105,18 @@
 
 
 @media screen and (max-width: 640px) {
-    #footer .socials{
+    .footer .socials{
         display: flex;
         justify-content: flex-start;
         margin-left: 1rem;
     } 
 
-    #footer .socials li{
+    .footer .socials li{
         margin-right: 1.5rem;
         /* margin-bottom: 2rem; */
     }
     
-    #footer .copy{
+    .footer .copy{
         font-size: 1.2rem;
         margin-left: 2.5rem;
         padding: 0;
