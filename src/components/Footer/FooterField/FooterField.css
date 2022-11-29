@@ -1,15 +1,15 @@
-.contact-field {
+.footer-field {
     display: flex;
     flex-direction: column;
 }
 
-.contact-field h4 {
+.footer-field h4 {
     padding: 0;
     color: gray;
     margin: 0;
     font-weight: 300;
 }
-.contact-field .description {
+.footer-field .description {
     padding: 0;
     margin: 0 0 1.5rem 0;
     width: 60%;

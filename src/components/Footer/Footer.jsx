@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 
 import './Footer.css'
 import logo from '../../assets/images/logo/logo-white.svg';
-import ContactField from "../../views/Contact/ContactBottom/ContactField/ContactField";
+import FooterField from "./FooterField/FooterField";
 
 const Footer = () => {
 
@@ -52,15 +52,15 @@ const Footer = () => {
 
                     <div className="contact">
                         <h3 className="title">{t('contact.bottom.contact')}</h3>
-                        <ContactField title='Direccion' description='C. 20 de noviembre, Santiago Tlapacoya, Pachuca, Hgo' />
+                        <FooterField title='Direccion' description='C. 20 de noviembre, Santiago Tlapacoya, Pachuca, Hgo' />
 
-                        <ContactField title={t('contact.bottom.email')} description={`${t('contact.bottom.email-label')} binahria.analytics@gmail.com`} />
+                        <FooterField title={t('contact.bottom.email')} description={`${t('contact.bottom.email-label')} binahria.analytics@gmail.com`} />
                         
                         <a href="https://wa.me/7714141066" target='_blank' rel="noreferrer" style={{color: '#fff'}}>
-                            <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
+                            <FooterField title='WhatsApp' description='(+52) 55 2568 0859' />
                         </a>
                         
-                        <ContactField title={t('contact.bottom.videocall')}  style={{marginBottom: '0'}}/>
+                        <FooterField title={t('contact.bottom.videocall')}  style={{marginBottom: '0'}}/>
                         <PopupButton
                             url='https://calendly.com/binahria-analytics/'
                             rootElement={document.getElementById("root")}
@@ -71,8 +71,8 @@ const Footer = () => {
 
                     <div className="schedule">
                         <h3 className="title">{t('contact.bottom.schedule')}</h3>
-                        <ContactField title={t('contact.bottom.days')} description='8:00 - 17:00 hrs' />
-                        <ContactField title={t('contact.bottom.saturday')} description='8:00 - 12:00 hrs' />
+                        <FooterField title={t('contact.bottom.days')} description='8:00 - 17:00 hrs' />
+                        <FooterField title={t('contact.bottom.saturday')} description='8:00 - 12:00 hrs' />
 
                         <div className="social-media">
                             <a href="https://www.facebook.com/BinahriaAnalytics" target="_blank" rel="noreferrer">
