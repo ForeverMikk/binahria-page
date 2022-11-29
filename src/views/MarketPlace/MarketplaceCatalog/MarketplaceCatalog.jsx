@@ -12,7 +12,6 @@ const MarketplaceCatalog = () => {
             <h2>/ TOP EN INVESTIGACIÓN</h2>
 
             <Tabs>
-
                 <TabList className='selectors'>
                     <Tab className='underline'>
                         <h3 className="politic">Política</h3>

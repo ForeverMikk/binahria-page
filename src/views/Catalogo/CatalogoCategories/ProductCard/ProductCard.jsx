@@ -12,7 +12,7 @@ const ProductCard = ({product, index, productType}) => {
             <h3 className="card-title">{product.label}</h3>
             <p className="card-description">{product.description}</p>
             <Link className='watch-more' to={{
-                pathname: `/product${productType}`,
+                pathname: `/product/${productType}`,
                 state: {
                     id: index
                 }

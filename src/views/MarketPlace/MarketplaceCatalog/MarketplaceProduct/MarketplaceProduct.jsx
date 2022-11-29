@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './MarketplaceProduct.css';
 
@@ -16,7 +17,7 @@ const MarketplaceProduct = ({img, title, description, date}) => {
                     <span>{date}</span>
                 </div>
 
-                <button>Más información &rarr;</button>
+                <Link to='/market-product'>Más información &rarr;</Link>
             </div>
         </div>
     )

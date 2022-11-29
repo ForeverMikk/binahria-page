@@ -1,0 +1,27 @@
+.market-product {
+    background: var(--fourth-color);
+    color: #fff;
+}
+
+.market-product .container {
+    padding: 5rem 10vw;
+    display: flex;
+}
+
+.market-product .side-menu {
+    display: flex;
+    flex-direction: column;
+    /* width: 20rem; */
+    margin-right: 10rem;
+}
+.market-product .article {
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    padding: 3rem;
+    padding-right: 7rem;
+    /* width: 50rem; */
+}
+.market-product .article img {
+    width: 40rem;
+}

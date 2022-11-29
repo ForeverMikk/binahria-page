@@ -19,11 +19,14 @@ const scrollToElement = (element) => {
 
 const ProductView = () => {
     const { type } = useParams();
-    const { state } = useLocation();
+    const location  = useLocation();
+    const state = location.state;
+    const {id} = location.state;
     const [product, setProduct] = useState();
     
 
     useEffect(() => {
+        console.log(type, state, id)
         if(type === 'politic'){
             setProduct(productList.politicos[state.id]);
         }
