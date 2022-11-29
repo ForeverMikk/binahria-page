@@ -60,7 +60,7 @@ const Footer = () => {
                             <ContactField title='WhatsApp' description='(+52) 55 2568 0859' />
                         </a>
                         
-                        <ContactField title={t('contact.bottom.videocall')}  />
+                        <ContactField title={t('contact.bottom.videocall')}  style={{marginBottom: '0'}}/>
                         <PopupButton
                             url='https://calendly.com/binahria-analytics/'
                             rootElement={document.getElementById("root")}
