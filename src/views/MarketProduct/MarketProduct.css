@@ -8,20 +8,85 @@
     display: flex;
 }
 
+/* SIDE MENU */
 .market-product .side-menu {
     display: flex;
     flex-direction: column;
     /* width: 20rem; */
-    margin-right: 10rem;
+    margin-right: 7rem;
 }
+
+.market-product .side-menu .other {
+    width: 17rem;
+    font-weight: 400;
+}
+
+.market-product .side-menu input {
+    border: none;
+    background: rgb(17, 17, 17);
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.market-product .side-menu .categories {
+    margin-top: 1.5rem;
+}
+.market-product .side-menu p {
+    margin: 0.15rem 0;
+    color: gray;
+}
+
+.market-product .side-menu .support {
+    margin-top: 10rem;
+    background: rgb(17, 17, 17);
+    padding: 1.5rem 1rem;
+}
+
+.market-product .side-menu .support h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--second-color);
+    margin-bottom: 1rem;
+}
+.market-product .side-menu .support span {
+    color: var(--second-color);
+}
+
+/* ARTICLE */
 .market-product .article {
     display: flex;
     flex-direction: column;
     background: #000;
-    padding: 3rem;
+    padding: 2rem 3rem;
     padding-right: 7rem;
-    /* width: 50rem; */
 }
 .market-product .article img {
     width: 40rem;
+}
+
+.market-product .article h3 {
+    margin: 0;
+    margin-bottom: 5rem;
+    font-weight: 300;
+    color: var(--second-color);
+    /* font-size: 1rem; */
+}
+
+.market-product .article h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.market-product .article p {
+    width: 50%;
+    font-size: 0.9rem;
+}
+
+.market-product .article span {
+    color: var(--second-color);
+    display: block;
+    text-align: right;
+    margin: 2rem 0 0.5rem 0;
 }
