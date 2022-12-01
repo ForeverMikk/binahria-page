@@ -107,7 +107,6 @@
 }
 
 
-
 @media screen and (max-width: 1024px) {
     .footer{ 
         height: auto;
@@ -115,8 +114,10 @@
     
 }
 
-
 @media screen and (max-width: 768px) {
+    .footer {
+        padding: 4rem 7vw;
+    }
     .footer .data {
         flex-direction: column;
     }
@@ -128,10 +129,15 @@
 }
 
 @media screen and (max-width: 640px) {
+
+    .footer {
+        padding: 3rem;
+    }
+
     .footer h3 {
         width: auto;
     }
-    
+
     .footer .data .right {
         flex-direction: column;
     }

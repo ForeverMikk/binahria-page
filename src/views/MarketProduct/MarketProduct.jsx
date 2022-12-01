@@ -13,10 +13,9 @@ const MarketProduct = () => {
             <div className="container">
 
                 <div className="side-menu">
-                    <h2 className="other">/ Otros productos</h2>
-                    <input type="text" name="" id="" placeholder='Buscar'/>
-
                     <div className="categories">
+                        <h2 className="other">/ Otros productos</h2>
+                        <input type="text" name="" id="" placeholder='Buscar'/>
                         <p>Ciencia e investigación</p>
                         <p>Fintech</p>
                         <p>Economía y finanzas</p>
@@ -38,12 +37,16 @@ const MarketProduct = () => {
                 <div className="article">
                     <h3 className="categorie-title">CIENCIA E INVESTIGACIÓN</h3>
                     <h1 className="title">Cierra la brecha que separa los datos</h1>
-                    <p>Lorem ipsum dolor sit amet, con sectetuer
-adipiscing elit, sed diam nonummy nibh 
-tincidunt ut laoreet dolore magna </p>
-                    <p>Lorem ipsum dolor sit amet, con sectetuer
-adipiscing elit, sed diam nonummy nibh 
-tincidunt ut laoreet dolore magna </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, con sectetuer
+                        adipiscing elit, sed diam nonummy nibh 
+                        tincidunt ut laoreet dolore magna 
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, con sectetuer
+                        adipiscing elit, sed diam nonummy nibh 
+                        tincidunt ut laoreet dolore magna 
+                    </p>
 
                     <span>Vista Previa</span>
                     <img src={img} alt="" className="cover" />
