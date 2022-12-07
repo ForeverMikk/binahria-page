@@ -55,7 +55,7 @@ const Testimonios = () => {
             <section id="testimonios">
                 <div className="white-space dragging"></div>
 
-                <h2 className="testimonial-title">Clientes satisfechos</h2>
+                <h2 className="testimonial-title">{t('home.testimonios.title')}</h2>
 
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}

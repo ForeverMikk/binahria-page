@@ -10,8 +10,17 @@
             "itemOne": "Inicio",
             "itemTwo": "Conócenos",
             "itemThree": "Tecnologías",
-            "itemFour": "Catálogo"
+            "itemFour": "Catálogo",
+            "itemFive": "Marketplace",
+            "itemSix": "Te contamos con datos"
         },
+        "contact": "Contacto",
+        "address": "Dirección",
+        "email": "Correo electrónico",
+        "videocall": "Videollamadas",
+        "schedule": "Horario",
+        "days": "Lunes a Viernes",
+        "saturday": "Sábados",
         "created" : "Creado por"
     },
     "home": {
@@ -55,6 +64,7 @@
             "bottom" : "Por qué elegirnos"
         },
         "testimonios": {
+            "title": "Clientes satisfechos",
             "cardOne": {
                 "name" : "Olimpia Orozco",
                 "text" : "Trabajar con el equipo de BA ha sido una experiencia enriquecedora. Además de desarrollar nuestro proyecto con plena creatividad y atención al detalle, nos demostraron ser una empresa innovadora y humana. Conocer a las mujeres que conforman BA ha agregado un valor enorme a mi vida, que va más allá de una relación de negocios."
@@ -170,16 +180,7 @@
         },
         "bottom": {
             "title": "Déjanos llevarte más lejos de lo que nunca has estado.",
-            "schedule-button": "Programa una reunión",
-            "contact": "CONTACTO",
-            "email": "Correo electrónico",
-            "email-label" : "Ventas, solicitudes y ofertas ",
-            "videocall": "Video llamadas",
-            "calls": "LLAMADAS",
-            "phone": "Teléfono",
-            "schedule": "HORARIO",
-            "days": "Lunes a viernes",
-            "saturday": "Sábados"
+            "schedule-button": "Programa una reunión"
         }
     },
     "catalogo" : {

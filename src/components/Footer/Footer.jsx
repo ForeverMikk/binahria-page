@@ -35,10 +35,10 @@ const Footer = () => {
                             <Link to="/catalogo">{t('footer.menu.itemFour')}</Link>
                         </li>
                         <li>
-                            <Link to="/marketplace">Marketplace</Link>
+                            <Link to="/marketplace">{t('footer.menu.itemFive')}</Link>
                         </li>
                         <li>
-                            <Link to="/data">Te contamos con datos</Link>
+                            <Link to="/data">{t('footer.menu.itemSix')}</Link>
                         </li>
                     </ul>
 
@@ -51,16 +51,16 @@ const Footer = () => {
                 <div className="right">
 
                     <div className="contact">
-                        <h3 className="title">{t('contact.bottom.contact')}</h3>
-                        <FooterField title='Direccion' description='C. 20 de noviembre, Santiago Tlapacoya, Pachuca, Hgo' />
+                        <h3 className="title">{t('footer.contact')}</h3>
+                        <FooterField title={t('footer.address')} description='C. 20 de noviembre, Santiago Tlapacoya, Pachuca, Hgo' />
 
-                        <FooterField title={t('contact.bottom.email')} description={`${t('contact.bottom.email-label')} binahria.analytics@gmail.com`} />
+                        <FooterField title={t('footer.email')} description={`${t('footer.email-label')} binahria.analytics@gmail.com`} />
                         
                         <a href="https://wa.me/7714141066" target='_blank' rel="noreferrer" style={{color: '#fff'}}>
                             <FooterField title='WhatsApp' description='(+52) 55 2568 0859' />
                         </a>
                         
-                        <FooterField title={t('contact.bottom.videocall')}  style={{marginBottom: '0'}}/>
+                        <FooterField title={t('footer.videocall')}  style={{marginBottom: '0'}}/>
                         <PopupButton
                             url='https://calendly.com/binahria-analytics/'
                             rootElement={document.getElementById("root")}
@@ -70,9 +70,9 @@ const Footer = () => {
                     </div>
 
                     <div className="schedule">
-                        <h3 className="title">{t('contact.bottom.schedule')}</h3>
-                        <FooterField title={t('contact.bottom.days')} description='8:00 - 17:00 hrs' />
-                        <FooterField title={t('contact.bottom.saturday')} description='8:00 - 12:00 hrs' />
+                        <h3 className="title">{t('footer.schedule')}</h3>
+                        <FooterField title={t('footer.days')} description='8:00 - 17:00 hrs' />
+                        <FooterField title={t('footer.saturday')} description='8:00 - 12:00 hrs' />
 
                         <div className="social-media">
                             <a href="https://www.facebook.com/BinahriaAnalytics" target="_blank" rel="noreferrer">

@@ -1,7 +1,7 @@
 {
     "navbar": {
         "conocenos": "About us",
-        "catalogo": "Our services",
+        "catalogo": "Services",
         "contact": "Contact"
     },
     "footer": {
@@ -10,8 +10,17 @@
             "itemOne": "Home",
             "itemTwo": "About us",
             "itemThree": "Technologies",
-            "itemFour": "Our services"
+            "itemFour": "Services",
+            "itemFive": "Marketplace",
+            "itemSix": "We tell you with data"
         },
+        "contact": "Contact",
+        "address": "Address",
+        "email": "E-mail",
+        "videocall": "Video calling",
+        "schedule": "Schedule",
+        "days": "Monday to Friday",
+        "saturday": "Saturdays",
         "created" : "Created by"
     },
     "home": {
@@ -55,12 +64,13 @@
             "bottom" : "Why choose us"
         },
         "testimonios": {
+            "title": "Satisfied clients",
             "cardOne": {
                 "name" : "Olimpia Orozco",
                 "text" : "Working with the BA team has been an enriching experience. In addition to developing our project with full creativity and attention to detail, they proved to be an innovative and human company. Getting to know the women who make up BA has added enormous value to my life, which goes beyond a business relationship."
             },
             "cardTwo": {
-                "name" : "Dra. Tania Meza Escorza",
+                "name" : "Dra. Tania Meza",
                 "text" : "Binahria is the most personalized and effective company I have ever hired. It is absolutely clear to me that what they built for me, they will not be able to offer to anyone else, because their services are a tailor-made suit for each client and for each exact moment in the life stage of their clientele."
             },
             "cardThree": {
@@ -72,7 +82,7 @@
                 "text" : "Binahria Analytics is for me a company with characteristics that make it unique. I learned basic programming and web scraping issues without previous knowledge thanks to their patience and cordial treatment. The service and attention is always excellent and professional."
             },
             "cardFive": {
-                "name" : "Jondalar",
+                "name" : "Jondalar Rodríguez",
                 "text" : "The course I received at binahria helped me to better understand some topics of the career and also generated a new impetus to my career, the teachers are well trained and are attentive to answer your questions and help you with your problems."
             }
         },
@@ -170,20 +180,11 @@
         },
         "bottom": {
             "title": "Let us take you further than you've ever been.",
-            "schedule-button": "Schedule a meeting",
-            "contact": "CONTACT",
-            "email": "E-mail address",
-            "email-label" : "Sales, requests and offers ",
-            "videocall": "Video calls",
-            "calls": "CALLS TO",
-            "phone": "Phone",
-            "schedule": "HOURS",
-            "days": "Monday - Friday",
-            "saturday": "Saturdays"
+            "schedule-button": "Schedule a meeting"
         }
     },
     "catalogo" : {
-        "title": "Our services",
+        "title": "Services",
         "text": "Grow with our",
         "text2": "Services",
         "bottom": "Scroll down",
@@ -191,6 +192,37 @@
             "cat1": "Political Electoral Category",
             "cat2": "Government Category",
             "cat3": "Corporate Category"
+        }
+    },
+    "goberment": {
+        "title": "Political Electoral Category",
+        "product1": {
+            "title": "Listening for discursive trends",
+            "description": "Frequency identification map classified by topics and variables of interest, mainly applied to social networks, and classified according to specific parameters such as geographic area to neighborhood level, section, age, gender, among others.",
+            "howItWorks": {
+                "h1": "Observe platforms in search of conversations related to a specific topic (public opinion, voter statistics, population needs, political affinity, etc.) and analyze the information in search of opportunities. It is a three-step process:",
+                "h2": "1. Monitor social media channels to learn about public opinion, people's needs, what they think about public servants and candidates.",
+                "h3": "2. Collection of data on a specific topic.",
+                "h4": "3. Analyze the information in search of trends and recommend an action plan."
+            },
+            "adventages": {
+                "ad1": {
+                    "title": "",
+                    "description":"Allows the identification of market trends according to consumer interest."
+                },
+                "ad2": {
+                    "title": "",
+                    "description":"Useful for the development of impactful speeches with a high sense of community ownership."
+                },
+                "ad3": {
+                    "title": "",
+                    "description":"Allows the identification of market trends according to consumer interest."
+                }
+            },
+            "value":{
+                "val1": ""
+            }
+    
         }
     }
 }
