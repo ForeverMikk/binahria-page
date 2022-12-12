@@ -1,3 +1,5 @@
+import es from '../translations/es.json';
+
 import tendenciaDiscursiva from '../assets/images/catagories/tendenciaDiscursiva.gif'
 import lienzoSocial from '../assets/images/catagories/lienzoSocial.gif';
 import mapaRedesInfluencia from '../assets/images/catagories/mapaRedesInfluencia.gif';
@@ -956,7 +958,7 @@ export const politicos = [
     // },
     {
         id: 3,
-        label: 'Escucha de tendencias discursivas',
+        label: es.politic.product1.title,
         header: 'Estar al día nunca fue tan fácil',
         subtitle: 'El mejor modo de estar al tanto',
         desciption: 'Mapa de identificación de frecuencia clasificado por temas y variables de interés, principalmente aplicado a redes sociales, y clasiﬁcados de acuerdo con parámetros específicos como zona geográfica hasta nivel colonia, sección, edad, género, entre otras.',
