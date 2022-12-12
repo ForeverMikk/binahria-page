@@ -34,12 +34,12 @@ const Footer = () => {
                         <li>
                             <Link to="/catalogo">{t('footer.menu.itemFour')}</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link to="/marketplace">{t('footer.menu.itemFive')}</Link>
                         </li>
                         <li>
                             <Link to="/data">{t('footer.menu.itemSix')}</Link>
-                        </li>
+                        </li> */}
                     </ul>
 
 
