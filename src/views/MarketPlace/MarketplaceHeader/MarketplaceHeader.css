@@ -2,11 +2,12 @@
 
 .marketplace-header{
     height: 100vh;
-    background: url("../../../assets/images/marketplace_background.jpg") center no-repeat fixed;
+    background: url("../../../assets/images/marketplace_background.jpg") no-repeat;
     /* background: rgb(205,251,79, 0.9); */
     /* background: linear-gradient(0deg, rgba(205,251,79,1) 39%, rgba(0,0,0,1) 100%); */
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     background-size: cover;
+    background-position: top;
     color: white;
     /* z-index: -2; */
 }
@@ -45,7 +46,7 @@
     transform: translateX(20px);
 }
 .marketplace-header .bottom-text .left a {
-    color: var(--first-color);
+    color: #fff;
 }
 
 

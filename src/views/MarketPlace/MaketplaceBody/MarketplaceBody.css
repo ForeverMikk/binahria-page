@@ -1,6 +1,6 @@
 .marketplace-body .body{
     background: rgb(205,251,79);
-    background: linear-gradient(0deg, rgba(205,251,79,1) 30%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, rgba(205,251,79,1) 30%, #6E7A28 100%);
 }
 
 .marketplace-body .body {
@@ -48,7 +48,7 @@
     text-align: right;
     background: none;
     border: none;
-    color: var(--first-color);
+    color: var(--firs-color);
     text-transform: uppercase;
     transition: all 0.5s ease;
     margin: 0 2rem;
@@ -90,6 +90,12 @@
 
 
 @media screen and (max-width: 1024px) {
+
+    .marketplace-body .body{
+        background: rgb(205,251,79);
+        background: linear-gradient(0deg, rgba(205,251,79,1) 30%, #B4C641 100%);
+    }
+
     .marketplace-body .benefits h2 {
         padding: 5rem 2rem 0 1.5rem;
     }
