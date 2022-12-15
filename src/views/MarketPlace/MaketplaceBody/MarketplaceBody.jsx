@@ -30,7 +30,6 @@ const MarketplaceBody = () => {
         <div className="marketplace-body">
 
             <div className="body">
-
                 <div className="images">
                     <img src={graphic1} alt="" className="graphic" />
                     <img src={graphic2} alt="" className="graphic" />
@@ -46,24 +45,23 @@ const MarketplaceBody = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tenetur error voluptates, dignissimos recusandae iste deleniti libero! Obcaecati, provident. 
                     </p>
                 </div>
-
             </div>
 
             <div className="benefits">
                 <h2>/ BENEFICIOS</h2>
 
                 <div className="content">
-                    <Benefit 
+                    <Benefit
                         icon={icon1}
                         title='Anális en segundos' 
                         text='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.'
                     />
-                    <Benefit 
+                    <Benefit
                         icon={icon2}
                         title='Datos de todo tipo' 
                         text='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.'
                     />
-                    <Benefit 
+                    <Benefit
                         icon={icon3}
                         title='Actualización automática' 
                         text='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.'
