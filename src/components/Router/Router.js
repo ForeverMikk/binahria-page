@@ -21,7 +21,7 @@ class Router extends Component{
                 <Route path="/marketplace" element={<MarketPlace/>} />
                 <Route path="/contact" element={<Contact/>} />
                 <Route path="/product" element={<ProductView/>} />
-                <Route path="/product/:type" element={<ProductView/>} />
+                <Route path="/product/:type" element={<ProductView /> } />
                 <Route path='/market-product' element={<MarketProduct/>} />
             </Routes>
         )

@@ -19,28 +19,29 @@ const scrollToElement = (element) => {
 
 const ProductView = () => {
     const { type } = useParams();
-    const location  = useLocation();
-    const state = location.state;
-    const {id} = location.state;
+
+    const {state} = useLocation();
+    const { id }  = state;
+    
     const [product, setProduct] = useState();
     
 
     useEffect(() => {
-        console.log(type, state, id)
+        
         if(type === 'politic'){
-            setProduct(productList.politicos[state.id]);
+            setProduct(productList.politicos[id]);
         }
         else if (type === 'goberment') {
-            setProduct(productList.gubernamentales[state.id])
+            setProduct(productList.gubernamentales[id])
         }
         else if (type === 'corporative') {
-            setProduct(productList.corporativos[state.id])
+            setProduct(productList.corporativos[id])
         }
         else {
             alert("No existe esa categoria")
         }
         scrollToElement('product-view');
-    }, [state, type])
+    }, [type, id])
     
 
     return(

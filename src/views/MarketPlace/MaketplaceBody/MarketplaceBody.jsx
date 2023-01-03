@@ -21,7 +21,6 @@ const Benefit = ({title, icon, text}) => {
     )
 }
 
-
 const MarketplaceBody = () => {
 
     const { t } = useTranslation();
